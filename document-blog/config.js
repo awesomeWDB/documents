@@ -1,17 +1,18 @@
-const basePath = '/'
 const name = '吹口琴的喵~'
+const logoPath = 'https://awesomewdb.gitee.io/documents/db-white.svg'
+const faviconPath = 'https://awesomewdb.gitee.io/documents/favicon.ico'
 // const slogan = '千里之行，始于足下。'
 const slogan = 'xxxxxxx'
 
 const config = {
   gatsby: {
-    pathPrefix: '/',
+    pathPrefix: '/blog',
     siteUrl: 'http://m.readers.fun/',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: `${basePath}assets/db-white.svg`,
+    logo: logoPath,
     logoLink: 'http://m.readers.fun/',
     title:
       `<i>${name}</i>`,
@@ -53,7 +54,8 @@ const config = {
     description: 'a blog website to share my ideas',
     ogImage: null,
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: `${basePath}assets/db.svg`,
+    favicon: faviconPath,
+    // favicon: `http://localhost:8000/favicon-32x32.png`,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
