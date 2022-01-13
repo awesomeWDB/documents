@@ -23,7 +23,6 @@ const SidebarLayout = ({ location }) => (
     `}
     render={({ allMdx }) => {
       let navItems = [];
-
       let finalNavItems;
 
       if (allMdx.edges !== undefined && allMdx.edges.length > 0) {
@@ -36,6 +35,7 @@ const SidebarLayout = ({ location }) => (
               config.gatsby.pathPrefix + item.node.fields.slug === location.pathname
             ) {
               if (item.node.tableOfContents.items) {
+                console.log(item.node.tableOfContents)
                 innerItems = item.node.tableOfContents.items.map((innerItem, index) => {
                   const itemId = innerItem.title
                     ? innerItem.title.replace(/\s+/g, '').toLowerCase()

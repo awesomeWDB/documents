@@ -1,29 +1,27 @@
+const basePath = '/'
+const name = '吹口琴的喵~'
+// const slogan = '千里之行，始于足下。'
+const slogan = 'xxxxxxx'
+
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'http://m.readers.fun/',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logo: `${basePath}assets/db-white.svg`,
+    logoLink: 'http://m.readers.fun/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      `<i>${name}</i>`,
+    githubUrl: 'https://github.com/awesomeWDB/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		    <a href="https://space.bilibili.com/52225296" target="_blank" rel="noopener">
+		      <div class="bilibiliBtn">
+		        <img src='https://www.bilibili.com/favicon.ico?v=1' alt={'bilibili'}/>
 		      </div>
 		    </a>
 		  </li>`,
@@ -44,18 +42,18 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'vite', link: 'https://vitejs.cn/' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      `<div style='text-align: center; width: auto;'><i>${slogan}</i></div>`,
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: `code share with readers | ${name}`,
+    description: 'a blog website to share my ideas',
     ogImage: null,
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: `${basePath}assets/db.svg`,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
