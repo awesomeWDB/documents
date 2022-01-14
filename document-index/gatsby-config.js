@@ -11,7 +11,7 @@ module.exports = {
     siteTitle: `Cara`,
     siteTitleAlt: `吹口琴的喵~ - 技术小栈`,
     siteHeadline: `********************************************`,
-    siteUrl: `https://www.readers.fun`,
+    siteUrl: `http://www.readers.fun`,
     siteDescription: `在这里记录、分享我的想法`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,

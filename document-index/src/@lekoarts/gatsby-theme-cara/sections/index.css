@@ -1,0 +1,8 @@
+/* 底部隐藏 */
+footer>div{
+  display: none !important;
+}
+/* h2设置为黑色 */
+#gatsby-focus-wrapper h2{
+  color: black !important;
+}
