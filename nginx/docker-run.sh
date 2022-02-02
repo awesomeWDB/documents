@@ -1,0 +1,1 @@
+# docker run -p 80:80 -p 443:443 -v /docker-data/nginx/documents/nginx.conf:/etc/nginx/nginx.conf -v /docker-data/nginx/documents:/usr/share/nginx/html -v /docker-data/nginx/documents/ssl:/etc/nginx/cert --name nginx-main -d nginx
