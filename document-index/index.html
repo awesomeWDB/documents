@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solid Template</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://awesomewdb.gitee.io/public/icon/db-white.svg">
+  <link href="dist/lib/googleapis-fonts-css.css" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <script src="dist/lib/anime.min.js"></script>
+  <script src="dist/lib/scrollreveal.min.js"></script>
+  <style>
+    .tag-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      font-size: .5rem;
+    }
+
+    .tag-container span {
+      padding: 5px;
+      margin: 0 5px;
+      border-radius: 5px;
+      line-height: 1rem;
+      background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%);
+      color: white;
+    }
+
+    .toast-wrapper {
+      position: fixed;
+      z-index: 9999;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+    }
+
+    .toast-wrapper .toast-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px white;
+    }
+  </style>
+</head>
+
+<body class="is-boxed has-animations">
+  <div class="body-wrap">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-inner">
+          <div class="brand header-brand">
+            <h1 class="m-0" style="display: flex; align-items: center;">
+              <a href="#">
+                <img class="header-logo-image" src="https://awesomewdb.gitee.io/public/icon/db-white.svg" alt="Logo">
+              </a>
+              <span>吹口琴的喵～</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <h1 class="hero-title mt-0">千里之行 始于足下</h1>
+              <p class="hero-paragraph">欢迎来到“吹口琴的喵～”的技术小栈 ^_^ </p>
+              <div class="hero-cta">
+                <a class="button button-primary" href="#features">开始</a>
+                <a class="button button-primary" target="_blank" href="https://github.com/awesomeWDB">Github</a>
+              </div>
+            </div>
+            <div class="hero-figure anime-element">
+              <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+                <rect width="528" height="396" style="fill:transparent;" />
+              </svg>
+              <div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+              <div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+              <div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+              <div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+              <div class="hero-figure-box hero-figure-box-05"></div>
+              <div class="hero-figure-box hero-figure-box-06"></div>
+              <div class="hero-figure-box hero-figure-box-07"></div>
+              <div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+              <div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+              <div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features section">
+        <div class="container">
+          <div class="features-inner section-inner has-bottom-divider">
+            <div class="features-wrap">
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+                  </div>
+                  <h4 class="feature-title mt-24">Docker</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>docker</span>
+                    <span>Dockerfile</span>
+                    <span>docker-compose</span>
+                  </div>
+                  <p class="text-sm mb-0">学习、整理docker相关的知识点，包括docker、Dockerfile、docker-compose等等。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-02.svg" alt="Feature 02">
+                  </div>
+                  <h4 class="feature-title mt-24">nginx</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>缓存</span>
+                    <span>反向代理</span>
+                    <span>负载均衡</span>
+                  </div>
+                  <p class="text-sm mb-0">记录nginx相关的配置项，整理一些配置示例，包括使用缓存、反向代理、负载均衡等等。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+                  </div>
+                  <h4 class="feature-title mt-24">emoji</h4>
+                  <div class="tag-container">
+                    <span>网站</span>
+                    <span>emoji检索</span>
+                    <span>emoji专题</span>
+                  </div>
+                  <p class="text-sm mb-0">一个查询emoji的网站，爬取以往所有版本的emoji数据，进行分类整理，并且抽象出同类型的一些专题。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-04.svg" alt="Feature 04">
+                  </div>
+                  <h4 class="feature-title mt-24">vscode-plugin-emoji</h4>
+                  <div class="tag-container">
+                    <span>项目</span>
+                    <span>vscode插件</span>
+                    <span>emoji含义</span>
+                    <span>emoji插入</span>
+                  </div>
+                  <p class="text-sm mb-0">一款vscode编辑器中关于emoji的插件，1、选中查询emoji含义；2、插入emoji的智能语法提示。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-05.svg" alt="Feature 05">
+                  </div>
+                  <h4 class="feature-title mt-24">CI/CD</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>CI/CD</span>
+                    <span>githooks</span>
+                  </div>
+                  <p class="text-sm mb-0">整理CI/CD相关的知识点（主要实现为githooks），包括代码校验、单元测试、commit规范、自动构建、部署等等。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">口琴</h4>
+                  <div class="tag-container">
+                    <span>网站</span>
+                    <span>流行曲简谱</span>
+                    <span>吹奏分享（渣吹^_^）</span>
+                  </div>
+                  <p class="text-sm mb-0">收集、整理相关曲谱（主要是流行曲的简谱，不熟悉五线谱哈），分享自己的一些口琴吹奏（渣吹^_^）<br>平台：全民K歌，bilibili。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-05.svg" alt="Feature 05">
+                  </div>
+                  <h4 class="feature-title mt-24">vue</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>vue基础</span>
+                    <span>vue技巧</span>
+                    <span>vue原理</span>
+                  </div>
+                  <p class="text-sm mb-0">学习、整理关于vue的相关的知识点，包括vue的基础使用、编写技巧、原理剖析。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">midway</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>midway基础</span>
+                    <span>依赖注入</span>
+                    <span>日志</span>
+                    <span>部署</span>
+                    <span>...</span>
+                  </div>
+                  <p class="text-sm mb-0">学习、整理node框架midway相关的知识点，包括依赖注入、日志、部署等等。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">webpack</h4>
+                  <div class="tag-container">
+                    <span>笔记</span>
+                    <span>webpack基础</span>
+                    <span>分包</span>
+                    <span>...</span>
+                  </div>
+                  <p class="text-sm mb-0">学习、整理webpack的相关配置，包括分包、load等等。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">vue组件封装</h4>
+                  <div class="tag-container">
+                    <span>项目</span>
+                    <span>element-ui</span>
+                    <span>组件封装</span>
+                    <span>示例</span>
+                  </div>
+                  <p class="text-sm mb-0">目前主要是在pc端使用element-ui开发后台管理系统时，发现其提供的组件需要再次封装一下，以满足业务需要。这里提供了一些示例。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">puppeteer-pdf</h4>
+                  <div class="tag-container">
+                    <span>项目</span>
+                    <span>midway</span>
+                    <span>puppeteer</span>
+                  </div>
+                  <p class="text-sm mb-0">使用midway框架开发的一个服务：pdf打印，借助puppeteer工具。</p>
+                </div>
+              </div>
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="feature-icon">
+                    <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                  </div>
+                  <h4 class="feature-title mt-24">kubernetes（k8s）</h4>
+                  <p class="text-sm mb-0">正在学习中...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer-inner">
+          <ul class="footer-links list-reset">
+            <li>
+              <a href="#">bilibili</a>
+            </li>
+            <li>
+              <a href="#">CSDN</a>
+            </li>
+            <li>
+              <a href="#">Github</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" onclick="showContact()">Contact</a>
+            </li>
+            <!-- <li>
+              <a href="#">About me</a>
+            </li> -->
+          </ul>
+          <div class="footer-copyright">&copy; 2021 awesomeWDB, all rights reserved</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast-wrapper">
+    <div class="toast-content"></div>
+  </div>
+
+  <script src="dist/js/main.min.js"></script>
+  <script>
+    // 封装一个Toast方法
+    const Toast = (() => {
+      let timer; // 定时器
+      const defaultOptions = {
+        duration: 3000,
+        text: '',
+        backgroundColor: '#fff',
+        color: '#000'
+      };
+      const toastWrapperDom = document.querySelector('.toast-wrapper');
+      const toastContentDom = document.querySelector('.toast-content');
+      const initWrapper = () => {
+        toastWrapperDom.style.display = 'none';
+        toastContentDom.innerHTML = '';
+        timer && window.clearTimeout(timer);
+      }
+      // 监听点击事件
+      toastWrapperDom.addEventListener('click', initWrapper);
+      toastContentDom.addEventListener('click', (e) => {
+        e.stopPropagation();
+      })
+      return (options) => {
+        console.log(options, toastWrapperDom, toastContentDom);
+        if (typeof options === 'string') {
+          options = Object.assign({}, defaultOptions, { text: options })
+        } else {
+          options = Object.assign({}, defaultOptions, options)
+        }
+        // 显示文字
+        toastWrapperDom.style.display = 'block';
+        toastContentDom.innerHTML = options.text;
+        toastContentDom.style.backgroundColor = options.backgroundColor;
+        toastContentDom.style.color = options.color;
+        if (options.duration !== 0) {
+          timer = window.setTimeout(() => {
+            toastWrapperDom.style.display = 'none';
+            toastContentDom.innerHTML = '';
+          }, options.duration);
+        }
+      }
+    })();
+    // 显示联系方式
+    const showContact = () => Toast({
+      text: '联系方式：18550499316',
+      duration: 0
+    });
+  </script>
+</body>
+
+</html>
