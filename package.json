@@ -1,7 +1,7 @@
 {
   "scripts": {
     "deploy": "yarn build:image && yarn start:image",
-    "build:image": "docker build -t wangdongbing/documents:latest",
+    "build:image": "docker build -t wangdongbing/documents:latest .",
     "start:image": "docker run -p 80:80 -p 443:443 --name nginx-main -d nginx",
     "build:doc": "yarn build:doc-study-docker",
     "build:doc-study-docker": "cd doc-study-docker && yarn build"
