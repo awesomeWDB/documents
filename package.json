@@ -4,7 +4,8 @@
     "build:image": "docker build -t wangdongbing/documents:latest .",
     "start:image": "docker run -p 80:80 -p 443:443 --name nginx-main -d nginx",
     "build:doc": "yarn build:doc-study-docker",
-    "build:doc-study-docker": "cd doc-study-docker && yarn build"
+    "build:doc-study-docker": "cd doc-study-docker && yarn build",
+    "build:doc-study-CI-CD": "cd doc-study-CI-CD && yarn build"
   },
   "devDependencies": {
     "husky": "^7.0.4"
