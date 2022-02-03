@@ -7,12 +7,5 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "husky": "^7.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 我要提交代码啦",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "echo 我要推送代码啦"
-    }
   }
 }
