@@ -18,7 +18,8 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks":{
-    "pre-commit": "echo 'commit!' && lint-staged"
+    "pre-commit": "lint-staged",
+    "commit-msg": "node scripts/verify-commit-msg.js"
   },
   "lint-staged": {
     "**/*.md": [
