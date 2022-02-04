@@ -1,17 +1,15 @@
 import { defineConfig } from 'dumi';
+import { dumi_extend_nav } from '../config'
 
 const dirNames = __dirname.split('/');
 const dirName = dirNames[dirNames.length - 1];
-const indexPath = '../document-index'
+const indexPath = '../nginx/html'
 const outputPath = `${indexPath}/${dirName}/`
 const base = `/${dirName}/`;
 console.log(outputPath, base);
 const navs = [
   null, // null 值代表保留约定式生成的导航，只做增量配置
-  {
-    title: 'GitHub',
-    path: 'https://github.com/umijs/dumi',
-  },
+  ...dumi_extend_nav
 ]
 const metas = [
   {

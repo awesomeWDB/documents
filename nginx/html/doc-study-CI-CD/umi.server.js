@@ -259,7 +259,7 @@ const render = async params => {
         getInitialPropsCtx = params.getInitialPropsCtx;
   let manifest = params.manifest;
   const env = 'development';
-  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | docker learning\" \u002F\u003E\n    \u003Cmeta name=\"description\" content=\"记录、整理学习docker相关知识的笔记\" \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-white.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-study-CI-CD\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-study-CI-CD\u002F\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003Edocker learning\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
+  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | CI\u002FCD learning\" \u002F\u003E\n    \u003Cmeta name=\"description\" content=\"记录、整理学习CI\u002FCD相关知识的笔记\" \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-white.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-study-CI-CD\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-study-CI-CD\u002F\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003ECI\u002FCD learning\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
   let rootContainer = '';
 
   try {
@@ -365,14 +365,14 @@ const render = async params => {
           "slugs": [],
           "title": "Index"
         },
-        "title": "Index - docker learning"
+        "title": "Index - CI/CD learning"
       }, {
         "path": "/githooks/commitlint",
         "component": __webpack_require__(/*! ./docs/githooks/commitlint.md */ "./docs/githooks/commitlint.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/commitlint.md",
-          "updatedTime": 1643939527000,
+          "updatedTime": 1643952893000,
           "toc": "menu",
           "order": 4,
           "slugs": [{
@@ -398,7 +398,7 @@ const render = async params => {
             "title": "githooks"
           }
         },
-        "title": "commitlint - docker learning"
+        "title": "commitlint - CI/CD learning"
       }, {
         "path": "/githooks/husky",
         "component": __webpack_require__(/*! ./docs/githooks/husky.md */ "./docs/githooks/husky.md").default,
@@ -435,17 +435,17 @@ const render = async params => {
             "title": "githooks"
           }
         },
-        "title": "husky - docker learning"
+        "title": "husky - CI/CD learning"
       }, {
         "path": "/githooks",
         "component": __webpack_require__(/*! ./docs/githooks/index.md */ "./docs/githooks/index.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/index.md",
-          "updatedTime": 1643870483000,
+          "updatedTime": 1643939527000,
           "nav": {
             "title": "githooks",
-            "order": 2,
+            "order": 1,
             "path": "/githooks"
           },
           "toc": "menu",
@@ -469,14 +469,14 @@ const render = async params => {
           }],
           "title": "githooks"
         },
-        "title": "githooks - docker learning"
+        "title": "githooks - CI/CD learning"
       }, {
         "path": "/githooks/lint-staged",
         "component": __webpack_require__(/*! ./docs/githooks/lint-staged.md */ "./docs/githooks/lint-staged.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/lint-staged.md",
-          "updatedTime": 1643939527000,
+          "updatedTime": 1643952893000,
           "toc": "menu",
           "order": 3,
           "slugs": [{
@@ -502,28 +502,27 @@ const render = async params => {
             "title": "githooks"
           }
         },
-        "title": "lint-staged - docker learning"
+        "title": "lint-staged - CI/CD learning"
       }, {
         "path": "/githooks/qa",
         "component": __webpack_require__(/*! ./docs/githooks/qa.md */ "./docs/githooks/qa.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/qa.md",
-          "updatedTime": 1643952836616,
+          "updatedTime": 1643952893000,
           "toc": "menu",
-          "order": 5,
           "slugs": [{
             "depth": 1,
             "value": "QA",
             "heading": "qa"
           }, {
             "depth": 2,
-            "value": "husky配置了为什么不生效？",
-            "heading": "husky配置了为什么不生效"
+            "value": "husky 配置了为什么不生效？",
+            "heading": "husky-配置了为什么不生效"
           }, {
             "depth": 2,
-            "value": "lint-staged匹配不到文件？",
-            "heading": "lint-staged匹配不到文件"
+            "value": "lint-staged 匹配不到文件？",
+            "heading": "lint-staged-匹配不到文件"
           }],
           "title": "QA",
           "nav": {
@@ -531,7 +530,36 @@ const render = async params => {
             "title": "githooks"
           }
         },
-        "title": "QA - docker learning"
+        "title": "QA - CI/CD learning"
+      }, {
+        "path": "/githooks/yorkie",
+        "component": __webpack_require__(/*! ./docs/githooks/yorkie.md */ "./docs/githooks/yorkie.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/githooks/yorkie.md",
+          "updatedTime": 1643956201011,
+          "toc": "menu",
+          "order": 2,
+          "slugs": [{
+            "depth": 1,
+            "value": "yorkie",
+            "heading": "yorkie"
+          }, {
+            "depth": 2,
+            "value": "安装",
+            "heading": "安装"
+          }, {
+            "depth": 2,
+            "value": "配置",
+            "heading": "配置"
+          }],
+          "title": "yorkie",
+          "nav": {
+            "path": "/githooks",
+            "title": "githooks"
+          }
+        },
+        "title": "yorkie - CI/CD learning"
       }, {
         "path": "/webhook",
         "component": __webpack_require__(/*! ./docs/webhook/index.md */ "./docs/webhook/index.md").default,
@@ -541,7 +569,7 @@ const render = async params => {
           "updatedTime": 1643870483000,
           "nav": {
             "title": "webhook",
-            "order": 1,
+            "order": 2,
             "path": "/webhook"
           },
           "toc": "menu",
@@ -565,7 +593,7 @@ const render = async params => {
           }],
           "title": "webhook"
         },
-        "title": "webhook - docker learning"
+        "title": "webhook - CI/CD learning"
       }, {
         "path": "/webhook/install",
         "component": __webpack_require__(/*! ./docs/webhook/install.md */ "./docs/webhook/install.md").default,
@@ -598,9 +626,9 @@ const render = async params => {
             "title": "webhook"
           }
         },
-        "title": "dokcer安装 - docker learning"
+        "title": "dokcer安装 - CI/CD learning"
       }],
-      "title": "docker learning",
+      "title": "CI/CD learning",
       "component": props => props.children
     }]; // allow user to extend routes
 
@@ -748,7 +776,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{\"order\":5}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"webhook\",\"order\":1,\"path\":\"/webhook\"},{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":2},{\"title\":\"GitHub\",\"path\":\"https://github.com/umijs/dumi\"}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"webhook\",\"order\":2,\"path\":\"/webhook\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -886,13 +914,13 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 1
     }
-  }, "\u4E00\u4E2A\u6821\u9A8Cgit\u7684\u63D0\u4EA4\u4FE1\u606F\u7684\u76F8\u5173\u5DE5\u5177\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  }, "\u4E00\u4E2A\u6821\u9A8C git \u7684\u63D0\u4EA4\u4FE1\u606F\u7684\u76F8\u5173\u5DE5\u5177\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "https://commitlint.js.org/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 22
+      columnNumber: 24
     }
   }, "\u5B98\u7F51\u5730\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "\u5B89\u88C5",
@@ -962,7 +990,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 26,
       columnNumber: 1
     }
-  }, "\u914D\u7F6E\u6587\u4EF6commitlint.config.js\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "\u914D\u7F6E\u6587\u4EF6 commitlint.config.js\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "module.exports = {\n  extends: ['@commitlint/config-conventional'],\n};",
     lang: "bash",
     __self: undefined,
@@ -1709,14 +1737,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 1
     }
-  }, "\u5728\u4EE3\u7801\u63D0\u4EA4\u4E4B\u524D\uFF0C\u8FDB\u884C\u4EE3\u7801\u89C4\u5219\u68C0\u67E5\u80FD\u591F\u786E\u4FDD\u8FDB\u5165git\u5E93\u7684\u4EE3\u7801\u90FD\u662F\u7B26\u5408\u4EE3\u7801\u89C4\u5219\u7684\u3002\u4F46\u662F\u6574\u4E2A\u9879\u76EE\u4E0A\u8FD0\u884Clint\u901F\u5EA6\u4F1A\u5F88\u6162\uFF0Clint-staged\u80FD\u591F\u8BA9lint\u53EA\u68C0\u6D4B\u6682\u5B58\u533A\u7684\u6587\u4EF6\uFF0C\u6240\u4EE5\u901F\u5EA6\u5F88\u5FEB\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "\u5728\u4EE3\u7801\u63D0\u4EA4\u4E4B\u524D\uFF0C\u8FDB\u884C\u4EE3\u7801\u89C4\u5219\u68C0\u67E5\u80FD\u591F\u786E\u4FDD\u8FDB\u5165 git \u5E93\u7684\u4EE3\u7801\u90FD\u662F\u7B26\u5408\u4EE3\u7801\u89C4\u5219\u7684\u3002\u4F46\u662F\u6574\u4E2A\u9879\u76EE\u4E0A\u8FD0\u884C lint \u901F\u5EA6\u4F1A\u5F88\u6162\uFF0Clint-staged \u80FD\u591F\u8BA9 lint \u53EA\u68C0\u6D4B\u6682\u5B58\u533A\u7684\u6587\u4EF6\uFF0C\u6240\u4EE5\u901F\u5EA6\u5F88\u5FEB\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 1
     }
-  }, "lint-staged\u8FC7\u6EE4\u6587\u4EF6\u91C7\u7528glob\u6A21\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "lint-staged \u8FC7\u6EE4\u6587\u4EF6\u91C7\u7528 glob \u6A21\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1799,7 +1827,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 28,
       columnNumber: 1
     }
-  }, "package.json\u4E2D\u914D\u7F6E\uFF08\u793A\u4F8B\uFF09\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "package.json \u4E2D\u914D\u7F6E\uFF08\u793A\u4F8B\uFF09\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "{\n  \"lint-staged\": {\n    \"*.js\": \"eslint --fix\",\n    \"*.md\": [\n      \"prettier --write\"\n    ]\n  }\n}",
     lang: "bash",
     __self: undefined,
@@ -1815,7 +1843,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 30,
       columnNumber: 1
     }
-  }, "\u793A\u4F8B\u4E2D\uFF1A\u5BF9*.js\u6267\u884Ceslint\u547D\u4EE4\uFF0C\u5BF9*.md\u6267\u884Cprettier\u547D\u4EE4\uFF08eslint\u3001prettier\u8981\u63D0\u524D\u914D\u7F6E\u597D\uFF09\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "\u793A\u4F8B\u4E2D\uFF1A\u5BF9*.js \u6267\u884C eslint \u547D\u4EE4\uFF0C\u5BF9*.md \u6267\u884C prettier \u547D\u4EE4\uFF08eslint\u3001prettier \u8981\u63D0\u524D\u914D\u7F6E\u597D\uFF09\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "\u89E6\u53D1",
     __self: undefined,
     __source: {
@@ -1848,7 +1876,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 32,
       columnNumber: 1
     }
-  }, "git commit\u65F6\u89E6\u53D1pre-commit\u94A9\u5B50\uFF0C\uFF08\u5728husky\u94A9\u5B50\u6216\u8005\u539F\u751F\u94A9\u5B50\u811A\u672C\u4E2D\uFF09\u8FD0\u884Clint-staged\u547D\u4EE4\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "git commit \u65F6\u89E6\u53D1 pre-commit \u94A9\u5B50\uFF0C\uFF08\u5728 husky \u94A9\u5B50\u6216\u8005\u539F\u751F\u94A9\u5B50\u811A\u672C\u4E2D\uFF09\u8FD0\u884C lint-staged \u547D\u4EE4\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "npm run lint-staged",
     lang: "bash",
     __self: undefined,
@@ -1957,7 +1985,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 103
     }
   })), "QA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
+    id: "husky-\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1965,14 +1993,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
+    to: "#husky-\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 25
+      columnNumber: 26
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -1980,21 +2008,21 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 91
+      columnNumber: 93
     }
-  })), "husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "husky \u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 1
     }
-  }, "\u539F\u56E0\uFF1Ahusky\u7684\u65B0\u7248\u672C\u548C\u8001\u7248\u672C\u662F\u4E0D\u4E00\u6837\u7684\uFF0C\u5728package.json\u4E2D\u7684\u914D\u7F6E\uFF0C\u53EA\u9002\u7528 4.x\u3002\u800C7.x\u7684\u914D\u7F6E\u662F\u9879\u76EE\u6839\u76EE\u5F55\u4E2D\u7684.husky\u76EE\u5F55\uFF0C\u9700\u8981\u6267\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+  }, "\u539F\u56E0\uFF1Ahusky \u7684\u65B0\u7248\u672C\u548C\u8001\u7248\u672C\u662F\u4E0D\u4E00\u6837\u7684\uFF0C\u5728 package.json \u4E2D\u7684\u914D\u7F6E\uFF0C\u53EA\u9002\u7528 4.x\u3002\u800C 7.x \u7684\u914D\u7F6E\u662F\u9879\u76EE\u6839\u76EE\u5F55\u4E2D\u7684.husky \u76EE\u5F55\uFF0C\u9700\u8981\u6267\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 80
+      columnNumber: 86
     }
   }, "npx husky install"), "\u751F\u6210\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "https://typicode.github.io/husky/#/?id=install",
@@ -2002,7 +2030,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 113
+      columnNumber: 119
     }
   }, "\u53C2\u8003\u5B98\u7F51")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
@@ -2011,12 +2039,12 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 24,
       columnNumber: 1
     }
-  }, "\u8865\u5145\uFF1A\u4E3A\u65B9\u4FBF\u5176\u4ED6\u4EBA\u62C9\u53D6\u4EE3\u7801\uFF0C\u53EF\u4EE5\u6DFB\u52A0\u4E00\u4E2Ascripts\uFF0C\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+  }, "\u8865\u5145\uFF1A\u4E3A\u65B9\u4FBF\u5176\u4ED6\u4EBA\u62C9\u53D6\u4EE3\u7801\uFF0C\u53EF\u4EE5\u6DFB\u52A0\u4E00\u4E2A scripts\uFF0C\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 33
+      columnNumber: 34
     }
   }, "npm install"), "\u4E4B\u540E\u81EA\u52A8\u751F\u6210\u6267\u884C\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "\"scripts\": { \"prepare\": \"husky install\" }",
@@ -2034,8 +2062,8 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 26,
       columnNumber: 1
     }
-  }, "\u8FD9\u6837\u540E\u7EED\u7684\u5F00\u53D1\u4EBA\u5458\u662F\u4E0D\u9700\u8981\u5173\u5FC3husky\u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
+  }, "\u8FD9\u6837\u540E\u7EED\u7684\u5F00\u53D1\u4EBA\u5458\u662F\u4E0D\u9700\u8981\u5173\u5FC3 husky \u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "lint-staged-\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2043,14 +2071,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
+    to: "#lint-staged-\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
-      columnNumber: 28
+      columnNumber: 29
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -2058,9 +2086,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
-      columnNumber: 97
+      columnNumber: 99
     }
-  })), "lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "lint-staged \u5339\u914D\u4E0D\u5230\u6587\u4EF6\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2089,35 +2117,217 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 30,
       columnNumber: 1
     }
-  }, "\u6587\u4EF6\u88ABstaged\u4E86\u4E48")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 31,
       columnNumber: 1
     }
-  }, "\u4ECE\u6E90\u7801\u4E2D\u53EF\u4EE5\u770B\u51FA\uFF0Clint-staged\u53EA\u9488\u5BF9\u53D8\u66F4\u7684\u6587\u4EF6\uFF0C\u4E5F\u5C31\u662Fgit add\u540E\u7684\u6587\u4EF6\u505Alint\u6821\u9A8C\uFF0C\u6240\u4EE5\u8FD9\u540D\u5B57\u53EF\u4EE5\u8FD9\u4E48\u7FFB\u8BD1\uFF1Alint staged files\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    start: 2,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "\u6587\u4EF6\u88AB staged \u4E86\u4E48 \u4ECE\u6E90\u7801\u4E2D\u53EF\u4EE5\u770B\u51FA\uFF0Clint-staged \u53EA\u9488\u5BF9\u53D8\u66F4\u7684\u6587\u4EF6\uFF0C\u4E5F\u5C31\u662F git add \u540E\u7684\u6587\u4EF6\u505A lint \u6821\u9A8C\uFF0C\u6240\u4EE5\u8FD9\u540D\u5B57\u53EF\u4EE5\u8FD9\u4E48\u7FFB\u8BD1\uFF1Alint staged files\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
       columnNumber: 1
     }
-  }, "\u5C1D\u8BD5\u5B89\u88C5glob")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u5C1D\u8BD5\u5B89\u88C5 glob"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "yarn add -D glob",
     lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
+      columnNumber: 1
+    }
+  })))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/githooks/yorkie.md":
+/*!*********************************!*\
+  !*** ./docs/githooks/yorkie.md ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/yorkie.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "yorkie",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#yorkie",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 53
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 111
+    }
+  })), "yorkie"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, "yorkie\u5B9E\u9645\u662Ffork husky\uFF0C\u7136\u540E\u505A\u4E86\u4E00\u4E9B\u5B9A\u5236\u5316\u7684\u6539\u52A8\uFF0C\u4F7F\u5F97\u94A9\u5B50\u80FD\u4ECEpackage.json\u7684 \"gitHooks\"\u5C5E\u6027\u4E2D\u8BFB\u53D6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u662F\u53E6\u4E00\u79CD\u914D\u7F6Egithooks\u7684\u5DE5\u5177\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5B89\u88C5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5B89\u88C5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 67
+    }
+  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "npm install --save-dev yorkie",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u914D\u7F6E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u914D\u7F6E",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 67
+    }
+  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# package.json\n{\n  \"gitHooks\": {\n    \"pre-commit\": \"lint-staged\"\n  }\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
       columnNumber: 1
     }
   })));
@@ -2139,7 +2349,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 42,
       columnNumber: 14
     }
   });

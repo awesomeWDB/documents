@@ -14,7 +14,11 @@
     "@commitlint/config-conventional": "^16.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.3",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "yorkie": "^2.0.0"
+  },
+  "githooks":{
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "**/*.md": [

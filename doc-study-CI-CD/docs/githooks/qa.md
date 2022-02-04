@@ -1,6 +1,5 @@
 ---
 toc: menu
-order: 5
 ---
 
 # QA
@@ -25,7 +24,6 @@ order: 5
    从源码中可以看出，lint-staged 只针对变更的文件，也就是 git add 后的文件做 lint 校验，所以这名字可以这么翻译：lint staged files。
 
 2. 尝试安装 glob
-
-```bash
-yarn add -D glob
-```
+    ```bash
+    yarn add -D glob
+    ```

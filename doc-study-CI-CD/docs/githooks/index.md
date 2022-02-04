@@ -1,7 +1,7 @@
 ---
 nav:
   title: githooks
-  order: 2
+  order: 1
 toc: menu
 order: 1
 ---
