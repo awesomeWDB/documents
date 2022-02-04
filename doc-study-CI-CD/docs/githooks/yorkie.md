@@ -5,9 +5,9 @@ order: 2
 
 # yorkie
 
-yorkie实际是fork husky，然后做了一些定制化的改动，使得钩子能从package.json的 "gitHooks"属性中读取。
+yorkie 实际是 fork husky，然后做了一些定制化的改动，使得钩子能从 package.json 的 "gitHooks"属性中读取。
 
-是另一种配置githooks的工具。
+是另一种配置 githooks 的工具。
 
 ## 安装
 
@@ -21,7 +21,11 @@ npm install --save-dev yorkie
 # package.json
 {
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "npm run lint-staged"
   }
 }
 ```
+
+## 注意事项
+
+yorkie 是 fork 自 husky，已经很长时间没有维护了，故不推荐使用

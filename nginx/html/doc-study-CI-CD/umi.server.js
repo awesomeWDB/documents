@@ -537,7 +537,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/yorkie.md",
-          "updatedTime": 1643956201011,
+          "updatedTime": 1643956401000,
           "toc": "menu",
           "order": 2,
           "slugs": [{
@@ -552,6 +552,10 @@ const render = async params => {
             "depth": 2,
             "value": "配置",
             "heading": "配置"
+          }, {
+            "depth": 2,
+            "value": "注意事项",
+            "heading": "注意事项"
           }],
           "title": "yorkie",
           "nav": {
@@ -2322,7 +2326,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 67
     }
   })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# package.json\n{\n  \"gitHooks\": {\n    \"pre-commit\": \"lint-staged\"\n  }\n}",
+    code: "# package.json\n{\n  \"gitHooks\": {\n    \"pre-commit\": \"npm run lint-staged\"\n  }\n}",
     lang: "bash",
     __self: undefined,
     __source: {
@@ -2330,7 +2334,40 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 27,
       columnNumber: 1
     }
-  })));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6CE8\u610F\u4E8B\u9879",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6CE8\u610F\u4E8B\u9879",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 71
+    }
+  })), "\u6CE8\u610F\u4E8B\u9879"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "yorkie\u662Ffork\u81EAhusky\uFF0C\u5DF2\u7ECF\u5F88\u957F\u65F6\u95F4\u6CA1\u6709\u7EF4\u62A4\u4E86\uFF0C\u6545\u4E0D\u63A8\u8350\u4F7F\u7528")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -2349,7 +2386,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 14
     }
   });

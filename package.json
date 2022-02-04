@@ -6,19 +6,17 @@
     "build:doc": "yarn build:1 && yarn build:2",
     "build:1": "cd doc-study-docker && yarn build",
     "build:2": "cd doc-study-CI-CD && yarn build",
+    "prepare": "husky install",
     "lint": "eslint --ext .md .",
     "lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1",
     "yorkie": "^2.0.0"
-  },
-  "gitHooks":{
-    "pre-commit": "npm run lint-staged",
-    "commit-msg": "node scripts/verify-commit-msg.js"
   },
   "lint-staged": {
     "**/*.md": [
