@@ -14,6 +14,7 @@ Husky 是一个让配置 Git 钩子变得更简单的工具。
 ## 使用方法
 
 ## 注意事项
+
 - husky 不支持服务端钩子；
 - 跳过 husky 钩子：`HUSKY_SKIP_HOOKS=1 git commit -m 'xxxx'`;
 - 禁用自动安装：`HUSKY_SKIP_INSTALL=1 npm install`。
