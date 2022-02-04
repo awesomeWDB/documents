@@ -18,7 +18,7 @@
     "yorkie": "^2.0.0"
   },
   "githooks":{
-    "pre-commit": "lint-staged"
+    "pre-commit": "echo 'commit!' && lint-staged"
   },
   "lint-staged": {
     "**/*.md": [

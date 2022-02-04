@@ -3,9 +3,7 @@ toc: menu
 ---
 
 # QA
-
 ## husky 配置了为什么不生效？
-
 原因：husky 的新版本和老版本是不一样的，在 package.json 中的配置，只适用 4.x。而 7.x 的配置是项目根目录中的.husky 目录，需要执行`npx husky install`生成。[参考官网](https://typicode.github.io/husky/#/?id=install)
 
 补充：为方便其他人拉取代码，可以添加一个 scripts，在`npm install`之后自动生成执行：
