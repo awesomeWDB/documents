@@ -13,6 +13,38 @@ Husky 是一个让配置 Git 钩子变得更简单的工具。
 
 ## 使用方法
 
+- 安装
+
+  ```bash
+  npm install --save-dev husky
+  npx husky install # 生成.husky配置目录
+  ```
+
+- v7 配置
+
+  - package.json
+    ```bash
+    # 方便小伙伴拉取代码install的时候，不用再手动启用
+    "scripts": {
+      "prepare": "husky install"
+    }
+    ```
+  - 创建.husky/pre-commit
+    ```bash
+    # 需要配置 lint-staged
+    npm run lint-staged
+    ```
+
+- v4 配置（创建.huskyrc）
+  ```bash
+  # 需要配置 lint-staged
+  {
+    "hooks": {
+      "pre-commit": "lint-staged",
+    }
+  }
+  ```
+
 ## 注意事项
 
 - husky 不支持服务端钩子；
@@ -21,4 +53,4 @@ Husky 是一个让配置 Git 钩子变得更简单的工具。
 
 ## 更新为 v7 版本
 
-最近发现，v4 版本升级到 v7，husky 的配置方式改变了，[参考地址](https://typicode.github.io/husky/#/)。
+v4 版本升级到 v7，husky 的配置方式改变了，以前的配置方式会不生效，请注意安装的版本，[参考地址](https://typicode.github.io/husky/#/)。

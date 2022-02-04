@@ -1,7 +1,7 @@
 ---
 nav:
-  title: webhook
-  order: 3
+  title: github actions
+  order: 2
 toc: menu
 order: 1
 ---
