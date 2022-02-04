@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/commitlint.md",
-          "updatedTime": 1643939412082,
+          "updatedTime": 1643939527000,
           "toc": "menu",
           "order": 4,
           "slugs": [{
@@ -381,16 +381,16 @@ const render = async params => {
             "heading": "commitlint"
           }, {
             "depth": 2,
-            "value": "安装：",
+            "value": "安装",
             "heading": "安装"
           }, {
             "depth": 2,
-            "value": "配置文件：",
-            "heading": "配置文件"
+            "value": "配置",
+            "heading": "配置"
           }, {
             "depth": 2,
-            "value": "结合husky的commit-msg钩子，参考地址：",
-            "heading": "结合husky的commit-msg钩子参考地址"
+            "value": "触发",
+            "heading": "触发"
           }],
           "title": "commitlint",
           "nav": {
@@ -476,13 +476,25 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/githooks/lint-staged.md",
-          "updatedTime": 1643938646350,
+          "updatedTime": 1643939527000,
           "toc": "menu",
           "order": 3,
           "slugs": [{
             "depth": 1,
             "value": "lint-staged",
             "heading": "lint-staged"
+          }, {
+            "depth": 2,
+            "value": "安装",
+            "heading": "安装"
+          }, {
+            "depth": 2,
+            "value": "配置",
+            "heading": "配置"
+          }, {
+            "depth": 2,
+            "value": "触发",
+            "heading": "触发"
           }],
           "title": "lint-staged",
           "nav": {
@@ -491,6 +503,35 @@ const render = async params => {
           }
         },
         "title": "lint-staged - docker learning"
+      }, {
+        "path": "/githooks/qa",
+        "component": __webpack_require__(/*! ./docs/githooks/qa.md */ "./docs/githooks/qa.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/githooks/qa.md",
+          "updatedTime": 1643952836616,
+          "toc": "menu",
+          "order": 5,
+          "slugs": [{
+            "depth": 1,
+            "value": "QA",
+            "heading": "qa"
+          }, {
+            "depth": 2,
+            "value": "husky配置了为什么不生效？",
+            "heading": "husky配置了为什么不生效"
+          }, {
+            "depth": 2,
+            "value": "lint-staged匹配不到文件？",
+            "heading": "lint-staged匹配不到文件"
+          }],
+          "title": "QA",
+          "nav": {
+            "path": "/githooks",
+            "title": "githooks"
+          }
+        },
+        "title": "QA - docker learning"
       }, {
         "path": "/webhook",
         "component": __webpack_require__(/*! ./docs/webhook/index.md */ "./docs/webhook/index.md").default,
@@ -707,7 +748,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"webhook\",\"order\":1,\"path\":\"/webhook\"},{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":2},{\"title\":\"GitHub\",\"path\":\"https://github.com/umijs/dumi\"}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{\"order\":5}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"webhook\",\"order\":1,\"path\":\"/webhook\"},{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":2},{\"title\":\"GitHub\",\"path\":\"https://github.com/umijs/dumi\"}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -845,15 +886,15 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 1
     }
-  }, "\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  }, "\u4E00\u4E2A\u6821\u9A8Cgit\u7684\u63D0\u4EA4\u4FE1\u606F\u7684\u76F8\u5173\u5DE5\u5177\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "https://commitlint.js.org/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 6
+      columnNumber: 22
     }
-  }, "\u5B98\u7F51")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "\u5B98\u7F51\u5730\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "\u5B89\u88C5",
     __self: undefined,
     __source: {
@@ -879,7 +920,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 23,
       columnNumber: 67
     }
-  })), "\u5B89\u88C5\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "npm install --save-dev @commitlint/cli @commitlint/config-conventional",
     lang: "bash",
     __self: undefined,
@@ -889,7 +930,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u914D\u7F6E\u6587\u4EF6",
+    id: "\u914D\u7F6E",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -897,14 +938,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u914D\u7F6E\u6587\u4EF6",
+    to: "#\u914D\u7F6E",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 15
+      columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -912,58 +953,72 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 71
+      columnNumber: 67
     }
-  })), "\u914D\u7F6E\u6587\u4EF6\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "echo \"module.exports = {extends: ['@commitlint/config-conventional']}\" > commitlint.config.js",
-    lang: "bash",
+  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
       columnNumber: 1
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u7ED3\u5408husky\u7684commit-msg\u94A9\u5B50\u53C2\u8003\u5730\u5740",
+  }, "\u914D\u7F6E\u6587\u4EF6commitlint.config.js\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "module.exports = {\n  extends: ['@commitlint/config-conventional'],\n};",
+    lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 1
     }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u89E6\u53D1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u7ED3\u5408husky\u7684commit-msg\u94A9\u5B50\u53C2\u8003\u5730\u5740",
+    to: "#\u89E6\u53D1",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 35
+      lineNumber: 28,
+      columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 111
+      lineNumber: 28,
+      columnNumber: 67
     }
-  })), "\u7ED3\u5408husky\u7684commit-msg\u94A9\u5B50\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  })), "\u89E6\u53D1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\u7ED3\u5408 husky \u7684 commit-msg \u94A9\u5B50\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "https://typicode.github.io/husky/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 180
+      lineNumber: 29,
+      columnNumber: 29
     }
-  }, "\u53C2\u8003\u5730\u5740"), "\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "\u53C2\u8003\u5730\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "# .huskyrc.json (v4)\n{\n  \"hooks\": {\n    \"commit-msg\": \"commitlint -E HUSKY_GIT_PARAMS\"\n  }\n}",
     lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 1
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -972,7 +1027,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 1
     }
   })));
@@ -994,7 +1049,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 14
     }
   });
@@ -1396,26 +1451,26 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 24,
       columnNumber: 1
     }
-  }, "\u5728\u8FDB\u884Cgit\u64CD\u4F5C\u7684\u65F6\u5019\uFF0Cgit\u63D0\u4F9B\u4E86\u4E00\u4E9B\u94A9\u5B50\uFF0C\u53EF\u4EE5\u6267\u884C\u4E00\u7CFB\u5217\u811A\u672C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "\u5728\u8FDB\u884C git \u64CD\u4F5C\u7684\u65F6\u5019\uFF0Cgit \u63D0\u4F9B\u4E86\u4E00\u4E9B\u94A9\u5B50\uFF0C\u53EF\u4EE5\u6267\u884C\u4E00\u7CFB\u5217\u811A\u672C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 1
     }
-  }, "\u5728git\u9879\u76EE\u6839\u76EE\u5F55\u4E0B\u9762\uFF0C.git/hooks\u5B50\u76EE\u5F55\u91CC\u9762\uFF0C\u6709\u4EE5", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+  }, "\u5728 git \u9879\u76EE\u6839\u76EE\u5F55\u4E0B\u9762\uFF0C.git/hooks \u5B50\u76EE\u5F55\u91CC\u9762\uFF0C\u6709\u4EE5", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 34
+      columnNumber: 37
     }
-  }, ".sample"), "\u7ED3\u5C3E\u7684\u82E5\u5E72\u6587\u4EF6\uFF0C\u5C31\u662F\u63D0\u4F9B\u7684hooks\u793A\u4F8B\uFF0C\u5982\u679C\u60F3\u8981\u542F\u7528\u7684\u8BDD\uFF0C\u5C31\u53BB\u9664", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+  }, ".sample"), "\u7ED3\u5C3E\u7684\u82E5\u5E72\u6587\u4EF6\uFF0C\u5C31\u662F\u63D0\u4F9B\u7684 hooks \u793A\u4F8B\uFF0C\u5982\u679C\u60F3\u8981\u542F\u7528\u7684\u8BDD\uFF0C\u5C31\u53BB\u9664", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 87
+      columnNumber: 92
     }
   }, ".sample"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "\u5E38\u7528\u94A9\u5B50",
@@ -1540,13 +1595,13 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 37,
       columnNumber: 1
     }
-  }, "\u56E0\u6B64\uFF0C\u82E5\u8981\u590D\u7528\u81EA\u5DF1\u6216\u4ED6\u4EBA\u7684hooks\u811A\u672C\uFF0C\u53EF\u80FD\u5C31\u6709\u70B9\u56F0\u96BE\u3002\u6709\u4E00\u79CD\u6BD4\u8F83\u597D\u7684\u89E3\u51B3\u65B9\u6848\uFF0C\u53C2\u8003\u4E0B\u4E00\u8282\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  }, "\u56E0\u6B64\uFF0C\u82E5\u8981\u590D\u7528\u81EA\u5DF1\u6216\u4ED6\u4EBA\u7684 hooks \u811A\u672C\uFF0C\u53EF\u80FD\u5C31\u6709\u70B9\u56F0\u96BE\u3002\u6709\u4E00\u79CD\u6BD4\u8F83\u597D\u7684\u89E3\u51B3\u65B9\u6848\uFF0C\u53C2\u8003\u4E0B\u4E00\u8282\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/githooks/husky",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
-      columnNumber: 51
+      columnNumber: 53
     }
   }, "husky"), "\u3002")));
 });
@@ -1647,7 +1702,162 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 21,
       columnNumber: 121
     }
-  })), "lint-staged")));
+  })), "lint-staged"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, "\u5728\u4EE3\u7801\u63D0\u4EA4\u4E4B\u524D\uFF0C\u8FDB\u884C\u4EE3\u7801\u89C4\u5219\u68C0\u67E5\u80FD\u591F\u786E\u4FDD\u8FDB\u5165git\u5E93\u7684\u4EE3\u7801\u90FD\u662F\u7B26\u5408\u4EE3\u7801\u89C4\u5219\u7684\u3002\u4F46\u662F\u6574\u4E2A\u9879\u76EE\u4E0A\u8FD0\u884Clint\u901F\u5EA6\u4F1A\u5F88\u6162\uFF0Clint-staged\u80FD\u591F\u8BA9lint\u53EA\u68C0\u6D4B\u6682\u5B58\u533A\u7684\u6587\u4EF6\uFF0C\u6240\u4EE5\u901F\u5EA6\u5F88\u5FEB\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "lint-staged\u8FC7\u6EE4\u6587\u4EF6\u91C7\u7528glob\u6A21\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.npmjs.com/package/lint-staged",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "https://www.npmjs.com/package/lint-staged")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5B89\u88C5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5B89\u88C5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 67
+    }
+  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "npm install --save-dev lint-staged",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u914D\u7F6E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u914D\u7F6E",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 67
+    }
+  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, "package.json\u4E2D\u914D\u7F6E\uFF08\u793A\u4F8B\uFF09\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "{\n  \"lint-staged\": {\n    \"*.js\": \"eslint --fix\",\n    \"*.md\": [\n      \"prettier --write\"\n    ]\n  }\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\u793A\u4F8B\u4E2D\uFF1A\u5BF9*.js\u6267\u884Ceslint\u547D\u4EE4\uFF0C\u5BF9*.md\u6267\u884Cprettier\u547D\u4EE4\uFF08eslint\u3001prettier\u8981\u63D0\u524D\u914D\u7F6E\u597D\uFF09\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u89E6\u53D1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u89E6\u53D1",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 67
+    }
+  })), "\u89E6\u53D1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "git commit\u65F6\u89E6\u53D1pre-commit\u94A9\u5B50\uFF0C\uFF08\u5728husky\u94A9\u5B50\u6216\u8005\u539F\u751F\u94A9\u5B50\u811A\u672C\u4E2D\uFF09\u8FD0\u884Clint-staged\u547D\u4EE4\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "npm run lint-staged",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  })));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -1666,7 +1876,270 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/githooks/qa.md":
+/*!*****************************!*\
+  !*** ./docs/githooks/qa.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/qa.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "qa",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#qa",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 49
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 103
+    }
+  })), "QA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 91
+    }
+  })), "husky\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u539F\u56E0\uFF1Ahusky\u7684\u65B0\u7248\u672C\u548C\u8001\u7248\u672C\u662F\u4E0D\u4E00\u6837\u7684\uFF0C\u5728package.json\u4E2D\u7684\u914D\u7F6E\uFF0C\u53EA\u9002\u7528 4.x\u3002\u800C7.x\u7684\u914D\u7F6E\u662F\u9879\u76EE\u6839\u76EE\u5F55\u4E2D\u7684.husky\u76EE\u5F55\uFF0C\u9700\u8981\u6267\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 80
+    }
+  }, "npx husky install"), "\u751F\u6210\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://typicode.github.io/husky/#/?id=install",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 113
+    }
+  }, "\u53C2\u8003\u5B98\u7F51")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, "\u8865\u5145\uFF1A\u4E3A\u65B9\u4FBF\u5176\u4ED6\u4EBA\u62C9\u53D6\u4EE3\u7801\uFF0C\u53EF\u4EE5\u6DFB\u52A0\u4E00\u4E2Ascripts\uFF0C\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 33
+    }
+  }, "npm install"), "\u4E4B\u540E\u81EA\u52A8\u751F\u6210\u6267\u884C\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "\"scripts\": { \"prepare\": \"husky install\" }",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u8FD9\u6837\u540E\u7EED\u7684\u5F00\u53D1\u4EBA\u5458\u662F\u4E0D\u9700\u8981\u5173\u5FC3husky\u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 28
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 97
+    }
+  })), "lint-staged\u5339\u914D\u4E0D\u5230\u6587\u4EF6\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://zhuanlan.zhihu.com/p/102104085",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, "https://zhuanlan.zhihu.com/p/102104085")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\u6587\u4EF6\u88ABstaged\u4E86\u4E48")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "\u4ECE\u6E90\u7801\u4E2D\u53EF\u4EE5\u770B\u51FA\uFF0Clint-staged\u53EA\u9488\u5BF9\u53D8\u66F4\u7684\u6587\u4EF6\uFF0C\u4E5F\u5C31\u662Fgit add\u540E\u7684\u6587\u4EF6\u505Alint\u6821\u9A8C\uFF0C\u6240\u4EE5\u8FD9\u540D\u5B57\u53EF\u4EE5\u8FD9\u4E48\u7FFB\u8BD1\uFF1Alint staged files\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+    start: 2,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "\u5C1D\u8BD5\u5B89\u88C5glob")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "yarn add -D glob",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 36,
+      columnNumber: 1
+    }
+  })));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
       columnNumber: 14
     }
   });
