@@ -3,11 +3,22 @@
     "deploy": "yarn build:image && yarn start:image",
     "build:image": "docker build -t wangdongbing/documents:latest .",
     "start:image": "docker run -p 80:80 -p 443:443 --name nginx-main -d nginx",
-    "build:doc": "yarn build:doc-study-docker",
-    "build:doc-study-docker": "cd doc-study-docker && yarn build",
-    "build:doc-study-CI-CD": "cd doc-study-CI-CD && yarn build"
+    "build:doc": "yarn build:1 && yarn build:2",
+    "build:1": "cd doc-study-docker && yarn build",
+    "build:2": "cd doc-study-CI-CD && yarn build",
+    "lint": "eslint --ext .md .",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "**/*.md": [
+      "prettier --write"
+    ]
   }
 }
