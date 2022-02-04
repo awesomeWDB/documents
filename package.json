@@ -17,7 +17,7 @@
     "prettier": "^2.5.1",
     "yorkie": "^2.0.0"
   },
-  "githooks":{
+  "gitHooks":{
     "pre-commit": "echo 'commit!' && lint-staged"
   },
   "lint-staged": {
