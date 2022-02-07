@@ -19,6 +19,16 @@ order: 4
 
 使用任何一款上传工具，xftp 等等
 
+## 80 端口重定向
+
+```
+server {
+    listen 80;
+    server_name www.域名.com;
+    rewrite ^(.*)$ https://${server_name}$1 permanent;
+}
+```
+
 ## 我的配置
 
 ```bash
