@@ -1,0 +1,38 @@
+[data-component='emoji-item'] {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px lightblue;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  .left {
+    font-size: 35px;
+    width: 50px;
+    flex-shrink: 0;
+  }
+  .right {
+    overflow: hidden;
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+
+    .emoji-nameEn {
+      line-height: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .emoji-nameZh {
+      line-height: 1.2rem;
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 20px rgb(94, 94, 206);
+  }
+}
