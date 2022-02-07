@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/summary.md",
-          "updatedTime": 1643960047845,
+          "updatedTime": 1643962460589,
           "nav": {
             "title": "总结",
             "path": "/summary"
@@ -381,12 +381,12 @@ const render = async params => {
           "order": 1,
           "slugs": [{
             "depth": 1,
-            "value": "CI/CD总结",
-            "heading": "cicd总结"
+            "value": "CI/CD 总结",
+            "heading": "cicd-总结"
           }],
-          "title": "CI/CD总结"
+          "title": "CI/CD 总结"
         },
-        "title": "CI/CD总结 - CI/CD learning"
+        "title": "CI/CD 总结 - CI/CD learning"
       }, {
         "path": "/githooks/commitlint",
         "component": __webpack_require__(/*! ./docs/githooks/commitlint.md */ "./docs/githooks/commitlint.md").default,
@@ -591,7 +591,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/github actions/index.md",
-          "updatedTime": 1643961083985,
+          "updatedTime": 1643962460744,
           "nav": {
             "title": "github actions",
             "order": 2,
@@ -613,8 +613,8 @@ const render = async params => {
             "heading": "应用场景"
           }, {
             "depth": 2,
-            "value": "docker优点",
-            "heading": "docker优点"
+            "value": "docker 优点",
+            "heading": "docker-优点"
           }],
           "title": "webhook"
         },
@@ -647,8 +647,8 @@ const render = async params => {
             "heading": "应用场景"
           }, {
             "depth": 2,
-            "value": "docker优点",
-            "heading": "docker优点"
+            "value": "docker 优点",
+            "heading": "docker-优点"
           }],
           "title": "webhook"
         },
@@ -835,7 +835,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/summary\":[{\"path\":\"/summary\",\"title\":\"CI/CD总结\",\"meta\":{\"order\":1}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/github actions\":[{\"path\":\"/github actions\",\"title\":\"webhook\",\"meta\":{\"order\":1}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"github actions\",\"order\":2,\"path\":\"/github actions\"},{\"title\":\"webhook\",\"order\":3,\"path\":\"/webhook\"},{\"title\":\"总结\",\"path\":\"/summary\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/summary\":[{\"path\":\"/summary\",\"title\":\"CI/CD 总结\",\"meta\":{\"order\":1}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/github actions\":[{\"path\":\"/github actions\",\"title\":\"webhook\",\"meta\":{\"order\":1}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"github actions\",\"order\":2,\"path\":\"/github actions\"},{\"title\":\"webhook\",\"order\":3,\"path\":\"/webhook\"},{\"title\":\"总结\",\"path\":\"/summary\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -1326,7 +1326,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 32,
       columnNumber: 1
     }
-  }, "v7\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "v7 \u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1379,7 +1379,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 43,
       columnNumber: 1
     }
-  }, "v4\u914D\u7F6E\uFF08\u521B\u5EFA.huskyrc\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "v4 \u914D\u7F6E\uFF08\u521B\u5EFA.huskyrc\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "# 需要配置 lint-staged\n{\n  \"hooks\": {\n    \"pre-commit\": \"lint-staged\",\n  }\n}",
     lang: "bash",
     __self: undefined,
@@ -2418,7 +2418,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 1
     }
-  }, "yorkie\u5B9E\u9645\u662Ffork\u81EAhusky\uFF0C\u7136\u540E\u505A\u4E86\u4E00\u4E9B\u5B9A\u5236\u5316\u7684\u6539\u52A8\uFF0C\u4F7F\u5F97\u94A9\u5B50\u80FD\u4ECE package.json \u7684 \"gitHooks\"\u5C5E\u6027\u4E2D\u8BFB\u53D6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "yorkie \u5B9E\u9645\u662F fork \u81EA husky\uFF0C\u7136\u540E\u505A\u4E86\u4E00\u4E9B\u5B9A\u5236\u5316\u7684\u6539\u52A8\uFF0C\u4F7F\u5F97\u94A9\u5B50\u80FD\u4ECE package.json \u7684 \"gitHooks\"\u5C5E\u6027\u4E2D\u8BFB\u53D6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2528,7 +2528,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 29,
       columnNumber: 1
     }
-  }, "yorkie\u5DF2\u7ECF\u5F88\u957F\u65F6\u95F4\u6CA1\u6709\u7EF4\u62A4\uFF0C\u6545\u4E0D\u63A8\u8350\u4F7F\u7528\u3002")));
+  }, "yorkie \u5DF2\u7ECF\u5F88\u957F\u65F6\u95F4\u6CA1\u6709\u7EF4\u62A4\uFF0C\u6545\u4E0D\u63A8\u8350\u4F7F\u7528\u3002")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -2736,7 +2736,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, "\u4ECE\u5934\u7F16\u8BD1\u6216\u8005\u6269\u5C55\u73B0\u6709\u7684 OpenShift \u6216 Cloud Foundry \u5E73\u53F0\u6765\u642D\u5EFA\u81EA\u5DF1\u7684 PaaS \u73AF\u5883\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker\u4F18\u70B9",
+    id: "docker-\u4F18\u70B9",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2744,14 +2744,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker\u4F18\u70B9",
+    to: "#docker-\u4F18\u70B9",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 19
+      columnNumber: 20
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -2759,9 +2759,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 79
+      columnNumber: 81
     }
-  })), "docker\u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "docker \u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2935,7 +2935,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "cicd\u603B\u7ED3",
+    id: "cicd-\u603B\u7ED3",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2943,14 +2943,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#cicd\u603B\u7ED3",
+    to: "#cicd-\u603B\u7ED3",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 53
+      columnNumber: 54
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -2958,16 +2958,16 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 111
+      columnNumber: 113
     }
-  })), "CI/CD\u603B\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "CI/CD \u603B\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 1
     }
-  }, "\u9879\u76EE\u4F7F\u7528git\u4F5C\u4E3A\u4E3B\u8981\u5DE5\u5177\uFF0C\u5229\u7528")));
+  }, "\u9879\u76EE\u4F7F\u7528 git \u4F5C\u4E3A\u4E3B\u8981\u5DE5\u5177\uFF0C\u5229\u7528")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -3175,7 +3175,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, "\u4ECE\u5934\u7F16\u8BD1\u6216\u8005\u6269\u5C55\u73B0\u6709\u7684 OpenShift \u6216 Cloud Foundry \u5E73\u53F0\u6765\u642D\u5EFA\u81EA\u5DF1\u7684 PaaS \u73AF\u5883\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker\u4F18\u70B9",
+    id: "docker-\u4F18\u70B9",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -3183,14 +3183,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker\u4F18\u70B9",
+    to: "#docker-\u4F18\u70B9",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 19
+      columnNumber: 20
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -3198,9 +3198,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 79
+      columnNumber: 81
     }
-  })), "docker\u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "docker \u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
