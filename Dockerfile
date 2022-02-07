@@ -4,11 +4,7 @@ FROM nginx:latest
 # 复制静态资源文件html、css、js、png等等
 COPY ./nginx/html /usr/share/nginx/html
 
-# 复制nginx配置文件、ssl证书
-COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
-COPY ./nginx/ssl /etc/nginx/cert
-
-EXPOSE 80 443
+EXPOSE 80
 
 # 运行
-# docker run -p 80:80 -p 443:443 --name nginx-main -d wangdongbing/documents:latest
+# docker run -p 80:80 --name nginx-main -d wangdongbing/documents:latest

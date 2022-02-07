@@ -78,7 +78,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/doc-study-CI-CD/";
+/******/ 	__webpack_require__.p = "/doc-study-nginx/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -137,22 +137,22 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHistory", function() { return createHistory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "history", function() { return history; });
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 // @ts-nocheck
 
 let options = {
-  "basename": "/doc-study-CI-CD/"
+  "basename": "/doc-study-nginx"
 };
 
 if (true) {
-  options.basename = "/doc-study-CI-CD/";
+  options.basename = "/doc-study-nginx";
 } // remove initial history because of ssr
 
 
 let history =  true ? null : undefined;
 const createHistory = (hotReload = false) => {
   if (!hotReload) {
-    history = Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["createBrowserHistory"])(options);
+    history = Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["createBrowserHistory"])(options);
   }
 
   return history;
@@ -171,10 +171,10 @@ const createHistory = (hotReload = false) => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "plugin", function() { return plugin; });
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 // @ts-nocheck
 
-const plugin = new _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["Plugin"]({
+const plugin = new D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["Plugin"]({
   validKeys: ['modifyClientRenderOpts', 'patchRoutes', 'rootContainer', 'render', 'onRouteChange', '__mfsu', 'ssr']
 });
 
@@ -205,16 +205,16 @@ const __mfsu = 1;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js */ "./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js */ "./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url */ "url");
 /* harmony import */ var url__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(url__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 /* harmony import */ var _plugin__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./plugin */ "./.umi/core/plugin.ts");
 /* harmony import */ var _pluginRegister__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pluginRegister */ "./.umi/core/pluginRegister.ts");
 
@@ -249,7 +249,7 @@ const render = async params => {
         _params$mode = params.mode,
         mode = _params$mode === void 0 ? 'string' : _params$mode,
         _params$basename = params.basename,
-        basename = _params$basename === void 0 ? '/doc-study-CI-CD/' : _params$basename,
+        basename = _params$basename === void 0 ? '/doc-study-nginx' : _params$basename,
         _params$staticMarkup = params.staticMarkup,
         staticMarkup = _params$staticMarkup === void 0 ? false : _params$staticMarkup,
         _params$forceInitial = params.forceInitial,
@@ -259,15 +259,15 @@ const render = async params => {
         getInitialPropsCtx = params.getInitialPropsCtx;
   let manifest = params.manifest;
   const env = 'development';
-  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | CI\u002FCD learning\" \u002F\u003E\n    \u003Cmeta name=\"description\" content=\"记录、整理学习CI\u002FCD相关知识的笔记\" \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-white.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-study-CI-CD\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-study-CI-CD\u002F\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003ECI\u002FCD learning\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-study-CI-CD\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
+  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | nginx learning\" \u002F\u003E\n    \u003Cmeta name=\"description\" content=\"记录、整理学习nginx相关知识的笔记\" \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-blue.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-study-nginx\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-study-nginx\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-study-nginx\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003Enginx learning\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-study-nginx\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
   let rootContainer = '';
 
   try {
     // handle basename
-    const location = Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["stripBasename"])(basename, `${origin}${path}`);
+    const location = Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["stripBasename"])(basename, `${origin}${path}`);
     const pathname = location.pathname; // server history
 
-    const history = Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["createMemoryHistory"])({
+    const history = Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["createMemoryHistory"])({
       initialEntries: [Object(url__WEBPACK_IMPORTED_MODULE_2__["format"])(location)]
     });
     /**
@@ -276,7 +276,7 @@ const render = async params => {
 
     await _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
       key: 'ssr.beforeRenderServer',
-      type: _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
+      type: D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
       args: {
         env,
         path,
@@ -314,7 +314,7 @@ const render = async params => {
               demos = _React$useContext.demos;
 
         const _React$useState = React.useState([]),
-              _React$useState2 = Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+              _React$useState2 = Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
               renderArgs = _React$useState2[0],
               setRenderArgs = _React$useState2[1]; // update render args when props changed
 
@@ -352,348 +352,345 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1643870483000,
+          "updatedTime": 1644203813336,
           "hero": {
             "title": "千里之行，始于足下!",
-            "desc": "<div class=\"markdown\"><p>记录、整理学习docker相关知识的笔记</p></div>",
+            "desc": "<div class=\"markdown\"><p>记录、整理学习nginx相关知识的笔记</p></div>",
             "actions": [{
               "text": "get start",
-              "link": "/docker"
+              "link": "/nginx"
             }]
           },
           "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2021<br />Powered by <a href=\"https://d.umijs.org/\" target=\"_blank\">dumi<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" width=\"15\" height=\"15\" class=\"__dumi-default-external-link-icon\"><path fill=\"currentColor\" d=\"M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z\"></path><polygon fill=\"currentColor\" points=\"45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9\"></polygon></svg></a></p></div>",
           "slugs": [],
           "title": "Index"
         },
-        "title": "Index - CI/CD learning"
+        "title": "Index - nginx learning"
       }, {
-        "path": "/summary",
-        "component": __webpack_require__(/*! ./docs/summary.md */ "./docs/summary.md").default,
+        "path": "/nginx/command",
+        "component": __webpack_require__(/*! ./docs/nginx/command.md */ "./docs/nginx/command.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/summary.md",
-          "updatedTime": 1643962460589,
-          "nav": {
-            "title": "总结",
-            "path": "/summary"
-          },
-          "toc": "menu",
-          "order": 1,
-          "slugs": [{
-            "depth": 1,
-            "value": "CI/CD 总结",
-            "heading": "cicd-总结"
-          }],
-          "title": "CI/CD 总结"
-        },
-        "title": "CI/CD 总结 - CI/CD learning"
-      }, {
-        "path": "/githooks/commitlint",
-        "component": __webpack_require__(/*! ./docs/githooks/commitlint.md */ "./docs/githooks/commitlint.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/githooks/commitlint.md",
-          "updatedTime": 1643952893000,
-          "toc": "menu",
-          "order": 4,
-          "slugs": [{
-            "depth": 1,
-            "value": "commitlint",
-            "heading": "commitlint"
-          }, {
-            "depth": 2,
-            "value": "安装",
-            "heading": "安装"
-          }, {
-            "depth": 2,
-            "value": "配置",
-            "heading": "配置"
-          }, {
-            "depth": 2,
-            "value": "触发",
-            "heading": "触发"
-          }],
-          "title": "commitlint",
-          "nav": {
-            "path": "/githooks",
-            "title": "githooks"
-          }
-        },
-        "title": "commitlint - CI/CD learning"
-      }, {
-        "path": "/githooks/husky",
-        "component": __webpack_require__(/*! ./docs/githooks/husky.md */ "./docs/githooks/husky.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/githooks/husky.md",
-          "updatedTime": 1643937203000,
-          "toc": "menu",
-          "order": 2,
-          "slugs": [{
-            "depth": 1,
-            "value": "husky",
-            "heading": "husky"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "使用方法",
-            "heading": "使用方法"
-          }, {
-            "depth": 2,
-            "value": "注意事项",
-            "heading": "注意事项"
-          }, {
-            "depth": 2,
-            "value": "更新为 v7 版本",
-            "heading": "更新为-v7-版本"
-          }],
-          "title": "husky",
-          "nav": {
-            "path": "/githooks",
-            "title": "githooks"
-          }
-        },
-        "title": "husky - CI/CD learning"
-      }, {
-        "path": "/githooks",
-        "component": __webpack_require__(/*! ./docs/githooks/index.md */ "./docs/githooks/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/githooks/index.md",
-          "updatedTime": 1643956401000,
-          "nav": {
-            "title": "githooks",
-            "order": 1,
-            "path": "/githooks"
-          },
-          "toc": "menu",
-          "order": 1,
-          "slugs": [{
-            "depth": 1,
-            "value": "githooks",
-            "heading": "githooks"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "常用钩子",
-            "heading": "常用钩子"
-          }, {
-            "depth": 2,
-            "value": "注意事项",
-            "heading": "注意事项"
-          }],
-          "title": "githooks"
-        },
-        "title": "githooks - CI/CD learning"
-      }, {
-        "path": "/githooks/lint-staged",
-        "component": __webpack_require__(/*! ./docs/githooks/lint-staged.md */ "./docs/githooks/lint-staged.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/githooks/lint-staged.md",
-          "updatedTime": 1643952893000,
+          "filePath": "docs/nginx/command.md",
+          "updatedTime": 1644223851328,
           "toc": "menu",
           "order": 3,
           "slugs": [{
             "depth": 1,
-            "value": "lint-staged",
-            "heading": "lint-staged"
+            "value": "常用命令",
+            "heading": "常用命令"
           }, {
             "depth": 2,
-            "value": "安装",
-            "heading": "安装"
+            "value": "启动",
+            "heading": "启动"
           }, {
             "depth": 2,
-            "value": "配置",
-            "heading": "配置"
+            "value": "停止",
+            "heading": "停止"
           }, {
             "depth": 2,
-            "value": "触发",
-            "heading": "触发"
+            "value": "其他常用命令汇总",
+            "heading": "其他常用命令汇总"
           }],
-          "title": "lint-staged",
+          "title": "常用命令",
           "nav": {
-            "path": "/githooks",
-            "title": "githooks"
+            "path": "/nginx",
+            "title": "nginx"
           }
         },
-        "title": "lint-staged - CI/CD learning"
+        "title": "常用命令 - nginx learning"
       }, {
-        "path": "/githooks/qa",
-        "component": __webpack_require__(/*! ./docs/githooks/qa.md */ "./docs/githooks/qa.md").default,
+        "path": "/nginx/container",
+        "component": __webpack_require__(/*! ./docs/nginx/container.md */ "./docs/nginx/container.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/githooks/qa.md",
-          "updatedTime": 1643956539000,
+          "filePath": "docs/nginx/container.md",
+          "updatedTime": 1644207331789,
           "toc": "menu",
+          "order": 5,
           "slugs": [{
             "depth": 1,
-            "value": "QA",
-            "heading": "qa"
+            "value": "结合容器使用",
+            "heading": "结合容器使用"
           }, {
             "depth": 2,
-            "value": "husky 配置了为什么不生效？",
-            "heading": "husky-配置了为什么不生效"
+            "value": "拉取 nginx 镜像",
+            "heading": "拉取-nginx-镜像"
           }, {
             "depth": 2,
-            "value": "lint-staged 匹配不到文件？",
-            "heading": "lint-staged-匹配不到文件"
+            "value": "运行挂载目录的容器",
+            "heading": "运行挂载目录的容器"
+          }, {
+            "depth": 2,
+            "value": "运行 Dockerfile 构建的容器",
+            "heading": "运行-dockerfile-构建的容器"
           }],
-          "title": "QA",
+          "title": "结合容器使用",
           "nav": {
-            "path": "/githooks",
-            "title": "githooks"
+            "path": "/nginx",
+            "title": "nginx"
           }
         },
-        "title": "QA - CI/CD learning"
+        "title": "结合容器使用 - nginx learning"
       }, {
-        "path": "/githooks/yorkie",
-        "component": __webpack_require__(/*! ./docs/githooks/yorkie.md */ "./docs/githooks/yorkie.md").default,
+        "path": "/nginx/https",
+        "component": __webpack_require__(/*! ./docs/nginx/https.md */ "./docs/nginx/https.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/githooks/yorkie.md",
-          "updatedTime": 1643958314000,
+          "filePath": "docs/nginx/https.md",
+          "updatedTime": 1644224121939,
           "toc": "menu",
-          "order": 2,
+          "order": 4,
           "slugs": [{
             "depth": 1,
-            "value": "yorkie",
-            "heading": "yorkie"
+            "value": "搭建 https",
+            "heading": "搭建-https"
           }, {
             "depth": 2,
-            "value": "安装",
-            "heading": "安装"
+            "value": "获得证书",
+            "heading": "获得证书"
           }, {
             "depth": 2,
-            "value": "配置",
-            "heading": "配置"
+            "value": "部署",
+            "heading": "部署"
           }, {
             "depth": 2,
-            "value": "注意事项",
-            "heading": "注意事项"
+            "value": "我的配置",
+            "heading": "我的配置"
+          }, {
+            "depth": 2,
+            "value": "验证",
+            "heading": "验证"
           }],
-          "title": "yorkie",
+          "title": "搭建 https",
           "nav": {
-            "path": "/githooks",
-            "title": "githooks"
+            "path": "/nginx",
+            "title": "nginx"
           }
         },
-        "title": "yorkie - CI/CD learning"
+        "title": "搭建 https - nginx learning"
       }, {
-        "path": "/github actions",
-        "component": __webpack_require__(/*! ./docs/github actions/index.md */ "./docs/github actions/index.md").default,
+        "path": "/nginx",
+        "component": __webpack_require__(/*! ./docs/nginx/index.md */ "./docs/nginx/index.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/github actions/index.md",
-          "updatedTime": 1643962460744,
+          "filePath": "docs/nginx/index.md",
+          "updatedTime": 1644207467624,
           "nav": {
-            "title": "github actions",
-            "order": 2,
-            "path": "/github actions"
+            "title": "nginx",
+            "order": 1,
+            "path": "/nginx"
           },
           "toc": "menu",
           "order": 1,
           "slugs": [{
             "depth": 1,
-            "value": "webhook",
-            "heading": "webhook"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "应用场景",
-            "heading": "应用场景"
-          }, {
-            "depth": 2,
-            "value": "docker 优点",
-            "heading": "docker-优点"
+            "value": "nginx",
+            "heading": "nginx"
           }],
-          "title": "webhook"
+          "title": "nginx"
         },
-        "title": "webhook - CI/CD learning"
+        "title": "nginx - nginx learning"
       }, {
-        "path": "/webhook",
-        "component": __webpack_require__(/*! ./docs/webhook/index.md */ "./docs/webhook/index.md").default,
+        "path": "/nginx/install",
+        "component": __webpack_require__(/*! ./docs/nginx/install.md */ "./docs/nginx/install.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/webhook/index.md",
-          "updatedTime": 1643956539000,
-          "nav": {
-            "title": "webhook",
-            "order": 3,
-            "path": "/webhook"
-          },
-          "toc": "menu",
-          "order": 1,
-          "slugs": [{
-            "depth": 1,
-            "value": "webhook",
-            "heading": "webhook"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "应用场景",
-            "heading": "应用场景"
-          }, {
-            "depth": 2,
-            "value": "docker 优点",
-            "heading": "docker-优点"
-          }],
-          "title": "webhook"
-        },
-        "title": "webhook - CI/CD learning"
-      }, {
-        "path": "/webhook/install",
-        "component": __webpack_require__(/*! ./docs/webhook/install.md */ "./docs/webhook/install.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/webhook/install.md",
-          "updatedTime": 1643870483000,
+          "filePath": "docs/nginx/install.md",
+          "updatedTime": 1644202889140,
           "toc": "menu",
           "order": 2,
           "slugs": [{
             "depth": 1,
-            "value": "dokcer安装",
-            "heading": "dokcer安装"
-          }, {
-            "depth": 2,
-            "value": "windows",
-            "heading": "windows"
+            "value": "安装",
+            "heading": "安装"
           }, {
             "depth": 2,
             "value": "ubuntu",
             "heading": "ubuntu"
           }, {
             "depth": 2,
-            "value": "其他",
-            "heading": "其他"
+            "value": "检查",
+            "heading": "检查"
+          }, {
+            "depth": 2,
+            "value": "配置文件以及最佳实践",
+            "heading": "配置文件以及最佳实践"
           }],
-          "title": "dokcer安装",
+          "title": "安装",
           "nav": {
-            "path": "/webhook",
-            "title": "webhook"
+            "path": "/nginx",
+            "title": "nginx"
           }
         },
-        "title": "dokcer安装 - CI/CD learning"
+        "title": "安装 - nginx learning"
+      }, {
+        "path": "/nginx/location",
+        "component": __webpack_require__(/*! ./docs/nginx/location.md */ "./docs/nginx/location.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/nginx/location.md",
+          "updatedTime": 1644223988318,
+          "toc": "menu",
+          "order": 6,
+          "slugs": [{
+            "depth": 1,
+            "value": "location",
+            "heading": "location"
+          }, {
+            "depth": 2,
+            "value": "官方文档",
+            "heading": "官方文档"
+          }, {
+            "depth": 2,
+            "value": "总结",
+            "heading": "总结"
+          }, {
+            "depth": 2,
+            "value": "正则 location 与编辑顺序",
+            "heading": "正则-location-与编辑顺序"
+          }],
+          "title": "location",
+          "nav": {
+            "path": "/nginx",
+            "title": "nginx"
+          }
+        },
+        "title": "location - nginx learning"
+      }, {
+        "path": "/nginx/proxy",
+        "component": __webpack_require__(/*! ./docs/nginx/proxy.md */ "./docs/nginx/proxy.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/nginx/proxy.md",
+          "updatedTime": 1644224178636,
+          "toc": "menu",
+          "order": 6,
+          "slugs": [{
+            "depth": 1,
+            "value": "代理、缓存设置",
+            "heading": "代理缓存设置"
+          }, {
+            "depth": 2,
+            "value": "proxy_pass 反向代理",
+            "heading": "proxy_pass-反向代理"
+          }, {
+            "depth": 3,
+            "value": "不带 URI",
+            "heading": "不带-uri"
+          }, {
+            "depth": 3,
+            "value": "带 URI",
+            "heading": "带-uri"
+          }, {
+            "depth": 3,
+            "value": "使用正则",
+            "heading": "使用正则"
+          }, {
+            "depth": 3,
+            "value": "小结",
+            "heading": "小结"
+          }, {
+            "depth": 2,
+            "value": "proxy_set_header 请求头",
+            "heading": "proxy_set_header-请求头"
+          }, {
+            "depth": 2,
+            "value": "缓存",
+            "heading": "缓存"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache_path",
+            "heading": "proxy_cache_path"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache zone | off",
+            "heading": "proxy_cache-zone--off"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache_key",
+            "heading": "proxy_cache_key"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache_methods",
+            "heading": "proxy_cache_methods"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache_valid [code] time",
+            "heading": "proxy_cache_valid-code-time"
+          }, {
+            "depth": 3,
+            "value": "proxy_cache_use_stale error |timeout|",
+            "heading": "proxy_cache_use_stale-error-timeout"
+          }, {
+            "depth": 3,
+            "value": "小结",
+            "heading": "小结-1"
+          }],
+          "title": "代理、缓存设置",
+          "nav": {
+            "path": "/nginx",
+            "title": "nginx"
+          }
+        },
+        "title": "代理、缓存设置 - nginx learning"
+      }, {
+        "path": "/nginx/upstream",
+        "component": __webpack_require__(/*! ./docs/nginx/upstream.md */ "./docs/nginx/upstream.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/nginx/upstream.md",
+          "updatedTime": 1644222725414,
+          "toc": "menu",
+          "order": 6,
+          "slugs": [{
+            "depth": 1,
+            "value": "负载均衡",
+            "heading": "负载均衡"
+          }, {
+            "depth": 2,
+            "value": "启用负载均衡",
+            "heading": "启用负载均衡"
+          }, {
+            "depth": 2,
+            "value": "几种方法",
+            "heading": "几种方法"
+          }, {
+            "depth": 3,
+            "value": "轮询",
+            "heading": "轮询"
+          }, {
+            "depth": 3,
+            "value": "最少连接",
+            "heading": "最少连接"
+          }, {
+            "depth": 3,
+            "value": "ip_hash | 会话持久性",
+            "heading": "ip_hash--会话持久性"
+          }, {
+            "depth": 3,
+            "value": "权重",
+            "heading": "权重"
+          }, {
+            "depth": 2,
+            "value": "健康检查",
+            "heading": "健康检查"
+          }],
+          "title": "负载均衡",
+          "nav": {
+            "path": "/nginx",
+            "title": "nginx"
+          }
+        },
+        "title": "负载均衡 - nginx learning"
       }],
-      "title": "CI/CD learning",
+      "title": "nginx learning",
       "component": props => props.children
     }]; // allow user to extend routes
 
     _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
       key: 'patchRoutes',
-      type: _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
+      type: D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
       args: {
         routes
       }
@@ -722,7 +719,7 @@ const render = async params => {
     } // renderServer get rootContainer
 
 
-    const _await$renderServer = await _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default()(opts),
+    const _await$renderServer = await D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default()(opts),
           pageHTML = _await$renderServer.pageHTML,
           pageInitialProps = _await$renderServer.pageInitialProps,
           routesMatched = _await$renderServer.routesMatched;
@@ -733,18 +730,18 @@ const render = async params => {
       // plugin for modify html template
       html = await _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
         key: 'ssr.modifyServerHTML',
-        type: _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].modify,
+        type: D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].modify,
         initialValue: html,
         args: {
           context,
-          cheerio: _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["cheerio"],
+          cheerio: D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["cheerio"],
           routesMatched,
           dynamicImport,
           manifest
         },
         async: true
       });
-      html = await Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["handleHTML"])({
+      html = await Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["handleHTML"])({
         html,
         rootContainer,
         pageInitialProps,
@@ -782,9 +779,9 @@ const render = async params => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/utils/lib/ssr.js */ "./node_modules/@umijs/utils/lib/ssr.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]; });
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/utils/lib/ssr.js */ "./node_modules/@umijs/utils/lib/ssr.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]; });
 
 // @ts-nocheck
 // only export isBrowser for user
@@ -835,7 +832,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/summary\":[{\"path\":\"/summary\",\"title\":\"CI/CD 总结\",\"meta\":{\"order\":1}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/github actions\":[{\"path\":\"/github actions\",\"title\":\"webhook\",\"meta\":{\"order\":1}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}},{\"path\":\"/webhook/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"github actions\",\"order\":2,\"path\":\"/github actions\"},{\"title\":\"webhook\",\"order\":3,\"path\":\"/webhook\"},{\"title\":\"总结\",\"path\":\"/summary\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/nginx\":[{\"path\":\"/nginx\",\"title\":\"nginx\",\"meta\":{\"order\":1}},{\"path\":\"/nginx/install\",\"title\":\"安装\",\"meta\":{\"order\":2}},{\"path\":\"/nginx/command\",\"title\":\"常用命令\",\"meta\":{\"order\":3}},{\"path\":\"/nginx/https\",\"title\":\"搭建 https\",\"meta\":{\"order\":4}},{\"path\":\"/nginx/container\",\"title\":\"结合容器使用\",\"meta\":{\"order\":5}},{\"path\":\"/nginx/location\",\"title\":\"location\",\"meta\":{\"order\":6}},{\"path\":\"/nginx/proxy\",\"title\":\"代理、缓存设置\",\"meta\":{\"order\":6}},{\"path\":\"/nginx/upstream\",\"title\":\"负载均衡\",\"meta\":{\"order\":6}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/nginx\",\"title\":\"nginx\",\"order\":1},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"nginx learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -862,7 +859,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _dumi_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @@/dumi/config */ "./.umi/dumi/config.json");
@@ -870,17 +867,17 @@ var _dumi_config__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack
 /* harmony import */ var _dumi_demos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @@/dumi/demos */ "./.umi/dumi/demos/index.ts");
 /* harmony import */ var _dumi_apis__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @@/dumi/apis */ "./.umi/dumi/apis.json");
 var _dumi_apis__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @@/dumi/apis */ "./.umi/dumi/apis.json", 1);
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/preset-dumi/lib/theme/layout */ "./node_modules/@umijs/preset-dumi/lib/theme/layout.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/preset-dumi/lib/theme/layout */ "./node_modules/@umijs/preset-dumi/lib/theme/layout.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/.umi/dumi/layout.tsx";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\.umi\\dumi\\layout.tsx";
 // @ts-nocheck
 
 
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default.a, Object(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+/* harmony default export */ __webpack_exports__["default"] = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default.a, Object(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
   config: _dumi_config__WEBPACK_IMPORTED_MODULE_2__,
   demos: _dumi_demos__WEBPACK_IMPORTED_MODULE_3__["default"],
   apis: _dumi_apis__WEBPACK_IMPORTED_MODULE_4__,
@@ -891,1935 +888,6 @@ var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/.
     columnNumber: 27
   }
 })));
-
-/***/ }),
-
-/***/ "./docs/githooks/commitlint.md":
-/*!*************************************!*\
-  !*** ./docs/githooks/commitlint.md ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/commitlint.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "commitlint",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#commitlint",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 57
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 119
-    }
-  })), "commitlint"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "\u4E00\u4E2A\u6821\u9A8C git \u7684\u63D0\u4EA4\u4FE1\u606F\u7684\u76F8\u5173\u5DE5\u5177\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://commitlint.js.org/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 24
-    }
-  }, "\u5B98\u7F51\u5730\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5B89\u88C5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5B89\u88C5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 67
-    }
-  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "npm install --save-dev @commitlint/cli @commitlint/config-conventional",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u914D\u7F6E",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u914D\u7F6E",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 67
-    }
-  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "\u914D\u7F6E\u6587\u4EF6 commitlint.config.js\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "module.exports = {\n  extends: ['@commitlint/config-conventional'],\n};",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u89E6\u53D1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u89E6\u53D1",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 67
-    }
-  })), "\u89E6\u53D1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u7ED3\u5408 husky \u7684 commit-msg \u94A9\u5B50\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://typicode.github.io/husky/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 29
-    }
-  }, "\u53C2\u8003\u5730\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# .huskyrc.json (v4)\n{\n  \"hooks\": {\n    \"commit-msg\": \"commitlint -E HUSKY_GIT_PARAMS\"\n  }\n}",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# .husky/commit-msg (v7)\n# ...\nnpx --no-install commitlint --edit $1\n# or\nyarn commitlint --edit $1",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/githooks/husky.md":
-/*!********************************!*\
-  !*** ./docs/githooks/husky.md ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/husky.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "husky",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#husky",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 52
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 109
-    }
-  })), "husky"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 67
-    }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "Git \u662F\u4E00\u4E2A\u591A\u4EBA\u534F\u4F5C\u5DE5\u5177\uFF0C\u90A3\u6309\u7406\u8BF4 Git \u4ED3\u5E93\u4E2D\u7684\u6240\u6709\u6587\u4EF6\u90FD\u5E94\u8BE5\u88AB\u8DDF\u8E2A\u5E76\u4E14\u4E0A\u4F20\u81F3\u8FDC\u7A0B\u4ED3\u5E93\u7684\u3002\u4F46\u662F\u6709\u4E2A\u4F8B\u5916\uFF0C.git \u6587\u4EF6\u5939\u4E0D\u4F1A\uFF0C\u8FD9\u5C31\u5BFC\u81F4\u4E00\u4E2A\u95EE\u9898\uFF0C\u6211\u4EEC\u5728\u672C\u5730\u914D\u7F6E\u597D Git Hook \u540E\uFF0C\u600E\u4E48\u5206\u4EAB\u7ED9\u5176\u4ED6\u5C0F\u4F19\u4F34\u513F\u5462\uFF1F\u8FD9\u65F6\u5019\uFF0C\u5C31\u8F6E\u5230 Husky \u51FA\u573A\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "Husky \u662F\u4E00\u4E2A\u8BA9\u914D\u7F6E Git \u94A9\u5B50\u53D8\u5F97\u66F4\u7B80\u5355\u7684\u5DE5\u5177\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4F7F\u7528\u65B9\u6CD5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4F7F\u7528\u65B9\u6CD5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 71
-    }
-  })), "\u4F7F\u7528\u65B9\u6CD5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "npm install --save-dev husky\nnpx husky install # 生成.husky配置目录",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, "v7 \u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "package.json", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 方便小伙伴拉取代码install的时候，不用再手动启用\n\"scripts\": {\n  \"prepare\": \"husky install\"\n}",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u521B\u5EFA.husky/pre-commit", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 需要配置 lint-staged\nnpm run lint-staged",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  }, "v4 \u914D\u7F6E\uFF08\u521B\u5EFA.huskyrc\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 需要配置 lint-staged\n{\n  \"hooks\": {\n    \"pre-commit\": \"lint-staged\",\n  }\n}",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 1
-    }
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6CE8\u610F\u4E8B\u9879",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6CE8\u610F\u4E8B\u9879",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 71
-    }
-  })), "\u6CE8\u610F\u4E8B\u9879"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 1
-    }
-  }, "husky \u4E0D\u652F\u6301\u670D\u52A1\u7AEF\u94A9\u5B50\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 1
-    }
-  }, "\u8DF3\u8FC7 husky \u94A9\u5B50\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 17
-    }
-  }, "HUSKY_SKIP_HOOKS=1 git commit -m 'xxxx'"), ";"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 1
-    }
-  }, "\u7981\u7528\u81EA\u52A8\u5B89\u88C5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 12
-    }
-  }, "HUSKY_SKIP_INSTALL=1 npm install"), "\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u66F4\u65B0\u4E3A-v7-\u7248\u672C",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u66F4\u65B0\u4E3A-v7-\u7248\u672C",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 20
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 81
-    }
-  })), "\u66F4\u65B0\u4E3A v7 \u7248\u672C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 1
-    }
-  }, "v4 \u7248\u672C\u5347\u7EA7\u5230 v7\uFF0Chusky \u7684\u914D\u7F6E\u65B9\u5F0F\u6539\u53D8\u4E86\uFF0C\u4EE5\u524D\u7684\u914D\u7F6E\u65B9\u5F0F\u4F1A\u4E0D\u751F\u6548\uFF0C\u8BF7\u6CE8\u610F\u5B89\u88C5\u7684\u7248\u672C\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://typicode.github.io/husky/#/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 52
-    }
-  }, "\u53C2\u8003\u5730\u5740"), "\u3002")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/githooks/index.md":
-/*!********************************!*\
-  !*** ./docs/githooks/index.md ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "githooks",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#githooks",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 55
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 115
-    }
-  })), "githooks"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003\u5B98\u7F51", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 8
-    }
-  }, "\u81EA\u5B9A\u4E49 Git - Git \u94A9\u5B50")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 67
-    }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "\u5728\u8FDB\u884C git \u64CD\u4F5C\u7684\u65F6\u5019\uFF0Cgit \u63D0\u4F9B\u4E86\u4E00\u4E9B\u94A9\u5B50\uFF0C\u53EF\u4EE5\u6267\u884C\u4E00\u7CFB\u5217\u811A\u672C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u5728 git \u9879\u76EE\u6839\u76EE\u5F55\u4E0B\u9762\uFF0C.git/hooks \u5B50\u76EE\u5F55\u91CC\u9762\uFF0C\u6709\u4EE5", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 37
-    }
-  }, ".sample"), "\u7ED3\u5C3E\u7684\u82E5\u5E72\u6587\u4EF6\uFF0C\u5C31\u662F\u63D0\u4F9B\u7684 hooks \u793A\u4F8B\uFF0C\u5982\u679C\u60F3\u8981\u542F\u7528\u7684\u8BDD\uFF0C\u5C31\u53BB\u9664", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 92
-    }
-  }, ".sample"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5E38\u7528\u94A9\u5B50",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5E38\u7528\u94A9\u5B50",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 71
-    }
-  })), "\u5E38\u7528\u94A9\u5B50"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "pre-commit\uFF1A\u94A9\u5B50\u5728\u952E\u5165\u63D0\u4EA4\u4FE1\u606F\u524D\u8FD0\u884C\u3002\u4E00\u822C\u7528\u6765\u68C0\u67E5\u4EE3\u7801\u98CE\u683C\u662F\u5426\u4E00\u81F4\u3001\u4EE3\u7801\u5355\u5143\u6D4B\u8BD5\u7B49\u7B49\uFF0C\u53EF\u4EE5\u7528 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 57
-    }
-  }, "git commit --no-verify"), " \u6765\u7ED5\u8FC7\u8FD9\u4E2A\u73AF\u8282\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "commit-msg \u94A9\u5B50\u63A5\u6536\u4E00\u4E2A\u53C2\u6570\uFF0C\u5B58\u6709\u5F53\u524D\u63D0\u4EA4\u4FE1\u606F\u7684\u4E34\u65F6\u6587\u4EF6\u7684\u8DEF\u5F84\u3002\u5982\u679C\u8BE5\u94A9\u5B50\u811A\u672C\u4EE5\u975E\u96F6\u503C\u9000\u51FA\uFF0CGit \u5C06\u653E\u5F03\u63D0\u4EA4\uFF0C\u53EF\u4EE5\u7528\u6765\u6821\u9A8C\u63D0\u4EA4\u4FE1\u606F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "\u5176\u4ED6..")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6CE8\u610F\u4E8B\u9879",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6CE8\u610F\u4E8B\u9879",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 71
-    }
-  })), "\u6CE8\u610F\u4E8B\u9879"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90#_%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%92%A9%E5%AD%90",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 4
-    }
-  }, "\u6458\u81EA\u5B98\u7F51:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0C\u514B\u9686\u67D0\u4E2A\u7248\u672C\u5E93\u65F6\uFF0C\u5B83\u7684\u5BA2\u6237\u7AEF\u94A9\u5B50 \u5E76\u4E0D \u968F\u540C\u590D\u5236\u3002 \u5982\u679C\u9700\u8981\u9760\u8FD9\u4E9B\u811A\u672C\u6765\u5F3A\u5236\u7EF4\u6301\u67D0\u79CD\u7B56\u7565\uFF0C\u5EFA\u8BAE\u4F60\u5728\u670D\u52A1\u5668\u7AEF\u5B9E\u73B0\u8FD9\u4E00\u529F\u80FD\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u56E0\u6B64\uFF0C\u82E5\u8981\u590D\u7528\u81EA\u5DF1\u6216\u4ED6\u4EBA\u7684 hooks \u811A\u672C\uFF0C\u53EF\u80FD\u5C31\u6709\u70B9\u56F0\u96BE\u3002\u6709\u4E00\u79CD\u6BD4\u8F83\u597D\u7684\u89E3\u51B3\u65B9\u6848\uFF0C\u53C2\u8003\u4E0B\u4E00\u8282\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/githooks/husky",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 53
-    }
-  }, "husky"), "\u3002")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/githooks/lint-staged.md":
-/*!**************************************!*\
-  !*** ./docs/githooks/lint-staged.md ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/lint-staged.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "lint-staged",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#lint-staged",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 58
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 121
-    }
-  })), "lint-staged"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "\u5728\u4EE3\u7801\u63D0\u4EA4\u4E4B\u524D\uFF0C\u8FDB\u884C\u4EE3\u7801\u89C4\u5219\u68C0\u67E5\u80FD\u591F\u786E\u4FDD\u8FDB\u5165 git \u5E93\u7684\u4EE3\u7801\u90FD\u662F\u7B26\u5408\u4EE3\u7801\u89C4\u5219\u7684\u3002\u4F46\u662F\u6574\u4E2A\u9879\u76EE\u4E0A\u8FD0\u884C lint \u901F\u5EA6\u4F1A\u5F88\u6162\uFF0Clint-staged \u80FD\u591F\u8BA9 lint \u53EA\u68C0\u6D4B\u6682\u5B58\u533A\u7684\u6587\u4EF6\uFF0C\u6240\u4EE5\u901F\u5EA6\u5F88\u5FEB\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "lint-staged \u8FC7\u6EE4\u6587\u4EF6\u91C7\u7528 glob \u6A21\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.npmjs.com/package/lint-staged",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }
-  }, "https://www.npmjs.com/package/lint-staged")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5B89\u88C5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5B89\u88C5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 67
-    }
-  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "npm install --save-dev lint-staged",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u914D\u7F6E",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u914D\u7F6E",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 67
-    }
-  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "package.json \u4E2D\u914D\u7F6E\uFF08\u793A\u4F8B\uFF09\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "{\n  \"lint-staged\": {\n    \"*.js\": \"eslint --fix\",\n    \"*.md\": [\n      \"prettier --write\"\n    ]\n  }\n}",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "\u793A\u4F8B\u4E2D\uFF1A\u5BF9*.js \u6267\u884C eslint \u547D\u4EE4\uFF0C\u5BF9*.md \u6267\u884C prettier \u547D\u4EE4\uFF08eslint\u3001prettier \u8981\u63D0\u524D\u914D\u7F6E\u597D\uFF09\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u89E6\u53D1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u89E6\u53D1",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 67
-    }
-  })), "\u89E6\u53D1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, "git commit \u65F6\u89E6\u53D1 pre-commit \u94A9\u5B50\uFF0C\uFF08\u5728 husky \u94A9\u5B50\u6216\u8005\u539F\u751F\u94A9\u5B50\u811A\u672C\u4E2D\uFF09\u8FD0\u884C lint-staged \u547D\u4EE4\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "npm run lint-staged",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/githooks/qa.md":
-/*!*****************************!*\
-  !*** ./docs/githooks/qa.md ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/qa.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "qa",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#qa",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 49
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 103
-    }
-  })), "QA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "husky-\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#husky-\u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 26
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 93
-    }
-  })), "husky \u914D\u7F6E\u4E86\u4E3A\u4EC0\u4E48\u4E0D\u751F\u6548\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u539F\u56E0\uFF1Ahusky \u7684\u65B0\u7248\u672C\u548C\u8001\u7248\u672C\u662F\u4E0D\u4E00\u6837\u7684\uFF0C\u5728 package.json \u4E2D\u7684\u914D\u7F6E\uFF0C\u53EA\u9002\u7528 4.x\u3002\u800C 7.x \u7684\u914D\u7F6E\u662F\u9879\u76EE\u6839\u76EE\u5F55\u4E2D\u7684.husky \u76EE\u5F55\uFF0C\u9700\u8981\u6267\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 86
-    }
-  }, "npx husky install"), "\u751F\u6210\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://typicode.github.io/husky/#/?id=install",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 119
-    }
-  }, "\u53C2\u8003\u5B98\u7F51")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "\u8865\u5145\uFF1A\u4E3A\u65B9\u4FBF\u5176\u4ED6\u4EBA\u62C9\u53D6\u4EE3\u7801\uFF0C\u53EF\u4EE5\u6DFB\u52A0\u4E00\u4E2A scripts\uFF0C\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 34
-    }
-  }, "npm install"), "\u4E4B\u540E\u81EA\u52A8\u751F\u6210\u6267\u884C\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "\"scripts\": { \"prepare\": \"husky install\" }",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "\u8FD9\u6837\u540E\u7EED\u7684\u5F00\u53D1\u4EBA\u5458\u662F\u4E0D\u9700\u8981\u5173\u5FC3 husky \u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "lint-staged-\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#lint-staged-\u5339\u914D\u4E0D\u5230\u6587\u4EF6",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 29
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 99
-    }
-  })), "lint-staged \u5339\u914D\u4E0D\u5230\u6587\u4EF6\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://zhuanlan.zhihu.com/p/102104085",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 7
-    }
-  }, "https://zhuanlan.zhihu.com/p/102104085")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "\u6587\u4EF6\u88AB staged \u4E86\u4E48 \u4ECE\u6E90\u7801\u4E2D\u53EF\u4EE5\u770B\u51FA\uFF0Clint-staged \u53EA\u9488\u5BF9\u53D8\u66F4\u7684\u6587\u4EF6\uFF0C\u4E5F\u5C31\u662F git add \u540E\u7684\u6587\u4EF6\u505A lint \u6821\u9A8C\uFF0C\u6240\u4EE5\u8FD9\u540D\u5B57\u53EF\u4EE5\u8FD9\u4E48\u7FFB\u8BD1\uFF1Alint staged files\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u5C1D\u8BD5\u5B89\u88C5 glob"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "yarn add -D glob",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  })))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/githooks/yorkie.md":
-/*!*********************************!*\
-  !*** ./docs/githooks/yorkie.md ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/githooks/yorkie.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "yorkie",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#yorkie",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 53
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 111
-    }
-  })), "yorkie"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "yorkie \u5B9E\u9645\u662F fork \u81EA husky\uFF0C\u7136\u540E\u505A\u4E86\u4E00\u4E9B\u5B9A\u5236\u5316\u7684\u6539\u52A8\uFF0C\u4F7F\u5F97\u94A9\u5B50\u80FD\u4ECE package.json \u7684 \"gitHooks\"\u5C5E\u6027\u4E2D\u8BFB\u53D6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u662F\u53E6\u4E00\u79CD\u914D\u7F6E githooks \u7684\u5DE5\u5177\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5B89\u88C5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5B89\u88C5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 67
-    }
-  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "npm install --save-dev yorkie",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u914D\u7F6E",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u914D\u7F6E",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 67
-    }
-  })), "\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# package.json\n{\n  \"gitHooks\": {\n    \"pre-commit\": \"npm run lint-staged\"\n  }\n}",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6CE8\u610F\u4E8B\u9879",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6CE8\u610F\u4E8B\u9879",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 71
-    }
-  })), "\u6CE8\u610F\u4E8B\u9879"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "yorkie \u5DF2\u7ECF\u5F88\u957F\u65F6\u95F4\u6CA1\u6709\u7EF4\u62A4\uFF0C\u6545\u4E0D\u63A8\u8350\u4F7F\u7528\u3002")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/github actions/index.md":
-/*!**************************************!*\
-  !*** ./docs/github actions/index.md ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/github actions/index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "webhook",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#webhook",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 54
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 113
-    }
-  })), "webhook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 67
-    }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "Docker \u662F\u4E00\u4E2A\u5F00\u6E90\u7684\u5E94\u7528\u5BB9\u5668\u5F15\u64CE\uFF0C\u57FA\u4E8E Go \u8BED\u8A00 \u5E76\u9075\u4ECE Apache2.0 \u534F\u8BAE\u5F00\u6E90\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "Docker \u53EF\u4EE5\u8BA9\u5F00\u53D1\u8005\u6253\u5305\u4ED6\u4EEC\u7684\u5E94\u7528\u4EE5\u53CA\u4F9D\u8D56\u5305\u5230\u4E00\u4E2A\u8F7B\u91CF\u7EA7\u3001\u53EF\u79FB\u690D\u7684\u5BB9\u5668\u4E2D\uFF0C\u7136\u540E\u53D1\u5E03\u5230\u4EFB\u4F55\u6D41\u884C\u7684 Linux \u673A\u5668\u4E0A\uFF0C\u4E5F\u53EF\u4EE5\u5B9E\u73B0\u865A\u62DF\u5316\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u5BB9\u5668\u662F\u5B8C\u5168\u4F7F\u7528\u6C99\u7BB1\u673A\u5236\uFF0C\u76F8\u4E92\u4E4B\u95F4\u4E0D\u4F1A\u6709\u4EFB\u4F55\u63A5\u53E3\uFF08\u7C7B\u4F3C iPhone \u7684 app\uFF09,\u66F4\u91CD\u8981\u7684\u662F\u5BB9\u5668\u6027\u80FD\u5F00\u9500\u6781\u4F4E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5E94\u7528\u573A\u666F",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5E94\u7528\u573A\u666F",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 71
-    }
-  })), "\u5E94\u7528\u573A\u666F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "Web \u5E94\u7528\u7684\u81EA\u52A8\u5316\u6253\u5305\u548C\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u81EA\u52A8\u5316\u6D4B\u8BD5\u548C\u6301\u7EED\u96C6\u6210\u3001\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "\u5728\u670D\u52A1\u578B\u73AF\u5883\u4E2D\u90E8\u7F72\u548C\u8C03\u6574\u6570\u636E\u5E93\u6216\u5176\u4ED6\u7684\u540E\u53F0\u5E94\u7528\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "\u4ECE\u5934\u7F16\u8BD1\u6216\u8005\u6269\u5C55\u73B0\u6709\u7684 OpenShift \u6216 Cloud Foundry \u5E73\u53F0\u6765\u642D\u5EFA\u81EA\u5DF1\u7684 PaaS \u73AF\u5883\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker-\u4F18\u70B9",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker-\u4F18\u70B9",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 20
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 81
-    }
-  })), "docker \u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "Docker \u662F\u4E00\u4E2A\u7528\u4E8E\u5F00\u53D1\uFF0C\u4EA4\u4ED8\u548C\u8FD0\u884C\u5E94\u7528\u7A0B\u5E8F\u7684\u5F00\u653E\u5E73\u53F0\u3002Docker \u4F7F\u60A8\u80FD\u591F\u5C06\u5E94\u7528\u7A0B\u5E8F\u4E0E\u57FA\u7840\u67B6\u6784\u5206\u5F00\uFF0C\u4ECE\u800C\u53EF\u4EE5\u5FEB\u901F\u4EA4\u4ED8\u8F6F\u4EF6\u3002\u501F\u52A9 Docker\uFF0C\u60A8\u53EF\u4EE5\u4E0E\u7BA1\u7406\u5E94\u7528\u7A0B\u5E8F\u76F8\u540C\u7684\u65B9\u5F0F\u6765\u7BA1\u7406\u57FA\u7840\u67B6\u6784\u3002\u901A\u8FC7\u5229\u7528 Docker \u7684\u65B9\u6CD5\u6765\u5FEB\u901F\u4EA4\u4ED8\uFF0C\u6D4B\u8BD5\u548C\u90E8\u7F72\u4EE3\u7801\uFF0C\u60A8\u53EF\u4EE5\u5927\u5927\u51CF\u5C11\u7F16\u5199\u4EE3\u7801\u548C\u5728\u751F\u4EA7\u73AF\u5883\u4E2D\u8FD0\u884C\u4EE3\u7801\u4E4B\u95F4\u7684\u5EF6\u8FDF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, "\u5FEB\u901F\uFF0C\u4E00\u81F4\u5730\u4EA4\u4ED8\u60A8\u7684\u5E94\u7528\u7A0B\u5E8F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u54CD\u5E94\u5F0F\u90E8\u7F72\u548C\u6269\u5C55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, "\u5728\u540C\u4E00\u786C\u4EF6\u4E0A\u8FD0\u884C\u66F4\u591A\u5DE5\u4F5C\u8D1F\u8F7D"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 14
-    }
-  });
-});
 
 /***/ }),
 
@@ -2845,7 +913,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/index.md";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\index.md";
 
 
 
@@ -2888,115 +956,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 
 /***/ }),
 
-/***/ "./docs/summary.md":
-/*!*************************!*\
-  !*** ./docs/summary.md ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/summary.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "cicd-\u603B\u7ED3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#cicd-\u603B\u7ED3",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 54
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 113
-    }
-  })), "CI/CD \u603B\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "\u9879\u76EE\u4F7F\u7528 git \u4F5C\u4E3A\u4E3B\u8981\u5DE5\u5177\uFF0C\u5229\u7528")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/webhook/index.md":
+/***/ "./docs/nginx/command.md":
 /*!*******************************!*\
-  !*** ./docs/webhook/index.md ***!
+  !*** ./docs/nginx/command.md ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3016,7 +978,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/webhook/index.md";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\command.md";
 
 
 
@@ -3041,7 +1003,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "webhook",
+    id: "\u5E38\u7528\u547D\u4EE4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -3049,14 +1011,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#webhook",
+    to: "#\u5E38\u7528\u547D\u4EE4",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 54
+      columnNumber: 51
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -3064,10 +1026,10 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 113
+      columnNumber: 107
     }
-  })), "webhook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
+  })), "\u5E38\u7528\u547D\u4EE4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u542F\u52A8",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -3075,7 +1037,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
+    to: "#\u542F\u52A8",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
@@ -3092,150 +1054,158 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 67
     }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u542F\u52A8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "systemctl start nginx",
+    lang: "unknown",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 1
     }
-  }, "Docker \u662F\u4E00\u4E2A\u5F00\u6E90\u7684\u5E94\u7528\u5BB9\u5668\u5F15\u64CE\uFF0C\u57FA\u4E8E Go \u8BED\u8A00 \u5E76\u9075\u4ECE Apache2.0 \u534F\u8BAE\u5F00\u6E90\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u505C\u6B62",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
       columnNumber: 1
     }
-  }, "Docker \u53EF\u4EE5\u8BA9\u5F00\u53D1\u8005\u6253\u5305\u4ED6\u4EEC\u7684\u5E94\u7528\u4EE5\u53CA\u4F9D\u8D56\u5305\u5230\u4E00\u4E2A\u8F7B\u91CF\u7EA7\u3001\u53EF\u79FB\u690D\u7684\u5BB9\u5668\u4E2D\uFF0C\u7136\u540E\u53D1\u5E03\u5230\u4EFB\u4F55\u6D41\u884C\u7684 Linux \u673A\u5668\u4E0A\uFF0C\u4E5F\u53EF\u4EE5\u5B9E\u73B0\u865A\u62DF\u5316\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u505C\u6B62",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 67
+    }
+  })), "\u505C\u6B62"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 1
     }
-  }, "\u5BB9\u5668\u662F\u5B8C\u5168\u4F7F\u7528\u6C99\u7BB1\u673A\u5236\uFF0C\u76F8\u4E92\u4E4B\u95F4\u4E0D\u4F1A\u6709\u4EFB\u4F55\u63A5\u53E3\uFF08\u7C7B\u4F3C iPhone \u7684 app\uFF09,\u66F4\u91CD\u8981\u7684\u662F\u5BB9\u5668\u6027\u80FD\u5F00\u9500\u6781\u4F4E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5E94\u7528\u573A\u666F",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5E94\u7528\u573A\u666F",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 71
-    }
-  })), "\u5E94\u7528\u573A\u666F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "\u67E5\u770B\u8FDB\u7A0B\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }, "ps -ef|grep nginx")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
       columnNumber: 1
     }
-  }, "Web \u5E94\u7528\u7684\u81EA\u52A8\u5316\u6253\u5305\u548C\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../public/img/1644203116.jpg */ "./public/img/1644203116.jpg"),
+    alt: "\u67E5\u770B\u8FDB\u7A0B",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
+      lineNumber: 28,
+      columnNumber: 4
     }
-  }, "\u81EA\u52A8\u5316\u6D4B\u8BD5\u548C\u6301\u7EED\u96C6\u6210\u3001\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 1
     }
-  }, "\u5728\u670D\u52A1\u578B\u73AF\u5883\u4E2D\u90E8\u7F72\u548C\u8C03\u6574\u6570\u636E\u5E93\u6216\u5176\u4ED6\u7684\u540E\u53F0\u5E94\u7528\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
       columnNumber: 1
     }
-  }, "\u4ECE\u5934\u7F16\u8BD1\u6216\u8005\u6269\u5C55\u73B0\u6709\u7684 OpenShift \u6216 Cloud Foundry \u5E73\u53F0\u6765\u642D\u5EFA\u81EA\u5DF1\u7684 PaaS \u73AF\u5883\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker-\u4F18\u70B9",
+  }, "\u505C\u6B62\u8FDB\u7A0B\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, "kill -TERM 2510721")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker-\u4F18\u70B9",
-    "aria-hidden": "true",
-    tabIndex: -1,
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../public/img/1644204391.jpg */ "./public/img/1644204391.jpg"),
+    alt: "\u505C\u6B62\u8FDB\u7A0B",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 20
+      lineNumber: 32,
+      columnNumber: 4
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 81
-    }
-  })), "docker \u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "Docker \u662F\u4E00\u4E2A\u7528\u4E8E\u5F00\u53D1\uFF0C\u4EA4\u4ED8\u548C\u8FD0\u884C\u5E94\u7528\u7A0B\u5E8F\u7684\u5F00\u653E\u5E73\u53F0\u3002Docker \u4F7F\u60A8\u80FD\u591F\u5C06\u5E94\u7528\u7A0B\u5E8F\u4E0E\u57FA\u7840\u67B6\u6784\u5206\u5F00\uFF0C\u4ECE\u800C\u53EF\u4EE5\u5FEB\u901F\u4EA4\u4ED8\u8F6F\u4EF6\u3002\u501F\u52A9 Docker\uFF0C\u60A8\u53EF\u4EE5\u4E0E\u7BA1\u7406\u5E94\u7528\u7A0B\u5E8F\u76F8\u540C\u7684\u65B9\u5F0F\u6765\u7BA1\u7406\u57FA\u7840\u67B6\u6784\u3002\u901A\u8FC7\u5229\u7528 Docker \u7684\u65B9\u6CD5\u6765\u5FEB\u901F\u4EA4\u4ED8\uFF0C\u6D4B\u8BD5\u548C\u90E8\u7F72\u4EE3\u7801\uFF0C\u60A8\u53EF\u4EE5\u5927\u5927\u51CF\u5C11\u7F16\u5199\u4EE3\u7801\u548C\u5728\u751F\u4EA7\u73AF\u5883\u4E2D\u8FD0\u884C\u4EE3\u7801\u4E4B\u95F4\u7684\u5EF6\u8FDF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5176\u4ED6\u5E38\u7528\u547D\u4EE4\u6C47\u603B",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5176\u4ED6\u5E38\u7528\u547D\u4EE4\u6C47\u603B",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 19
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 79
+    }
+  })), "\u5176\u4ED6\u5E38\u7528\u547D\u4EE4\u6C47\u603B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 修改配置后重新加载生效\nnginx -s reload\n\n# 校验配置文件是否正确\nnginx -t -c /path/to/nginx.conf",
+    lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 1
     }
-  }, "\u5FEB\u901F\uFF0C\u4E00\u81F4\u5730\u4EA4\u4ED8\u60A8\u7684\u5E94\u7528\u7A0B\u5E8F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u54CD\u5E94\u5F0F\u90E8\u7F72\u548C\u6269\u5C55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, "\u5728\u540C\u4E00\u786C\u4EF6\u4E0A\u8FD0\u884C\u66F4\u591A\u5DE5\u4F5C\u8D1F\u8F7D"))));
+  })));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -3254,7 +1224,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 51,
       columnNumber: 14
     }
   });
@@ -3262,9 +1232,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 
 /***/ }),
 
-/***/ "./docs/webhook/install.md":
+/***/ "./docs/nginx/container.md":
 /*!*********************************!*\
-  !*** ./docs/webhook/install.md ***!
+  !*** ./docs/nginx/container.md ***!
   \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3284,7 +1254,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "/Users/wangdongbing/new-projects/documents/doc-study-CI-CD/docs/webhook/install.md";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\container.md";
 
 
 
@@ -3309,7 +1279,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "dokcer\u5B89\u88C5",
+    id: "\u7ED3\u5408\u5BB9\u5668\u4F7F\u7528",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -3317,14 +1287,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#dokcer\u5B89\u88C5",
+    to: "#\u7ED3\u5408\u5BB9\u5668\u4F7F\u7528",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 55
+      columnNumber: 53
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -3332,10 +1302,10 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 115
+      columnNumber: 111
     }
-  })), "dokcer\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "windows",
+  })), "\u7ED3\u5408\u5BB9\u5668\u4F7F\u7528"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u62C9\u53D6-nginx-\u955C\u50CF",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -3343,14 +1313,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#windows",
+    to: "#\u62C9\u53D6-nginx-\u955C\u50CF",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 18
+      columnNumber: 22
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -3358,196 +1328,160 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 77
+      columnNumber: 85
     }
-  })), "windows"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+  })), "\u62C9\u53D6 nginx \u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 自行安装docker\ndocker pull nginx # 拉取最新的nginx镜像\ndocker images # 验证",
+    lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u8FD0\u884C\u6302\u8F7D\u76EE\u5F55\u7684\u5BB9\u5668",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.microsoft.com/zh-cn/windows/wsl/install",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 5
-    }
-  }, "\u5B89\u88C5 WSL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://hub.docker.com/editions/community/docker-ce-desktop-windows",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 5
-    }
-  }, "\u5B89\u88C5 docker desktop"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "ubuntu",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#ubuntu",
+    to: "#\u8FD0\u884C\u6302\u8F7D\u76EE\u5F55\u7684\u5BB9\u5668",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
+      lineNumber: 24,
+      columnNumber: 20
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 75
+      lineNumber: 24,
+      columnNumber: 81
     }
-  })), "ubuntu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  })), "\u8FD0\u884C\u6302\u8F7D\u76EE\u5F55\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -p 80:80 -p 443:443 -v path/to/your/nginx.conf:/etc/nginx/nginx.conf -v path/to/your/files:/usr/share/nginx/html -v path/to/your/cert:/etc/nginx/cert --name nginx-main -d nginx",
+    lang: "unknown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u53C2\u6570\u89E3\u91CA\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "docker run\uFF0C\u8FD0\u884C\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29,
       columnNumber: 1
     }
-  }, "\u4F7F\u7528\u5B98\u65B9\u5B89\u88C5\u811A\u672C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "-p 80:80 -p 443:443\uFF0C\u6620\u5C04\u7AEF\u53E3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "-v path/to/your/nginx.conf:/etc/nginx/nginx.conf -v path/to/your/files:/usr/share/nginx/html -v path/to/your/cert:/etc/nginx/cert\uFF0C\u6302\u8F7D\u76EE\u5F55\uFF0C\u8FD9\u6837\u53EF\u4EE5\u65B9\u4FBF\u7684\u5728\u5BBF\u4E3B\u673A\u4E2D\u64CD\u4F5C\u914D\u7F6E\u6587\u4EF6\u3001\u66FF\u6362\u8BC1\u4E66\u3001\u90E8\u7F72\u9759\u6001\u8D44\u6E90"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
       columnNumber: 1
     }
-  }, "\u5B89\u88C5\u547D\u4EE4\u5982\u4E0B\uFF1A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun",
-    lang: "shell",
+  }, "--name nginx-main\uFF0C\u8FD0\u884C\u7684\u5BB9\u5668\u7684\u522B\u540D\uFF0C\u65B9\u4FBF\u540E\u7EED\u5176\u4ED6\u64CD\u4F5C\uFF08\u5982 stop\u3001start \u7B49\u7B49\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "-d\uFF0C\u540E\u53F0\u8FD0\u884C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
       columnNumber: 1
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "nginx\uFF0C\u8FD0\u884C\u7684\u76EE\u6807\u955C\u50CF")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u8FD0\u884C-dockerfile-\u6784\u5EFA\u7684\u5BB9\u5668",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 1
     }
-  }, "\u4E5F\u53EF\u4EE5\u4F7F\u7528\u56FD\u5185 daocloud \u4E00\u952E\u5B89\u88C5\u547D\u4EE4\uFF1A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "curl -sSL https://get.daocloud.io/docker | sh",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, "\u5176\u4ED6\u65B9\u5F0F\uFF08\u7565\uFF09 \u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.docker.com/engine/install/ubuntu/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 3
-    }
-  }, "\u5B98\u7F51"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5176\u4ED6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5176\u4ED6",
+    to: "#\u8FD0\u884C-dockerfile-\u6784\u5EFA\u7684\u5BB9\u5668",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 13
+      lineNumber: 35,
+      columnNumber: 30
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 67
+      lineNumber: 35,
+      columnNumber: 101
     }
-  })), "\u5176\u4ED6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u8FD0\u884C Dockerfile \u6784\u5EFA\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 36,
       columnNumber: 1
     }
-  }, "\u8BF7\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.runoob.com/docker/docker-tutorial.html",
+  }, "\u9879\u76EE\u6839\u76EE\u5F55\u4E0B\u65B0\u5EFA Dockfile \u6587\u4EF6\uFF0CDockfile \u6587\u4EF6\u7684\u7F16\u5199\u9700\u81EA\u884C\u67E5\u770B\u76F8\u5173\u6559\u7A0B\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 分阶段构建，只需要第一次构建的产物\nFROM node:12 AS build\n\nWORKDIR /app\n\nCOPY . .\n\nRUN npm install --registry=https://registry.npm.taobao.org\n\nRUN npm run build\n\n# 以最新的nginx镜像为基础镜像\nFROM nginx:latest\n\n# 分阶段构建，假设这里已经构建好了所需的静态资源，存放在path/to/your/files，假设为dist\n\n# 复制静态资源文件html、css、js、png等等\nCOPY --from=build /app/dist /usr/share/nginx/html\n\n# 复制nginx配置文件\nCOPY --from=build /app/path/to/your/nginx.conf /etc/nginx/nginx.conf\n\nEXPOSE 80",
+    lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 7
+      lineNumber: 37,
+      columnNumber: 1
     }
-  }, "\u83DC\u9E1F\u6559\u7A0B"), "\u4EE5\u53CA", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.docker.com/engine/install/",
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 构建镜像\ndocker build -t 镜像名 .\n\n# 运行容器：\ndocker run -p 8888:80 --name nginx-main -d 镜像名",
+    lang: "bash",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 82
+      lineNumber: 38,
+      columnNumber: 1
     }
-  }, "\u5B98\u7F51"))));
+  })));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -3566,7 +1500,3559 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/https.md":
+/*!*****************************!*\
+  !*** ./docs/nginx/https.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\https.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u642D\u5EFA-https",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u642D\u5EFA-https",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 55
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 115
+    }
+  })), "\u642D\u5EFA https"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://blog.csdn.net/weixin_31655741/article/details/82226688",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u6587\u7AE0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u83B7\u5F97\u8BC1\u4E66",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u83B7\u5F97\u8BC1\u4E66",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 71
+    }
+  })), "\u83B7\u5F97\u8BC1\u4E66"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003\u4E0A\u9762\u7684\u6587\u7AE0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u6CE8\u610F\u65F6\u95F4\u9650\u5236\uFF0C\u4E00\u822C\u662F\u4E00\u5E74\uFF0C\u5230\u671F\u4E86\u8981\u8FDB\u884C\u66F4\u6362\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u90E8\u7F72",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u90E8\u7F72",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 67
+    }
+  })), "\u90E8\u7F72"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\u5176\u5B9E\u5C31\u662F\u628A\u8BC1\u4E66\u6587\u4EF6\u653E\u5230\u670D\u52A1\u5668\u4E0A\uFF0C\u7136\u540E\u5BF9 nginx \u8FDB\u884C\u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\u4F7F\u7528\u4EFB\u4F55\u4E00\u6B3E\u4E0A\u4F20\u5DE5\u5177\uFF0Cxftp \u7B49\u7B49"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6211\u7684\u914D\u7F6E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6211\u7684\u914D\u7F6E",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 71
+    }
+  })), "\u6211\u7684\u914D\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "...\n\nhttp{\n  ...\n  server {\n    listen 443 ssl;\n    server_name localhost;\n    # ssl on;\n    root /usr/share/nginx/html; # 使用你的地址\n    index index.html index.htm;\n    ssl_certificate   /etc/nginx/cert/xxxx.crt; # 使用你的文件地址\n    ssl_certificate_key  /etc/nginx/cert/xxxx.key; # 使用你的文件地址\n    ssl_session_timeout 5m;\n    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;\n    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;\n    ssl_prefer_server_ciphers on;\n  }\n  ...\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u9A8C\u8BC1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u9A8C\u8BC1",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 67
+    }
+  })), "\u9A8C\u8BC1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "\u91CD\u542F nginx\uFF0C\u4F7F\u7528 https \u8FDB\u884C\u8BBF\u95EE\uFF0C\u770B\u662F\u5426\u90E8\u7F72 https \u6210\u529F\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../public/img/1644205536.jpg */ "./public/img/1644205536.jpg"),
+    alt: "\u9A8C\u8BC1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/index.md":
+/*!*****************************!*\
+  !*** ./docs/nginx/index.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\index.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "nginx",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#nginx",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 52
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 109
+    }
+  })), "nginx"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, "Nginx \u53D1\u97F3 \u201Cengine x\u201D ,\u662F\u4E00\u4E2A\u5F00\u6E90\u8F6F\u4EF6\uFF0C\u9AD8\u6027\u80FD HTTP \u548C\u53CD\u5411\u4EE3\u7406\u670D\u52A1\u5668\uFF0C\u7528\u6765\u5728\u4E92\u8054\u7F51\u4E0A\u5904\u7406\u4E00\u4E9B\u5927\u578B\u7F51\u7AD9\u3002\u5B83\u53EF\u4EE5\u88AB\u7528\u4F5C\u72EC\u7ACB\u7F51\u7AD9\u670D\u52A1\u5668\uFF0C\u8D1F\u8F7D\u5747\u8861\uFF0C\u5185\u5BB9\u7F13\u5B58\u548C\u53CD\u5411\u4EE3\u7406\u670D\u52A1\u5668\u3002")));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/install.md":
+/*!*******************************!*\
+  !*** ./docs/nginx/install.md ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\install.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u5B89\u88C5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5B89\u88C5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 49
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 103
+    }
+  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "ubuntu",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#ubuntu",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 75
+    }
+  })), "ubuntu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "sudo apt update\nsudo apt install nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u68C0\u67E5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u68C0\u67E5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 67
+    }
+  })), "\u68C0\u67E5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "\u4E00\u65E6\u5B89\u88C5\u5B8C\u6210\uFF0CNginx \u5C06\u4F1A\u81EA\u52A8\u88AB\u542F\u52A8\u3002\u4F60\u53EF\u4EE5\u8FD0\u884C\u4E0B\u9762\u7684\u547D\u4EE4\u6765\u9A8C\u8BC1\u5B83\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "sudo systemctl status nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, "\u8F93\u51FA\u7C7B\u4F3C\u4E0B\u9762\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "nginx.service - A high performance web server and a reverse proxy server\n     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)\n     Active: active (running) since Mon 2022-02-07 10:51:19 CST; 6min ago\n     ...",
+    lang: "unknown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u914D\u7F6E\u6587\u4EF6\u4EE5\u53CA\u6700\u4F73\u5B9E\u8DF5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u914D\u7F6E\u6587\u4EF6\u4EE5\u53CA\u6700\u4F73\u5B9E\u8DF5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 83
+    }
+  })), "\u914D\u7F6E\u6587\u4EF6\u4EE5\u53CA\u6700\u4F73\u5B9E\u8DF5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, "\u6240\u6709\u7684 Nginx \u914D\u7F6E\u6587\u4EF6\u90FD\u5728/etc/nginx/\u76EE\u5F55\u4E0B\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "\u4E3B\u8981\u7684 Nginx \u914D\u7F6E\u6587\u4EF6\u662F/etc/nginx/nginx.conf\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, "\u4E3A\u6BCF\u4E2A\u57DF\u540D\u521B\u5EFA\u4E00\u4E2A\u72EC\u7ACB\u7684\u914D\u7F6E\u6587\u4EF6\uFF0C\u4FBF\u4E8E\u7EF4\u62A4\u670D\u52A1\u5668\u3002\u4F60\u53EF\u4EE5\u6309\u7167\u9700\u8981\u5B9A\u4E49\u4EFB\u610F\u591A\u7684 block \u6587\u4EF6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "Nginx \u670D\u52A1\u5668\u914D\u7F6E\u6587\u4EF6\u88AB\u50A8\u5B58\u5728/etc/nginx/sites-available\u76EE\u5F55\u4E0B\u3002\u5728/etc/nginx/sites-enabled\u76EE\u5F55\u4E0B\u7684\u914D\u7F6E\u6587\u4EF6\u90FD\u5C06\u88AB Nginx \u4F7F\u7528\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u6700\u4F73\u63A8\u8350\u662F\u4F7F\u7528\u6807\u51C6\u7684\u547D\u540D\u65B9\u5F0F\u3002\u4F8B\u5982\uFF0C\u5982\u679C\u4F60\u7684\u57DF\u540D\u662Fmydomain.com\uFF0C\u90A3\u4E48\u914D\u7F6E\u6587\u4EF6\u5E94\u8BE5\u88AB\u547D\u540D\u4E3A/etc/nginx/sites-available/mydomain.com.conf"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u4F60\u5728\u57DF\u540D\u670D\u52A1\u5668\u914D\u7F6E\u5757\u4E2D\u6709\u53EF\u91CD\u7528\u7684\u914D\u7F6E\u6BB5\uFF0C\u628A\u8FD9\u4E9B\u914D\u7F6E\u6BB5\u6458\u51FA\u6765\uFF0C\u505A\u6210\u4E00\u5C0F\u6BB5\u53EF\u91CD\u7528\u7684\u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, "Nginx \u65E5\u5FD7\u6587\u4EF6(access.log \u548C error.log)\u5B9A\u4F4D\u5728/var/log/nginx/\u76EE\u5F55\u4E0B\u3002\u63A8\u8350\u4E3A\u6BCF\u4E2A\u670D\u52A1\u5668\u914D\u7F6E\u5757\uFF0C\u914D\u7F6E\u4E00\u4E2A\u4E0D\u540C\u7684access\u548Cerror\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, "\u4F60\u53EF\u4EE5\u5C06\u4F60\u7684\u7F51\u7AD9\u6839\u76EE\u5F55\u8BBE\u7F6E\u5728\u4EFB\u4F55\u4F60\u60F3\u8981\u7684\u5730\u65B9\u3002\u6700\u5E38\u7528\u7684\u7F51\u7AD9\u6839\u76EE\u5F55\u4F4D\u7F6E\u5305\u62EC\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, "/home/<user_name>/<site_name>"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }, "/var/www/<site_name>"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, "/var/www/html/<site_name>"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, "/opt/<site_name>"))))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/location.md":
+/*!********************************!*\
+  !*** ./docs/nginx/location.md ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\location.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "location",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#location",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 55
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 115
+    }
+  })), "location"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5B98\u65B9\u6587\u6863",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5B98\u65B9\u6587\u6863",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 71
+    }
+  })), "\u5B98\u65B9\u6587\u6863"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "http://nginx.org/en/docs/http/ngx_http_core_module.html#location",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 4
+    }
+  }, "\u5B98\u65B9\u6587\u6863")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u603B\u7ED3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u603B\u7ED3",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 67
+    }
+  })), "\u603B\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "\u6587\u6863\u6709\u70B9\u591A\uFF0C\u6709\u5F88\u591A\u6982\u5FF5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, "\"\u666E\u901A location\"\uFF1A\u4EE5\u201C = \u201D\u6216\u201C ^~ \u201D\u4E3A\u524D\u7F00\u6216\u8005\u6CA1\u6709\u4EFB\u4F55\u524D\u7F00\u7684 /uri/"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, "\"\u6B63\u5219 location\"\uFF1A\u662F\u4EE5\u201C ~ \u201D\u6216\u201C ~* \u201D\u4E3A\u524D\u7F00\u7684 /uri/"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\"^~\"\uFF1A\"\u975E\u6B63\u5219\uFF0C\u4E0D\u9700\u8981\u7EE7\u7EED\u6B63\u5219\u5339\u914D\"\uFF0C\u544A\u8BC9 nginx \u67D0\u6761\u666E\u901A location \uFF0C\u65E0\u8BBA\u6700\u5927\u524D\u7F00\u5339\u914D\uFF0C\u8FD8\u662F\u4E25\u683C\u7CBE\u786E\u5339\u914D\u90FD\u7EC8\u6B62\u7EE7\u7EED\u641C\u7D22\u6B63\u5219 location\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\"=\"\uFF1A\u666E\u901A location \u4E0D\u5141\u8BB8\u201C\u6700\u5927\u524D\u7F00\u201D\u5339\u914D\u7ED3\u679C\uFF0C\u5FC5\u987B\u4E25\u683C\u7B49\u4E8E\uFF0C\u4E25\u683C\u7CBE\u786E\u5339\u914D\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, "...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, "\u7B80\u5355\u6982\u62EC\uFF1A\u5148\u5339\u914D\u666E\u901A\uFF0C\u518D\u5339\u914D\u6B63\u5219\u3002\u201C\u6B63\u5219 location \u201D\u8BA9\u6B65 \u201C\u666E\u901A location\u201D\u7684\u4E25\u683C\u7CBE\u786E\u5339\u914D\u7ED3\u679C\uFF1B\u4F46\u8986\u76D6 \u201C\u666E\u901A location \u201D\u7684\u6700\u5927\u524D\u7F00\u5339\u914D\u7ED3\u679C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6B63\u5219-location-\u4E0E\u7F16\u8F91\u987A\u5E8F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6B63\u5219-location-\u4E0E\u7F16\u8F91\u987A\u5E8F",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 28
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 97
+    }
+  })), "\u6B63\u5219 location \u4E0E\u7F16\u8F91\u987A\u5E8F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "location \u7684\u6307\u4EE4\u4E0E\u7F16\u8F91\u987A\u5E8F\u65E0\u5173\uFF0C\u8FD9\u53E5\u8BDD\u4E0D\u5168\u5BF9\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }, "\u5BF9\u4E8E\u666E\u901A location \u6307\u4EE4\uFF0C\u5339\u914D\u89C4\u5219\u662F\uFF1A\u6700\u5927\u524D\u7F00\u5339\u914D\uFF08\u4E0E\u987A\u5E8F\u65E0\u5173\uFF09\uFF0C\u5982\u679C\u6070\u597D\u662F\u4E25\u683C\u7CBE\u786E\u5339\u914D\u7ED3\u679C\u6216\u8005\u52A0\u6709\u524D\u7F00\u201C ^~ \u201D\u6216\u201C = \u201D\uFF08\u7B26\u53F7\u201C = \u201D\u53EA\u80FD\u4E25\u683C\u5339\u914D\uFF0C\u4E0D\u80FD\u524D\u7F00\u5339\u914D\uFF09\uFF0C\u5219\u505C\u6B62\u641C\u7D22\u6B63\u5219 location \u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, "\u4F46\u5BF9\u4E8E\u6B63\u5219 location \u7684\u5339\u914D\u89C4\u5219\u662F\uFF1A\u6309\u7F16\u8F91\u987A\u5E8F\u9010\u4E2A\u5339\u914D\uFF08\u4E0E\u987A\u5E8F\u6709\u5173\uFF09\uFF0C\u53EA\u8981\u5339\u914D\u4E0A\uFF0C\u5C31\u7ACB\u5373\u505C\u6B62\u540E\u9762\u7684\u641C\u7D22\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.cnblogs.com/lidabo/p/4169396.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u6587\u7AE0"))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/proxy.md":
+/*!*****************************!*\
+  !*** ./docs/nginx/proxy.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\proxy.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u4EE3\u7406\u7F13\u5B58\u8BBE\u7F6E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4EE3\u7406\u7F13\u5B58\u8BBE\u7F6E",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 53
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 111
+    }
+  })), "\u4EE3\u7406\u3001\u7F13\u5B58\u8BBE\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "proxy_pass-\u53CD\u5411\u4EE3\u7406",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_pass-\u53CD\u5411\u4EE3\u7406",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 26
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 93
+    }
+  })), "proxy_pass \u53CD\u5411\u4EE3\u7406"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u8BE5\u6307\u4EE4\u4E3B\u8981\u4F5C\u7528\u662F\u7528\u6765\u8BBE\u7F6E\u88AB\u4EE3\u7406\u670D\u52A1\u5668\u5730\u5740\u7684\uFF0C\u53EF\u4EE5\u8BF4\u4E3B\u673A\u540D\u79F0\uFF0CIP \u5730\u5740\u52A0\u7AEF\u53E3\u7684\u5F62\u5F0F\uFF1B\u5176\u4E2D URL \u8868\u793A\u88AB\u4EE3\u7406\u670D\u52A1\u5668\u7684\u5730\u5740\uFF0C\u5305\u542B\u534F\u8BAE\u3001\u4E3B\u673A\u540D\u6216 IP \u52A0\u7AEF\u53E3\u3001URI \u7B49\u3002\u4F20\u8F93\u534F\u8BAE\u901A\u5E38\u662F\u201Chttp\u201D\u6216\u8005\"https\"\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u6211\u4EEC\u4EE3\u7406\u7684\u662F\u4E00\u7EC4\u670D\u52A1\u5668\u65F6\uFF0C\u6211\u4EEC\u53EF\u4EE5\u7528 upstream \u6307\u4EE4\u628A\u8BE5\u7EC4\u670D\u52A1\u5668\u540C\u4E00\u5F52\u5E76\u4E3A\u4E00\u4E2A\u540D\u79F0\u7684\u7EC4\u670D\u52A1\u5668\u7EC4\uFF0C\u5F53\u7136\u8FD9\u662F\u6211\u4EEC\u540E\u9762\u8981\u804A\u7684 nginx \u4F5C\u4E3A\u8D1F\u8F7D\u5747\u8861\u7684\u914D\u7F6E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "\u8FD9\u91CC\u7279\u522B\u8981\u8BF4\u660E\u7684\u662F URL \u4E2D\u662F\u5426\u5305\u542B URI\uFF0C\u4EC0\u4E48\u610F\u601D\u5462\uFF0C\u5C31\u662F URL \u4E0D\u5305\u542B URI \u7684\u610F\u601D\u5C31\u662F \u88AB\u4EE3\u7406\u7684 URL \u6CA1\u6709 URI\uFF0C\u5C31\u53EA\u6709\u534F\u8BAE IP \u5730\u5740\u6216\u57DF\u540D\u6216\u4E3B\u673A\u540D\uFF0C\u8FD9\u79CD\u5C31\u53EB\u4E0D\u5E26 URI\uFF1B\u5E26 URI \u5C31\u8868\u793A\u9664\u4E86\u534F\u8BAE\u4E3B\u673A\u540D\u6216\u57DF\u540D\u6216 IP \u5730\u5740\u5916\uFF0C\u540E\u9762\u8FD8\u6709 RUI\uFF1B\u5BF9\u4E8E\u8FD9\u4E24\u79CD\u60C5\u51B5 Nginx \u5904\u7406\u903B\u8F91\u4E0A\u4E0D\u4E00\u6837\u7684\uFF0C\u5982\u679C ULR \u4E0D\u5305\u542B URI \u90A3\u4E48 nginx \u670D\u52A1\u5668\u4E0D\u4F1A\u6539\u53D8\u6E90\u5730\u5740\u7684 URI\uFF1B\u5982\u679C URL \u5305\u542B URI\uFF0Cnginx \u670D\u52A1\u5668\u5C06\u4F1A\u4F7F\u7528\u65B0\u7684 URI \u66FF\u6362\u539F\u6765\u7684 URI\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u4E0D\u5E26-uri",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4E0D\u5E26-uri",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 75
+    }
+  })), "\u4E0D\u5E26 URI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "location /en/docs/ {\n  proxy_set_header X-Real-IP  $remote_addr;\n  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n  proxy_pass http://127.0.0.1:8000;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\u6CE8\u610F\uFF0C\u7AEF\u53E3\u53F7\u540E\u9762\u5373\u4F7F\u5E26\u4E86\"/\"\uFF0C\u4E5F\u4F1A\u88AB\u8BA4\u4E3A\u662F\u4E00\u4E2A URI\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, "\u7ED3\u679C\uFF1ANginx \u670D\u52A1\u5668\u4F1A\u628A\u7528\u6237\u8BF7\u6C42\u7684 URI \u5F53\u4F5C\u88AB\u4EE3\u7406\u670D\u52A1\u5668\u7684 URI\uFF0C\u5373\uFF1A\u7528\u6237\u8BBF\u95EEwww.test.com/en/docs/\u5C06\u88AB\u4EE3\u7406\u81F3", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "http://127.0.0.1:8000/en/docs/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 74
+    }
+  }, "http://127.0.0.1:8000/en/docs/")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u5E26-uri",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5E26-uri",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 16
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 73
+    }
+  })), "\u5E26 URI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "location /test/ {\n  proxy_set_header X-Real-IP  $remote_addr;\n  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n  proxy_pass http://127.0.0.1:8000/en/docs/;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "\u7ED3\u679C\uFF1ANginx \u670D\u52A1\u5668\u4F1A\u628A\u7528\u6237\u8BF7\u6C42\u7684 URI \u66FF\u6362\u6210\u88AB\u4EE3\u7406\u7684 URI\uFF0C\u5373\uFF1A\u7528\u6237\u8BF7\u6C42www.test.com/test/\u5C31\u4F1A\u88AB\u4EE3\u7406\u81F3", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "http://127.0.0.1:8000/en/docs/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 70
+    }
+  }, "http://127.0.0.1:8000/en/docs/")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u4F7F\u7528\u6B63\u5219",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4F7F\u7528\u6B63\u5219",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 71
+    }
+  })), "\u4F7F\u7528\u6B63\u5219"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C location \u5B9A\u4E49 URI \u65F6\u4F7F\u7528\u4E86\u6B63\u5219\uFF0C\u6216\u5728 if \u8BED\u53E5\u6216\u5728 limit_execept \u4E2D\u4F7F\u7528\u4E86 proxy_pass \u6307\u4EE4\uFF0C\u5219 proxy_pass \u4E4B\u540E\u4E0D\u80FD\u4F7F\u7528 URI\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u5C0F\u7ED3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5C0F\u7ED3",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 67
+    }
+  })), "\u5C0F\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }, "\u4E0D\u60F3\u6539\u53D8\u6E90\u8BF7\u6C42\u7684 URI\uFF0C\u90A3\u4E48\u5728\u540E\u7AEF\u4EE3\u7406\u65F6\uFF0Cproxy_pass \u5C31\u4E0D\u5E26 URI\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, "\u60F3\u66F4\u6539\u6E90\u8BF7\u6C42 URI\uFF0C\u90A3\u4E48\u5728\u540E\u7AEF\u4EE3\u7406\u65F6\uFF0Cproxy_pass \u5C31\u5E26 URI\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }, "location \u4F7F\u7528\u6B63\u5219\uFF0Cproxy_pass \u5C31\u4E0D\u80FD\u5E26 URI\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "proxy_set_header-\u8BF7\u6C42\u5934",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_set_header-\u8BF7\u6C42\u5934",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 31
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 103
+    }
+  })), "proxy_set_header \u8BF7\u6C42\u5934"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 1
+    }
+  }, "\u8BBE\u5B9A\u53D1\u5F80\u540E\u7AEF\u4E3B\u673A\u7684\u8BF7\u6C42\u62A5\u6587\u7684\u8BF7\u6C42\u9996\u90E8\u7684\u503C\uFF1B\u53EF\u7528\u5728 http,server,location \u914D\u7F6E\u6BB5\u4E2D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "proxy_set_header X-Real-IP  $remote_addr;\nproxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 1
+    }
+  }, "\u542B\u4E49\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 1
+    }
+  }, "\u901A\u8FC7\u4EE3\u7406\u53D1\u9001\u7ED9\u540E\u7AEF\u4E3B\u673A\u65F6\uFF0C\u5728\u5176\u8BF7\u6C42\u5934\u90E8\u52A0\u4E0A 1\u3001X-Real-IP \u8FD9\u4E2A\u5B57\u6BB5\uFF0C\u5E76\u4E14\u8FD9\u4E2A\u5B57\u6BB5\u7684\u503C\u662F", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "math math-inline",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 53
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("mjx-container", {
+    className: "MathJax",
+    jax: "SVG",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 88
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    style: {
+      verticalAlign: "-0.452ex"
+    },
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "71.672ex",
+    height: "2.149ex",
+    role: "img",
+    focusable: "false",
+    viewBox: "0 -750 31678.9 950",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 133
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("defs", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 343
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D45F",
+    d: "M21 287Q22 290 23 295T28 317T38 348T53 381T73 411T99 433T132 442Q161 442 183 430T214 408T225 388Q227 382 228 382T236 389Q284 441 347 441H350Q398 441 422 400Q430 381 430 363Q430 333 417 315T391 292T366 288Q346 288 334 299T322 328Q322 376 378 392Q356 405 342 405Q286 405 239 331Q229 315 224 298T190 165Q156 25 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 114 189T154 366Q154 405 128 405Q107 405 92 377T68 316T57 280Q55 278 41 278H27Q21 284 21 287Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 349
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D452",
+    d: "M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 838
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D45A",
+    d: "M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 1273
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D45C",
+    d: "M201 -11Q126 -11 80 38T34 156Q34 221 64 279T146 380Q222 441 301 441Q333 441 341 440Q354 437 367 433T402 417T438 387T464 338T476 268Q476 161 390 75T201 -11ZM121 120Q121 70 147 48T206 26Q250 26 289 58T351 142Q360 163 374 216T388 308Q388 352 370 375Q346 405 306 405Q243 405 195 347Q158 303 140 230T121 120Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 2142
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D461",
+    d: "M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 2481
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D44E",
+    d: "M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 2999
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D451",
+    d: "M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 3571
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D43C",
+    d: "M43 1Q26 1 26 10Q26 12 29 24Q34 43 39 45Q42 46 54 46H60Q120 46 136 53Q137 53 138 54Q143 56 149 77T198 273Q210 318 216 344Q286 624 286 626Q284 630 284 631Q274 637 213 637H193Q184 643 189 662Q193 677 195 680T209 683H213Q285 681 359 681Q481 681 487 683H497Q504 676 504 672T501 655T494 639Q491 637 471 637Q440 637 407 634Q393 631 388 623Q381 609 337 432Q326 385 315 341Q245 65 245 59Q245 52 255 50T307 46H339Q345 38 345 37T342 19Q338 6 332 0H316Q279 2 179 2Q143 2 113 2T65 2T43 1Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 4247
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D443",
+    d: "M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 4759
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-N-32",
+    d: "M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 5410
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D44B",
+    d: "M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 5897
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-N-2212",
+    d: "M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 6886
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D439",
+    d: "M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 6988
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-1-TEX-I-1D464",
+    d: "M580 385Q580 406 599 424T641 443Q659 443 674 425T690 368Q690 339 671 253Q656 197 644 161T609 80T554 12T482 -11Q438 -11 404 5T355 48Q354 47 352 44Q311 -11 252 -11Q226 -11 202 -5T155 14T118 53T104 116Q104 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Q21 293 29 315T52 366T96 418T161 441Q204 441 227 416T250 358Q250 340 217 250T184 111Q184 65 205 46T258 26Q301 26 334 87L339 96V119Q339 122 339 128T340 136T341 143T342 152T345 165T348 182T354 206T362 238T373 281Q402 395 406 404Q419 431 449 431Q468 431 475 421T483 402Q483 389 454 274T422 142Q420 131 420 107V100Q420 85 423 71T442 42T487 26Q558 26 600 148Q609 171 620 213T632 273Q632 306 619 325T593 357T580 385Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 7746
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    stroke: "currentColor",
+    fill: "currentColor",
+    strokeWidth: "0",
+    transform: "scale(1,-1)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8541
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "math",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8626
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8650
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45F",
+    xlinkHref: "#MJX-1-TEX-I-1D45F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8672
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(451,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8729
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D452",
+    xlinkHref: "#MJX-1-TEX-I-1D452",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8780
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(917,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8837
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45A",
+    xlinkHref: "#MJX-1-TEX-I-1D45A",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8888
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(1795,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8945
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45C",
+    xlinkHref: "#MJX-1-TEX-I-1D45C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 8997
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(2280,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9054
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D461",
+    xlinkHref: "#MJX-1-TEX-I-1D461",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9106
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "msub",
+    transform: "translate(2641,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9163
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9217
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D452",
+    xlinkHref: "#MJX-1-TEX-I-1D452",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9239
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(499,-150) scale(0.707)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9296
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D44E",
+    xlinkHref: "#MJX-1-TEX-I-1D44E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9363
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(3564.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9424
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D451",
+    xlinkHref: "#MJX-1-TEX-I-1D451",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9478
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(4084.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9535
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D451",
+    xlinkHref: "#MJX-1-TEX-I-1D451",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9589
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(4604.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9646
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45F",
+    xlinkHref: "#MJX-1-TEX-I-1D45F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9700
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(5055.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9757
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9811
+    }
+  }, "\uFF08")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(6055.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9930
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9984
+    }
+  }, "\u5BA2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(7055.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10103
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10157
+    }
+  }, "\u6237")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(8055.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10276
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10330
+    }
+  }, "\u7AEF")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(9055.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10449
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D43C",
+    xlinkHref: "#MJX-1-TEX-I-1D43C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10503
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(9559.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10560
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D443",
+    xlinkHref: "#MJX-1-TEX-I-1D443",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10614
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(10310.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10671
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10726
+    }
+  }, "\u5730")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(11310.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10845
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 10900
+    }
+  }, "\u5740")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(12310.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11019
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11074
+    }
+  }, "\uFF09")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(13310.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11193
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11248
+    }
+  }, "\uFF1B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mn",
+    transform: "translate(14310.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11367
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "32",
+    xlinkHref: "#MJX-1-TEX-N-32",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11422
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "TeXAtom",
+    "data-mjx-texclass": "ORD",
+    transform: "translate(14810.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11473
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11557
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "normal",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11579
+    }
+  }, "\u3001"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(15810.1,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11683
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D44B",
+    xlinkHref: "#MJX-1-TEX-I-1D44B",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11738
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mo",
+    transform: "translate(16884.3,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11795
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "2212",
+    xlinkHref: "#MJX-1-TEX-N-2212",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11850
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(17884.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11905
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D439",
+    xlinkHref: "#MJX-1-TEX-I-1D439",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11960
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(18633.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12017
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45C",
+    xlinkHref: "#MJX-1-TEX-I-1D45C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12072
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(19118.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12129
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45F",
+    xlinkHref: "#MJX-1-TEX-I-1D45F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12184
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(19569.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12241
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D464",
+    xlinkHref: "#MJX-1-TEX-I-1D464",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12296
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(20285.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12353
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D44E",
+    xlinkHref: "#MJX-1-TEX-I-1D44E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12408
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(20814.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12465
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45F",
+    xlinkHref: "#MJX-1-TEX-I-1D45F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12520
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(21265.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12577
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D451",
+    xlinkHref: "#MJX-1-TEX-I-1D451",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12632
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(21785.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12689
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D452",
+    xlinkHref: "#MJX-1-TEX-I-1D452",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12744
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(22251.5,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12801
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D451",
+    xlinkHref: "#MJX-1-TEX-I-1D451",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12856
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mo",
+    transform: "translate(22993.7,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12913
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "2212",
+    xlinkHref: "#MJX-1-TEX-N-2212",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 12968
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(23993.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13023
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D439",
+    xlinkHref: "#MJX-1-TEX-I-1D439",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13078
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(24742.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13135
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45C",
+    xlinkHref: "#MJX-1-TEX-I-1D45C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13190
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(25227.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13247
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45F",
+    xlinkHref: "#MJX-1-TEX-I-1D45F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13302
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(25678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13359
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13414
+    }
+  }, "\u5B57")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(26678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13533
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13588
+    }
+  }, "\u6BB5")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(27678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13707
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13762
+    }
+  }, "\uFF0C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(28678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13881
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13936
+    }
+  }, "\u5176")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(29678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 14055
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 14110
+    }
+  }, "\u503C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(30678.9,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 14229
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "italic",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    fontFamily: "serif",
+    fontStyle: "italic",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 14284
+    }
+  }, "\u4E3A"))))))), "proxy_add_x_forwarded_for\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "math math-inline",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("mjx-container", {
+    className: "MathJax",
+    jax: "SVG",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 40
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    style: {
+      verticalAlign: "-0.452ex"
+    },
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "197.738ex",
+    height: "2.149ex",
+    role: "img",
+    focusable: "false",
+    viewBox: "0 -750 87400 950",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 85
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("defs", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 294
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    stroke: "currentColor",
+    fill: "currentColor",
+    strokeWidth: "0",
+    transform: "scale(1,-1)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 302
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "math",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 387
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "merror",
+    "data-mjx-error": "Double subscripts: use braces to clarify",
+    title: "Double subscripts: use braces to clarify",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 411
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect", {
+    "data-background": "true",
+    width: 87400,
+    height: 950,
+    y: "-200",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 544
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 611
+    }
+  }, "Double subscripts: use braces to clarify"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mtext",
+    style: {
+      fontFamily: "serif"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 666
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+    "data-variant": "-explicitFont",
+    transform: "scale(1,-1)",
+    fontSize: "884px",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 721
+    }
+  }, "proxy_add_x_forwarded_for \u8FD9\u4E2A\u53D8\u91CF\u662F\u4E5F\u662F\u8BB0\u5F55IP\u5730\u5740\u7684\uFF0C\u4E0D\u540C\u7684\u662F\uFF0C\u8FD9\u4E2A\u53D8\u91CF\u5B83\u8BB0\u5F55\u4E86\u5BA2\u6237\u7AEFIP\u548C\u4EE3\u7406\u670D\u52A1\u7AEFip\uFF0C\u4E24\u4E2AIP\u5206\u522B\u7528\u9017\u53F7\u9694\u5F00\uFF0C\u5982\u679C\u6CA1\u6709\u4EE3\u7406\u670D\u52A1\u5668\u7684\u573A\u666F\uFF0C\u8FD9\u4E2A\u53D8\u91CF\u7684\u610F\u4E49\u540C")))))))), "remote_addr \u662F\u4E00\u6837\u7684\uFF0C\u90FD\u662F\u8BB0\u5F55\u5BA2\u6237\u7AEF\u5BA2\u6237\u7AEF IP")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u7F13\u5B58",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u7F13\u5B58",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 67
+    }
+  })), "\u7F13\u5B58"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache_path",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache_path",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 27
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 95
+    }
+  })), "proxy_cache_path"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 语法\nproxy_cache_path path [levels=levels] [use_temp_path=on|off] keys_zone=name:size [inactive=time] [max_size=size] [manager_files=number] [manager_sleep=time] [manager_threshold=time] [loader_files=number] [loader_sleep=time] [loader_threshold=time] [purger=on|off] [purger_files=number] [purger_sleep=time] [purger_threshold=time];\n\n# 示例\nproxy_cache_path /opt/cache levels=1:2 keys_zone=mycache:10m max_size=2g inactive=60m use_temp_path=off;",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 1
+    }
+  }, "\u542B\u4E49\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 1
+    }
+  }, "path\uFF1A\u8868\u793A\u8BBE\u7F6E\u7F13\u5B58\u6570\u636E\u5B58\u653E\u8DEF\u5F84\uFF0C\u8BE5\u8DEF\u5F84\u5FC5\u987B\u4E8B\u5148\u5B58\u5728\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 1
+    }
+  }, "levels;\u8868\u793A\u8BBE\u7F6E\u5B58\u653E\u7F13\u5B58\u6570\u636E\u7684\u76EE\u5F55\u7EA7\u522B\uFF0C\u8FD9\u4E2A\u548C\u524D\u9762\u8BF4\u7684 nginx \u7F13\u5B58\u76EE\u5F55\u4E00\u6837\u3002levels=1:2 \u8868\u793A\u4E24\u7EA7\u76EE\u5F55\uFF0C\u4E14\u4E00\u7EA7\u76EE\u5F55\u662F\u4E00\u4E2A\u5B57\u7B26\u54C8\u5E0C\u76EE\u5F55\uFF0C\u4E8C\u7EA7\u76EE\u5F55\u662F\u4E24\u4E2A\u5B57\u7B26\u7684\u54C8\u5E0C\u76EE\u5F55\uFF0C\u76EE\u5F55\u540D\u79F0\u662F\u57FA\u4E8E URL \u54C8\u5E0C\u7B97\u6CD5\u83B7\u53D6\u5230\u7684\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 58,
+      columnNumber: 1
+    }
+  }, "keys_zone=name:size \u8868\u793A\u8BBE\u7F6E\u7F13\u5B58\u7D22\u5F15\u5728\u5185\u5B58\u533A\u57DF\u7684\u540D\u79F0\u548C\u5927\u5C0F\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 1
+    }
+  }, "inactive=time \u8BBE\u7F6E\u975E\u6D3B\u52A8\u7F13\u5B58\u65F6\u95F4\uFF0C\u5728\u6307\u5B9A\u7684\u65F6\u95F4\u5185\u5982\u679C\u8BE5\u7F13\u5B58\u9879\u6CA1\u6709\u88AB\u547D\u4E2D\uFF0Cnginx \u5C31\u4F1A\u5F3A\u5236\u628A\u8BE5\u7F13\u5B58\u4ECE\u78C1\u76D8\u4E0A\u5220\u9664\uFF0C\u5982\u679C\u4E0B\u6B21\u6709\u4EBA\u8BBF\u95EE\u65F6\u5728\u7F13\u5B58\uFF0C\u4F9D\u6B21\u5FAA\u73AF\uFF1B\u9ED8\u8BA4 10 \u5206\u949F;"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 1
+    }
+  }, "max_size=size:\u8BBE\u7F6E\u78C1\u76D8\u4E2D\u7F13\u5B58\u6570\u636E\u7684\u5927\u5C0F\u9650\u5236\uFF0C\u5F53\u7F13\u5B58\u6570\u636E\u8D85\u8FC7\u6211\u4EEC\u8BBE\u5B9A\u7684\u5927\u5C0F\u65F6\uFF0C\u5C31\u662F\u7528 LRU \u7B97\u6CD5\u6765\u5220\u9664\u7F13\u5B58\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 1
+    }
+  }, "loader_files=number:\u8BBE\u7F6E\u7F13\u5B58\u7D22\u5F15\u91CD\u5EFA\u8FDB\u7A0B\u6BCF\u6B21\u52A0\u8F7D\u7684\u6570\u636E\u5143\u7D20\u7684\u6570\u91CF\u4E0A\u9650\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 1
+    }
+  }, "loader_sleep=time:\u8BBE\u7F6E\u7F13\u5B58\u7D22\u5F15\u91CD\u5EFA\u8FDB\u7A0B\u5728\u4E00\u6B21\u904D\u5386\u7ED3\u675F\u3001\u4E0B\u6B21\u904D\u5386\u5F00\u59CB\u4E4B\u95F4\u7684\u6682\u505C\u65F6\u957F\uFF0C\u9ED8\u8BA4\u662F 50ms\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 1
+    }
+  }, "loader_threshold=time:\u8BBE\u7F6E\u904D\u5386\u4E00\u6B21\u78C1\u76D8\u7F13\u5B58\u6E90\u6570\u636E\u7684\u65F6\u95F4\u4E0A\u9650\uFF0C\u9ED8\u8BA4\u8BBE\u7F6E\u4E3A 200ms\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 1
+    }
+  }, "\u901A\u5E38\u60C5\u51B5\u4E0B\u6211\u4EEC\u4E0D\u9700\u8981\u8BBE\u7F6E\u8FD9\u4E48\u591A\u9009\u9879\uFF0C\u53EA\u9700\u8981\u628A\u524D\u4E09\u4E2A\u9009\u9879\u8BBE\u7F6E\u597D\u5C31\u884C\u4E86\uFF0C\u6CA1\u6709\u7279\u6B8A\u7684\u8981\u6C42\u540E\u9762\u7684\u9009\u9879\u6211\u4EEC\u7528\u9ED8\u8BA4\u503C\u5C31\u53EF\u4EE5\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache-zone--off",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache-zone--off",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 105
+    }
+  })), "proxy_cache zone | off"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 1
+    }
+  }, "\u6307\u660E\u8981\u8C03\u7528\u7684\u7F13\u5B58\uFF0C\u6216\u5173\u95ED\u7F13\u5B58\u673A\u5236\uFF1B\u6B64\u6307\u4EE4\u53EF\u7528\u4E8E http,server,location \u914D\u7F6E\u6BB5\u4E2D\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache_key",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache_key",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 26
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 93
+    }
+  })), "proxy_cache_key"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 1
+    }
+  }, "\u5B9A\u4E49\u7F13\u5B58 key\uFF0C\u9ED8\u8BA4\u662F", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "math math-inline",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 16
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("mjx-container", {
+    className: "MathJax",
+    jax: "SVG",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    style: {
+      verticalAlign: "-0.025ex"
+    },
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "7.439ex",
+    height: "1.595ex",
+    role: "img",
+    focusable: "false",
+    viewBox: "0 -694 3288 705",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 96
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("defs", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 302
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-3-TEX-I-1D460",
+    d: "M131 289Q131 321 147 354T203 415T300 442Q362 442 390 415T419 355Q419 323 402 308T364 292Q351 292 340 300T328 326Q328 342 337 354T354 372T367 378Q368 378 368 379Q368 382 361 388T336 399T297 405Q249 405 227 379T204 326Q204 301 223 291T278 274T330 259Q396 230 396 163Q396 135 385 107T352 51T289 7T195 -10Q118 -10 86 19T53 87Q53 126 74 143T118 160Q133 160 146 151T160 120Q160 94 142 76T111 58Q109 57 108 57T107 55Q108 52 115 47T146 34T201 27Q237 27 263 38T301 66T318 97T323 122Q323 150 302 164T254 181T195 196T148 231Q131 256 131 289Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 308
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-3-TEX-I-1D450",
+    d: "M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 874
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-3-TEX-I-210E",
+    d: "M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 1271
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-3-TEX-I-1D452",
+    d: "M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 1834
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    id: "MJX-3-TEX-I-1D45A",
+    d: "M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 2269
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    stroke: "currentColor",
+    fill: "currentColor",
+    strokeWidth: "0",
+    transform: "scale(1,-1)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3145
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "math",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3230
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3254
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D460",
+    xlinkHref: "#MJX-3-TEX-I-1D460",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3276
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(469,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3333
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D450",
+    xlinkHref: "#MJX-3-TEX-I-1D450",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3384
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(902,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3441
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "210E",
+    xlinkHref: "#MJX-3-TEX-I-210E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3492
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(1478,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3547
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D452",
+    xlinkHref: "#MJX-3-TEX-I-1D452",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3599
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(1944,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3656
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D45A",
+    xlinkHref: "#MJX-3-TEX-I-1D45A",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3708
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+    "data-mml-node": "mi",
+    transform: "translate(2822,0)",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3765
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
+    "data-c": "1D452",
+    xlinkHref: "#MJX-3-TEX-I-1D452",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 3817
+    }
+  }))))))), "proxy_host$request_uri\uFF0C\u5B83\u8FD9\u4E2A\u9ED8\u8BA4\u5C31\u662F\u7F13\u5B58\u7684 key \u662F\u534F\u8BAE\u52A0\u4EE3\u7406\u4E3B\u673A\u5730\u5740\u6216\u4E3B\u673A\u540D\u6216 FQDN \u548C\u7528\u6237\u8BF7\u6C42\u7684 uri \u5F53\u4F5C\u7F13\u5B58\u7684 KEY\uFF1B\u4E5F\u5C31\u662F\u8BF4\u670D\u52A1\u7AEF\u600E\u4E48\u53BB\u627E\u7F13\u5B58\u7684\u65B9\u5F0F\uFF0C\u5BF9\u5E94 key \u7684\u5B9A\u4E49\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache_methods",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache_methods",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 30
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 101
+    }
+  })), "proxy_cache_methods"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 1
+    }
+  }, "METHODS\uFF1A\u5B9A\u4E49\u7F13\u5B58\u7528\u6237\u7684\u8BF7\u6C42\u65B9\u5F0F\uFF0C\u4E5F\u5C31\u662F\u8BF4\u90A3\u4E9B\u8BF7\u6C42\u65B9\u6CD5\u7684\u8D44\u6E90\u6211\u4EEC\u8981\u8FDB\u884C\u7F13\u5B58\uFF0C\u9ED8\u8BA4\u662F GET HEAD\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache_valid-code-time",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache_valid-code-time",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 38
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 117
+    }
+  })), "proxy_cache_valid [code] time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 1
+    }
+  }, "\u5B9A\u4E49\u4E0D\u540C\u7684\u54CD\u5E94\u7801\u7684\u8D44\u6E90\u7F13\u5B58\u65F6\u957F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "proxy_cache_use_stale-error-timeout",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#proxy_cache_use_stale-error-timeout",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 46
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 133
+    }
+  })), "proxy_cache_use_stale error |timeout|"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 1
+    }
+  }, "\u5B9A\u4E49\u540E\u7AEF\u670D\u52A1\u5668\u57FA\u4E8E\u90A3\u79CD\u72B6\u6001\u4F7F\u7528\u7F13\u5B58\uFF0C\u9ED8\u8BA4\u662F\u4E0D\u57FA\u4E8E\u540E\u7AEF\u670D\u52A1\u5668\u72B6\u6001\u4F7F\u7528\u7F13\u5B58\uFF1B\u6BD4\u5982\u540E\u7AEF\u670D\u52A1\u5668\u53D1\u751F\u9519\u8BEF\uFF0C\u662F\u5426\u7528\u7F13\u5B58\u4E2D\u7684\u5185\u5BB9\u54CD\u5E94\u5BA2\u6237\u7AEF\uFF1F\u5982\u679C\u6211\u4EEC\u5B9A\u4E49 proxy_cache_use_stale http 403 \u5C31\u8868\u793A\u540E\u7AEF\u670D\u52A1\u5668\u5982\u679C\u54CD\u5E94\u4EE3\u7406\u670D\u52A1\u5668 403\uFF0C\u6211\u4EEC\u4EE3\u7406\u670D\u52A1\u5668\u5C31\u662F\u7528\u4E4B\u524D\u7684\u7F13\u5B58\uFF0C\u54CD\u5E94\u5BA2\u6237\u7AEF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u5C0F\u7ED3-1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5C0F\u7ED3-1",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 71
+    }
+  })), "\u5C0F\u7ED3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 1
+    }
+  }, "\u793A\u4F8B\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "server {\n  server_name: www.test.com;\n\n  proxy_cache proxy_cache;\n  proxy_cache_key $request_uri;\n  proxy_cache_methods GET HEAD;\n  proxy_cache_valid 200 302 15m;\n  proxy_cache_valid 404 1m;\n  proxy_cache_use_stale http_500 http_502;\n\n  location /en/docs/ {\n    proxy_pass http://127.0.0.1:8000\n  }\n}",
+    lang: "unknown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 1
+    }
+  }, "\u63D0\u793A\uFF1A\u4EE5\u4E0A\u914D\u7F6E\u8868\u793A\u4F7F\u7528 proxy_cache \u7F13\u5B58\u7A7A\u95F4\uFF0C\u7F13\u5B58 key \u662F\u7528\u6237\u8BF7\u6C42\u7684 uri \u8FDB\u884C\u7F13\u5B58\uFF0C\u5BF9\u7528\u6237\u4F7F\u7528 GET \u548C HEAD \u65B9\u6CD5\u8BF7\u6C42\u7684\u8D44\u6E90\u8FDB\u884C\u7F13\u5B58\uFF0C\u5BF9\u54CD\u5E94\u7801\u662F 200 302 \u7684\u8D44\u6E90\u7F13\u5B58 15 \u5206\u949F\uFF0C\u5BF9\u54CD\u5E94\u7801\u662F 404 \u7684\u8D44\u6E90\u7F13\u5B58 1 \u5206\u949F\uFF0C\u540E\u7AEF\u670D\u52A1\u5668\u51FA\u73B0 500 \u6216 502 \u7684\u9519\u8BEF\uFF0C\u4EE3\u7406\u670D\u52A1\u5668\u4F7F\u7528\u4EE5\u524D\u7684\u7F13\u5B58\u54CD\u5E94\u5BA2\u6237\u7AEF."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 1
+    }
+  }, "\u603B\u7ED3\u5BF9\u4E8E nginx \u7684\u7F13\u5B58\uFF0C\u6211\u4EEC\u9996\u5148\u5728 http \u914D\u7F6E\u6BB5\u5B9A\u4E49\u4E00\u4E2A\u7F13\u5B58\u7A7A\u95F4\uFF0C\u7136\u540E\u5728\u5404 server \u6216 location \u4E2D\u8C03\u7528\u6211\u4EEC\u5B9A\u4E49\u7684\u7F13\u5B58\u7A7A\u95F4\uFF0C\u5E76\u660E\u786E\u8BF4\u660E\u5404\u79CD\u54CD\u5E94\u7801\u7684\u8D44\u6E90\u7F13\u5B58\u591A\u957F\u65F6\u95F4\uFF0C\u5BF9\u4E8E proxy_cache_key \u548C proxy_cache_methods \u662F\u53EF\u4EE5\u4E0D\u6307\u5B9A\u7684\uFF0C\u4E0D\u6307\u5B9A\u5C31\u4EE3\u8868\u4F7F\u7528\u9ED8\u8BA4\u503C\uFF0C\u4ECE\u4E0A\u9762\u7684\u914D\u7F6E\u6211\u4EEC\u5176\u5B9E\u5C31\u53EA\u5B9A\u4E49\u54CD\u5E94\u7801\u662F\u591A\u5C11\u7684\u8D44\u6E90\u7F13\u5B58\u591A\u4E45\uFF0C\u5176\u4ED6\u7684\u6309\u7167\u9ED8\u8BA4\u6765\uFF0C\u5B83\u4E5F\u662F\u53EF\u4EE5\u8FDB\u884C\u7F13\u5B58\u7684\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.cnblogs.com/qiuhom-1874/p/12417130.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u6587\u7AE0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    dangerouslySetInnerHTML: {
+      __html: "\nmjx-container[jax=\"SVG\"] {\n  direction: ltr;\n}\n\nmjx-container[jax=\"SVG\"] > svg {\n  overflow: visible;\n  min-height: 1px;\n  min-width: 1px;\n}\n\nmjx-container[jax=\"SVG\"] > svg a {\n  fill: blue;\n  stroke: blue;\n}\n\nmjx-container[jax=\"SVG\"][display=\"true\"] {\n  display: block;\n  text-align: center;\n  margin: 1em 0;\n}\n\nmjx-container[jax=\"SVG\"][display=\"true\"][width=\"full\"] {\n  display: flex;\n}\n\nmjx-container[jax=\"SVG\"][justify=\"left\"] {\n  text-align: left;\n}\n\nmjx-container[jax=\"SVG\"][justify=\"right\"] {\n  text-align: right;\n}\n\ng[data-mml-node=\"merror\"] > g {\n  fill: red;\n  stroke: red;\n}\n\ng[data-mml-node=\"merror\"] > rect[data-background] {\n  fill: yellow;\n  stroke: none;\n}\n\ng[data-mml-node=\"mtable\"] > line[data-line], svg[data-table] > g > line[data-line] {\n  stroke-width: 70px;\n  fill: none;\n}\n\ng[data-mml-node=\"mtable\"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {\n  stroke-width: 70px;\n  fill: none;\n}\n\ng[data-mml-node=\"mtable\"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {\n  stroke-dasharray: 140;\n}\n\ng[data-mml-node=\"mtable\"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {\n  stroke-linecap: round;\n  stroke-dasharray: 0,140;\n}\n\ng[data-mml-node=\"mtable\"] > g > svg {\n  overflow: visible;\n}\n\n[jax=\"SVG\"] mjx-tool {\n  display: inline-block;\n  position: relative;\n  width: 0;\n  height: 0;\n}\n\n[jax=\"SVG\"] mjx-tool > mjx-tip {\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\nmjx-tool > mjx-tip {\n  display: inline-block;\n  padding: .2em;\n  border: 1px solid #888;\n  font-size: 70%;\n  background-color: #F8F8F8;\n  color: black;\n  box-shadow: 2px 2px 5px #AAAAAA;\n}\n\ng[data-mml-node=\"maction\"][data-toggle] {\n  cursor: pointer;\n}\n\nmjx-status {\n  display: block;\n  position: fixed;\n  left: 1em;\n  bottom: 1em;\n  min-width: 25%;\n  padding: .2em .4em;\n  border: 1px solid #888;\n  font-size: 90%;\n  background-color: #F8F8F8;\n  color: black;\n}\n\nforeignObject[data-mjx-xml] {\n  font-family: initial;\n  line-height: normal;\n  overflow: visible;\n}\n\nmjx-container[jax=\"SVG\"] path[data-c], mjx-container[jax=\"SVG\"] use[data-c] {\n  stroke-width: 3;\n}\n"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 82
+    }
+  })));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/nginx/upstream.md":
+/*!********************************!*\
+  !*** ./docs/nginx/upstream.md ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-nginx\\docs\\nginx\\upstream.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u8D1F\u8F7D\u5747\u8861",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8D1F\u8F7D\u5747\u8861",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 107
+    }
+  })), "\u8D1F\u8F7D\u5747\u8861"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u542F\u7528\u8D1F\u8F7D\u5747\u8861",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u542F\u7528\u8D1F\u8F7D\u5747\u8861",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 75
+    }
+  })), "\u542F\u7528\u8D1F\u8F7D\u5747\u8861"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u9700\u8981\u5B9A\u4E49\u4EE5\u4E0B\u4E24\u4E2A\u6BB5\uFF1Aupstream \u548C server\uFF0C\u8BF7\u53C2\u8003\u793A\u4F8B\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "http {\n    upstream backend {\n       server 10.1.0.101;\n       server 10.1.0.102;\n       server 10.1.0.103;\n    }\n\n    #该服务器接受到端口80的所有流量并将其传递给上游upstream 。\n    #请注意，upstream名称和proxy_pass需要匹配。\n    server {\n       listen 80;\n        location / {\n           proxy_pass http://backend;\n       }\n    }\n }",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u51E0\u79CD\u65B9\u6CD5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u51E0\u79CD\u65B9\u6CD5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 71
+    }
+  })), "\u51E0\u79CD\u65B9\u6CD5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u8F6E\u8BE2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8F6E\u8BE2",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 67
+    }
+  })), "\u8F6E\u8BE2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u6CA1\u6709\u5B9A\u4E49\u5176\u4ED6\u65B9\u6CD5\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B nginx \u8D1F\u8F7D\u5747\u8861\u4F1A\u4F7F\u7528\u5FAA\u73AF\u7B97\u6CD5\uFF0C\u5982\u4E0A\u9762\u7684\u7B2C\u4E00\u4E2A\u793A\u4F8B\u6240\u793A\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u6700\u5C11\u8FDE\u63A5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6700\u5C11\u8FDE\u63A5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 71
+    }
+  })), "\u6700\u5C11\u8FDE\u63A5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\u57FA\u4E8E\u6700\u5C11\u8FDE\u63A5\u7684\u8D1F\u8F7D\u5747\u8861\u662F\u53E6\u4E00\u79CD\u7B80\u5355\u7684\u65B9\u6CD5\u3002\u987E\u540D\u601D\u4E49\uFF0C\u6B64\u65B9\u6CD5\u5C06\u8BF7\u6C42\u5B9A\u5411\u5230\u5F53\u65F6\u5177\u6709\u6700\u5C11\u6D3B\u52A8\u8FDE\u63A5\u7684\u670D\u52A1\u5668\u3002\u5BF9\u4E8E\u8BF7\u6C42\u6709\u65F6\u53EF\u80FD\u9700\u8981\u66F4\u957F\u65F6\u95F4\u624D\u80FD\u5B8C\u6210\u7684\u5E94\u7528\u7A0B\u5E8F\uFF0C\u5B83\u6BD4\u5FAA\u73AF\u6CD5\u66F4\u6709\u6548\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "upstream backend {\n    least_conn;\n    server 10.1.0.101;\n    server 10.1.0.102;\n    server 10.1.0.103;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "ip_hash--\u4F1A\u8BDD\u6301\u4E45\u6027",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#ip_hash--\u4F1A\u8BDD\u6301\u4E45\u6027",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 91
+    }
+  })), "ip_hash | \u4F1A\u8BDD\u6301\u4E45\u6027"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "\u867D\u7136\u5FAA\u73AF\u548C\u6700\u5C11\u8FDE\u63A5\u5E73\u8861\u65B9\u6848\u662F\u516C\u5E73\u7684\u5E76\u4E14\u6709\u5176\u7528\u9014\uFF0C\u4F46\u662F\u5B83\u4EEC\u4E0D\u80FD\u63D0\u4F9B\u4F1A\u8BDD\u6301\u4E45\u6027\u3002\u5982\u679C\u60A8\u7684 Web \u5E94\u7528\u7A0B\u5E8F\u8981\u6C42\u7528\u6237\u968F\u540E\u88AB\u5B9A\u5411\u5230\u4E0E\u4E4B\u524D\u8FDE\u63A5\u76F8\u540C\u7684\u540E\u7AEF\u670D\u52A1\u5668\uFF0C\u5219\u5E94\u4F7F\u7528 IPhash \u65B9\u6CD5\u3002IPhash \u4F7F\u7528\u8BBF\u95EE\u8005 IP \u5730\u5740\u4F5C\u4E3A\u5BC6\u94A5\u6765\u786E\u5B9A\u5E94\u9009\u62E9\u54EA\u4E2A\u4E3B\u673A\u6765\u4E3A\u8BF7\u6C42\u63D0\u4F9B\u670D\u52A1\u3002\u8FD9\u5141\u8BB8\u8BBF\u95EE\u8005\u6BCF\u6B21\u88AB\u5B9A\u5411\u5230\u540C\u4E00\u670D\u52A1\u5668\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "upstream backend {\n    ip_hash;\n    server 10.1.0.101;\n    server 10.1.0.102;\n    server 10.1.0.103;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u6743\u91CD",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6743\u91CD",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 67
+    }
+  })), "\u6743\u91CD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u5728\u4E00\u7EC4\u4E3B\u673A\u4E4B\u95F4\u7684\u53EF\u7528\u8D44\u6E90\u4E0D\u76F8\u7B49\u7684\u670D\u52A1\u5668\u914D\u7F6E\u4E2D\uFF0C\u53EF\u80FD\u5E0C\u671B\u67D0\u4E9B\u670D\u52A1\u5668\u4F18\u5148\u4E8E\u5176\u5B83\u670D\u52A1\u5668\u3002\u5B9A\u4E49\u670D\u52A1\u5668\u6743\u91CD\u5141\u8BB8\u60A8\u8FDB\u4E00\u6B65\u5FAE\u8C03 nginx \u8D1F\u8F7D\u5747\u8861\u3002\u8D1F\u8F7D\u5747\u8861\u4E2D\u6743\u91CD\u6700\u9AD8\u7684\u670D\u52A1\u5668\u6700\u5E38\u9009\u62E9\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "upstream backend {\n    server 10.1.0.101 weight=4;\n    server 10.1.0.102 weight=2;\n    server 10.1.0.103;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5065\u5EB7\u68C0\u67E5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5065\u5EB7\u68C0\u67E5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 71
+    }
+  })), "\u5065\u5EB7\u68C0\u67E5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, "max_fails\u3001fail_timeout\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "upstream backend {\n    server 10.1.0.101 weight=5;\n    server 10.1.0.102 max_fails=3 fail_timeout=30s;\n    server 10.1.0.103;\n}",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, "\u4E3A\u4E86\u77E5\u9053\u54EA\u4E9B\u670D\u52A1\u5668\u53EF\u7528\uFF0Cnginx \u7684\u53CD\u5411\u4EE3\u7406\u5B9E\u73B0\u5305\u62EC\u88AB\u52A8\u670D\u52A1\u5668\u5065\u5EB7\u68C0\u67E5\u3002\u5982\u679C\u670D\u52A1\u5668\u65E0\u6CD5\u54CD\u5E94\u8BF7\u6C42\u6216\u56DE\u590D\u9519\u8BEF\uFF0Cnginx \u4F1A\u68C0\u6D4B\u5230\u670D\u52A1\u5931\u8D25\uFF0C\u5E76\u5C06\u5C1D\u8BD5\u4E00\u6BB5\u65F6\u95F4\u5185\u907F\u514D\u8F6C\u53D1\u8BF7\u6C42\u5230\u8BE5\u670D\u52A1\u5668\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }, "\u901A\u8FC7\u5C06\u53C2\u6570 max_fails \u8BBE\u7F6E\u4E3A\u670D\u52A1\u5668\u884C\uFF0C\u53EF\u4EE5\u5728\u8D1F\u8F7D\u5747\u8861\u5668\u914D\u7F6E\u6587\u4EF6\u4E2D\u5B9A\u4E49\u7279\u5B9A\u65F6\u95F4\u6BB5\u5185\u8FDE\u7EED\u4E0D\u6210\u529F\u7684\u8FDE\u63A5\u5C1D\u8BD5\u6B21\u6570\u3002\u9ED8\u8BA4\u60C5\u51B5\u4E0B\uFF0C\u5982\u679C\u672A\u6307\u5B9A max_fails\uFF0C\u5219\u5C06\u6B64\u503C\u8BBE\u7F6E\u4E3A 1.\uFF08\u53EF\u9009\uFF09\u5C06 max_fails \u8BBE\u7F6E\u4E3A 0 \u5C06\u7981\u7528\u5BF9\u8BE5\u670D\u52A1\u5668\u7684\u8FD0\u884C\u72B6\u51B5\u68C0\u67E5\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u5C06 max_fails \u8BBE\u7F6E\u4E3A\u5927\u4E8E 1 \u7684\u503C\uFF0C\u5219\u540E\u7EED\u5931\u8D25\u5FC5\u987B\u5728\u7279\u5B9A\u65F6\u95F4\u8303\u56F4\u5185\u53D1\u751F\uFF0C\u4EE5\u4FBF\u65E0\u6CD5\u8BA1\u6570\u3002\u6B64\u65F6\u95F4\u8303\u56F4\u7531\u53C2\u6570 fail_timeout \u6307\u5B9A\uFF0C\u8BE5\u53C2\u6570\u8FD8\u5B9A\u4E49\u670D\u52A1\u5668\u5E94\u88AB\u89C6\u4E3A\u5931\u8D25\u7684\u65F6\u95F4\u3002\u9ED8\u8BA4\u60C5\u51B5\u4E0B\uFF0Cfail_timeout \u8BBE\u7F6E\u4E3A 10 \u79D2\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, "\u5728\u670D\u52A1\u5668\u6807\u8BB0\u5931\u8D25\u5E76\u4E14 fail_timeout \u8BBE\u7F6E\u7684\u65F6\u95F4\u5DF2\u8FC7\u540E\uFF0Cnginx \u5C06\u5F00\u59CB\u4F7F\u7528\u5BA2\u6237\u7AEF\u8BF7\u6C42\u6B63\u5E38\u63A2\u6D4B\u670D\u52A1\u5668\u3002\u5982\u679C\u63A2\u6D4B\u8FD4\u56DE\u6210\u529F\uFF0C\u5219\u670D\u52A1\u5668\u518D\u6B21\u6807\u8BB0\u4E3A\u53EF\u7528\u5E76\u4E14\u6B63\u5E38\u5305\u542B\u5728\u8D1F\u8F7D\u5E73\u8861\u4E2D\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.jianshu.com/p/b1e248acba35",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u6587\u7AE0 1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.nginx.cn/4996.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u6587\u7AE0 2"))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 14
     }
   });
@@ -25157,7 +26643,7 @@ var getDemoUrl = function getDemoUrl(demoId, htmlSuffix) {
 
   var isHashRoute = typeof hashRoute === 'string';
   return [isHashRoute ? "".concat(base, "#") : origin, // compatible with (empty), /base & /base/
-  "".concat(((_window2 = window) === null || _window2 === void 0 ? void 0 : "/doc-study-CI-CD/") || '', "/").replace(/\/\/$/, '/'), getDemoRouteName(), '/', demoId, "".concat(htmlSuffix ? '.html' : '')].join('');
+  "".concat(((_window2 = window) === null || _window2 === void 0 ? void 0 : "/doc-study-nginx") || '', "/").replace(/\/\/$/, '/'), getDemoRouteName(), '/', demoId, "".concat(htmlSuffix ? '.html' : '')].join('');
 };
 /**
  * hooks for get single demo url
@@ -26889,8 +28375,8 @@ exports["default"] = _default;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderClient", function() { return renderClient; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderRoutes", function() { return renderRoutes; });
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _umijs_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
@@ -27232,12 +28718,12 @@ function wrapInitialPropsFetch(route, opts) {
        * 4. 开启动态加载后，会在执行 getInitialProps 前预加载下
        */
       var handleGetInitialProps = /*#__PURE__*/function () {
-        var _ref = _asyncToGenerator( /*#__PURE__*/_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        var _ref = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
           var _preloadComponent;
 
           var preloadComponent, defaultCtx, ctx, _initialProps;
 
-          return _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          return D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -27459,7 +28945,7 @@ function preloadComponent(_x) {
 }
 
 function _preloadComponent() {
-  _preloadComponent = _asyncToGenerator( /*#__PURE__*/_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(readyRoutes) {
+  _preloadComponent = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(readyRoutes) {
     var pathname,
         matchedRoutes,
         _iterator,
@@ -27470,7 +28956,7 @@ function _preloadComponent() {
         _preloadComponent2,
         _args = arguments;
 
-    return _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    return D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -27608,8 +29094,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Plugin", function() { return Plugin; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dynamic", function() { return dynamic; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return isBrowser; });
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var history_with_query__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! history-with-query */ "./node_modules/history-with-query/esm/history.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createBrowserHistory", function() { return history_with_query__WEBPACK_IMPORTED_MODULE_1__["createBrowserHistory"]; });
 
@@ -28367,9 +29853,9 @@ var Plugin = /*#__PURE__*/function () {
         case ApplyPluginsType.modify:
           if (async) {
             return hooks.reduce( /*#__PURE__*/function () {
-              var _ref3 = _asyncToGenerator( /*#__PURE__*/_Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(memo, hook) {
+              var _ref3 = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(memo, hook) {
                 var ret;
-                return _Users_wangdongbing_new_projects_documents_doc_study_CI_CD_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+                return D_projects_gatsby_documents_doc_study_nginx_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
@@ -43682,11 +45168,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _placements__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./placements */ "./node_modules/rc-dropdown/es/placements.js");
+/* harmony import */ var _hooks_useAccessibility__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./hooks/useAccessibility */ "./node_modules/rc-dropdown/es/hooks/useAccessibility.js");
+/* harmony import */ var rc_util_es_ref__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rc-util/es/ref */ "./node_modules/rc-util/es/ref.js");
 
 
 
 
 var _excluded = ["arrow", "prefixCls", "transitionName", "animation", "align", "placement", "placements", "getPopupContainer", "showAction", "hideAction", "overlayClassName", "overlayStyle", "visible", "trigger"];
+
+
 
 
 
@@ -43724,6 +45214,18 @@ function Dropdown(props, ref) {
   react__WEBPACK_IMPORTED_MODULE_4__["useImperativeHandle"](ref, function () {
     return triggerRef.current;
   });
+  var menuRef = react__WEBPACK_IMPORTED_MODULE_4__["useRef"](null);
+  var menuClassName = "".concat(prefixCls, "-menu");
+
+  var _useAccessibility = Object(_hooks_useAccessibility__WEBPACK_IMPORTED_MODULE_8__["default"])({
+    visible: mergedVisible,
+    setTriggerVisible: setTriggerVisible,
+    triggerRef: triggerRef,
+    menuRef: menuRef,
+    menuClassName: menuClassName,
+    onVisibleChange: props.onVisibleChange
+  }),
+      returnFocus = _useAccessibility.returnFocus;
 
   var getOverlayElement = function getOverlayElement() {
     var overlay = props.overlay;
@@ -43750,22 +45252,25 @@ function Dropdown(props, ref) {
     if (overlayProps.onClick) {
       overlayProps.onClick(e);
     }
+
+    returnFocus();
   };
 
-  var onVisibleChange = function onVisibleChange(visible) {
-    var onVisibleChange = props.onVisibleChange;
-    setTriggerVisible(visible);
+  var onVisibleChange = function onVisibleChange(newVisible) {
+    var onVisibleChangeProp = props.onVisibleChange;
+    setTriggerVisible(newVisible);
 
-    if (typeof onVisibleChange === 'function') {
-      onVisibleChange(visible);
+    if (typeof onVisibleChangeProp === 'function') {
+      onVisibleChangeProp(newVisible);
     }
   };
 
   var getMenuElement = function getMenuElement() {
     var overlayElement = getOverlayElement();
     var extraOverlayProps = {
-      prefixCls: "".concat(prefixCls, "-menu"),
-      onClick: onClick
+      prefixCls: menuClassName,
+      onClick: onClick,
+      ref: Object(rc_util_es_ref__WEBPACK_IMPORTED_MODULE_9__["supportRef"])(overlayElement) ? menuRef : undefined
     };
 
     if (typeof overlayElement.type === 'string') {
@@ -43812,7 +45317,7 @@ function Dropdown(props, ref) {
     var children = props.children;
     var childrenProps = children.props ? children.props : {};
     var childClassName = classnames__WEBPACK_IMPORTED_MODULE_6___default()(childrenProps.className, getOpenClassName());
-    return triggerVisible && children ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["cloneElement"](children, {
+    return mergedVisible && children ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["cloneElement"](children, {
       className: childClassName
     }) : children;
   };
@@ -43846,6 +45351,104 @@ function Dropdown(props, ref) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["forwardRef"](Dropdown));
+
+/***/ }),
+
+/***/ "./node_modules/rc-dropdown/es/hooks/useAccessibility.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/rc-dropdown/es/hooks/useAccessibility.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return useAccessibility; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rc_util_es_KeyCode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rc-util/es/KeyCode */ "./node_modules/rc-util/es/KeyCode.js");
+
+
+var ESC = rc_util_es_KeyCode__WEBPACK_IMPORTED_MODULE_1__["default"].ESC,
+    TAB = rc_util_es_KeyCode__WEBPACK_IMPORTED_MODULE_1__["default"].TAB;
+function useAccessibility(_ref) {
+  var visible = _ref.visible,
+      setTriggerVisible = _ref.setTriggerVisible,
+      triggerRef = _ref.triggerRef,
+      menuRef = _ref.menuRef,
+      menuClassName = _ref.menuClassName,
+      onVisibleChange = _ref.onVisibleChange;
+
+  var handleCloseMenuAndReturnFocus = function handleCloseMenuAndReturnFocus() {
+    if (visible && triggerRef.current) {
+      if (triggerRef.current.triggerRef.current) {
+        triggerRef.current.triggerRef.current.focus();
+      }
+
+      setTriggerVisible(false);
+
+      if (typeof onVisibleChange === 'function') {
+        onVisibleChange(false);
+      }
+    }
+  };
+
+  var handleKeyDown = function handleKeyDown(event) {
+    switch (event.keyCode) {
+      case ESC:
+        handleCloseMenuAndReturnFocus();
+        break;
+
+      case TAB:
+        handleCloseMenuAndReturnFocus();
+        break;
+    }
+  };
+
+  var focusOpenedMenu = function focusOpenedMenu() {
+    console.log(menuRef);
+
+    if (menuRef.current) {
+      var menuList = menuRef.current.className.includes(menuClassName) ? menuRef.current : menuRef.current.querySelector(menuClassName);
+
+      if (menuList) {
+        menuList['focus'](); // eslint-disable-line @typescript-eslint/dot-notation
+      }
+    }
+  };
+
+  react__WEBPACK_IMPORTED_MODULE_0__["useEffect"](function () {
+    if (visible) {
+      setTimeout(function () {
+        focusOpenedMenu();
+        window.addEventListener('keydown', handleKeyDown);
+      }, 100);
+      return function () {
+        window.removeEventListener('keydown', handleKeyDown);
+      };
+    }
+
+    return function () {
+      return null;
+    };
+  }, [visible]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  var returnFocus = function returnFocus() {
+    if (visible && triggerRef.current) {
+      if (triggerRef.current.triggerRef.current) {
+        setTimeout(function () {
+          var _triggerRef$current, _triggerRef$current$t, _triggerRef$current$t2;
+
+          (_triggerRef$current = triggerRef.current) === null || _triggerRef$current === void 0 ? void 0 : (_triggerRef$current$t = _triggerRef$current.triggerRef) === null || _triggerRef$current$t === void 0 ? void 0 : (_triggerRef$current$t2 = _triggerRef$current$t.current) === null || _triggerRef$current$t2 === void 0 ? void 0 : _triggerRef$current$t2.focus();
+        }, 100);
+      }
+    }
+  };
+
+  return {
+    returnFocus: returnFocus
+  };
+}
 
 /***/ }),
 
@@ -44030,6 +45633,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _hooks_useKeyRecords__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./hooks/useKeyRecords */ "./node_modules/rc-menu/es/hooks/useKeyRecords.js");
 /* harmony import */ var _context_IdContext__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./context/IdContext */ "./node_modules/rc-menu/es/context/IdContext.js");
 /* harmony import */ var _context_PrivateContext__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./context/PrivateContext */ "./node_modules/rc-menu/es/context/PrivateContext.js");
+/* harmony import */ var rc_util_es_ref__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! rc-util/es/ref */ "./node_modules/rc-util/es/ref.js");
 
 
 
@@ -44037,6 +45641,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _excluded = ["prefixCls", "style", "className", "tabIndex", "children", "direction", "id", "mode", "inlineCollapsed", "disabled", "disabledOverflow", "subMenuOpenDelay", "subMenuCloseDelay", "forceSubMenuRender", "defaultOpenKeys", "openKeys", "activeKey", "defaultActiveFirst", "selectable", "multiple", "defaultSelectedKeys", "selectedKeys", "onSelect", "onDeselect", "inlineIndent", "motion", "defaultMotions", "triggerSubMenuAction", "builtinPlacements", "itemIcon", "expandIcon", "overflowedIndicator", "overflowedIndicatorPopupClassName", "getPopupContainer", "onClick", "onOpenChange", "onKeyDown", "openAnimation", "openTransitionName", "_internalRenderMenuItem", "_internalRenderSubMenuItem"];
+
 
 
 
@@ -44070,8 +45675,7 @@ var _excluded = ["prefixCls", "style", "className", "tabIndex", "children", "dir
 // optimize for render
 
 var EMPTY_LIST = [];
-
-var Menu = function Menu(props) {
+var Menu = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["forwardRef"](function (props, ref) {
   var _childList$, _classNames;
 
   var _props$prefixCls = props.prefixCls,
@@ -44135,6 +45739,7 @@ var Menu = function Menu(props) {
       setMounted = _React$useState2[1];
 
   var containerRef = react__WEBPACK_IMPORTED_MODULE_6__["useRef"]();
+  var mergedRef = Object(rc_util_es_ref__WEBPACK_IMPORTED_MODULE_24__["composeRef"])(containerRef, ref);
   var uuid = Object(_hooks_useUUID__WEBPACK_IMPORTED_MODULE_19__["default"])(id);
   var isRtl = direction === 'rtl'; // ========================= Warn =========================
 
@@ -44368,7 +45973,7 @@ var Menu = function Menu(props) {
 
   var container = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](rc_overflow__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     id: id,
-    ref: containerRef,
+    ref: mergedRef,
     prefixCls: "".concat(prefixCls, "-overflow"),
     component: "ul",
     itemComponent: _MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"],
@@ -44447,8 +46052,7 @@ var Menu = function Menu(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_context_PathContext__WEBPACK_IMPORTED_MODULE_20__["PathRegisterContext"].Provider, {
     value: registerPathContext
   }, childList)))));
-};
-
+});
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
 
 /***/ }),
@@ -93987,6 +95591,39 @@ function valueEqual(a, b) {
 
 /***/ }),
 
+/***/ "./public/img/1644203116.jpg":
+/*!***********************************!*\
+  !*** ./public/img/1644203116.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/1644203116.f9d91652.jpg";
+
+/***/ }),
+
+/***/ "./public/img/1644204391.jpg":
+/*!***********************************!*\
+  !*** ./public/img/1644204391.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/1644204391.d600b48b.jpg";
+
+/***/ }),
+
+/***/ "./public/img/1644205536.jpg":
+/*!***********************************!*\
+  !*** ./public/img/1644205536.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/1644205536.86d03191.jpg";
+
+/***/ }),
+
 /***/ 0:
 /*!***********************************!*\
   !*** multi ./.umi/core/server.ts ***!
@@ -93994,7 +95631,7 @@ function valueEqual(a, b) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/wangdongbing/new-projects/documents/doc-study-CI-CD/.umi/core/server.ts */"./.umi/core/server.ts");
+module.exports = __webpack_require__(/*! D:\projects-gatsby\documents\doc-study-nginx\.umi\core\server.ts */"./.umi/core/server.ts");
 
 
 /***/ }),
