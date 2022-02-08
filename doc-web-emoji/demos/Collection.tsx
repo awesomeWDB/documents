@@ -40,7 +40,7 @@ export default () => {
   const showModal = (emoji: any) => setDialog(emoji);
 
   return (
-    <div className="emoji-home">
+    <div className="page">
       <Dropdowns></Dropdowns>
 
       {collections.map(({ collectionName, children }, index) => (

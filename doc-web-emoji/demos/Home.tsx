@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { emojis, groups, collections, jumpIndexs } from './data-emoji';
+import { groups, jumpIndexs } from './data-emoji';
 import './Home.less';
 import 'antd/dist/antd.css';
 import { Menu, Dropdown, Button, Affix } from 'antd';
@@ -42,7 +42,7 @@ export default () => {
   const showModal = (emoji: any) => setDialog(emoji);
 
   return (
-    <div className="emoji-home">
+    <div className="page">
       <Dropdowns></Dropdowns>
 
       {groups.map(({ groupName, subGroups }, index) => (

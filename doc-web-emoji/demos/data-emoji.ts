@@ -57,4 +57,6 @@ const jumpIndexs = groups.map(({ groupName, subGroups }) => {
   return result;
 });
 
+console.log(emojis, groups, collections, jumpIndexs);
+
 export { emojis, groups, collections, jumpIndexs };
