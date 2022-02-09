@@ -28,6 +28,15 @@ npm install -g yo generator-code
 yo code
 ```
 
+## 运行
+
+按`F5`进行调试，出现一个错误：
+```bash
+(node:30276) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+```
+不用管它，点“仍要调试”
+
 ## 参考地址
 
 [http://blog.haoji.me/vscode-plugin-overview.html](http://blog.haoji.me/vscode-plugin-overview.html)
