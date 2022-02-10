@@ -24,19 +24,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Log into registry ${{ env.REGISTRY }}
-        if: github.event_name != 'pull_request'
-        uses: docker/login-action@v1
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ secrets.DOCKER_HUB_USER }}
-          password: ${{ secrets.DOCKER_HUB_TOKEN }}
+      # - name: Log into registry ${{ env.REGISTRY }}
+      #   if: github.event_name != 'pull_request'
+      #   uses: docker/login-action@v1
+      #   with:
+      #     registry: ${{ env.REGISTRY }}
+      #     username: ${{ secrets.DOCKER_HUB_USER }}
+      #     password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v3
-        with:
-          images: ${{ env.REGISTRY }}/${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}
+      # - name: Extract Docker metadata
+      #   id: meta
+      #   uses: docker/metadata-action@v3
+      #   with:
+      #     images: ${{ env.REGISTRY }}/${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}
+
+      # - name: Set up Docker Buildx
+      #   id: buildx
+      #   uses: docker/setup-buildx-action@v1
+
+      # - name: Build and push Docker image
+      #   uses: docker/build-push-action@v2
+      #   with:
+      #     context: .
+      #     push: ${{ github.event_name != 'pull_request' }}
+      #     tags: ${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+      #     labels: ${{ steps.meta.outputs.labels }}
 
       - name: Get Time
         id: time
@@ -45,35 +57,12 @@ jobs:
           timeZone: 8
           format: 'YYYY-MM-DD-HH-mm-ss'
 
-      - name: Set up Docker Buildx
-        id: buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Inspect builder
-        run: |
-          echo "Name:      ${{ steps.buildx.outputs.name }}"
-          echo "Endpoint:  ${{ steps.buildx.outputs.endpoint }}"
-          echo "Status:    ${{ steps.buildx.outputs.status }}"
-          echo "Flags:     ${{ steps.buildx.outputs.flags }}"
-          echo "Platforms: ${{ steps.buildx.outputs.platforms }}"
-
+      - run: docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
       - run: docker images
-
-      # - name: Build and push Docker image
-      #   uses: docker/build-push-action@v2
-      #   with:
-      #     context: .
-      #     push: ${{ github.event_name != 'pull_request' }}
-      #     tags: latest
-      #     labels: ${{ steps.meta.outputs.labels }}
-
-      - name: Build and push Docker image:latest
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
-          labels: ${{ steps.meta.outputs.labels }}
+      - run: docker build -t ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest .
+      - run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest
+      - run: docker tag ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+      - run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
   run:
     needs: [build]
     name: pull-run-docker
@@ -87,6 +76,7 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }} # 服务器登录密码
           port: ${{ secrets.HOST_PORT }} # 服务器ssh端口
           script: |
+            sudo -s
             docker stop $(docker ps --filter "label=target=documents" -q)
             docker rm -f $(docker ps -a --filter "label=target=documents" -q)
             docker rmi -f $(docker images --filter "label=target=documents" -q)
