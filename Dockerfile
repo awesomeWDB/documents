@@ -9,12 +9,10 @@ RUN npm run build:doc
 
 # 进入下一阶段构建
 
-FROM node:12-alpine
+FROM nginx:latest
 
 # 复制静态资源文件html、css、js、png等等
 COPY --from=build /app/nginx/html /usr/share/nginx/html
-
-RUN apk add --no-cache tzdata
 
 ENV TZ="Asia/Shanghai"
 

@@ -124,7 +124,10 @@ server {
   proxy_cache_use_stale http_500 http_502;
 
   location /en/docs/ {
-    proxy_pass http://127.0.0.1:8000
+    proxy_pass http://127.0.0.1:8000;
+    proxy_redirect off;
+    proxy_method POST;
+
   }
 }
 
@@ -135,3 +138,15 @@ server {
 总结对于 nginx 的缓存，我们首先在 http 配置段定义一个缓存空间，然后在各 server 或 location 中调用我们定义的缓存空间，并明确说明各种响应码的资源缓存多长时间，对于 proxy_cache_key 和 proxy_cache_methods 是可以不指定的，不指定就代表使用默认值，从上面的配置我们其实就只定义响应码是多少的资源缓存多久，其他的按照默认来，它也是可以进行缓存的。
 
 [参考文章](https://www.cnblogs.com/qiuhom-1874/p/12417130.html)
+
+## 问题
+
+### Post 请求变 Get 的问题
+
+默认情况下 Nginx 会把 post 请求做一次重定向操作，然后后端收到的就成了 Get 请求，还会导致一些参数的遗漏。
+
+解决办法：
+
+```bash
+proxy_redirect off;
+```
