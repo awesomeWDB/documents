@@ -87,15 +87,22 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }} # 服务器登录密码
           port: ${{ secrets.HOST_PORT }} # 服务器ssh端口
           script: |
-          	# 停止旧版容器
             docker stop $(docker ps --filter "label=target=documents" -q)
-            # 删除旧版容器
             docker rm -f $(docker ps -a --filter "label=target=documents" -q)
-            # 删除旧版镜像
             docker rmi -f $(docker images --filter "label=target=documents" -q)
-            # 登录阿里云镜像服务器
             docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
-            # 拉取最新latest版本镜像
             docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
-            # 运行最新latest版本镜像
             docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+          # script: |
+          # 	# 停止旧版容器
+          #   docker stop $(docker ps --filter "label=target=documents" -q)
+          #   # 删除旧版容器
+          #   docker rm -f $(docker ps -a --filter "label=target=documents" -q)
+          #   # 删除旧版镜像
+          #   docker rmi -f $(docker images --filter "label=target=documents" -q)
+          #   # 登录阿里云镜像服务器
+          #   docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
+          #   # 拉取最新latest版本镜像
+          #   docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+          #   # 运行最新latest版本镜像
+          #   docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
