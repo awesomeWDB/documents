@@ -3,24 +3,11 @@
     "deploy": "yarn build:image && yarn start:image",
     "build:image": "docker build -t wangdongbing/documents:latest .",
     "start:image": "docker run -p 80:80 -p 443:443 --name nginx-main -d nginx",
-    "build:doc": "yarn build:1 && yarn build:2",
-    "build:1": "cd doc-study-docker && yarn build",
-    "build:2": "cd doc-study-CI-CD && yarn build",
-    "prepare": "husky install",
-    "lint": "eslint --ext .md .",
-    "lint-staged": "lint-staged"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.3",
-    "prettier": "^2.5.1",
-    "yorkie": "^2.0.0"
-  },
-  "lint-staged": {
-    "**/*.md": [
-      "prettier --write"
-    ]
+    "build:doc": "yarn build:1 && yarn build:2 && yarn build:3 && yarn build:4 && yarn build:5",
+    "build:1": "cd doc-study-docker && yarn && yarn build",
+    "build:2": "cd doc-study-CI-CD && yarn && yarn build",
+    "build:3": "cd doc-study-nginx && yarn && yarn build",
+    "build:4": "cd doc-web-emoji && yarn && yarn build",
+    "build:5": "cd project-vscode-plugin-emoji && yarn && yarn build"
   }
 }
