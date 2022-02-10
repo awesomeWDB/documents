@@ -175,6 +175,10 @@ jobs:
         run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.time.outputs.time }}
 ```
 
+结果：
+
+![结果](./1.jpg)
+
 ### ssh 连接远程服务器，运行镜像
 
 ```yml
@@ -204,3 +208,7 @@ jobs:
             sudo docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
             sudo docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
 ```
+
+结果：
+
+![结果](./2.jpg)

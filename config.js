@@ -3,7 +3,7 @@ const MAP = {
   'gitee': ['gitee', 'https://gitee.com/awesomeWDB'],
   'CSDN': ['CSDN', 'https://blog.csdn.net/qq_36404808'],
   'Bilibili': ['Bilibili', 'https://space.bilibili.com/52225296'],
-  'k': ['全民K歌', 'https://kg.qq.com/node/personal?uid=6a95958c2c28328a32'],
+  'k': ['🎤全民K歌', 'https://kg.qq.com/node/personal?uid=6a95958c2c28328a32'],
 }
 
 const dumi_git_nav = {
@@ -23,7 +23,13 @@ const dumi_social_nav = {
   ]
 }
 
+const dumi_home_nav = {
+  title: '😺主页😺',
+  path: 'https://www.readers.fun/'
+}
+
 export const dumi_extend_nav = [
+  dumi_home_nav,
   dumi_git_nav,
   dumi_social_nav
 ]
