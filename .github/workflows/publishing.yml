@@ -80,10 +80,9 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }} # 服务器登录密码
           port: ${{ secrets.HOST_PORT }} # 服务器ssh端口
           script: |
-            sudo -s
-            docker stop $(docker ps --filter "label=target=documents" -q)
-            docker rm -f $(docker ps -a --filter "label=target=documents" -q)
-            docker rmi -f $(docker images --filter "label=target=documents" -q)
-            docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
-            docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
-            docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+            sudo docker stop $(sudo docker ps --filter "label=target=documents" -q)
+            sudo docker rm -f $(sudo docker ps -a --filter "label=target=documents" -q)
+            sudo docker rmi -f $(sudo docker images --filter "label=target=documents" -q)
+            sudo docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
+            sudo docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+            sudo docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
