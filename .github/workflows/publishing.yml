@@ -64,3 +64,37 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Build and push Docker image:latest
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: latest
+          labels: ${{ steps.meta.outputs.labels }}
+
+  pull-run-docker:
+    needs: [build]
+    name: pull-run-docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: connect
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }} # 服务器ip
+          username: ${{ secrets.HOST_USERNAME }} # 服务器登录用户名
+          password: ${{ secrets.HOST_PASSWORD }} # 服务器登录密码
+          port: ${{ secrets.HOST_PORT }} # 服务器ssh端口
+          script: |
+          	# 停止旧版容器
+            docker stop $(docker ps --filter "label=target=documents" -q)
+            # 删除旧版容器
+            docker rm -f $(docker ps -a --filter "label=target=documents" -q)
+            # 删除旧版镜像
+            docker rmi -f $(docker images --filter "label=target=documents" -q)
+            # 登录阿里云镜像服务器
+            docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} docker.io
+            # 拉取最新latest版本镜像
+            docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+            # 运行最新latest版本镜像
+            docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
