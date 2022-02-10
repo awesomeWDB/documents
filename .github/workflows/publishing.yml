@@ -66,7 +66,7 @@ jobs:
       - name: 打另一个tag：YYYY-MM-DD-HH-mm-ss
         run: docker tag ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.time.outputs.time }}
       - name: 推送镜像：YYYY-MM-DD-HH-mm-ss
-        run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+        run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.time.outputs.time }}
   run:
     needs: [build]
     name: pull-run-docker
