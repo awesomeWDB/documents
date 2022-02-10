@@ -57,12 +57,16 @@ jobs:
           timeZone: 8
           format: 'YYYY-MM-DD-HH-mm-ss'
 
-      - run: docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
-      - run: docker images
-      - run: docker build -t ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest .
-      - run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest
-      - run: docker tag ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
-      - run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+      - name: 登录docker
+        run: docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
+      - name: 构建镜像：latest
+        run: docker build -t ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest .
+      - name: 推送镜像：latest
+        run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest
+      - name: 打另一个tag：YYYY-MM-DD-HH-mm-ss
+        run: docker tag ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:latest ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.time.outputs.time }}
+      - name: 推送镜像：YYYY-MM-DD-HH-mm-ss
+        run: docker push ${{ secrets.DOCKER_HUB_USER }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
   run:
     needs: [build]
     name: pull-run-docker
@@ -83,16 +87,3 @@ jobs:
             docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
             docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
             docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
-          # script: |
-          # 	# 停止旧版容器
-          #   docker stop $(docker ps --filter "label=target=documents" -q)
-          #   # 删除旧版容器
-          #   docker rm -f $(docker ps -a --filter "label=target=documents" -q)
-          #   # 删除旧版镜像
-          #   docker rmi -f $(docker images --filter "label=target=documents" -q)
-          #   # 登录阿里云镜像服务器
-          #   docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
-          #   # 拉取最新latest版本镜像
-          #   docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
-          #   # 运行最新latest版本镜像
-          #   docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
