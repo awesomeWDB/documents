@@ -4,6 +4,6 @@ hero:
   desc: 记录、整理学习docker相关知识的笔记
   actions:
     - text: get start
-      link: /docker
+      link: /githooks
 footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](https://d.umijs.org)
 ---
