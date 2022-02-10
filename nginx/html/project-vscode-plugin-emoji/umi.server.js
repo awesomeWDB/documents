@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/develop/api.md",
-          "updatedTime": 1644379768117,
+          "updatedTime": 1644388514000,
           "toc": "menu",
           "order": 3,
           "slugs": [{
@@ -424,12 +424,45 @@ const render = async params => {
         },
         "title": "常用 api - vscode-plugin-emoji"
       }, {
+        "path": "/develop/ci",
+        "component": __webpack_require__(/*! ./docs/develop/CI.md */ "./docs/develop/CI.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/develop/CI.md",
+          "updatedTime": 1644468167022,
+          "toc": "menu",
+          "order": 5,
+          "slugs": [{
+            "depth": 1,
+            "value": "持续集成",
+            "heading": "持续集成"
+          }, {
+            "depth": 2,
+            "value": "github actions",
+            "heading": "github-actions"
+          }, {
+            "depth": 2,
+            "value": "详细步骤",
+            "heading": "详细步骤"
+          }, {
+            "depth": 2,
+            "value": "我的配置示例",
+            "heading": "我的配置示例"
+          }],
+          "title": "持续集成",
+          "nav": {
+            "path": "/develop",
+            "title": "vscode插件开发"
+          }
+        },
+        "title": "持续集成 - vscode-plugin-emoji"
+      }, {
         "path": "/develop",
         "component": __webpack_require__(/*! ./docs/develop/index.md */ "./docs/develop/index.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/develop/index.md",
-          "updatedTime": 1644291276000,
+          "updatedTime": 1644388514000,
           "nav": {
             "title": "vscode插件开发",
             "order": 1,
@@ -471,7 +504,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/develop/publishing.md",
-          "updatedTime": 1644388287552,
+          "updatedTime": 1644388514000,
           "toc": "menu",
           "order": 4,
           "slugs": [{
@@ -482,6 +515,42 @@ const render = async params => {
             "depth": 2,
             "value": "安装",
             "heading": "安装"
+          }, {
+            "depth": 3,
+            "value": "安装 vsce 失败",
+            "heading": "安装-vsce-失败"
+          }, {
+            "depth": 2,
+            "value": "尝试打包",
+            "heading": "尝试打包"
+          }, {
+            "depth": 2,
+            "value": "账号设置",
+            "heading": "账号设置"
+          }, {
+            "depth": 3,
+            "value": "Microsoft 账号",
+            "heading": "microsoft-账号"
+          }, {
+            "depth": 3,
+            "value": "Azure DevOps",
+            "heading": "azure-devops"
+          }, {
+            "depth": 3,
+            "value": "创建个人令牌",
+            "heading": "创建个人令牌"
+          }, {
+            "depth": 3,
+            "value": "创建发布者",
+            "heading": "创建发布者"
+          }, {
+            "depth": 3,
+            "value": "测试登录和 token",
+            "heading": "测试登录和-token"
+          }, {
+            "depth": 2,
+            "value": "正式发布",
+            "heading": "正式发布"
           }],
           "title": "发布插件",
           "nav": {
@@ -496,7 +565,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/develop/use.md",
-          "updatedTime": 1644379941875,
+          "updatedTime": 1644388514000,
           "toc": "menu",
           "order": 2,
           "slugs": [{
@@ -525,7 +594,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/emoji/index.md",
-          "updatedTime": 1644291276000,
+          "updatedTime": 1644388514000,
           "nav": {
             "title": "vscode-plugin-emoji",
             "order": 1,
@@ -714,7 +783,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/develop\":[{\"path\":\"/develop\",\"title\":\"概览\",\"meta\":{\"order\":1}},{\"path\":\"/develop/use\",\"title\":\"编写代码\",\"meta\":{\"order\":2}},{\"path\":\"/develop/api\",\"title\":\"常用 api\",\"meta\":{\"order\":3}},{\"path\":\"/develop/publishing\",\"title\":\"发布插件\",\"meta\":{\"order\":4}}],\"/emoji\":[{\"path\":\"/emoji\",\"title\":\"vscode-plugin-emoji\",\"meta\":{\"order\":1}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"vscode-plugin-emoji\",\"order\":1,\"path\":\"/emoji\"},{\"path\":\"/develop\",\"title\":\"vscode插件开发\",\"order\":1},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"vscode-plugin-emoji\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/develop\":[{\"path\":\"/develop\",\"title\":\"概览\",\"meta\":{\"order\":1}},{\"path\":\"/develop/use\",\"title\":\"编写代码\",\"meta\":{\"order\":2}},{\"path\":\"/develop/api\",\"title\":\"常用 api\",\"meta\":{\"order\":3}},{\"path\":\"/develop/publishing\",\"title\":\"发布插件\",\"meta\":{\"order\":4}},{\"path\":\"/develop/ci\",\"title\":\"持续集成\",\"meta\":{\"order\":5}}],\"/emoji\":[{\"path\":\"/emoji\",\"title\":\"vscode-plugin-emoji\",\"meta\":{\"order\":1}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"vscode-plugin-emoji\",\"order\":1,\"path\":\"/emoji\"},{\"path\":\"/develop\",\"title\":\"vscode插件开发\",\"order\":1},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"vscode-plugin-emoji\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -770,6 +839,392 @@ var _jsxFileName = "D:\\projects-gatsby\\documents\\project-vscode-plugin-emoji\
     columnNumber: 27
   }
 })));
+
+/***/ }),
+
+/***/ "./docs/develop/CI.md":
+/*!****************************!*\
+  !*** ./docs/develop/CI.md ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\project-vscode-plugin-emoji\\docs\\develop\\CI.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u6301\u7EED\u96C6\u6210",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6301\u7EED\u96C6\u6210",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 107
+    }
+  })), "\u6301\u7EED\u96C6\u6210"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://code.visualstudio.com/api/working-with-extensions/continuous-integration",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "\u5B98\u7F51")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u4E0A\u4E00\u7AE0\u8282\u4E3B\u8981\u8BB2\u7684\u662F\u4F7F\u7528vsce\u547D\u4EE4\u53D1\u5E03\uFF0C\u672C\u7AE0\u8282\u5206\u4EAB\u7684\u662F\u4F7F\u7528github actions\u5728push\u4EE3\u7801\u7684\u65F6\u5019\u4E5F\u80FD\u81EA\u52A8\u6784\u5EFA\uFF0C\u5E76\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "github-actions",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#github-actions",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 91
+    }
+  })), "github actions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "\u8FD9\u91CC\u9009\u62E9\u7684\u662F", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 10
+    }
+  }, "github actions"), "\uFF0C\u5173\u4E8E\u5176\u4ED6\u7684\u5E73\u53F0\uFF0C\u5B98\u7F51\u4E5F\u7ED9\u51FA\u4E86\u8BE6\u7EC6\u7684\u4F7F\u7528\u793A\u4F8B\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u5173\u4E8E github actions \u7684\u57FA\u672C\u4F7F\u7528\u4E5F\u4E0D\u8BF4\u660E\u4E86\uFF0C\u6700\u540E\u9762\u7ED9\u51FA\u672C\u63D2\u4EF6\u7684\u793A\u4F8B\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u8BE6\u7EC6\u6B65\u9AA4",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8BE6\u7EC6\u6B65\u9AA4",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 71
+    }
+  })), "\u8BE6\u7EC6\u6B65\u9AA4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\u751F\u6210\u4E2A\u4EBA\u4EE4\u724C \u53C2\u7167\u4E0A\u4E00\u7AE0\u8282\uFF0C\u83B7\u53D6\u4E2A\u4EBA\u4EE4\u724C token")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "\u8BBE\u7F6E github actions \u79D8\u94A5", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://help.github.com/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003 github actions secrets"), "\uFF0C\u8BBE\u7F6E\u79D8\u94A5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 200
+    }
+  }, "VSCE_PAT"), "\uFF0C\u503C\u4E3A\u7B2C\u4E00\u6B65\u7684 token")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, "package.json \u6DFB\u52A0 scripts\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "\"scripts\": {\n  \"deploy\": \"vsce publish --yarn\"\n}",
+    lang: "json",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, "\u7F16\u5199 yml \u811A\u672C\uFF08\u67E5\u770B\u4E0B\u9762\u7684\u4F7F\u7528\u793A\u4F8B\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 1
+    }
+  }, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }, "\u5B89\u88C5 nodejs\u3001python \u73AF\u5883"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 1
+    }
+  }, "\u5B89\u88C5\u9879\u76EE\u4F9D\u8D56\uFF0C\u5373 node_modules\uFF0C\u5305\u542B\u5168\u5C40\u7684 vsce\u3001yarn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 1
+    }
+  }, "\u53D1\u5E03")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6211\u7684\u914D\u7F6E\u793A\u4F8B",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6211\u7684\u914D\u7F6E\u793A\u4F8B",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 75
+    }
+  })), "\u6211\u7684\u914D\u7F6E\u793A\u4F8B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 1
+    }
+  }, "\u914D\u7F6E\u6587\u4EF6\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 9
+    }
+  }, ".github/workflows/publishing.yml"), "\uFF0C\u548C\u5B98\u7F51\u6709\u4E9B\u4E0D\u540C\uFF08\u6211\u53CD\u6B63\u662F\u8FD0\u884C\u5B98\u7F51\u7684\u4F8B\u5B50\u5931\u8D25\uFF09\uFF0C\u53EF\u4EE5\u770B\u5230\u5176\u4E2D\u8E29\u4E86\u4E00\u4E9B\u5751\u54C8\uFF0C\u4E3B\u8981\u662F\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 1
+    }
+  }, "\u9700\u8981\u914D\u7F6E python \u73AF\u5883"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 1
+    }
+  }, "nodejs \u7684\u7248\u672C\u4E0D\u540C\u3002\u6211\u5148\u5728\u81EA\u5DF1\u672C\u5730\u7684\u7535\u8111\u4E0A\u5C1D\u8BD5\u6B63\u786E\u7684\u5B89\u88C5\uFF0C\u7136\u540E\u5728\u5199\u811A\u672C\u786E\u8BA4\u6210\u529F\u7684\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "on:\n  push:\n    branches:\n      - master\n\njobs:\n  build:\n    strategy:\n      matrix:\n        # os: [macos-latest, ubuntu-latest, windows-latest]\n        os: [windows-latest]\n    runs-on: ${{ matrix.os }}\n    steps:\n      - name: Checkout\n        uses: actions/checkout@v2\n      # 修改了node版本：成功\n      - name: Install Node.js\n        uses: actions/setup-node@v1\n        with:\n          node-version: 14.18.3\n      # 安装python成功\n      - name: Set up Python 3.10\n        uses: actions/setup-python@v2\n        with:\n          python-version: '3.10'\n      - run: npm install\n      - run: npm install -g vsce yarn\n      - run: npm run deploy\n        env:\n          VSCE_PAT: ${{ secrets.VSCE_PAT }}",
+    lang: "yml",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 1
+    }
+  })));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 14
+    }
+  });
+});
 
 /***/ }),
 
@@ -1629,7 +2084,574 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 24,
       columnNumber: 1
     }
-  })));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u5B89\u88C5-vsce-\u5931\u8D25",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5B89\u88C5-vsce-\u5931\u8D25",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 83
+    }
+  })), "\u5B89\u88C5 vsce \u5931\u8D25"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u6211\u8FD9\u91CC\u51FA\u73B0\u4E86\u5B89\u88C5\u5931\u8D25\u7684\u60C5\u51B5\uFF0C\u67E5\u770B\u5B98\u7F51\u3001\u767E\u5EA6\u90FD\u6CA1\u67E5\u5230\u7C7B\u4F3C\u7684\u63D0\u95EE\uFF0C\u7136\u540E\u6478\u7D22\u4E86\u4E00\u4E0B\uFF0C\u4EB2\u6D4B\u4EE5\u4E0B\u914D\u7F6E\u662F\u6CA1\u6709\u95EE\u9898\u7684\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, "\u5BBF\u4E3B\u673A\u73AF\u5883\uFF1Awindows11"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, "\u5BBF\u4E3B\u673A\u5B89\u88C5 python\uFF0C\u7248\u672C\uFF1A3.10"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "\u5BBF\u4E3B\u673A\u5B89\u88C5 node\uFF0C\u7248\u672C\uFF1A14.18.3\uFF08\u5C0F\u7248\u672C\u4E0D\u77E5\u9053\u6709\u4EC0\u4E48\u5F71\u54CD\uFF0C\u4F46\u662F 10.x \u548C 16.x \u8BD5\u4E86\u5B89\u88C5\u5931\u8D25\uFF09")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "\u8FD9\u4E5F\u4F53\u73B0\u5728\u6211\u7684\u6301\u7EED\u96C6\u6210\u7684 yml \u914D\u7F6E\u91CC\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "on:\n  push:\n    branches:\n      - master\n\njobs:\n  build:\n    strategy:\n      matrix:\n        os: [windows-latest]\n    runs-on: ${{ matrix.os }}\n    steps:\n      - name: Checkout\n        uses: actions/checkout@v2\n      # 修改了node版本：成功\n      - name: Install Node.js\n        uses: actions/setup-node@v1\n        with:\n          node-version: 14.18.3\n      # 安装python成功\n      - name: Set up Python 3.10\n        uses: actions/setup-python@v2\n        with:\n          python-version: '3.10'\n      - run: npm install\n      - run: npm install -g vsce yarn\n      - run: npm run deploy\n        env:\n          VSCE_PAT: ${{ secrets.VSCE_PAT }}",
+    lang: "yml",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5C1D\u8BD5\u6253\u5305",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5C1D\u8BD5\u6253\u5305",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 71
+    }
+  })), "\u5C1D\u8BD5\u6253\u5305"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u5148\u5C1D\u8BD5\u6253\u5305\u4E00\u4E0B\uFF0C\u89E3\u51B3\u6253\u5305\u8FC7\u7A0B\u4E2D\u51FA\u73B0\u7684\u95EE\u9898\uFF0C\u8FD0\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 27
+    }
+  }, "vsce package"), "\uFF0C\u5982\u679C\u6CA1\u6709\u9519\u8BEF\u4F1A\u5728\u6839\u76EE\u5F55\u4E0B\u51FA\u73B0\u4E00\u4E2A\u4EE5", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 70
+    }
+  }, ".vsix"), "\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u8FD9\u4E2A\u5C31\u662F\u7ED3\u679C\u63D2\u4EF6\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }, "\u53EF\u80FD\u51FA\u73B0\u7684\u95EE\u9898\uFF1A\uFF08\u6253\u5305\u7684\u65F6\u5019\u4F1A\u63D0\u793A\u7684\u5F88\u6E05\u695A\uFF0C\u6839\u636E\u9700\u8981\u4FEE\u6539\u5C31\u884C\u4E86\uFF01\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, "\u7F3A\u5C11 yarn\uFF0C\u89E3\u51B3\u529E\u6CD5\uFF1A\u5168\u5C40\u5B89\u88C5 yarn \u5C31\u884C\u5566\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 32
+    }
+  }, "npm install -g yarn")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }, "\u7F3A\u5C11\"repository\"\uFF0C\u89E3\u51B3\u529E\u6CD5\uFF0C\u5728 package.json \u4E2D\u6DFB\u52A0\u5BF9\u5E94\u5B57\u6BB5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, "vscode \u7248\u672C\u4E0D\u4E00\u81F4\u7C7B\u4F3C\u7684\u9519\u8BEF\uFF0C\u786E\u4FDD", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }, "devDependencies['@types/vscode']"), "\u548C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 71
+    }
+  }, "engines['vscode']"), "\u7684\u7248\u672C\u4E00\u6837"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u662F\u6253\u5305\u7684\u8BDD\uFF0Cpackage.json \u4E2D\u8FD8\u9700\u8981\u6DFB\u52A0\"publisher\"\u5B57\u6BB5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, "version\u95EE\u9898\uFF0C\u65B0\u53D1\u5E03\u7684\u7248\u672C\u53F7\u4E00\u5B9A\u8981\u9AD8\u4E8E\u4EE5\u524D\u7684"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, "...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u8D26\u53F7\u8BBE\u7F6E",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8D26\u53F7\u8BBE\u7F6E",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 71
+    }
+  })), "\u8D26\u53F7\u8BBE\u7F6E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u6253\u5305\u6CA1\u6709\u95EE\u9898\u7684\u8BDD\uFF0C\u5C31\u53EF\u4EE5\u5C1D\u8BD5\u53D1\u5E03\u63D2\u4EF6\u5E02\u573A\u4E86\uFF0C\u8FD9\u4E9B\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 31
+    }
+  }, "\u5B98\u7F51"), "\u4E2D\u53EF\u4EE5\u5F88\u6E05\u695A\u7684\u4E86\u89E3\u5230\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "microsoft-\u8D26\u53F7",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#microsoft-\u8D26\u53F7",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 23
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 87
+    }
+  })), "Microsoft \u8D26\u53F7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 1
+    }
+  }, "\u9996\u5148\u8BBF\u95EE ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://login.live.com/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9
+    }
+  }, "https://login.live.com/"), " \u767B\u5F55\u4F60\u7684 Microsoft \u8D26\u53F7\uFF0C\u6CA1\u6709\u7684\u5148\u6CE8\u518C\u4E00\u4E2A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "azure-devops",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#azure-devops",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 23
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 87
+    }
+  })), "Azure DevOps"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 1
+    }
+  }, "\u7136\u540E\u8BBF\u95EE\uFF1A ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://aka.ms/SignupAzureDevOps%EF%BC%8C%E9%BB%98%E8%AE%A4%E4%BC%9A%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%BB%A5%E9%82%AE%E7%AE%B1%E4%B8%BA%E5%89%8D%E7%BC%80%E7%9A%84%E7%BB%84%E7%BB%87",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 10
+    }
+  }, "https://aka.ms/SignupAzureDevOps\uFF0C\u9ED8\u8BA4\u4F1A\u521B\u5EFA\u4E00\u4E2A\u4EE5\u90AE\u7BB1\u4E3A\u524D\u7F00\u7684\u7EC4\u7EC7")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u521B\u5EFA\u4E2A\u4EBA\u4EE4\u724C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u521B\u5EFA\u4E2A\u4EBA\u4EE4\u724C",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 75
+    }
+  })), "\u521B\u5EFA\u4E2A\u4EBA\u4EE4\u724C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 1
+    }
+  }, "\u9ED8\u8BA4\u8FDB\u5165\u7EC4\u7EC7\u7684\u4E3B\u9875\u540E\uFF0C\u6253\u5F00\u60A8\u7684\u4E2A\u4EBA\u8D44\u6599\u56FE\u7247\u65C1\u8FB9\u7684\u7528\u6237\u8BBE\u7F6E\u4E0B\u62C9\u83DC\u5355\uFF0C\u7136\u540E\u9009\u62E9\u4E2A\u4EBA\u8BBF\u95EE\u4EE4\u724C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 1
+    }
+  }, "\u5728 Personal Access Tokens \u9875\u9762\u4E0A\uFF0C\u9009\u62E9 New Token \u4EE5\u521B\u5EFA\u65B0\u7684 Personal Access Token \u5E76\u8BBE\u7F6E\u4EE5\u4E0B\u8BE6\u7EC6\u4FE1\u606F\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 1
+    }
+  }, "\u7ED9\u5B83\u4E00\u4E2A\u540D\u5B57"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 1
+    }
+  }, "\u5C06\u7EC4\u7EC7\u8BBE\u7F6E\u4E3A\u6240\u6709\u53EF\u8BBF\u95EE\u7684\u7EC4\u7EC7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 1
+    }
+  }, "\u53EF\u9009\u62E9\u5EF6\u957F\u5176\u6709\u6548\u671F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 1
+    }
+  }, "\u5C06\u8303\u56F4\u8BBE\u7F6E\u4E3A\u81EA\u5B9A\u4E49\u5E76\u9009\u62E9\u5E02\u573A > \u7BA1\u7406\u8303\u56F4")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u521B\u5EFA\u53D1\u5E03\u8005",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u521B\u5EFA\u53D1\u5E03\u8005",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 16
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 73
+    }
+  })), "\u521B\u5EFA\u53D1\u5E03\u8005"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 1
+    }
+  }, "\u53D1\u5E03\u8005\u662F\u53EF\u4EE5\u5C06\u6269\u5C55\u53D1\u5E03\u5230 Visual Studio Code Marketplace \u7684\u8EAB\u4EFD\u3002\u6BCF\u4E2A\u6269\u5C55\u90FD\u9700\u8981\u5728\u5176\u6587\u4EF6 publisher \u4E2D\u5305\u542B\u4E00\u4E2A\u540D\u79F0\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 1
+    }
+  }, "\u521B\u5EFA\u65B0\u53D1\u5E03\u8005\u9875\u9762\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://marketplace.visualstudio.com/manage",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 13
+    }
+  }, "https://marketplace.visualstudio.com/manage")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u6D4B\u8BD5\u767B\u5F55\u548C-token",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6D4B\u8BD5\u767B\u5F55\u548C-token",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 22
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 85
+    }
+  })), "\u6D4B\u8BD5\u767B\u5F55\u548C token"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 1
+    }
+  }, "\u8FD0\u884C\u4EE5\u4E0B\u547D\u4EE4\uFF0C\u6D4B\u8BD5\u4EE5\u4E0A\u4E24\u6B65\u9AA4\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "vsce login xxxx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 1
+    }
+  }, "\u7136\u540E\u8F93\u5165\u521A\u624D\u7684 token\uFF0C\u767B\u5F55\u6210\u529F\u5373\u6CA1\u6709\u95EE\u9898\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6B63\u5F0F\u53D1\u5E03",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6B63\u5F0F\u53D1\u5E03",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 71
+    }
+  })), "\u6B63\u5F0F\u53D1\u5E03"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 1
+    }
+  }, "\u8FD0\u884C\u4EE5\u4E0B\u547D\u4EE4\u53D1\u5E03\u6269\u5C55\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "vsce publish",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 1
+    }
+  }, "\u5982\u679C\u60A8\u5C1A\u672A\u4F7F\u7528 vsce login \u4E0A\u9762\u7684\u547D\u4EE4\u63D0\u4F9B\u4E2A\u4EBA\u8BBF\u95EE\u4EE4\u724C\uFF0C\u6B64\u547D\u4EE4\u5C06\u8981\u6C42\u63D0\u4F9B\u4E2A\u4EBA\u8BBF\u95EE\u4EE4\u724C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 1
+    }
+  }, "\u6216\u8005\uFF0C\u60A8\u53EF\u4EE5\u6253\u5305\u6269\u5C55", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 14
+    }
+  }, "vsce package"), ", \u5E76\u624B\u52A8\u5C06\u5176\u4E0A\u4F20\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://marketplace.visualstudio.com/manage",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 49
+    }
+  }, "Visual Studio Marketplace \u53D1\u5E03\u8005\u7BA1\u7406\u9875\u9762"), "\u3002")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -1648,7 +2670,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 86,
       columnNumber: 14
     }
   });
@@ -2259,7 +3281,15 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 41,
       columnNumber: 1
     }
-  }, "github\uFF1A")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://github.com/awesomeWDB/vscode-plugin-emoji.git",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 4
+    }
+  }, "github"))));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),

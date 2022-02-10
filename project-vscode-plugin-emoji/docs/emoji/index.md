@@ -72,4 +72,4 @@ order: 1
 
 ## 项目地址
 
-github：
+[github](https://github.com/awesomeWDB/vscode-plugin-emoji.git)
