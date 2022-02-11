@@ -367,6 +367,96 @@ const render = async params => {
         },
         "title": "Index - docker learning"
       }, {
+        "path": "/docker/clear",
+        "component": __webpack_require__(/*! ./docs/docker/clear.md */ "./docs/docker/clear.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/docker/clear.md",
+          "updatedTime": 1644559822751,
+          "toc": "menu",
+          "order": 9,
+          "slugs": [{
+            "depth": 1,
+            "value": "清理技巧",
+            "heading": "清理技巧"
+          }, {
+            "depth": 2,
+            "value": "删除所有的容器",
+            "heading": "删除所有的容器"
+          }, {
+            "depth": 2,
+            "value": "删除所有镜像",
+            "heading": "删除所有镜像"
+          }, {
+            "depth": 2,
+            "value": "删除所有\"label=target=documents\"的容器",
+            "heading": "删除所有labeltargetdocuments的容器"
+          }, {
+            "depth": 2,
+            "value": "删除所有未打 dangling 标签的镜像",
+            "heading": "删除所有未打-dangling-标签的镜像"
+          }, {
+            "depth": 2,
+            "value": "创建命令别名",
+            "heading": "创建命令别名"
+          }],
+          "title": "清理技巧",
+          "nav": {
+            "path": "/docker",
+            "title": "docker"
+          }
+        },
+        "title": "清理技巧 - docker learning"
+      }, {
+        "path": "/docker/connect",
+        "component": __webpack_require__(/*! ./docs/docker/connect.md */ "./docs/docker/connect.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/docker/connect.md",
+          "updatedTime": 1644558922653,
+          "toc": "menu",
+          "order": 7,
+          "slugs": [{
+            "depth": 1,
+            "value": "容器连接",
+            "heading": "容器连接"
+          }, {
+            "depth": 2,
+            "value": "端口映射",
+            "heading": "端口映射"
+          }, {
+            "depth": 3,
+            "value": "指定容器绑定的网络地址",
+            "heading": "指定容器绑定的网络地址"
+          }, {
+            "depth": 3,
+            "value": "绑定 udp",
+            "heading": "绑定-udp"
+          }, {
+            "depth": 2,
+            "value": "容器互联（network）",
+            "heading": "容器互联network"
+          }, {
+            "depth": 3,
+            "value": "容器命名",
+            "heading": "容器命名"
+          }, {
+            "depth": 3,
+            "value": "新建网络",
+            "heading": "新建网络"
+          }, {
+            "depth": 3,
+            "value": "运行连接到网络的容器",
+            "heading": "运行连接到网络的容器"
+          }],
+          "title": "容器连接",
+          "nav": {
+            "path": "/docker",
+            "title": "docker"
+          }
+        },
+        "title": "容器连接 - docker learning"
+      }, {
         "path": "/docker/container",
         "component": __webpack_require__(/*! ./docs/docker/container.md */ "./docs/docker/container.md").default,
         "exact": true,
@@ -403,6 +493,14 @@ const render = async params => {
             "depth": 2,
             "value": "查看日志",
             "heading": "查看日志"
+          }, {
+            "depth": 2,
+            "value": "进入容器",
+            "heading": "进入容器"
+          }, {
+            "depth": 2,
+            "value": "导出和导入容器",
+            "heading": "导出和导入容器"
           }],
           "title": "容器使用",
           "nav": {
@@ -590,12 +688,65 @@ const render = async params => {
         },
         "title": "快速开始 - docker learning"
       }, {
+        "path": "/docker/repository",
+        "component": __webpack_require__(/*! ./docs/docker/repository.md */ "./docs/docker/repository.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/docker/repository.md",
+          "updatedTime": 1644559373342,
+          "toc": "menu",
+          "order": 8,
+          "slugs": [{
+            "depth": 1,
+            "value": "仓库管理",
+            "heading": "仓库管理"
+          }, {
+            "depth": 2,
+            "value": "docker hub",
+            "heading": "docker-hub"
+          }, {
+            "depth": 3,
+            "value": "注册",
+            "heading": "注册"
+          }, {
+            "depth": 3,
+            "value": "登录",
+            "heading": "登录"
+          }, {
+            "depth": 3,
+            "value": "退出",
+            "heading": "退出"
+          }, {
+            "depth": 2,
+            "value": "其他操作",
+            "heading": "其他操作"
+          }, {
+            "depth": 3,
+            "value": "搜索镜像",
+            "heading": "搜索镜像"
+          }, {
+            "depth": 3,
+            "value": "拉取镜像",
+            "heading": "拉取镜像"
+          }, {
+            "depth": 3,
+            "value": "推送镜像",
+            "heading": "推送镜像"
+          }],
+          "title": "仓库管理",
+          "nav": {
+            "path": "/docker",
+            "title": "docker"
+          }
+        },
+        "title": "仓库管理 - docker learning"
+      }, {
         "path": "/docker/sudo",
         "component": __webpack_require__(/*! ./docs/docker/sudo.md */ "./docs/docker/sudo.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/docker/sudo.md",
-          "updatedTime": 1644544695793,
+          "updatedTime": 1644548786000,
           "toc": "menu",
           "order": 2,
           "slugs": [{
@@ -643,14 +794,39 @@ const render = async params => {
             "path": "/dockerfile"
           },
           "toc": "menu",
+          "order": 1,
           "slugs": [{
             "depth": 1,
-            "value": "Dockfile 基础",
-            "heading": "dockfile-基础"
+            "value": "Dockfile",
+            "heading": "dockfile"
+          }, {
+            "depth": 2,
+            "value": "介绍",
+            "heading": "介绍"
+          }, {
+            "depth": 2,
+            "value": "从一个最简单的例子开始",
+            "heading": "从一个最简单的例子开始"
+          }, {
+            "depth": 3,
+            "value": "新建 Dockfile 文件",
+            "heading": "新建-dockfile-文件"
+          }, {
+            "depth": 3,
+            "value": "从 Dockfile 文件构建",
+            "heading": "从-dockfile-文件构建"
+          }, {
+            "depth": 2,
+            "value": "指令详解",
+            "heading": "指令详解"
+          }, {
+            "depth": 3,
+            "value": "COPY",
+            "heading": "copy"
           }],
-          "title": "Dockfile 基础"
+          "title": "Dockfile"
         },
-        "title": "Dockfile 基础 - docker learning"
+        "title": "Dockfile - docker learning"
       }, {
         "path": "/dockerfile/questions",
         "component": __webpack_require__(/*! ./docs/Dockerfile/questions.md */ "./docs/Dockerfile/questions.md").default,
@@ -658,72 +834,24 @@ const render = async params => {
         "meta": {
           "filePath": "docs/Dockerfile/questions.md",
           "updatedTime": 1643771349000,
+          "toc": "menu",
+          "order": 2,
           "slugs": [{
-            "depth": 3,
-            "value": "alpine 切换源 安装慢 apk add 很慢",
-            "heading": "alpine-切换源-安装慢-apk-add-很慢"
+            "depth": 1,
+            "value": "常见问题",
+            "heading": "常见问题"
+          }, {
+            "depth": 2,
+            "value": "alpine 安装慢 apk add 很慢",
+            "heading": "alpine-安装慢-apk-add-很慢"
           }],
-          "title": "alpine 切换源 安装慢 apk add 很慢",
+          "title": "常见问题",
           "nav": {
             "path": "/dockerfile",
             "title": "Dockfile"
           }
         },
-        "title": "alpine 切换源 安装慢 apk add 很慢 - docker learning"
-      }, {
-        "path": "/midway",
-        "component": __webpack_require__(/*! ./docs/midway/index.md */ "./docs/midway/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/midway/index.md",
-          "updatedTime": 1643771349000,
-          "nav": {
-            "title": "midway",
-            "order": 5,
-            "path": "/midway"
-          },
-          "toc": "menu",
-          "slugs": [],
-          "title": "midway"
-        },
-        "title": "midway - docker learning"
-      }, {
-        "path": "/mongo",
-        "component": __webpack_require__(/*! ./docs/mongo/index.md */ "./docs/mongo/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/mongo/index.md",
-          "updatedTime": 1643771349000,
-          "nav": {
-            "title": "mongo",
-            "order": 4,
-            "path": "/mongo"
-          },
-          "toc": "menu",
-          "slugs": [{
-            "depth": 1,
-            "value": "docker 中 mongo 的使用",
-            "heading": "docker-中-mongo-的使用"
-          }, {
-            "depth": 2,
-            "value": "安装",
-            "heading": "安装"
-          }, {
-            "depth": 2,
-            "value": "运行容器",
-            "heading": "运行容器"
-          }, {
-            "depth": 2,
-            "value": "添加用户和设置密码",
-            "heading": "添加用户和设置密码"
-          }, {
-            "depth": 2,
-            "value": "midway 中使用 mongo",
-            "heading": "midway-中使用-mongo"
-          }],
-          "title": "docker 中 mongo 的使用"
-        },
-        "title": "docker 中 mongo 的使用 - docker learning"
+        "title": "常见问题 - docker learning"
       }, {
         "path": "/registry",
         "component": __webpack_require__(/*! ./docs/registry/index.md */ "./docs/registry/index.md").default,
@@ -743,24 +871,16 @@ const render = async params => {
             "heading": "docker-registry"
           }, {
             "depth": 2,
-            "value": "一、简介",
-            "heading": "一简介"
+            "value": "简介",
+            "heading": "简介"
           }, {
             "depth": 2,
-            "value": "二、registry 的搭建",
-            "heading": "二registry-的搭建"
+            "value": "registry 的搭建",
+            "heading": "registry-的搭建"
           }, {
             "depth": 2,
-            "value": "问题整理",
-            "heading": "问题整理"
-          }, {
-            "depth": 3,
-            "value": "推送到远程仓库报错“http: server gave HTTP response to HTTPS client”",
-            "heading": "推送到远程仓库报错http-server-gave-http-response-to-https-client"
-          }, {
-            "depth": 3,
-            "value": "",
-            "heading": ""
+            "value": "阿里私有镜像服务",
+            "heading": "阿里私有镜像服务"
           }],
           "title": "docker registry"
         },
@@ -914,7 +1034,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/docker\":[{\"path\":\"/docker\",\"title\":\"docker\",\"meta\":{\"order\":1}},{\"path\":\"/docker/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}},{\"path\":\"/docker/sudo\",\"title\":\"sudo 权限\",\"meta\":{\"order\":2}},{\"path\":\"/docker/image-acceleration\",\"title\":\"镜像加速\",\"meta\":{\"order\":3}},{\"path\":\"/docker/quick-start\",\"title\":\"快速开始\",\"meta\":{\"order\":4}},{\"path\":\"/docker/image\",\"title\":\"镜像使用\",\"meta\":{\"order\":5}},{\"path\":\"/docker/container\",\"title\":\"容器使用\",\"meta\":{\"order\":6}}],\"/dockerfile\":[{\"path\":\"/dockerfile\",\"title\":\"Dockfile 基础\",\"meta\":{}},{\"path\":\"/dockerfile/questions\",\"title\":\"alpine 切换源 安装慢 apk add 很慢\",\"meta\":{}}],\"/midway\":[{\"path\":\"/midway\",\"title\":\"midway\",\"meta\":{}}],\"/mongo\":[{\"path\":\"/mongo\",\"title\":\"docker 中 mongo 的使用\",\"meta\":{}}],\"/registry\":[{\"path\":\"/registry\",\"title\":\"docker registry\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/docker\",\"title\":\"docker\",\"order\":1},{\"title\":\"Dockfile\",\"order\":2,\"path\":\"/dockerfile\"},{\"title\":\"私有仓库\",\"order\":3,\"path\":\"/registry\"},{\"title\":\"mongo\",\"order\":4,\"path\":\"/mongo\"},{\"title\":\"midway\",\"order\":5,\"path\":\"/midway\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/docker\":[{\"path\":\"/docker\",\"title\":\"docker\",\"meta\":{\"order\":1}},{\"path\":\"/docker/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}},{\"path\":\"/docker/sudo\",\"title\":\"sudo 权限\",\"meta\":{\"order\":2}},{\"path\":\"/docker/image-acceleration\",\"title\":\"镜像加速\",\"meta\":{\"order\":3}},{\"path\":\"/docker/quick-start\",\"title\":\"快速开始\",\"meta\":{\"order\":4}},{\"path\":\"/docker/image\",\"title\":\"镜像使用\",\"meta\":{\"order\":5}},{\"path\":\"/docker/container\",\"title\":\"容器使用\",\"meta\":{\"order\":6}},{\"path\":\"/docker/connect\",\"title\":\"容器连接\",\"meta\":{\"order\":7}},{\"path\":\"/docker/repository\",\"title\":\"仓库管理\",\"meta\":{\"order\":8}},{\"path\":\"/docker/clear\",\"title\":\"清理技巧\",\"meta\":{\"order\":9}}],\"/dockerfile\":[{\"path\":\"/dockerfile\",\"title\":\"Dockfile\",\"meta\":{\"order\":1}},{\"path\":\"/dockerfile/questions\",\"title\":\"常见问题\",\"meta\":{\"order\":2}}],\"/registry\":[{\"path\":\"/registry\",\"title\":\"docker registry\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/docker\",\"title\":\"docker\",\"order\":1},{\"title\":\"Dockfile\",\"order\":2,\"path\":\"/dockerfile\"},{\"title\":\"私有仓库\",\"order\":3,\"path\":\"/registry\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -1020,7 +1140,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "dockfile-\u57FA\u7840",
+    id: "dockfile",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1028,14 +1148,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#dockfile-\u57FA\u7840",
+    to: "#dockfile",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 58
+      columnNumber: 55
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -1043,9 +1163,344 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 121
+      columnNumber: 115
     }
-  })), "Dockfile \u57FA\u7840")));
+  })), "Dockfile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u4ECB\u7ECD",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4ECB\u7ECD",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 67
+    }
+  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "Dockerfile \u662F\u4E00\u4E2A\u7528\u6765\u6784\u5EFA\u955C\u50CF\u7684\u6587\u672C\u6587\u4EF6\uFF0C\u6587\u672C\u5185\u5BB9\u5305\u542B\u4E86\u4E00\u6761\u6761\u6784\u5EFA\u955C\u50CF\u6240\u9700\u7684\u6307\u4EE4\u548C\u8BF4\u660E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 22
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 85
+    }
+  })), "\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u65B0\u5EFA-dockfile-\u6587\u4EF6",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u65B0\u5EFA-dockfile-\u6587\u4EF6",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 91
+    }
+  })), "\u65B0\u5EFA Dockfile \u6587\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "\u5728\u4E00\u4E2A\u7A7A\u76EE\u5F55\u4E0B\uFF0C\u65B0\u5EFA\u4E00\u4E2A\u540D\u4E3A ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 19
+    }
+  }, "Dockerfile"), " \u6587\u4EF6\uFF0C\u5E76\u5728\u6587\u4EF6\u5185\u6DFB\u52A0\u4EE5\u4E0B\u5185\u5BB9\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "FROM nginx\nRUN echo '这是一个本地构建的nginx镜像' > /usr/share/nginx/html/index.html",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, "\u53C2\u6570\u89E3\u91CA\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, "FROM nginx\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 16
+    }
+  }, "From"), "\u6307\u4EE4\u662F\u6307\u5B9A\u57FA\u7840\u955C\u50CF\uFF0C\u540E\u7EED\u7684\u64CD\u4F5C\u90FD\u662F\u57FA\u4E8E", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 52
+    }
+  }, "nginx"), "\uFF0Cnginx \u540E\u9762\u8DDF\u7740\uFF08\u9ED8\u8BA4\u7684\uFF09tag\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 90
+    }
+  }, "latest"), "\uFF0C\u5F53\u7136\u4E5F\u53EF\u4EE5\u4F7F\u7528\u5176\u4ED6 tag"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, "RUN\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, "RUN"), "\u6307\u4EE4\u7528\u4E8E\u6267\u884C\u540E\u9762\u8DDF\u7740\u7684\u547D\u4EE4")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u4ECE-dockfile-\u6587\u4EF6\u6784\u5EFA",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4ECE-dockfile-\u6587\u4EF6\u6784\u5EFA",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 26
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 93
+    }
+  })), "\u4ECE Dockfile \u6587\u4EF6\u6784\u5EFA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, "\u5728\u5F53\u524D\u76EE\u5F55\u4E0B\u8FD0\u884C\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker build -t nginx:mynginx .",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }, "\u53C2\u6570\u89E3\u91CA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 5
+    }
+  }, "docker build"), "\u662F docker \u6784\u5EFA\u955C\u50CF\u7684\u547D\u4EE4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 5
+    }
+  }, "-t nginx:mynginx"), "\u8868\u793A\u955C\u50CF\u540D\u79F0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 5
+    }
+  }, "."), "\u4EE3\u8868\u4E0A\u4E0B\u6587\u8DEF\u5F84\uFF0C\u8FD9\u91CC\u6307\u7684\u662F\u5F53\u524D\u6587\u4EF6\u5939")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 4
+    }
+  }, "\u6CE8\u610F"), "\uFF1A\u4E0A\u4E0B\u6587\u8DEF\u5F84\u4E0B\u4E0D\u8981\u653E\u65E0\u7528\u7684\u6587\u4EF6\uFF0C\u56E0\u4E3A\u4F1A\u4E00\u8D77\u6253\u5305\u53D1\u9001\u7ED9 docker \u5F15\u64CE\uFF0C\u5982\u679C\u6587\u4EF6\u8FC7\u591A\u4F1A\u9020\u6210\u8FC7\u7A0B\u7F13\u6162\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6307\u4EE4\u8BE6\u89E3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6307\u4EE4\u8BE6\u89E3",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 71
+    }
+  })), "\u6307\u4EE4\u8BE6\u89E3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "copy",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#copy",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 71
+    }
+  })), "COPY")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -1064,7 +1519,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 61,
       columnNumber: 14
     }
   });
@@ -1118,8 +1573,8 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 21,
       columnNumber: 11
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "alpine-\u5207\u6362\u6E90-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u5E38\u89C1\u95EE\u9898",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1127,14 +1582,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#alpine-\u5207\u6362\u6E90-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
+    to: "#\u5E38\u89C1\u95EE\u9898",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 72
+      columnNumber: 51
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -1142,20 +1597,53 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 149
+      columnNumber: 107
     }
-  })), "alpine \u5207\u6362\u6E90 \u5B89\u88C5\u6162 apk add \u5F88\u6162"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  })), "\u5E38\u89C1\u95EE\u9898"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "alpine-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#alpine-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 105
+    }
+  })), "alpine \u5B89\u88C5\u6162 apk add \u5F88\u6162"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u5F88\u591A\u60C5\u51B5\u4E0B\uFF0C\u4F1A\u4F7F\u7528\u8F7B\u91CF\u7EA7\u7684\u57FA\u7840\u955C\u50CF alpine\uFF0C\u4F46\u662F\u5728\u5B89\u88C5\u5E94\u7528\u7684\u65F6\u5019\u5F88\u6162\uFF0C\u9020\u6210\u8FD9\u79CD\u60C5\u51B5\u662F\u7F51\u7EDC\u539F\u56E0\uFF0C\u89E3\u51B3\u529E\u6CD5\u662F\u5207\u6362\u6E90\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
       columnNumber: 1
     }
   }, "\u963F\u91CC\u955C\u50CF", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1164,14 +1652,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 26,
       columnNumber: 1
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 1
     }
   }, "\u79D1\u5927\u955C\u50CF", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -1180,10 +1668,24 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 29,
       columnNumber: 1
     }
-  })))));
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 4
+    }
+  }, "\u6216\u8005\u4F7F\u7528 github actions \u8FDB\u884C\u6784\u5EFA\uFF0C\u5B8C\u7F8E\u907F\u5F00\u8FD9\u79CD\u95EE\u9898 \uD83D\uDE3A"))));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -1202,7 +1704,716 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/docker/clear.md":
+/*!******************************!*\
+  !*** ./docs/docker/clear.md ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\clear.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u6E05\u7406\u6280\u5DE7",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6E05\u7406\u6280\u5DE7",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 107
+    }
+  })), "\u6E05\u7406\u6280\u5DE7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 18
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 77
+    }
+  })), "\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker rm $(docker ps -a -q)",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5220\u9664\u6240\u6709\u955C\u50CF",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5220\u9664\u6240\u6709\u955C\u50CF",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 75
+    }
+  })), "\u5220\u9664\u6240\u6709\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker rmi $(docker images -q)",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5220\u9664\u6240\u6709labeltargetdocuments\u7684\u5BB9\u5668",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5220\u9664\u6240\u6709labeltargetdocuments\u7684\u5BB9\u5668",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 38
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 117
+    }
+  })), "\u5220\u9664\u6240\u6709\"label=target=documents\"\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker rm -f $(docker ps -a --filter \"label=target=documents\" -q)",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5220\u9664\u6240\u6709\u672A\u6253-dangling-\u6807\u7B7E\u7684\u955C\u50CF",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5220\u9664\u6240\u6709\u672A\u6253-dangling-\u6807\u7B7E\u7684\u955C\u50CF",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 105
+    }
+  })), "\u5220\u9664\u6240\u6709\u672A\u6253 dangling \u6807\u7B7E\u7684\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker rmi $(docker images -q -f dangling=true)",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u521B\u5EFA\u547D\u4EE4\u522B\u540D",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u521B\u5EFA\u547D\u4EE4\u522B\u540D",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 75
+    }
+  })), "\u521B\u5EFA\u547D\u4EE4\u522B\u540D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# ~/.bash_aliases\n# 删除所有的容器\nalias dockercleanc='docker rm $(docker ps -a -q)'",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.runoob.com/w3cnote/docker-tricks.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 7
+    }
+  }, "https://www.runoob.com/w3cnote/docker-tricks.html"))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/docker/connect.md":
+/*!********************************!*\
+  !*** ./docs/docker/connect.md ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\connect.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u5BB9\u5668\u8FDE\u63A5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5BB9\u5668\u8FDE\u63A5",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 107
+    }
+  })), "\u5BB9\u5668\u8FDE\u63A5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u7AEF\u53E3\u6620\u5C04",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u7AEF\u53E3\u6620\u5C04",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 71
+    }
+  })), "\u7AEF\u53E3\u6620\u5C04"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u5BB9\u5668\u4E2D\u53EF\u4EE5\u8FD0\u884C\u4E00\u4E9B\u7F51\u7EDC\u5E94\u7528\uFF0C\u8981\u8BA9\u5916\u90E8\u4E5F\u53EF\u4EE5\u8BBF\u95EE\u8FD9\u4E9B\u5E94\u7528\uFF0C\u53EF\u4EE5\u901A\u8FC7 -P \u6216 -p \u53C2\u6570\u6765\u6307\u5B9A\u7AEF\u53E3\u6620\u5C04\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "-P :\u662F\u5BB9\u5668\u5185\u90E8\u7AEF\u53E3\u968F\u673A\u6620\u5C04\u5230\u4E3B\u673A\u7684\u7AEF\u53E3\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, "-p :\u662F\u5BB9\u5668\u5185\u90E8\u7AEF\u53E3\u7ED1\u5B9A\u5230\u6307\u5B9A\u7684\u4E3B\u673A\u7AEF\u53E3\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 22
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 85
+    }
+  })), "\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -d -p 127.0.0.1:5001:80 nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u7ED1\u5B9A-udp",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u7ED1\u5B9A-udp",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 75
+    }
+  })), "\u7ED1\u5B9A udp"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, "\u5728\u7AEF\u53E3\u540E\u9762\u52A0\u4E0A /udp"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -d -p 127.0.0.1:5001:80/udp nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5BB9\u5668\u4E92\u8054network",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5BB9\u5668\u4E92\u8054network",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 22
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 85
+    }
+  })), "\u5BB9\u5668\u4E92\u8054\uFF08network\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u5BB9\u5668\u547D\u540D",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5BB9\u5668\u547D\u540D",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 71
+    }
+  })), "\u5BB9\u5668\u547D\u540D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, "\u4F7F\u7528", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 6
+    }
+  }, "--name"), "\u53C2\u6570\u8FD0\u884C\u5BB9\u5668\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -d -p 127.0.0.1:5001:80/udp --name test1 nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u65B0\u5EFA\u7F51\u7EDC",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u65B0\u5EFA\u7F51\u7EDC",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 71
+    }
+  })), "\u65B0\u5EFA\u7F51\u7EDC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker network create -d bridge test-net",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 83
+    }
+  })), "\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }, "\u5BB9\u5668 1\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -itd --name test1 --network test-net nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 1
+    }
+  }, "\u5BB9\u5668 2\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker run -itd --name test2 --network test-net nginx",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 44,
+      columnNumber: 1
+    }
+  }, "\u6B64\u65F6\u5BB9\u5668 1 \u548C\u5BB9\u5668 2 \u5C31\u5EFA\u7ACB\u4E86\u4E92\u8054\u5173\u7CFB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.runoob.com/docker/docker-container-connection.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 4
+    }
+  }, "\u53C2\u8003\u5730\u5740"))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 14
     }
   });
@@ -1359,7 +2570,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 26,
       columnNumber: 1
     }
-  }, "\u5E38\u7528OPTIONS\u8BF4\u660E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "\u5E38\u7528 OPTIONS \u8BF4\u660E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1373,7 +2584,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 28,
       columnNumber: 1
     }
-  }, "-i\uFF0C-t\uFF1A-i\u4EE5\u4EA4\u4E92\u6A21\u5F0F\u8FD0\u884C\u5BB9\u5668\uFF0C-t\u4E3A\u5BB9\u5668\u91CD\u65B0\u5206\u914D\u4E00\u4E2A\u4F2A\u8F93\u5165\u7EC8\u7AEF\uFF0C\u901A\u5E38\u4E00\u8D77\u4F7F\u7528\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "-i\uFF0C-t\uFF1A-i \u4EE5\u4EA4\u4E92\u6A21\u5F0F\u8FD0\u884C\u5BB9\u5668\uFF0C-t \u4E3A\u5BB9\u5668\u91CD\u65B0\u5206\u914D\u4E00\u4E2A\u4F2A\u8F93\u5165\u7EC8\u7AEF\uFF0C\u901A\u5E38\u4E00\u8D77\u4F7F\u7528\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1408,7 +2619,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 32,
       columnNumber: 1
     }
-  }, "--name=\"test\"\uFF1A\u5BB9\u5668\u540D\u79F0\u4E3Atest\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "--name=\"test\"\uFF1A\u5BB9\u5668\u540D\u79F0\u4E3A test\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -1532,19 +2743,19 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 42,
       columnNumber: 5
     }
-  }, "docker restart ..."), " \u4E0D\u5305\u542B\u5BB9\u5668\u6587\u4EF6\u7CFB\u7EDF\u7684\u5378\u8F7D\u4E0E\u6302\u8F7D\u64CD\u4F5C\uFF0C\u672C\u8D28\u4E0Adocker restart\u4E0D\u6D89\u53CA\u6587\u4EF6\u7CFB\u7EDF\u7684\u64CD\u4F5C\uFF0C\u56E0\u6B64restart\u547D\u4EE4\u5E76\u4E0D\u662Fstop\u4E0Estart\u4E24\u4E2A\u547D\u4EE4\u7684\u987A\u5E8F\u53E0\u52A0\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "docker restart ..."), " \u4E0D\u5305\u542B\u5BB9\u5668\u6587\u4EF6\u7CFB\u7EDF\u7684\u5378\u8F7D\u4E0E\u6302\u8F7D\u64CD\u4F5C\uFF0C\u672C\u8D28\u4E0A docker restart \u4E0D\u6D89\u53CA\u6587\u4EF6\u7CFB\u7EDF\u7684\u64CD\u4F5C\uFF0C\u56E0\u6B64 restart \u547D\u4EE4\u5E76\u4E0D\u662F stop \u4E0E start \u4E24\u4E2A\u547D\u4EE4\u7684\u987A\u5E8F\u53E0\u52A0\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
       columnNumber: 1
     }
-  }, "\u7ED3\u8BBA\uFF1A\u4E3A\u4E86\u4FDD\u8BC1\u5BB9\u5668\u7684\u6839\u6587\u4EF6\u7CFB\u7EDF\u4E0E\u5185\u5B58\u7CFB\u7EDFmount\u7684\u6B63\u786E\u6027\uFF0C\u63A8\u8350", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
+  }, "\u7ED3\u8BBA\uFF1A\u4E3A\u4E86\u4FDD\u8BC1\u5BB9\u5668\u7684\u6839\u6587\u4EF6\u7CFB\u7EDF\u4E0E\u5185\u5B58\u7CFB\u7EDF mount \u7684\u6B63\u786E\u6027\uFF0C\u63A8\u8350", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
-      columnNumber: 36
+      columnNumber: 38
     }
   }, "\u5BF9\u4E00\u4E2A\u5BB9\u5668\u7684\u91CD\u542F\u4F7F\u7528docker stop xxx\uFF0C\u7136\u540E docker start xxx\uFF0C\u800C\u975Edocker restart xxx\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "docker restart xxx",
@@ -1582,7 +2793,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 67
     }
   })), "\u5220\u9664"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rm xxx",
+    code: "docker rm xxx\n# 上面的命令在删除正在运行的容器是会报错\n# 下面的会强制删除容器，不管它是否在运行\ndocker rm -f xxx",
     lang: "shell",
     __self: undefined,
     __source: {
@@ -1623,13 +2834,83 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 49,
       columnNumber: 1
     }
-  }, "\u5982\u679C\u5BB9\u5668\u542F\u52A8\u5931\u8D25\uFF0C\u53EF\u4EE5\u4F7F\u7528logs\u67E5\u770B\u65E5\u5FD7\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "\u5982\u679C\u5BB9\u5668\u542F\u52A8\u5931\u8D25\uFF0C\u53EF\u4EE5\u4F7F\u7528 logs \u67E5\u770B\u65E5\u5FD7\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
     code: "docker logs xxx",
     lang: "shell",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u8FDB\u5165\u5BB9\u5668",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8FDB\u5165\u5BB9\u5668",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 71
+    }
+  })), "\u8FDB\u5165\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker exec -it 容器id /bin/bash",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 18
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 77
+    }
+  })), "\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 导出\ndocker export 容器id > ubuntu.tar\n# 导入容器快照\ncat docker/ubuntu.tar | docker import - test/ubuntu:v1\n# 导入指定 URL\ndocker import http://example.com/exampleimage.tgz example/imagerepo",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
       columnNumber: 1
     }
   })));
@@ -1651,7 +2932,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 69,
       columnNumber: 14
     }
   });
@@ -3239,6 +4520,388 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 
 /***/ }),
 
+/***/ "./docs/docker/repository.md":
+/*!***********************************!*\
+  !*** ./docs/docker/repository.md ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\repository.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u4ED3\u5E93\u7BA1\u7406",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u4ED3\u5E93\u7BA1\u7406",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 51
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 107
+    }
+  })), "\u4ED3\u5E93\u7BA1\u7406"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "docker-hub",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#docker-hub",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 83
+    }
+  })), "docker hub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, "\u9ED8\u8BA4\u7684\u955C\u50CF\u4ED3\u5E93\u662F Docker \u5B98\u65B9\u7EF4\u62A4\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://hub.docker.com/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 25
+    }
+  }, "Docker Hub"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u6CE8\u518C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6CE8\u518C",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 67
+    }
+  })), "\u6CE8\u518C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "\u514D\u8D39\u6CE8\u518C\u4E00\u4E2A Docker \u8D26\u53F7\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://hub.docker.com/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }, "https://hub.docker.com/"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u767B\u5F55",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u767B\u5F55",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 67
+    }
+  })), "\u767B\u5F55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker login",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u9000\u51FA",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u9000\u51FA",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 67
+    }
+  })), "\u9000\u51FA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker logout",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5176\u4ED6\u64CD\u4F5C",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5176\u4ED6\u64CD\u4F5C",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 71
+    }
+  })), "\u5176\u4ED6\u64CD\u4F5C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u641C\u7D22\u955C\u50CF",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u641C\u7D22\u955C\u50CF",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 71
+    }
+  })), "\u641C\u7D22\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker search ubuntu",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u62C9\u53D6\u955C\u50CF",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u62C9\u53D6\u955C\u50CF",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 71
+    }
+  })), "\u62C9\u53D6\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "docker pull ubuntu",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 1
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    id: "\u63A8\u9001\u955C\u50CF",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u63A8\u9001\u955C\u50CF",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 71
+    }
+  })), "\u63A8\u9001\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "# 设置tag\ndocker tag ubuntu:18.04 xxxx/ubuntu:18.04\n# 推送\ndocker push xxxx/ubuntu:18.04",
+    lang: "bash",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 1
+    }
+  })));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
 /***/ "./docs/docker/sudo.md":
 /*!*****************************!*\
   !*** ./docs/docker/sudo.md ***!
@@ -3625,414 +5288,6 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 
 /***/ }),
 
-/***/ "./docs/midway/index.md":
-/*!******************************!*\
-  !*** ./docs/midway/index.md ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\midway\\index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, "docker run -itd --name=spider-emoji-test -p 8101:7001 -v /docker-data/app/logs/spider-emoji-test:/app/logs spider-emoji npm run docker:test")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/mongo/index.md":
-/*!*****************************!*\
-  !*** ./docs/mongo/index.md ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\mongo\\index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "docker-\u4E2D-mongo-\u7684\u4F7F\u7528",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker-\u4E2D-mongo-\u7684\u4F7F\u7528",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 65
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 135
-    }
-  })), "docker \u4E2D mongo \u7684\u4F7F\u7528"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5B89\u88C5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5B89\u88C5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 67
-    }
-  })), "\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u62C9\u53D6\u5B98\u65B9\u7684\u6700\u65B0\u7248\u672C\u7684\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker pull mongo:latest",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u9A8C\u8BC1\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 7
-    }
-  }, "docker images"), "\uFF0C\u67E5\u770B\u662F\u5426\u5DF2\u7ECF\u5B89\u88C5\u4E86 mongo\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u8FD0\u884C\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u8FD0\u884C\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 71
-    }
-  })), "\u8FD0\u884C\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, "\u4F7F\u7528\u4EE5\u4E0B\u547D\u4EE4\u6765\u8FD0\u884C mongo \u5BB9\u5668\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -itd --name mongo -v /docker-data/mongodb/data/db:/data/db -p 27017:27017 mongo --auth",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 5
-    }
-  }, "-v /docker-data/mongodb/data/db:/data/db"), "\uFF1A\u6302\u8F7D\u5BBF\u4E3B\u673A\u76EE\u5F55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 5
-    }
-  }, "-p 27017:27017"), "\uFF1A\u6620\u5C04\u7AEF\u53E3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 5
-    }
-  }, "--auth"), "\uFF1A\u9700\u8981\u5BC6\u7801\u624D\u80FD\u8BBF\u95EE\u5BB9\u5668\u670D\u52A1 \u9A8C\u8BC1\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 4
-    }
-  }, "docker ps"), "\uFF0C\u67E5\u770B\u6B63\u5728\u8FD0\u884C\u7684\u5BB9\u5668\uFF0C\u662F\u5426\u6709 mongo \u670D\u52A1\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6DFB\u52A0\u7528\u6237\u548C\u8BBE\u7F6E\u5BC6\u7801",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6DFB\u52A0\u7528\u6237\u548C\u8BBE\u7F6E\u5BC6\u7801",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 20
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 81
-    }
-  })), "\u6DFB\u52A0\u7528\u6237\u548C\u8BBE\u7F6E\u5BC6\u7801"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, "\u4F7F\u7528\u4EE5\u4E0B\u547D\u4EE4\u6765\u6DFB\u52A0\u7528\u6237\u548C\u8BBE\u7F6E\u5BC6\u7801\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker exec -it mongo mongo admin\n# 创建一个名为 admin，密码为 123456 的用户。\ndb.createUser({ user:'admin',pwd:'123456',roles:[ { role:'userAdminAnyDatabase', db: 'admin'},\"readWriteAnyDatabase\"]});\n# 尝试使用上面创建的用户信息进行连接。\ndb.auth('admin', '123456')",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "midway-\u4E2D\u4F7F\u7528-mongo",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#midway-\u4E2D\u4F7F\u7528-mongo",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 27
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 95
-    }
-  })), "midway \u4E2D\u4F7F\u7528 mongo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003\uFF1A")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
 /***/ "./docs/registry/index.md":
 /*!********************************!*\
   !*** ./docs/registry/index.md ***!
@@ -4106,7 +5361,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 129
     }
   })), "docker registry"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4E00\u7B80\u4ECB",
+    id: "\u7B80\u4ECB",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4114,14 +5369,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4E00\u7B80\u4ECB",
+    to: "#\u7B80\u4ECB",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 14
+      columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -4129,9 +5384,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 69
+      columnNumber: 67
     }
-  })), "\u4E00\u3001\u7B80\u4ECB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u7B80\u4ECB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4139,7 +5394,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, "\u5728 Docker \u4E2D\uFF0C\u5F53\u6211\u4EEC\u6267\u884C docker pull xxx \u7684\u65F6\u5019 \uFF0C\u5B83\u5B9E\u9645\u4E0A\u662F\u4ECE registry.hub.docker.com \u8FD9\u4E2A\u5730\u5740\u53BB\u67E5\u627E\uFF0C\u8FD9\u5C31\u662F Docker \u516C\u53F8\u4E3A\u6211\u4EEC\u63D0\u4F9B\u7684\u516C\u5171\u4ED3\u5E93\u3002\u5728\u5DE5\u4F5C\u4E2D\uFF0C\u6211\u4EEC\u4E0D\u53EF\u80FD\u628A\u4F01\u4E1A\u9879\u76EE push \u5230\u516C\u6709\u4ED3\u5E93\u8FDB\u884C\u7BA1\u7406\u3002\u6240\u4EE5\u4E3A\u4E86\u66F4\u597D\u7684\u7BA1\u7406\u955C\u50CF\uFF0CDocker \u4E0D\u4EC5\u63D0\u4F9B\u4E86\u4E00\u4E2A\u4E2D\u592E\u4ED3\u5E93\uFF0C\u540C\u65F6\u4E5F\u5141\u8BB8\u6211\u4EEC\u642D\u5EFA\u672C\u5730\u79C1\u6709\u4ED3\u5E93\u3002\u4E00\u822C\u6709 registry\u3001harbor \u4E24\u79CD\u79C1\u6709\u4ED3\u5E93\u642D\u5EFA\u7684\u65B9\u5F0F\uFF0C\u672C\u7BC7\u4ECB\u7ECD registry \u7684\u65B9\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4E8Cregistry-\u7684\u642D\u5EFA",
+    id: "registry-\u7684\u642D\u5EFA",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4147,14 +5402,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4E8Cregistry-\u7684\u642D\u5EFA",
+    to: "#registry-\u7684\u642D\u5EFA",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 24
+      columnNumber: 23
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -4162,9 +5417,9 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 89
+      columnNumber: 87
     }
-  })), "\u4E8C\u3001registry \u7684\u642D\u5EFA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "registry \u7684\u642D\u5EFA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4172,7 +5427,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, "Docker \u5B98\u65B9\u63D0\u4F9B\u4E86\u4E00\u4E2A\u642D\u5EFA\u79C1\u6709\u4ED3\u5E93\u7684\u955C\u50CF registry \uFF0C\u53EA\u9700\u628A\u955C\u50CF\u4E0B\u8F7D\u4E0B\u6765\uFF0C\u8FD0\u884C\u5BB9\u5668\u5E76\u66B4\u9732 5000 \u7AEF\u53E3\uFF0C\u5C31\u53EF\u4EE5\u4F7F\u7528\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u95EE\u9898\u6574\u7406",
+    id: "\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4180,14 +5435,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u95EE\u9898\u6574\u7406",
+    to: "#\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 15
+      columnNumber: 19
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -4195,105 +5450,16 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 71
+      columnNumber: 79
     }
-  })), "\u95EE\u9898\u6574\u7406"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u62A5\u9519http-server-gave-http-response-to-https-client",
+  })), "\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u62A5\u9519http-server-gave-http-response-to-https-client",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 66
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 173
-    }
-  })), "\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u62A5\u9519\u201Chttp: server gave HTTP response to HTTPS client\u201D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "\u4FEE\u6539 docker \u914D\u7F6E\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "{\"insecure-registries\":[\"registry服务器地址\"]}",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "\u91CD\u542F\u670D\u52A1"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 63
-    }
-  })))));
+  }, "\u767B\u5F55\u963F\u91CC\u4E91\u540E\u53F0\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u6709\u4E00\u4E2A\u514D\u8D39\u7684\u955C\u50CF\u4ED3\u5E93\u5730\u5740\uFF0C\u4E00\u822C\u7684\u8BDD\u8DB3\u591F\u6EE1\u8DB3\u4E2A\u4EBA\u7684\u4F7F\u7528\u4E86\u3002")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -4312,7 +5478,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 42,
       columnNumber: 14
     }
   });
