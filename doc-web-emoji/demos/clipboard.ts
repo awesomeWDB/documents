@@ -9,7 +9,7 @@ function clipboardError() {
   message.info('复制失败!');
 }
 
-export default function handleClipboard(text: any, event: any) {
+export default function handleClipboard(text: string, event: any) {
   const clipboard = new Clipboard(event.target, {
     text: () => text,
   });
