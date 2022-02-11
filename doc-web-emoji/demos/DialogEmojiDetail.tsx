@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Modal } from 'antd';
 import './DialogEmojiDetail.less';
+import EmojiCopyItem from './EmojiCopyItem';
 
 export default (props: any) => {
   console.log(props);
@@ -27,10 +28,10 @@ export const useModel = () => {
         footer={null}
       >
         <div
-          className="line"
+          className="line emoji-image"
           style={{ lineHeight: '100px', fontSize: '100px', margin: '10px' }}
         >
-          {detail.image}
+          <EmojiCopyItem image={detail.image}></EmojiCopyItem>
         </div>
         <div className="line">
           <span className="left">分类：</span>
