@@ -352,7 +352,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1644670116536,
+          "updatedTime": 1644671056000,
           "hero": {
             "title": "千里之行，始于足下!",
             "desc": "<div class=\"markdown\"><p>puppeteer utils使用手册</p></div>",
@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/puppeteer/index.md",
-          "updatedTime": 1644670373596,
+          "updatedTime": 1644671056000,
           "nav": {
             "title": "puppeteer",
             "order": 1,
@@ -394,7 +394,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/puppeteer utils/index.md",
-          "updatedTime": 1644670982926,
+          "updatedTime": 1644671089634,
           "nav": {
             "title": "puppeteer utils",
             "order": 2,
