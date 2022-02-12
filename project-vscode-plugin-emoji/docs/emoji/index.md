@@ -14,7 +14,9 @@ order: 1
 
 ## 安装
 
-在 vscode 插件市场搜索
+在 vscode 插件市场搜索`vscode-plugin-emoji`，点击安装。
+
+![安装](./4.jpg)
 
 ## 使用
 
