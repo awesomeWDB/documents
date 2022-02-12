@@ -9,25 +9,22 @@ const base = `/${dirName}/`;
 console.log(outputPath, base);
 const navs = [
   null, // null 值代表保留约定式生成的导航，只做增量配置
-  {
-    title: 'vscode-plugin-emoji',
-    path: 'https://www.readers.fun/project-vscode-plugin-emoji/',
-  },
   ...dumi_extend_nav,
 ];
 const metas = [
   {
     name: 'keywords',
-    content: '吹口琴的喵~ | emoji大全',
+    content: '吹口琴的喵~ | 乐谱（简谱）以及口琴演奏',
   },
   {
     name: 'description',
-    content: '更加方便的使用emoji',
+    content:
+      '记录、整理各种调的简谱，方便查询；另外贴上全民K歌/bilibili上的口琴演奏',
   },
 ];
 
 export default defineConfig({
-  title: 'emoji大全',
+  title: '简谱整理 | 吹口琴的喵~',
   mode: 'site',
   base: base.slice(0, -1),
   publicPath: base,
