@@ -11,7 +11,7 @@ RUN npm run build:doc
 
 FROM nginx:latest
 
-LABEL target="documents"
+LABEL documents=true
 
 # 复制静态资源文件html、css、js、png等等
 COPY --from=build /app/nginx/html /usr/share/nginx/html

@@ -9,10 +9,10 @@ on:
       - created
 
 env:
-  # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
-  # <repo>
   IMAGE_NAME: ${{ github.event.repository.name }}
+  IMAGE_LABEL: documents=true
+  RUN_PORT: 8000
 
 jobs:
   build:
@@ -80,9 +80,9 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }} # 服务器登录密码
           port: ${{ secrets.HOST_PORT }} # 服务器ssh端口
           script: |
-            sudo docker stop $(sudo docker ps --filter "label=target=documents" -q)
-            sudo docker rm -f $(sudo docker ps -a --filter "label=target=documents" -q)
-            sudo docker rmi -f $(sudo docker images --filter "label=target=documents" -q)
+            sudo docker stop $(sudo docker ps --filter label=${{ env.IMAGE_LABEL}} -q)
+            sudo docker rm -f $(sudo docker ps -a --filter label=${{ env.IMAGE_LABEL}} -q)
+            sudo docker rmi -f $(sudo docker images --filter label=${{ env.IMAGE_LABEL}} -q)
             sudo docker login --username=${{ secrets.DOCKER_HUB_USER }} --password ${{ secrets.DOCKER_HUB_TOKEN }} ${{ env.REGISTRY }}
             sudo docker pull ${{ secrets.DOCKER_HUB_USER }}/documents:latest
-            sudo docker run -d -p 8000:80 --name nginx-main ${{ secrets.DOCKER_HUB_USER }}/documents:latest
+            sudo docker run --restart=always -d -p ${{ env.RUN_PORT }}:80 --name ${{ env.IMAGE_NAME }}-container-prod ${{ secrets.DOCKER_HUB_USER }}/documents:latest
