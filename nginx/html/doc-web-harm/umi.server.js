@@ -78,7 +78,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/doc-study-docker/";
+/******/ 	__webpack_require__.p = "/doc-web-harm/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -137,22 +137,22 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHistory", function() { return createHistory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "history", function() { return history; });
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 // @ts-nocheck
 
 let options = {
-  "basename": "/doc-study-docker"
+  "basename": "/doc-web-harm"
 };
 
 if (true) {
-  options.basename = "/doc-study-docker";
+  options.basename = "/doc-web-harm";
 } // remove initial history because of ssr
 
 
 let history =  true ? null : undefined;
 const createHistory = (hotReload = false) => {
   if (!hotReload) {
-    history = Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["createBrowserHistory"])(options);
+    history = Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["createBrowserHistory"])(options);
   }
 
   return history;
@@ -171,10 +171,10 @@ const createHistory = (hotReload = false) => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "plugin", function() { return plugin; });
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 // @ts-nocheck
 
-const plugin = new D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["Plugin"]({
+const plugin = new D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_0__["Plugin"]({
   validKeys: ['modifyClientRenderOpts', 'patchRoutes', 'rootContainer', 'render', 'onRouteChange', '__mfsu', 'ssr']
 });
 
@@ -205,16 +205,16 @@ const __mfsu = 1;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js */ "./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js */ "./node_modules/@umijs/preset-built-in/node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_node_modules_regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url */ "url");
 /* harmony import */ var url__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(url__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js */ "./node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 /* harmony import */ var _plugin__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./plugin */ "./.umi/core/plugin.ts");
 /* harmony import */ var _pluginRegister__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pluginRegister */ "./.umi/core/pluginRegister.ts");
 
@@ -249,7 +249,7 @@ const render = async params => {
         _params$mode = params.mode,
         mode = _params$mode === void 0 ? 'string' : _params$mode,
         _params$basename = params.basename,
-        basename = _params$basename === void 0 ? '/doc-study-docker' : _params$basename,
+        basename = _params$basename === void 0 ? '/doc-web-harm' : _params$basename,
         _params$staticMarkup = params.staticMarkup,
         staticMarkup = _params$staticMarkup === void 0 ? false : _params$staticMarkup,
         _params$forceInitial = params.forceInitial,
@@ -259,15 +259,15 @@ const render = async params => {
         getInitialPropsCtx = params.getInitialPropsCtx;
   let manifest = params.manifest;
   const env = 'development';
-  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | docker learning\" \u002F\u003E\n    \u003Cmeta name=\"description\" content=\"记录、整理学习docker相关知识的笔记\" \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-blue.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-study-docker\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-study-docker\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-study-docker\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003Edocker learning\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-study-docker\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
+  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | 乐谱（简谱）以及口琴演奏\" \u002F\u003E\n    \u003Cmeta\n      name=\"description\"\n      content=\"记录、整理各种调的简谱，方便查询；另外贴上全民K歌\u002Fbilibili上的口琴演奏\"\n    \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-blue.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-web-harm\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-web-harm\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003E简谱整理 | 吹口琴的喵~\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
   let rootContainer = '';
 
   try {
     // handle basename
-    const location = Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["stripBasename"])(basename, `${origin}${path}`);
+    const location = Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["stripBasename"])(basename, `${origin}${path}`);
     const pathname = location.pathname; // server history
 
-    const history = Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["createMemoryHistory"])({
+    const history = Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["createMemoryHistory"])({
       initialEntries: [Object(url__WEBPACK_IMPORTED_MODULE_2__["format"])(location)]
     });
     /**
@@ -276,7 +276,7 @@ const render = async params => {
 
     await _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
       key: 'ssr.beforeRenderServer',
-      type: D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
+      type: D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
       args: {
         env,
         path,
@@ -314,7 +314,7 @@ const render = async params => {
               demos = _React$useContext.demos;
 
         const _React$useState = React.useState([]),
-              _React$useState2 = Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+              _React$useState2 = Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
               renderArgs = _React$useState2[0],
               setRenderArgs = _React$useState2[1]; // update render args when props changed
 
@@ -347,637 +347,110 @@ const render = async params => {
       "path": "/",
       "wrappers": [__webpack_require__(/*! ../dumi/layout */ "./.umi/dumi/layout.tsx").default, __webpack_require__(/*! ./.dumi/theme/layout.tsx */ "./.dumi/theme/layout.tsx").default],
       "routes": [{
-        "path": "/examples",
-        "component": __webpack_require__(/*! ./docs/examples.md */ "./docs/examples.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/examples.md",
-          "updatedTime": 1644649825000,
-          "nav": {
-            "title": "Dockfile示例",
-            "order": 3,
-            "path": "/examples"
-          },
-          "toc": "menu",
-          "slugs": [{
-            "depth": 1,
-            "value": "我的一些示例",
-            "heading": "我的一些示例"
-          }, {
-            "depth": 2,
-            "value": "本文档项目的 Dockfile",
-            "heading": "本文档项目的-dockfile"
-          }, {
-            "depth": 2,
-            "value": "Node 项目的 Dockfile",
-            "heading": "node-项目的-dockfile"
-          }],
-          "title": "我的一些示例"
-        },
-        "title": "我的一些示例 - docker learning"
-      }, {
         "path": "/",
         "component": __webpack_require__(/*! ./docs/index.md */ "./docs/index.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1643771349000,
+          "updatedTime": 1644649825000,
           "hero": {
             "title": "千里之行，始于足下!",
-            "desc": "<div class=\"markdown\"><p>记录、整理学习docker相关知识的笔记</p></div>",
+            "desc": "<div class=\"markdown\"><p>简谱整理 | 吹口琴的喵~</p></div>",
             "actions": [{
               "text": "get start",
-              "link": "/docker"
+              "link": "/music"
             }]
           },
           "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2021<br />Powered by <a href=\"https://d.umijs.org/\" target=\"_blank\">dumi<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" width=\"15\" height=\"15\" class=\"__dumi-default-external-link-icon\"><path fill=\"currentColor\" d=\"M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z\"></path><polygon fill=\"currentColor\" points=\"45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9\"></polygon></svg></a></p></div>",
           "slugs": [],
           "title": "Index"
         },
-        "title": "Index - docker learning"
+        "title": "Index - 简谱整理 | 吹口琴的喵~"
       }, {
-        "path": "/docker/clear",
-        "component": __webpack_require__(/*! ./docs/docker/clear.md */ "./docs/docker/clear.md").default,
+        "path": "/music",
+        "component": __webpack_require__(/*! ./docs/music/index.md */ "./docs/music/index.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/docker/clear.md",
-          "updatedTime": 1644569484000,
-          "toc": "menu",
-          "order": 9,
-          "slugs": [{
-            "depth": 1,
-            "value": "清理技巧",
-            "heading": "清理技巧"
-          }, {
-            "depth": 2,
-            "value": "删除所有的容器",
-            "heading": "删除所有的容器"
-          }, {
-            "depth": 2,
-            "value": "删除所有镜像",
-            "heading": "删除所有镜像"
-          }, {
-            "depth": 2,
-            "value": "删除所有\"label=target=documents\"的容器",
-            "heading": "删除所有labeltargetdocuments的容器"
-          }, {
-            "depth": 2,
-            "value": "删除所有未打 dangling 标签的镜像",
-            "heading": "删除所有未打-dangling-标签的镜像"
-          }, {
-            "depth": 2,
-            "value": "创建命令别名",
-            "heading": "创建命令别名"
-          }],
-          "title": "清理技巧",
+          "filePath": "docs/music/index.md",
+          "updatedTime": 1644649825000,
           "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "清理技巧 - docker learning"
-      }, {
-        "path": "/docker/connect",
-        "component": __webpack_require__(/*! ./docs/docker/connect.md */ "./docs/docker/connect.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/connect.md",
-          "updatedTime": 1644569484000,
-          "toc": "menu",
-          "order": 7,
-          "slugs": [{
-            "depth": 1,
-            "value": "容器连接",
-            "heading": "容器连接"
-          }, {
-            "depth": 2,
-            "value": "端口映射",
-            "heading": "端口映射"
-          }, {
-            "depth": 3,
-            "value": "指定容器绑定的网络地址",
-            "heading": "指定容器绑定的网络地址"
-          }, {
-            "depth": 3,
-            "value": "绑定 udp",
-            "heading": "绑定-udp"
-          }, {
-            "depth": 2,
-            "value": "容器互联（network）",
-            "heading": "容器互联network"
-          }, {
-            "depth": 3,
-            "value": "容器命名",
-            "heading": "容器命名"
-          }, {
-            "depth": 3,
-            "value": "新建网络",
-            "heading": "新建网络"
-          }, {
-            "depth": 3,
-            "value": "运行连接到网络的容器",
-            "heading": "运行连接到网络的容器"
-          }],
-          "title": "容器连接",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "容器连接 - docker learning"
-      }, {
-        "path": "/docker/container",
-        "component": __webpack_require__(/*! ./docs/docker/container.md */ "./docs/docker/container.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/container.md",
-          "updatedTime": 1644569484000,
-          "toc": "menu",
-          "order": 6,
-          "slugs": [{
-            "depth": 1,
-            "value": "容器使用",
-            "heading": "容器使用"
-          }, {
-            "depth": 2,
-            "value": "列出容器",
-            "heading": "列出容器"
-          }, {
-            "depth": 2,
-            "value": "启动",
-            "heading": "启动"
-          }, {
-            "depth": 2,
-            "value": "停止",
-            "heading": "停止"
-          }, {
-            "depth": 2,
-            "value": "重启",
-            "heading": "重启"
-          }, {
-            "depth": 2,
-            "value": "删除",
-            "heading": "删除"
-          }, {
-            "depth": 2,
-            "value": "查看日志",
-            "heading": "查看日志"
-          }, {
-            "depth": 2,
-            "value": "进入容器",
-            "heading": "进入容器"
-          }, {
-            "depth": 2,
-            "value": "导出和导入容器",
-            "heading": "导出和导入容器"
-          }],
-          "title": "容器使用",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "容器使用 - docker learning"
-      }, {
-        "path": "/docker/image-acceleration",
-        "component": __webpack_require__(/*! ./docs/docker/image-acceleration.md */ "./docs/docker/image-acceleration.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/image-acceleration.md",
-          "updatedTime": 1643771349000,
-          "toc": "menu",
-          "order": 3,
-          "slugs": [{
-            "depth": 1,
-            "value": "镜像加速",
-            "heading": "镜像加速"
-          }, {
-            "depth": 2,
-            "value": "选择加速地址",
-            "heading": "选择加速地址"
-          }, {
-            "depth": 2,
-            "value": "widnows 系统",
-            "heading": "widnows-系统"
-          }, {
-            "depth": 2,
-            "value": "Ubuntu16.04+、Debian8+、CentOS7",
-            "heading": "ubuntu1604debian8centos7"
-          }],
-          "title": "镜像加速",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "镜像加速 - docker learning"
-      }, {
-        "path": "/docker/image",
-        "component": __webpack_require__(/*! ./docs/docker/image.md */ "./docs/docker/image.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/image.md",
-          "updatedTime": 1643771349000,
-          "toc": "menu",
-          "order": 5,
-          "slugs": [{
-            "depth": 1,
-            "value": "镜像使用",
-            "heading": "镜像使用"
-          }, {
-            "depth": 2,
-            "value": "列出镜像",
-            "heading": "列出镜像"
-          }, {
-            "depth": 2,
-            "value": "查找镜像",
-            "heading": "查找镜像"
-          }, {
-            "depth": 2,
-            "value": "拉取镜像",
-            "heading": "拉取镜像"
-          }, {
-            "depth": 2,
-            "value": "删除镜像",
-            "heading": "删除镜像"
-          }, {
-            "depth": 2,
-            "value": "运行镜像",
-            "heading": "运行镜像"
-          }, {
-            "depth": 2,
-            "value": "创建镜像",
-            "heading": "创建镜像"
-          }, {
-            "depth": 2,
-            "value": "设置镜像标签",
-            "heading": "设置镜像标签"
-          }],
-          "title": "镜像使用",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "镜像使用 - docker learning"
-      }, {
-        "path": "/docker",
-        "component": __webpack_require__(/*! ./docs/docker/index.md */ "./docs/docker/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/index.md",
-          "updatedTime": 1643771349000,
-          "nav": {
-            "title": "docker",
+            "title": "简谱、演奏",
             "order": 1,
-            "path": "/docker"
+            "path": "/music"
           },
           "toc": "menu",
           "order": 1,
           "slugs": [{
             "depth": 1,
-            "value": "docker",
-            "heading": "docker"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "应用场景",
-            "heading": "应用场景"
-          }, {
-            "depth": 2,
-            "value": "docker优点",
-            "heading": "docker优点"
+            "value": "网站",
+            "heading": "网站"
           }],
-          "title": "docker"
+          "title": "网站"
         },
-        "title": "docker - docker learning"
+        "title": "网站 - 简谱整理 | 吹口琴的喵~"
       }, {
-        "path": "/docker/install",
-        "component": __webpack_require__(/*! ./docs/docker/install.md */ "./docs/docker/install.md").default,
+        "path": "/music/这一生关于你的风景",
+        "component": __webpack_require__(/*! ./docs/music/这一生关于你的风景.md */ "./docs/music/这一生关于你的风景.md").default,
         "exact": true,
         "meta": {
-          "filePath": "docs/docker/install.md",
-          "updatedTime": 1643771349000,
-          "toc": "menu",
+          "filePath": "docs/music/这一生关于你的风景.md",
+          "updatedTime": 1644653469550,
+          "slugs": [{
+            "depth": 1,
+            "value": "这一生关于你的风景",
+            "heading": "这一生关于你的风景"
+          }, {
+            "depth": 2,
+            "value": "简谱（升 c 调）",
+            "heading": "简谱升-c-调"
+          }],
+          "title": "这一生关于你的风景",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "这一生关于你的风景 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/这世界那么多人",
+        "component": __webpack_require__(/*! ./docs/music/这世界那么多人.md */ "./docs/music/这世界那么多人.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/这世界那么多人.md",
+          "updatedTime": 1644654098128,
           "order": 2,
           "slugs": [{
             "depth": 1,
-            "value": "dokcer安装",
-            "heading": "dokcer安装"
+            "value": "这世界那么多人",
+            "heading": "这世界那么多人"
           }, {
             "depth": 2,
-            "value": "windows",
-            "heading": "windows"
+            "value": "演奏",
+            "heading": "演奏"
           }, {
             "depth": 2,
-            "value": "ubuntu",
-            "heading": "ubuntu"
+            "value": "简谱（c 调）",
+            "heading": "简谱c-调"
           }, {
             "depth": 2,
-            "value": "其他",
-            "heading": "其他"
+            "value": "简谱（b 调）",
+            "heading": "简谱b-调"
           }],
-          "title": "dokcer安装",
+          "title": "这世界那么多人",
           "nav": {
-            "path": "/docker",
-            "title": "docker"
+            "path": "/music",
+            "title": "简谱、演奏"
           }
         },
-        "title": "dokcer安装 - docker learning"
-      }, {
-        "path": "/docker/quick-start",
-        "component": __webpack_require__(/*! ./docs/docker/quick-start.md */ "./docs/docker/quick-start.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/quick-start.md",
-          "updatedTime": 1643771349000,
-          "toc": "menu",
-          "order": 4,
-          "slugs": [{
-            "depth": 1,
-            "value": "快速开始",
-            "heading": "快速开始"
-          }, {
-            "depth": 2,
-            "value": "hello world",
-            "heading": "hello-world"
-          }, {
-            "depth": 2,
-            "value": "参数解析",
-            "heading": "参数解析"
-          }],
-          "title": "快速开始",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "快速开始 - docker learning"
-      }, {
-        "path": "/docker/repository",
-        "component": __webpack_require__(/*! ./docs/docker/repository.md */ "./docs/docker/repository.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/repository.md",
-          "updatedTime": 1644569484000,
-          "toc": "menu",
-          "order": 8,
-          "slugs": [{
-            "depth": 1,
-            "value": "仓库管理",
-            "heading": "仓库管理"
-          }, {
-            "depth": 2,
-            "value": "docker hub",
-            "heading": "docker-hub"
-          }, {
-            "depth": 3,
-            "value": "注册",
-            "heading": "注册"
-          }, {
-            "depth": 3,
-            "value": "登录",
-            "heading": "登录"
-          }, {
-            "depth": 3,
-            "value": "退出",
-            "heading": "退出"
-          }, {
-            "depth": 2,
-            "value": "其他操作",
-            "heading": "其他操作"
-          }, {
-            "depth": 3,
-            "value": "搜索镜像",
-            "heading": "搜索镜像"
-          }, {
-            "depth": 3,
-            "value": "拉取镜像",
-            "heading": "拉取镜像"
-          }, {
-            "depth": 3,
-            "value": "推送镜像",
-            "heading": "推送镜像"
-          }],
-          "title": "仓库管理",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "仓库管理 - docker learning"
-      }, {
-        "path": "/docker/sudo",
-        "component": __webpack_require__(/*! ./docs/docker/sudo.md */ "./docs/docker/sudo.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/docker/sudo.md",
-          "updatedTime": 1644548786000,
-          "toc": "menu",
-          "order": 2,
-          "slugs": [{
-            "depth": 1,
-            "value": "sudo 权限",
-            "heading": "sudo-权限"
-          }, {
-            "depth": 2,
-            "value": "添加 docker 用户组",
-            "heading": "添加-docker-用户组"
-          }, {
-            "depth": 2,
-            "value": "将登录用户加入到 docker 用户组",
-            "heading": "将登录用户加入到-docker-用户组"
-          }, {
-            "depth": 2,
-            "value": "更新用户组",
-            "heading": "更新用户组"
-          }, {
-            "depth": 2,
-            "value": "重启 docker",
-            "heading": "重启-docker"
-          }, {
-            "depth": 2,
-            "value": "问题",
-            "heading": "问题"
-          }],
-          "title": "sudo 权限",
-          "nav": {
-            "path": "/docker",
-            "title": "docker"
-          }
-        },
-        "title": "sudo 权限 - docker learning"
-      }, {
-        "path": "/dockerfile",
-        "component": __webpack_require__(/*! ./docs/Dockerfile/index.md */ "./docs/Dockerfile/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/Dockerfile/index.md",
-          "updatedTime": 1644649825000,
-          "nav": {
-            "title": "Dockfile",
-            "order": 2,
-            "path": "/dockerfile"
-          },
-          "toc": "menu",
-          "order": 1,
-          "slugs": [{
-            "depth": 1,
-            "value": "Dockfile",
-            "heading": "dockfile"
-          }, {
-            "depth": 2,
-            "value": "介绍",
-            "heading": "介绍"
-          }, {
-            "depth": 2,
-            "value": "从一个最简单的例子开始",
-            "heading": "从一个最简单的例子开始"
-          }, {
-            "depth": 3,
-            "value": "新建 Dockfile 文件",
-            "heading": "新建-dockfile-文件"
-          }, {
-            "depth": 3,
-            "value": "从 Dockfile 文件构建",
-            "heading": "从-dockfile-文件构建"
-          }, {
-            "depth": 2,
-            "value": "指令详解",
-            "heading": "指令详解"
-          }, {
-            "depth": 3,
-            "value": "FROM",
-            "heading": "from"
-          }, {
-            "depth": 3,
-            "value": "WORKDIR",
-            "heading": "workdir"
-          }, {
-            "depth": 3,
-            "value": "COPY",
-            "heading": "copy"
-          }, {
-            "depth": 3,
-            "value": "ADD",
-            "heading": "add"
-          }, {
-            "depth": 3,
-            "value": "RUN",
-            "heading": "run"
-          }, {
-            "depth": 3,
-            "value": "CMD",
-            "heading": "cmd"
-          }, {
-            "depth": 3,
-            "value": "ENTRYPOINT",
-            "heading": "entrypoint"
-          }, {
-            "depth": 3,
-            "value": "ENV",
-            "heading": "env"
-          }, {
-            "depth": 3,
-            "value": "ARG",
-            "heading": "arg"
-          }, {
-            "depth": 3,
-            "value": "VOLUME",
-            "heading": "volume"
-          }, {
-            "depth": 3,
-            "value": "EXPOSE",
-            "heading": "expose"
-          }, {
-            "depth": 3,
-            "value": "LABEL",
-            "heading": "label"
-          }, {
-            "depth": 3,
-            "value": "USER",
-            "heading": "user"
-          }, {
-            "depth": 3,
-            "value": "...",
-            "heading": ""
-          }],
-          "title": "Dockfile"
-        },
-        "title": "Dockfile - docker learning"
-      }, {
-        "path": "/dockerfile/questions",
-        "component": __webpack_require__(/*! ./docs/Dockerfile/questions.md */ "./docs/Dockerfile/questions.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/Dockerfile/questions.md",
-          "updatedTime": 1644649825000,
-          "toc": "menu",
-          "order": 3,
-          "slugs": [{
-            "depth": 1,
-            "value": "常见问题",
-            "heading": "常见问题"
-          }, {
-            "depth": 2,
-            "value": "alpine 安装慢 apk add 很慢",
-            "heading": "alpine-安装慢-apk-add-很慢"
-          }, {
-            "depth": 2,
-            "value": "同时使用了 element-ui 和 ant-design 产生打包问题",
-            "heading": "同时使用了-element-ui-和-ant-design-产生打包问题"
-          }],
-          "title": "常见问题",
-          "nav": {
-            "path": "/dockerfile",
-            "title": "Dockfile"
-          }
-        },
-        "title": "常见问题 - docker learning"
-      }, {
-        "path": "/registry",
-        "component": __webpack_require__(/*! ./docs/registry/index.md */ "./docs/registry/index.md").default,
-        "exact": true,
-        "meta": {
-          "filePath": "docs/registry/index.md",
-          "updatedTime": 1644649825000,
-          "nav": {
-            "title": "仓库",
-            "order": 4,
-            "path": "/registry"
-          },
-          "toc": "menu",
-          "slugs": [{
-            "depth": 1,
-            "value": "docker registry",
-            "heading": "docker-registry"
-          }, {
-            "depth": 2,
-            "value": "简介",
-            "heading": "简介"
-          }, {
-            "depth": 2,
-            "value": "registry 的搭建",
-            "heading": "registry-的搭建"
-          }, {
-            "depth": 2,
-            "value": "阿里私有镜像服务",
-            "heading": "阿里私有镜像服务"
-          }],
-          "title": "docker registry"
-        },
-        "title": "docker registry - docker learning"
+        "title": "这世界那么多人 - 简谱整理 | 吹口琴的喵~"
       }],
-      "title": "docker learning",
+      "title": "简谱整理 | 吹口琴的喵~",
       "component": props => props.children
     }]; // allow user to extend routes
 
     _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
       key: 'patchRoutes',
-      type: D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
+      type: D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].event,
       args: {
         routes
       }
@@ -1006,7 +479,7 @@ const render = async params => {
     } // renderServer get rootContainer
 
 
-    const _await$renderServer = await D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default()(opts),
+    const _await$renderServer = await D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_renderServer_renderServer_js__WEBPACK_IMPORTED_MODULE_3___default()(opts),
           pageHTML = _await$renderServer.pageHTML,
           pageInitialProps = _await$renderServer.pageInitialProps,
           routesMatched = _await$renderServer.routesMatched;
@@ -1017,18 +490,18 @@ const render = async params => {
       // plugin for modify html template
       html = await _plugin__WEBPACK_IMPORTED_MODULE_6__["plugin"].applyPlugins({
         key: 'ssr.modifyServerHTML',
-        type: D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].modify,
+        type: D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_runtime__WEBPACK_IMPORTED_MODULE_5__["ApplyPluginsType"].modify,
         initialValue: html,
         args: {
           context,
-          cheerio: D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["cheerio"],
+          cheerio: D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["cheerio"],
           routesMatched,
           dynamicImport,
           manifest
         },
         async: true
       });
-      html = await Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["handleHTML"])({
+      html = await Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_built_in_lib_plugins_features_ssr_templates_utils_js__WEBPACK_IMPORTED_MODULE_4__["handleHTML"])({
         html,
         rootContainer,
         pageInitialProps,
@@ -1066,9 +539,9 @@ const render = async params => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/utils/lib/ssr.js */ "./node_modules/@umijs/utils/lib/ssr.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]; });
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/utils/lib/ssr.js */ "./node_modules/@umijs/utils/lib/ssr.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_utils_lib_ssr_js__WEBPACK_IMPORTED_MODULE_0__["isBrowser"]; });
 
 // @ts-nocheck
 // only export isBrowser for user
@@ -1119,7 +592,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"/examples\":[{\"path\":\"/examples\",\"title\":\"我的一些示例\",\"meta\":{}}],\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/docker\":[{\"path\":\"/docker\",\"title\":\"docker\",\"meta\":{\"order\":1}},{\"path\":\"/docker/install\",\"title\":\"dokcer安装\",\"meta\":{\"order\":2}},{\"path\":\"/docker/sudo\",\"title\":\"sudo 权限\",\"meta\":{\"order\":2}},{\"path\":\"/docker/image-acceleration\",\"title\":\"镜像加速\",\"meta\":{\"order\":3}},{\"path\":\"/docker/quick-start\",\"title\":\"快速开始\",\"meta\":{\"order\":4}},{\"path\":\"/docker/image\",\"title\":\"镜像使用\",\"meta\":{\"order\":5}},{\"path\":\"/docker/container\",\"title\":\"容器使用\",\"meta\":{\"order\":6}},{\"path\":\"/docker/connect\",\"title\":\"容器连接\",\"meta\":{\"order\":7}},{\"path\":\"/docker/repository\",\"title\":\"仓库管理\",\"meta\":{\"order\":8}},{\"path\":\"/docker/clear\",\"title\":\"清理技巧\",\"meta\":{\"order\":9}}],\"/dockerfile\":[{\"path\":\"/dockerfile\",\"title\":\"Dockfile\",\"meta\":{\"order\":1}},{\"path\":\"/dockerfile/questions\",\"title\":\"常见问题\",\"meta\":{\"order\":3}}],\"/registry\":[{\"path\":\"/registry\",\"title\":\"docker registry\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/docker\",\"title\":\"docker\",\"order\":1},{\"title\":\"Dockfile\",\"order\":2,\"path\":\"/dockerfile\"},{\"title\":\"Dockfile示例\",\"order\":3,\"path\":\"/examples\"},{\"title\":\"仓库\",\"order\":4,\"path\":\"/registry\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"docker learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/music\":[{\"path\":\"/music\",\"title\":\"网站\",\"meta\":{\"order\":1}},{\"path\":\"/music/这世界那么多人\",\"title\":\"这世界那么多人\",\"meta\":{\"order\":2}},{\"path\":\"/music/这一生关于你的风景\",\"title\":\"这一生关于你的风景\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"简谱、演奏\",\"order\":1,\"path\":\"/music\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"简谱整理 | 吹口琴的喵~\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -1146,7 +619,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _dumi_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @@/dumi/config */ "./.umi/dumi/config.json");
@@ -1154,17 +627,17 @@ var _dumi_config__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack
 /* harmony import */ var _dumi_demos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @@/dumi/demos */ "./.umi/dumi/demos/index.ts");
 /* harmony import */ var _dumi_apis__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @@/dumi/apis */ "./.umi/dumi/apis.json");
 var _dumi_apis__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @@/dumi/apis */ "./.umi/dumi/apis.json", 1);
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/preset-dumi/lib/theme/layout */ "./node_modules/@umijs/preset-dumi/lib/theme/layout.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@umijs/preset-dumi/lib/theme/layout */ "./node_modules/@umijs/preset-dumi/lib/theme/layout.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\.umi\\dumi\\layout.tsx";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\.umi\\dumi\\layout.tsx";
 // @ts-nocheck
 
 
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default.a, Object(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+/* harmony default export */ __webpack_exports__["default"] = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_preset_dumi_lib_theme_layout__WEBPACK_IMPORTED_MODULE_5___default.a, Object(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
   config: _dumi_config__WEBPACK_IMPORTED_MODULE_2__,
   demos: _dumi_demos__WEBPACK_IMPORTED_MODULE_3__["default"],
   apis: _dumi_apis__WEBPACK_IMPORTED_MODULE_4__,
@@ -1175,5089 +648,6 @@ var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\.umi\\dumi
     columnNumber: 27
   }
 })));
-
-/***/ }),
-
-/***/ "./docs/Dockerfile/index.md":
-/*!**********************************!*\
-  !*** ./docs/Dockerfile/index.md ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\Dockerfile\\index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "dockfile",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#dockfile",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 55
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 115
-    }
-  })), "Dockfile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 67
-    }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "Dockerfile \u662F\u4E00\u4E2A\u7528\u6765\u6784\u5EFA\u955C\u50CF\u7684\u6587\u672C\u6587\u4EF6\uFF0C\u6587\u672C\u5185\u5BB9\u5305\u542B\u4E86\u4E00\u6761\u6761\u6784\u5EFA\u955C\u50CF\u6240\u9700\u7684\u6307\u4EE4\u548C\u8BF4\u660E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 22
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 85
-    }
-  })), "\u4ECE\u4E00\u4E2A\u6700\u7B80\u5355\u7684\u4F8B\u5B50\u5F00\u59CB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u65B0\u5EFA-dockfile-\u6587\u4EF6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u65B0\u5EFA-dockfile-\u6587\u4EF6",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 25
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 91
-    }
-  })), "\u65B0\u5EFA Dockfile \u6587\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "\u5728\u4E00\u4E2A\u7A7A\u76EE\u5F55\u4E0B\uFF0C\u65B0\u5EFA\u4E00\u4E2A\u540D\u4E3A ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 19
-    }
-  }, "Dockerfile"), " \u6587\u4EF6\uFF0C\u5E76\u5728\u6587\u4EF6\u5185\u6DFB\u52A0\u4EE5\u4E0B\u5185\u5BB9\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "FROM nginx\nRUN echo '这是一个本地构建的nginx镜像' > /usr/share/nginx/html/index.html",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "\u53C2\u6570\u89E3\u91CA\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "FROM nginx\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 16
-    }
-  }, "From"), "\u6307\u4EE4\u662F\u6307\u5B9A\u57FA\u7840\u955C\u50CF\uFF0C\u540E\u7EED\u7684\u64CD\u4F5C\u90FD\u662F\u57FA\u4E8E", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 52
-    }
-  }, "nginx"), "\uFF0Cnginx \u540E\u9762\u8DDF\u7740\uFF08\u9ED8\u8BA4\u7684\uFF09tag\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 90
-    }
-  }, "latest"), "\uFF0C\u5F53\u7136\u4E5F\u53EF\u4EE5\u4F7F\u7528\u5176\u4ED6 tag"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "RUN\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
-    }
-  }, "RUN"), "\u6307\u4EE4\u7528\u4E8E\u6267\u884C\u540E\u9762\u8DDF\u7740\u7684\u547D\u4EE4")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u4ECE-dockfile-\u6587\u4EF6\u6784\u5EFA",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECE-dockfile-\u6587\u4EF6\u6784\u5EFA",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 26
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 93
-    }
-  })), "\u4ECE Dockfile \u6587\u4EF6\u6784\u5EFA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "\u5728\u5F53\u524D\u76EE\u5F55\u4E0B\u8FD0\u884C\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker build -t nginx:mynginx .",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, "\u53C2\u6570\u89E3\u91CA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 5
-    }
-  }, "docker build"), "\u662F docker \u6784\u5EFA\u955C\u50CF\u7684\u547D\u4EE4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 5
-    }
-  }, "-t nginx:mynginx"), "\u8868\u793A\u955C\u50CF\u540D\u79F0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 5
-    }
-  }, "."), "\u4EE3\u8868\u4E0A\u4E0B\u6587\u8DEF\u5F84\uFF0C\u8FD9\u91CC\u6307\u7684\u662F\u5F53\u524D\u6587\u4EF6\u5939")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 4
-    }
-  }, "\u6CE8\u610F"), "\uFF1A\u4E0A\u4E0B\u6587\u8DEF\u5F84\u4E0B\u4E0D\u8981\u653E\u65E0\u7528\u7684\u6587\u4EF6\uFF0C\u56E0\u4E3A\u4F1A\u4E00\u8D77\u6253\u5305\u53D1\u9001\u7ED9 docker \u5F15\u64CE\uFF0C\u5982\u679C\u6587\u4EF6\u8FC7\u591A\u4F1A\u9020\u6210\u8FC7\u7A0B\u7F13\u6162\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6307\u4EE4\u8BE6\u89E3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6307\u4EE4\u8BE6\u89E3",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 71
-    }
-  })), "\u6307\u4EE4\u8BE6\u89E3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "from",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#from",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 71
-    }
-  })), "FROM"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 1
-    }
-  }, "\u5B9A\u4E49\u57FA\u7840\u955C\u50CF\uFF0C\u540E\u7EED\u7684\u64CD\u4F5C\u90FD\u662F\u57FA\u4E8E\u6B64\u57FA\u7840\u955C\u50CF\u7684"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 新版本（17.05以后）支持多FROM指令，这里给这个阶段加上别名为build，后续可以使用COPY --from=build 源路径 目标路径\nFROM node:14 AS build\n# 使用nginx作为基础镜像\nFROM nginx:latest",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "workdir",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#workdir",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 18
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 77
-    }
-  })), "WORKDIR"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 设置当前工作目录为`/app`\nWORKDIR /app",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "copy",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#copy",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 71
-    }
-  })), "COPY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 从宿主机的当前目录，拷贝到工作目录下\nCOPY . .\n# 从build构建中，拷贝/app/nginx/html到/usr/share/nginx/html\nCOPY --from=build /app/nginx/html /usr/share/nginx/html",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "add",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#add",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 14
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 69
-    }
-  })), "ADD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 1
-    }
-  }, "\u548C COPY \u7C7B\u4F3C\uFF0C\u5B98\u65B9\u63A8\u8350\u4F7F\u7528 COPY\uFF0C\u6211\u8FD9\u91CC\u4E5F\u6682\u672A\u4E86\u89E3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "run",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#run",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 14
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 69
-    }
-  })), "RUN"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 1
-    }
-  }, "\u8FD0\u884C\u7A0B\u5E8F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 在镜像构建时，运行npm run build:doc\nRUN npm run build:doc",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "cmd",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#cmd",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 14
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 69
-    }
-  })), "CMD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 1
-    }
-  }, "\u7C7B\u4F3C\u4E8E RUN \u6307\u4EE4\uFF0C\u7528\u4E8E\u8FD0\u884C\u7A0B\u5E8F\uFF0C\u4F46\u4E8C\u8005\u8FD0\u884C\u7684\u65F6\u95F4\u70B9\u4E0D\u540C:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 5
-    }
-  }, "CMD"), " \u5728 docker run \u65F6\u8FD0\u884C\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 5
-    }
-  }, "RUN"), " \u662F\u5728 docker build\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 1
-    }
-  }, "\u6CE8\u610F\uFF1A\u5982\u679C Dockerfile \u4E2D\u5982\u679C\u5B58\u5728\u591A\u4E2A CMD \u6307\u4EE4\uFF0C\u4EC5\u6700\u540E\u4E00\u4E2A\u751F\u6548\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "entrypoint",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#entrypoint",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 83
-    }
-  })), "ENTRYPOINT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 1
-    }
-  }, "\u7C7B\u4F3C\u4E8E CMD \u6307\u4EE4\uFF0C\u4F46\u5176\u4E0D\u4F1A\u88AB docker run \u7684\u547D\u4EE4\u884C\u53C2\u6570\u6307\u5B9A\u7684\u6307\u4EE4\u6240\u8986\u76D6\uFF0C\u800C\u4E14\u8FD9\u4E9B\u547D\u4EE4\u884C\u53C2\u6570\u4F1A\u88AB\u5F53\u4F5C\u53C2\u6570\u9001\u7ED9 ENTRYPOINT \u6307\u4EE4\u6307\u5B9A\u7684\u7A0B\u5E8F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("blockquote", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 1
-    }
-  }, "\u6CE8\u610F\uFF1A\u5982\u679C Dockerfile \u4E2D\u5982\u679C\u5B58\u5728\u591A\u4E2A ENTRYPOINT \u6307\u4EE4\uFF0C\u4EC5\u6700\u540E\u4E00\u4E2A\u751F\u6548\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "env",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#env",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 14
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 69
-    }
-  })), "ENV"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 1
-    }
-  }, "\u8BBE\u7F6E\u73AF\u5883\u53D8\u91CF\uFF0C\u5B9A\u4E49\u4E86\u73AF\u5883\u53D8\u91CF\uFF0C\u90A3\u4E48\u5728\u540E\u7EED\u7684\u6307\u4EE4\u4E2D\uFF0C\u5C31\u53EF\u4EE5\u4F7F\u7528\u8FD9\u4E2A\u73AF\u5883\u53D8\u91CF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 格式\nENV <key> <value>\nENV <key1>=<value1> <key2>=<value2>...\n# 设置时区\nENV TZ=\"Asia/Shanghai\"",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u793A\u4F8B\u8BBE\u7F6E NODE_VERSION = 7.2.0 \uFF0C \u5728\u540E\u7EED\u7684\u6307\u4EE4\u4E2D\u53EF\u4EE5\u901A\u8FC7 $NODE_VERSION \u5F15\u7528\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "ENV NODE_VERSION 7.2.0\n\nRUN curl -SLO \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.xz\" \\\n  && curl -SLO \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "arg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#arg",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 14
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 69
-    }
-  })), "ARG"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 1
-    }
-  }, "\u6784\u5EFA\u53C2\u6570\uFF0C\u4E0E ENV \u4F5C\u7528\u4E00\u81F4\u3002\u4E0D\u8FC7\u4F5C\u7528\u57DF\u4E0D\u4E00\u6837\u3002ARG \u8BBE\u7F6E\u7684\u73AF\u5883\u53D8\u91CF\u4EC5\u5BF9 Dockerfile \u5185\u6709\u6548\uFF0C\u4E5F\u5C31\u662F\u8BF4\u53EA\u6709 docker build \u7684\u8FC7\u7A0B\u4E2D\u6709\u6548\uFF0C\u6784\u5EFA\u597D\u7684\u955C\u50CF\u5185\u4E0D\u5B58\u5728\u6B64\u73AF\u5883\u53D8\u91CF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "volume",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#volume",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 75
-    }
-  })), "VOLUME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 1
-    }
-  }, "\u5B9A\u4E49\u533F\u540D\u6570\u636E\u5377\u3002\u5728\u542F\u52A8\u5BB9\u5668\u65F6\u5FD8\u8BB0\u6302\u8F7D\u6570\u636E\u5377\uFF0C\u4F1A\u81EA\u52A8\u6302\u8F7D\u5230\u533F\u540D\u5377\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 1
-    }
-  }, "\u4F5C\u7528\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 1
-    }
-  }, "\u907F\u514D\u91CD\u8981\u7684\u6570\u636E\uFF0C\u56E0\u5BB9\u5668\u91CD\u542F\u800C\u4E22\u5931\uFF0C\u8FD9\u662F\u975E\u5E38\u81F4\u547D\u7684\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 1
-    }
-  }, "\u907F\u514D\u5BB9\u5668\u4E0D\u65AD\u53D8\u5927\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 1
-    }
-  }, "\u683C\u5F0F\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "VOLUME [\"<路径1>\", \"<路径2>\"...]\nVOLUME <路径>",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "expose",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#expose",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 75
-    }
-  })), "EXPOSE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 1
-    }
-  }, "\u4EC5\u4EC5\u53EA\u662F\u58F0\u660E\u7AEF\u53E3\u3002 \u683C\u5F0F\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "EXPOSE <端口1> [<端口2>...]",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "label",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#label",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 16
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 73
-    }
-  })), "LABEL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 1
-    }
-  }, "LABEL \u6307\u4EE4\u7528\u6765\u7ED9\u955C\u50CF\u6DFB\u52A0\u4E00\u4E9B\u5143\u6570\u636E\uFF08metadata\uFF09\uFF0C\u4EE5\u952E\u503C\u5BF9\u7684\u5F62\u5F0F\uFF0C\u8BED\u6CD5\u683C\u5F0F\u5982\u4E0B\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "LABEL <key>=<value> <key>=<value> <key>=<value> ...\n# 比如：\nLABEL target=\"documents\"",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "user",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#user",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 71
-    }
-  })), "USER"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 1
-    }
-  }, "\u7528\u4E8E\u6307\u5B9A\u6267\u884C\u540E\u7EED\u547D\u4EE4\u7684\u7528\u6237\u548C\u7528\u6237\u7EC4\uFF0C\u8FD9\u8FB9\u53EA\u662F\u5207\u6362\u540E\u7EED\u547D\u4EE4\u6267\u884C\u7684\u7528\u6237\uFF08\u7528\u6237\u548C\u7528\u6237\u7EC4\u5FC5\u987B\u63D0\u524D\u5DF2\u7ECF\u5B58\u5728\uFF09\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 1
-    }
-  }, "\u683C\u5F0F\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "USER <用户名>[:<用户组>]",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 63
-    }
-  })), "...")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/Dockerfile/questions.md":
-/*!**************************************!*\
-  !*** ./docs/Dockerfile/questions.md ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\Dockerfile\\questions.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u5E38\u89C1\u95EE\u9898",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5E38\u89C1\u95EE\u9898",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u5E38\u89C1\u95EE\u9898"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "alpine-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#alpine-\u5B89\u88C5\u6162-apk-add-\u5F88\u6162",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 32
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 105
-    }
-  })), "alpine \u5B89\u88C5\u6162 apk add \u5F88\u6162"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u5F88\u591A\u60C5\u51B5\u4E0B\uFF0C\u4F1A\u4F7F\u7528\u8F7B\u91CF\u7EA7\u7684\u57FA\u7840\u955C\u50CF alpine\uFF0C\u4F46\u662F\u5728\u5B89\u88C5\u5E94\u7528\u7684\u65F6\u5019\u5F88\u6162\uFF0C\u9020\u6210\u8FD9\u79CD\u60C5\u51B5\u662F\u7F51\u7EDC\u539F\u56E0\uFF0C\u89E3\u51B3\u529E\u6CD5\u662F\u5207\u6362\u6E90\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u963F\u91CC\u955C\u50CF", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "\u79D1\u5927\u955C\u50CF", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories",
-    lang: "unknown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 4
-    }
-  }, "\u6216\u8005\u4F7F\u7528 github actions \u8FDB\u884C\u6784\u5EFA\uFF0C\u5B8C\u7F8E\u907F\u5F00\u8FD9\u79CD\u95EE\u9898 \uD83D\uDE3A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u540C\u65F6\u4F7F\u7528\u4E86-element-ui-\u548C-ant-design-\u4EA7\u751F\u6253\u5305\u95EE\u9898",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u540C\u65F6\u4F7F\u7528\u4E86-element-ui-\u548C-ant-design-\u4EA7\u751F\u6253\u5305\u95EE\u9898",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 47
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 135
-    }
-  })), "\u540C\u65F6\u4F7F\u7528\u4E86 element-ui \u548C ant-design \u4EA7\u751F\u6253\u5305\u95EE\u9898"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "\u5982\u679C\u662F\u672C\u5730\u6253\u5305\u7684\u8BDD\uFF0C\u76F4\u63A5\u4FEE\u6539 node_modules \u4E0B\u9762\u5BF9\u5E94\u7684\u6587\u4EF6\u5373\u53EF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u4F46\u6211\u4EEC\u7684\u76EE\u6807\u662F\u4F7F\u7528 Dockfile \u81EA\u52A8\u5316\u6784\u5EFA\uFF0C\u89E3\u51B3\u529E\u6CD5\u662F\u4F7F\u7528 linux \u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 44
-    }
-  }, "sed"), "\u547D\u4EE4\u64CD\u4F5C\u6587\u4EF6\uFF0C\u628A\u6709\u95EE\u9898\u7684\u4EE3\u7801\u6CE8\u91CA\u5373\u53EF\uFF0C\u53EF\u4EE5\u53C2\u8003\u793A\u4F8B\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 解决element-ui和ant-design的声明冲突问题\nRUN sed -i \"s/\\$confirm/\\/\\/\\$confirm/g\" /app/node_modules/ant-design-vue/types/modal.d.ts\nRUN sed -i \"s/\\$message/\\/\\/\\$message/g\" /app/node_modules/ant-design-vue/types/message.d.ts",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u89E3\u91CA\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, "\u4EE3\u7801\u5728", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 8
-    }
-  }, "npm run build"), "\u4E4B\u524D\u6267\u884C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, "\u628A\u5BF9\u5E94\u6587\u4EF6\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 11
-    }
-  }, "$confirm"), "\u66FF\u6362\u4E3A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 35
-    }
-  }, "//$confirm"), "\uFF0C\u8FBE\u5230\u6CE8\u91CA\u7684\u6548\u679C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 1
-    }
-  }, "\u628A\u5BF9\u5E94\u6587\u4EF6\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 11
-    }
-  }, "$message"), "\u66FF\u6362\u4E3A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 35
-    }
-  }, "//$message"), "\uFF0C\u8FBE\u5230\u6CE8\u91CA\u7684\u6548\u679C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, "\u5BF9\u5E94\u7684\u6587\u4EF6\u8DEF\u5F84\uFF0C\u6839\u636E\u81EA\u5DF1\u7684\u65F6\u673A\u60C5\u51B5\uFF0C\u8FDB\u884C\u66FF\u6362\uFF0C\u6211\u8FD9\u91CC\u662F", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 32
-    }
-  }, "/app/node_modules/ant-design-vue/types/modal.d.ts"), "\u548C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 95
-    }
-  }, "/app/node_modules/ant-design-vue/types/message.d.ts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 5
-    }
-  }, "sed -i \"s/old/new/g\" filepath"), "\u547D\u4EE4\uFF0C\u662F linux \u7684 sed \u7684\u5176\u4E2D\u4E00\u79CD\u7528\u6CD5\uFF0C\u662F\u6587\u4EF6\u91CC\u5168\u5C40\u66FF\u6362 old \u4E3A new\u3002 \u53EF\u4EE5\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.runoob.com/linux/linux-comm-sed.html",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 6
-    }
-  }, "https://www.runoob.com/linux/linux-comm-sed.html")))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/clear.md":
-/*!******************************!*\
-  !*** ./docs/docker/clear.md ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\clear.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u6E05\u7406\u6280\u5DE7",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6E05\u7406\u6280\u5DE7",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u6E05\u7406\u6280\u5DE7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 18
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 77
-    }
-  })), "\u5220\u9664\u6240\u6709\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rm $(docker ps -a -q)",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664\u6240\u6709\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664\u6240\u6709\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 75
-    }
-  })), "\u5220\u9664\u6240\u6709\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rmi $(docker images -q)",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664\u6240\u6709labeltargetdocuments\u7684\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664\u6240\u6709labeltargetdocuments\u7684\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 38
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 117
-    }
-  })), "\u5220\u9664\u6240\u6709\"label=target=documents\"\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rm -f $(docker ps -a --filter \"label=target=documents\" -q)",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664\u6240\u6709\u672A\u6253-dangling-\u6807\u7B7E\u7684\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664\u6240\u6709\u672A\u6253-dangling-\u6807\u7B7E\u7684\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 32
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 105
-    }
-  })), "\u5220\u9664\u6240\u6709\u672A\u6253 dangling \u6807\u7B7E\u7684\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rmi $(docker images -q -f dangling=true)",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u521B\u5EFA\u547D\u4EE4\u522B\u540D",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u521B\u5EFA\u547D\u4EE4\u522B\u540D",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 75
-    }
-  })), "\u521B\u5EFA\u547D\u4EE4\u522B\u540D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# ~/.bash_aliases\n# 删除所有的容器\nalias dockercleanc='docker rm $(docker ps -a -q)'",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.runoob.com/w3cnote/docker-tricks.html",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 7
-    }
-  }, "https://www.runoob.com/w3cnote/docker-tricks.html"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/connect.md":
-/*!********************************!*\
-  !*** ./docs/docker/connect.md ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\connect.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u5BB9\u5668\u8FDE\u63A5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5BB9\u5668\u8FDE\u63A5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u5BB9\u5668\u8FDE\u63A5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u7AEF\u53E3\u6620\u5C04",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u7AEF\u53E3\u6620\u5C04",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 71
-    }
-  })), "\u7AEF\u53E3\u6620\u5C04"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u5BB9\u5668\u4E2D\u53EF\u4EE5\u8FD0\u884C\u4E00\u4E9B\u7F51\u7EDC\u5E94\u7528\uFF0C\u8981\u8BA9\u5916\u90E8\u4E5F\u53EF\u4EE5\u8BBF\u95EE\u8FD9\u4E9B\u5E94\u7528\uFF0C\u53EF\u4EE5\u901A\u8FC7 -P \u6216 -p \u53C2\u6570\u6765\u6307\u5B9A\u7AEF\u53E3\u6620\u5C04\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "-P :\u662F\u5BB9\u5668\u5185\u90E8\u7AEF\u53E3\u968F\u673A\u6620\u5C04\u5230\u4E3B\u673A\u7684\u7AEF\u53E3\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "-p :\u662F\u5BB9\u5668\u5185\u90E8\u7AEF\u53E3\u7ED1\u5B9A\u5230\u6307\u5B9A\u7684\u4E3B\u673A\u7AEF\u53E3\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 22
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 85
-    }
-  })), "\u6307\u5B9A\u5BB9\u5668\u7ED1\u5B9A\u7684\u7F51\u7EDC\u5730\u5740"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -d -p 127.0.0.1:5001:80 nginx",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u7ED1\u5B9A-udp",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u7ED1\u5B9A-udp",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 75
-    }
-  })), "\u7ED1\u5B9A udp"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "\u5728\u7AEF\u53E3\u540E\u9762\u52A0\u4E0A /udp"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -d -p 127.0.0.1:5001:80/udp nginx",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5BB9\u5668\u4E92\u8054network",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5BB9\u5668\u4E92\u8054network",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 22
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 85
-    }
-  })), "\u5BB9\u5668\u4E92\u8054\uFF08network\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u5BB9\u5668\u547D\u540D",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5BB9\u5668\u547D\u540D",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 71
-    }
-  })), "\u5BB9\u5668\u547D\u540D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u4F7F\u7528", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 6
-    }
-  }, "--name"), "\u53C2\u6570\u8FD0\u884C\u5BB9\u5668\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -d -p 127.0.0.1:5001:80/udp --name test1 nginx",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u65B0\u5EFA\u7F51\u7EDC",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u65B0\u5EFA\u7F51\u7EDC",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 71
-    }
-  })), "\u65B0\u5EFA\u7F51\u7EDC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker network create -d bridge test-net",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 83
-    }
-  })), "\u8FD0\u884C\u8FDE\u63A5\u5230\u7F51\u7EDC\u7684\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, "\u5BB9\u5668 1\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -itd --name test1 --network test-net nginx",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, "\u5BB9\u5668 2\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run -itd --name test2 --network test-net nginx",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 1
-    }
-  }, "\u6B64\u65F6\u5BB9\u5668 1 \u548C\u5BB9\u5668 2 \u5C31\u5EFA\u7ACB\u4E86\u4E92\u8054\u5173\u7CFB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.runoob.com/docker/docker-container-connection.html",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 4
-    }
-  }, "\u53C2\u8003\u5730\u5740"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/container.md":
-/*!**********************************!*\
-  !*** ./docs/docker/container.md ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\container.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u5BB9\u5668\u4F7F\u7528",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5BB9\u5668\u4F7F\u7528",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u5BB9\u5668\u4F7F\u7528"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5217\u51FA\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5217\u51FA\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 71
-    }
-  })), "\u5217\u51FA\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 列出正在运行的容器\ndocker ps\n# 列出所有的容器\ndocker ps -a",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u542F\u52A8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u542F\u52A8",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 67
-    }
-  })), "\u542F\u52A8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 语法\ndocker run [OPTIONS] IMAGE [COMMAND] [ARG...]\n# 根据ubuntu镜像启动一个容器，命名为ubuntu-test\ndocker run -it --name ubuntu-test ubuntu\n# 启动已经停止的容器\ndocker start xxx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "\u5E38\u7528 OPTIONS \u8BF4\u660E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "-i\uFF0C-t\uFF1A-i \u4EE5\u4EA4\u4E92\u6A21\u5F0F\u8FD0\u884C\u5BB9\u5668\uFF0C-t \u4E3A\u5BB9\u5668\u91CD\u65B0\u5206\u914D\u4E00\u4E2A\u4F2A\u8F93\u5165\u7EC8\u7AEF\uFF0C\u901A\u5E38\u4E00\u8D77\u4F7F\u7528\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "-d\uFF1A\u540E\u53F0\u8FD0\u884C\u5BB9\u5668\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "-P\uFF1A\u5BB9\u5668\u5185\u90E8\u7AEF\u53E3\u968F\u673A\u6620\u5C04\u5230\u4E3B\u673A\u7684\u7AEF\u53E3\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "-p\uFF1A\u6307\u5B9A\u7AEF\u53E3\u6620\u5C04\uFF0C\u683C\u5F0F\u4E3A\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 19
-    }
-  }, "\u5BBF\u4E3B\u673A\u7AEF\u53E3\uFF1A\u5BB9\u5668\u7AEF\u53E3"), ";"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, "--name=\"test\"\uFF1A\u5BB9\u5668\u540D\u79F0\u4E3A test\uFF1B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, "-v\uFF1A\u6620\u5C04\u5BBF\u4E3B\u673A\u7684\u5377")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u505C\u6B62",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u505C\u6B62",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 67
-    }
-  })), "\u505C\u6B62"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker stop xxx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u91CD\u542F",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u91CD\u542F",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 67
-    }
-  })), "\u91CD\u542F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, "\u67E5\u4E86\u4E00\u4E0B\u8D44\u6599\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 5
-    }
-  }, "docker start ..."), " \u5305\u542B\u5BB9\u5668\u6587\u4EF6\u7CFB\u7EDF\u6302\u8F7D\u7684\u64CD\u4F5C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 5
-    }
-  }, "docker stop ..."), " \u5305\u542B\u5BB9\u5668\u6587\u4EF6\u7CFB\u7EDF\u5378\u8F7D\u7684\u64CD\u4F5C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 5
-    }
-  }, "docker restart ..."), " \u4E0D\u5305\u542B\u5BB9\u5668\u6587\u4EF6\u7CFB\u7EDF\u7684\u5378\u8F7D\u4E0E\u6302\u8F7D\u64CD\u4F5C\uFF0C\u672C\u8D28\u4E0A docker restart \u4E0D\u6D89\u53CA\u6587\u4EF6\u7CFB\u7EDF\u7684\u64CD\u4F5C\uFF0C\u56E0\u6B64 restart \u547D\u4EE4\u5E76\u4E0D\u662F stop \u4E0E start \u4E24\u4E2A\u547D\u4EE4\u7684\u987A\u5E8F\u53E0\u52A0\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 1
-    }
-  }, "\u7ED3\u8BBA\uFF1A\u4E3A\u4E86\u4FDD\u8BC1\u5BB9\u5668\u7684\u6839\u6587\u4EF6\u7CFB\u7EDF\u4E0E\u5185\u5B58\u7CFB\u7EDF mount \u7684\u6B63\u786E\u6027\uFF0C\u63A8\u8350", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 38
-    }
-  }, "\u5BF9\u4E00\u4E2A\u5BB9\u5668\u7684\u91CD\u542F\u4F7F\u7528docker stop xxx\uFF0C\u7136\u540E docker start xxx\uFF0C\u800C\u975Edocker restart xxx\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker restart xxx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 67
-    }
-  })), "\u5220\u9664"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rm xxx\n# 上面的命令在删除正在运行的容器是会报错\n# 下面的会强制删除容器，不管它是否在运行\ndocker rm -f xxx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u67E5\u770B\u65E5\u5FD7",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u67E5\u770B\u65E5\u5FD7",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 71
-    }
-  })), "\u67E5\u770B\u65E5\u5FD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 1
-    }
-  }, "\u5982\u679C\u5BB9\u5668\u542F\u52A8\u5931\u8D25\uFF0C\u53EF\u4EE5\u4F7F\u7528 logs \u67E5\u770B\u65E5\u5FD7\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker logs xxx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u8FDB\u5165\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u8FDB\u5165\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 71
-    }
-  })), "\u8FDB\u5165\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker exec -it 容器id /bin/bash",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 18
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 77
-    }
-  })), "\u5BFC\u51FA\u548C\u5BFC\u5165\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 导出\ndocker export 容器id > ubuntu.tar\n# 导入容器快照\ncat docker/ubuntu.tar | docker import - test/ubuntu:v1\n# 导入指定 URL\ndocker import http://example.com/exampleimage.tgz example/imagerepo",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/image-acceleration.md":
-/*!*******************************************!*\
-  !*** ./docs/docker/image-acceleration.md ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\image-acceleration.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u955C\u50CF\u52A0\u901F",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u955C\u50CF\u52A0\u901F",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u955C\u50CF\u52A0\u901F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u9009\u62E9\u52A0\u901F\u5730\u5740",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u9009\u62E9\u52A0\u901F\u5730\u5740",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 75
-    }
-  })), "\u9009\u62E9\u52A0\u901F\u5730\u5740"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "\u79D1\u5927\u955C\u50CF\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docker.mirrors.ustc.edu.cn/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 10
-    }
-  }, "https://docker.mirrors.ustc.edu.cn/")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u7F51\u6613\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://hub-mirror.c.163.com/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 8
-    }
-  }, "https://hub-mirror.c.163.com/")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "..")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "widnows-\u7CFB\u7EDF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#widnows-\u7CFB\u7EDF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 83
-    }
-  })), "widnows \u7CFB\u7EDF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u5728 docker desktop \u4E2D\uFF0C\u201C\u8BBE\u7F6E\u201D-\u201Cdocker engine\u201D-\u7F16\u8F91\u201Cregistry-mirrors\u201D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "{\n  \"registry-mirrors\": [\n    \"https://hub-mirror.c.163.com/\"\n  ]\n}",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "ubuntu1604debian8centos7",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#ubuntu1604debian8centos7",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 35
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 111
-    }
-  })), "Ubuntu16.04+\u3001Debian8+\u3001CentOS7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, "\u5728/etc/docker/daemon.json \u4E2D\uFF0C\u5199\u5165\uFF1A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "{\"registry-mirrors\":[\"https://hub-mirror.c.163.com/\"]}",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u91CD\u542F\u670D\u52A1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sudo systemctl daemon-reload\nsudo systemctl restart docker",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 1
-    }
-  }, "\u9A8C\u8BC1\u751F\u6548:\u6267\u884C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 12
-    }
-  }, "docker info"), "\uFF0C\u5982\u679C\u51FA\u73B0\u5982\u4E0B\u5185\u5BB9\uFF0C\u8BF4\u660E\u914D\u5236\u6210\u529F")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker info\nRegistry Mirrors:\n  https://reg-mirror.qiniu.com",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/image.md":
-/*!******************************!*\
-  !*** ./docs/docker/image.md ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\image.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u955C\u50CF\u4F7F\u7528",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u955C\u50CF\u4F7F\u7528",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u955C\u50CF\u4F7F\u7528"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5217\u51FA\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5217\u51FA\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 71
-    }
-  })), "\u5217\u51FA\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u5217\u51FA\u672C\u5730\u4E3B\u673A\u7684\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker images",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u67E5\u627E\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u67E5\u627E\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 71
-    }
-  })), "\u67E5\u627E\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u5728docker hub\u4E2D\u67E5\u627E\u540D\u4E3A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 25
-    }
-  }, "nginx"), "\u7684\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker search nginx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u62C9\u53D6\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u62C9\u53D6\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 71
-    }
-  })), "\u62C9\u53D6\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u62C9\u53D6nginx\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker pull nginx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5220\u9664\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5220\u9664\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 71
-    }
-  })), "\u5220\u9664\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u5220\u9664nginx\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker rmi nginx",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u8FD0\u884C\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u8FD0\u884C\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 71
-    }
-  })), "\u8FD0\u884C\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/docker/quick-start",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 6
-    }
-  }, "\u5FEB\u901F\u5F00\u59CB"), "\uFF0C\u5FEB\u901F\u8FD0\u884C\u4E00\u4E2A\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run ubuntu:15.10 /bin/echo \"Hello world\"",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u66F4\u591A\u5173\u4E8E", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 8
-    }
-  }, "docker run"), "\u7684\u76F8\u5173\u70B9\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/docker/container",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 37
-    }
-  }, "\u5BB9\u5668")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u521B\u5EFA\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u521B\u5EFA\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 71
-    }
-  })), "\u521B\u5EFA\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, "\u5982\u679C\u62C9\u53D6\u7684\u955C\u50CF\u4E0D\u6EE1\u8DB3\u9700\u6C42\u65F6\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4EE5\u4E0B\u65B9\u5F0F\u66F4\u6539\u955C\u50CF\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 1
-    }
-  }, "\u4ECE\u5DF2\u7ECF\u8FD0\u884C\u7684\u5BB9\u5668\u4E2D\u66F4\u65B0\u955C\u50CF\uFF0C\u5E76\u63D0\u4EA4\u4E3A\u955C\u50CF\uFF0C\u5177\u4F53\u547D\u4EE4\u793A\u4F8B\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 33
-    }
-  }, "docker commit -m=\"\u63D0\u4EA4\u63CF\u8FF0\u4FE1\u606F\" -a=\"\u955C\u50CF\u4F5C\u8005\" \u5BB9\u5668id \u955C\u50CF\u540D")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, "\u4F7F\u7528Dockerfile\u6307\u4EE4\u6765\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u955C\u50CF\uFF0C\u5177\u4F53\u547D\u4EE4\u793A\u4F8B\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 36
-    }
-  }, "docker build -t \u955C\u50CF\u540D Dockerfile\u6587\u4EF6\u6240\u5728\u76EE\u5F55"), "\uFF0C\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/Dockerfile",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 88
-    }
-  }, "Dockerfile\u5B66\u4E60\u7B14\u8BB0"), "\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u8BBE\u7F6E\u955C\u50CF\u6807\u7B7E",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u8BBE\u7F6E\u955C\u50CF\u6807\u7B7E",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 75
-    }
-  })), "\u8BBE\u7F6E\u955C\u50CF\u6807\u7B7E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u6839\u636E", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 11
-    }
-  }, "\u955C\u50CFid\u4E3Axxxxxxxxx\u7684\u955C\u50CF"), "\u521B\u5EFA\u4E00\u4E2A\u540D\u4E3A\u2018testUser/nginx:4.4\u2019\u7684\u955C\u50CF\uFF0C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 71
-    }
-  }, "\u539F\u955C\u50CF\u8FD8\u5B58\u5728\uFF08\u4E0D\u53D8\uFF09"), "\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker tag xxxxxxxxx testUser/nginx:4.4",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/index.md":
-/*!******************************!*\
-  !*** ./docs/docker/index.md ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\index.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "docker",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 53
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 111
-    }
-  })), "docker"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u4ECB\u7ECD",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ECB\u7ECD",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 67
-    }
-  })), "\u4ECB\u7ECD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "Docker \u662F\u4E00\u4E2A\u5F00\u6E90\u7684\u5E94\u7528\u5BB9\u5668\u5F15\u64CE\uFF0C\u57FA\u4E8E Go \u8BED\u8A00 \u5E76\u9075\u4ECE Apache2.0 \u534F\u8BAE\u5F00\u6E90\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, "Docker \u53EF\u4EE5\u8BA9\u5F00\u53D1\u8005\u6253\u5305\u4ED6\u4EEC\u7684\u5E94\u7528\u4EE5\u53CA\u4F9D\u8D56\u5305\u5230\u4E00\u4E2A\u8F7B\u91CF\u7EA7\u3001\u53EF\u79FB\u690D\u7684\u5BB9\u5668\u4E2D\uFF0C\u7136\u540E\u53D1\u5E03\u5230\u4EFB\u4F55\u6D41\u884C\u7684 Linux \u673A\u5668\u4E0A\uFF0C\u4E5F\u53EF\u4EE5\u5B9E\u73B0\u865A\u62DF\u5316\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u5BB9\u5668\u662F\u5B8C\u5168\u4F7F\u7528\u6C99\u7BB1\u673A\u5236\uFF0C\u76F8\u4E92\u4E4B\u95F4\u4E0D\u4F1A\u6709\u4EFB\u4F55\u63A5\u53E3\uFF08\u7C7B\u4F3C iPhone \u7684 app\uFF09,\u66F4\u91CD\u8981\u7684\u662F\u5BB9\u5668\u6027\u80FD\u5F00\u9500\u6781\u4F4E\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5E94\u7528\u573A\u666F",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5E94\u7528\u573A\u666F",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 71
-    }
-  })), "\u5E94\u7528\u573A\u666F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "Web \u5E94\u7528\u7684\u81EA\u52A8\u5316\u6253\u5305\u548C\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u81EA\u52A8\u5316\u6D4B\u8BD5\u548C\u6301\u7EED\u96C6\u6210\u3001\u53D1\u5E03\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "\u5728\u670D\u52A1\u578B\u73AF\u5883\u4E2D\u90E8\u7F72\u548C\u8C03\u6574\u6570\u636E\u5E93\u6216\u5176\u4ED6\u7684\u540E\u53F0\u5E94\u7528\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "\u4ECE\u5934\u7F16\u8BD1\u6216\u8005\u6269\u5C55\u73B0\u6709\u7684 OpenShift \u6216 Cloud Foundry \u5E73\u53F0\u6765\u642D\u5EFA\u81EA\u5DF1\u7684 PaaS \u73AF\u5883\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker\u4F18\u70B9",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker\u4F18\u70B9",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 19
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 79
-    }
-  })), "docker\u4F18\u70B9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, "Docker \u662F\u4E00\u4E2A\u7528\u4E8E\u5F00\u53D1\uFF0C\u4EA4\u4ED8\u548C\u8FD0\u884C\u5E94\u7528\u7A0B\u5E8F\u7684\u5F00\u653E\u5E73\u53F0\u3002Docker \u4F7F\u60A8\u80FD\u591F\u5C06\u5E94\u7528\u7A0B\u5E8F\u4E0E\u57FA\u7840\u67B6\u6784\u5206\u5F00\uFF0C\u4ECE\u800C\u53EF\u4EE5\u5FEB\u901F\u4EA4\u4ED8\u8F6F\u4EF6\u3002\u501F\u52A9 Docker\uFF0C\u60A8\u53EF\u4EE5\u4E0E\u7BA1\u7406\u5E94\u7528\u7A0B\u5E8F\u76F8\u540C\u7684\u65B9\u5F0F\u6765\u7BA1\u7406\u57FA\u7840\u67B6\u6784\u3002\u901A\u8FC7\u5229\u7528 Docker \u7684\u65B9\u6CD5\u6765\u5FEB\u901F\u4EA4\u4ED8\uFF0C\u6D4B\u8BD5\u548C\u90E8\u7F72\u4EE3\u7801\uFF0C\u60A8\u53EF\u4EE5\u5927\u5927\u51CF\u5C11\u7F16\u5199\u4EE3\u7801\u548C\u5728\u751F\u4EA7\u73AF\u5883\u4E2D\u8FD0\u884C\u4EE3\u7801\u4E4B\u95F4\u7684\u5EF6\u8FDF\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, "\u5FEB\u901F\uFF0C\u4E00\u81F4\u5730\u4EA4\u4ED8\u60A8\u7684\u5E94\u7528\u7A0B\u5E8F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  }, "\u54CD\u5E94\u5F0F\u90E8\u7F72\u548C\u6269\u5C55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 1
-    }
-  }, "\u5728\u540C\u4E00\u786C\u4EF6\u4E0A\u8FD0\u884C\u66F4\u591A\u5DE5\u4F5C\u8D1F\u8F7D"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/install.md":
-/*!********************************!*\
-  !*** ./docs/docker/install.md ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\install.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "dokcer\u5B89\u88C5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#dokcer\u5B89\u88C5",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 55
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 115
-    }
-  })), "dokcer\u5B89\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "windows",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#windows",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 18
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 77
-    }
-  })), "windows"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.microsoft.com/zh-cn/windows/wsl/install",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 5
-    }
-  }, "\u5B89\u88C5 WSL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://hub.docker.com/editions/community/docker-ce-desktop-windows",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 5
-    }
-  }, "\u5B89\u88C5 docker desktop"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "ubuntu",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#ubuntu",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 75
-    }
-  })), "ubuntu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "\u4F7F\u7528\u5B98\u65B9\u5B89\u88C5\u811A\u672C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, "\u5B89\u88C5\u547D\u4EE4\u5982\u4E0B\uFF1A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u4E5F\u53EF\u4EE5\u4F7F\u7528\u56FD\u5185 daocloud \u4E00\u952E\u5B89\u88C5\u547D\u4EE4\uFF1A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "curl -sSL https://get.daocloud.io/docker | sh",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 1
-    }
-  }, "\u5176\u4ED6\u65B9\u5F0F\uFF08\u7565\uFF09 \u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.docker.com/engine/install/ubuntu/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 3
-    }
-  }, "\u5B98\u7F51"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5176\u4ED6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5176\u4ED6",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 67
-    }
-  })), "\u5176\u4ED6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  }, "\u8BF7\u53C2\u8003", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://www.runoob.com/docker/docker-tutorial.html",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 7
-    }
-  }, "\u83DC\u9E1F\u6559\u7A0B"), "\u4EE5\u53CA", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://docs.docker.com/engine/install/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 82
-    }
-  }, "\u5B98\u7F51"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/quick-start.md":
-/*!************************************!*\
-  !*** ./docs/docker/quick-start.md ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\quick-start.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u5FEB\u901F\u5F00\u59CB",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5FEB\u901F\u5F00\u59CB",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u5FEB\u901F\u5F00\u59CB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "hello-world",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#hello-world",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 22
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 85
-    }
-  })), "hello world"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u4EE5\u4E0B\u547D\u4EE4\u4F1A\u8BA9docker\u5728\u5BB9\u5668\u4E2D\u8FD0\u884C\u4E00\u4E32\u4EE3\u7801\uFF0C\u8F93\u51FA", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 29
-    }
-  }, "hello world"), ":"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker run ubuntu:15.10 /bin/echo \"Hello world\"",
-    lang: "shell",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u53C2\u6570\u89E3\u6790",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u53C2\u6570\u89E3\u6790",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 71
-    }
-  })), "\u53C2\u6570\u89E3\u6790"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, "docker:Docker \u7684\u4E8C\u8FDB\u5236\u6267\u884C\u6587\u4EF6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, "run:\u4E0E\u524D\u9762\u7684 docker \u7EC4\u5408\u6765\u8FD0\u884C\u4E00\u4E2A\u5BB9\u5668"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }, "ubuntu:15.10:\u6307\u5B9A\u8981\u8FD0\u884C\u7684\u955C\u50CF\uFF0CDocker \u9996\u5148\u4ECE\u672C\u5730\u4E3B\u673A\u4E0A\u67E5\u627E\u955C\u50CF\u662F\u5426\u5B58\u5728\uFF0C\u5982\u679C\u4E0D\u5B58\u5728\uFF0CDocker \u5C31\u4F1A\u4ECE\u955C\u50CF\u4ED3\u5E93 Docker Hub \u4E0B\u8F7D\u516C\u5171\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, "/bin/echo \"Hello world\":\u5728\u542F\u52A8\u7684\u5BB9\u5668\u91CC\u6267\u884C\u7684\u547D\u4EE4"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/repository.md":
-/*!***********************************!*\
-  !*** ./docs/docker/repository.md ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\repository.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u4ED3\u5E93\u7BA1\u7406",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u4ED3\u5E93\u7BA1\u7406",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 51
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 107
-    }
-  })), "\u4ED3\u5E93\u7BA1\u7406"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "docker-hub",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker-hub",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 83
-    }
-  })), "docker hub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, "\u9ED8\u8BA4\u7684\u955C\u50CF\u4ED3\u5E93\u662F Docker \u5B98\u65B9\u7EF4\u62A4\u7684", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://hub.docker.com/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 25
-    }
-  }, "Docker Hub"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u6CE8\u518C",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6CE8\u518C",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 67
-    }
-  })), "\u6CE8\u518C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u514D\u8D39\u6CE8\u518C\u4E00\u4E2A Docker \u8D26\u53F7\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "https://hub.docker.com/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 21
-    }
-  }, "https://hub.docker.com/"), "\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u767B\u5F55",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u767B\u5F55",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 67
-    }
-  })), "\u767B\u5F55"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker login",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u9000\u51FA",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u9000\u51FA",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 67
-    }
-  })), "\u9000\u51FA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker logout",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5176\u4ED6\u64CD\u4F5C",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5176\u4ED6\u64CD\u4F5C",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 71
-    }
-  })), "\u5176\u4ED6\u64CD\u4F5C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u641C\u7D22\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u641C\u7D22\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 71
-    }
-  })), "\u641C\u7D22\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker search ubuntu",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u62C9\u53D6\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u62C9\u53D6\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 71
-    }
-  })), "\u62C9\u53D6\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "docker pull ubuntu",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    id: "\u63A8\u9001\u955C\u50CF",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u63A8\u9001\u955C\u50CF",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 15
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 71
-    }
-  })), "\u63A8\u9001\u955C\u50CF"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 设置tag\ndocker tag ubuntu:18.04 xxxx/ubuntu:18.04\n# 推送\ndocker push xxxx/ubuntu:18.04",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  })));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/docker/sudo.md":
-/*!*****************************!*\
-  !*** ./docs/docker/sudo.md ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\docker\\sudo.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "sudo-\u6743\u9650",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#sudo-\u6743\u9650",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 54
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 113
-    }
-  })), "sudo \u6743\u9650"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, "\u89E3\u51B3\u6BCF\u6B21\u8FD0\u884C docker \u547D\u4EE4\uFF0C\u90FD\u8981\u8F93\u5165 sudo \u7684\u95EE\u9898\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u6DFB\u52A0-docker-\u7528\u6237\u7EC4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6DFB\u52A0-docker-\u7528\u6237\u7EC4",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 24
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 89
-    }
-  })), "\u6DFB\u52A0 docker \u7528\u6237\u7EC4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sudo groupadd docker",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "\u4F1A\u663E\u793A\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 8
-    }
-  }, "groupadd: group 'docker' already exists")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u5C06\u767B\u5F55\u7528\u6237\u52A0\u5165\u5230-docker-\u7528\u6237\u7EC4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u5C06\u767B\u5F55\u7528\u6237\u52A0\u5165\u5230-docker-\u7528\u6237\u7EC4",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 30
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 101
-    }
-  })), "\u5C06\u767B\u5F55\u7528\u6237\u52A0\u5165\u5230 docker \u7528\u6237\u7EC4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sudo gpasswd -a $USER docker",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u66F4\u65B0\u7528\u6237\u7EC4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u66F4\u65B0\u7528\u6237\u7EC4",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 16
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 73
-    }
-  })), "\u66F4\u65B0\u7528\u6237\u7EC4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "newgrp docker",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u91CD\u542F-docker",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u91CD\u542F-docker",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 20
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 81
-    }
-  })), "\u91CD\u542F docker"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "sudo service docker restart",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u95EE\u9898",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u95EE\u9898",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 67
-    }
-  })), "\u95EE\u9898"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 1
-    }
-  }, "\u5982\u679C\u51FA\u73B0\u95EE\u9898\u7684\u8BDD\uFF0C\u53EF\u4EE5\u8BD5\u4E00\u8BD5\uFF1A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 1
-    }
-  }, "\u91CD\u542F\u7535\u8111\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 1
-    }
-  }, "\u7F16\u8F91 sudoers\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 16
-    }
-  }, "vim /etc/sudoers"), "\uFF0C\u624B\u52A8\u6DFB\u52A0 docker \u7EC4\u6743\u9650\u3002"))));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 14
-    }
-  });
-});
-
-/***/ }),
-
-/***/ "./docs/examples.md":
-/*!**************************!*\
-  !*** ./docs/examples.md ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
-/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
-/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
-/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
-/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\examples.md";
-
-
-
-
-
-
-
-
-
-
- // memo for page content, to avoid useless re-render since other context fields changed
-
-const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
-  demos: DUMI_ALL_DEMOS
-}) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "markdown",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "\u6211\u7684\u4E00\u4E9B\u793A\u4F8B",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u6211\u7684\u4E00\u4E9B\u793A\u4F8B",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 53
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 111
-    }
-  })), "\u6211\u7684\u4E00\u4E9B\u793A\u4F8B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u672C\u6587\u6863\u9879\u76EE\u7684-dockfile",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u672C\u6587\u6863\u9879\u76EE\u7684-dockfile",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 26
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 93
-    }
-  })), "\u672C\u6587\u6863\u9879\u76EE\u7684 Dockfile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    code: "# 分阶段构建，这里假设第一步构建完成了静态内容的构建，直接拷贝，再加上nginx、ssl的一些配置\nFROM node:14 AS build\n\nWORKDIR /app\n\nCOPY . .\n\n# 打包（进入各个子项目，安装依赖、构建）\nRUN npm run build:doc\n\n# 进入下一阶段构建\n\nFROM nginx:latest\n\n# 添加自己的一些LABEL，我这里仅仅为示例，方便通过github actions使用命令来清理服务器的镜像，如：\n# 清理容器\n# docker rm -f $(sudo docker ps -a --filter \"label=target=documents\" -q)\n# 清理镜像\n# docker rmi -f $(sudo docker images --filter \"label=target=documents\" -q)\nLABEL target=\"documents\"\n\n# 从上一阶段构建的结果中，复制静态资源文件html、css、js、png等等\nCOPY --from=build /app/nginx/html /usr/share/nginx/html\n\nENV TZ=\"Asia/Shanghai\"\n\nEXPOSE 80",
-    lang: "bash",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 1
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "node-\u9879\u76EE\u7684-dockfile",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 1
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#node-\u9879\u76EE\u7684-dockfile",
-    "aria-hidden": "true",
-    tabIndex: -1,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 28
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon icon-link",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 97
-    }
-  })), "Node \u9879\u76EE\u7684 Dockfile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 1
-    }
-  }, "TODO")));
-});
-/* harmony default export */ __webpack_exports__["default"] = (props => {
-  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
-        demos = _React$useContext.demos; // scroll to anchor after page component loaded
-
-
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    var _props$location;
-
-    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
-      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
-    }
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
-    demos: demos,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 14
-    }
-  });
-});
 
 /***/ }),
 
@@ -6283,7 +673,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\index.md";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\index.md";
 
 
 
@@ -6326,10 +716,10 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 
 /***/ }),
 
-/***/ "./docs/registry/index.md":
-/*!********************************!*\
-  !*** ./docs/registry/index.md ***!
-  \********************************/
+/***/ "./docs/music/index.md":
+/*!*****************************!*\
+  !*** ./docs/music/index.md ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6348,7 +738,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
 /* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-study-docker\\docs\\registry\\index.md";
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\index.md";
 
 
 
@@ -6373,7 +763,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "docker-registry",
+    id: "\u7F51\u7AD9",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6381,14 +771,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#docker-registry",
+    to: "#\u7F51\u7AD9",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 62
+      columnNumber: 49
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -6396,10 +786,150 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 129
+      columnNumber: 103
     }
-  })), "docker registry"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u7B80\u4ECB",
+  })), "\u7F51\u7AD9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://kg.qq.com/node/personal?uid=6a95958c2c28328a32",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 4
+    }
+  }, "\uD83C\uDFA4 \u5168\u6C11 K \u6B4C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://space.bilibili.com/52225296",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 4
+    }
+  }, "\uD83C\uDFA4bilibili"))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/music/这一生关于你的风景.jpg":
+/*!**********************************!*\
+  !*** ./docs/music/这一生关于你的风景.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/这一生关于你的风景.ed209779.jpg";
+
+/***/ }),
+
+/***/ "./docs/music/这一生关于你的风景.md":
+/*!*********************************!*\
+  !*** ./docs/music/这一生关于你的风景.md ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\\u8FD9\u4E00\u751F\u5173\u4E8E\u4F60\u7684\u98CE\u666F.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u8FD9\u4E00\u751F\u5173\u4E8E\u4F60\u7684\u98CE\u666F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8FD9\u4E00\u751F\u5173\u4E8E\u4F60\u7684\u98CE\u666F",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 56
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 117
+    }
+  })), "\u8FD9\u4E00\u751F\u5173\u4E8E\u4F60\u7684\u98CE\u666F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u7B80\u8C31\u5347-c-\u8C03",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6407,7 +937,148 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u7B80\u4ECB",
+    to: "#\u7B80\u8C31\u5347-c-\u8C03",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 18
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 77
+    }
+  })), "\u7B80\u8C31\uFF08\u5347 c \u8C03\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ./这一生关于你的风景.jpg */ "./docs/music/这一生关于你的风景.jpg"),
+    alt: "",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 4
+    }
+  }))));
+});
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
+        demos = _React$useContext.demos; // scroll to anchor after page component loaded
+
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    var _props$location;
+
+    if (props !== null && props !== void 0 && (_props$location = props.location) !== null && _props$location !== void 0 && _props$location.hash) {
+      dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"].scrollToAnchor(decodeURIComponent(props.location.hash.slice(1)));
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageContent, {
+    demos: demos,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 14
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./docs/music/这世界那么多人.md":
+/*!*******************************!*\
+  !*** ./docs/music/这世界那么多人.md ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dumi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dumi */ "./node_modules/umi/dist/index.esm.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dumi/theme */ "./node_modules/@umijs/preset-dumi/lib/theme/index.js");
+/* harmony import */ var dumi_theme__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dumi_theme__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dumi_theme_default_es_builtins_Alert__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Alert */ "./node_modules/dumi-theme-default/es/builtins/Alert.js");
+/* harmony import */ var dumi_theme_default_es_builtins_API__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dumi-theme-default/es/builtins/API */ "./node_modules/dumi-theme-default/es/builtins/API.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Badge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Badge */ "./node_modules/dumi-theme-default/es/builtins/Badge.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Example */ "./node_modules/dumi-theme-default/es/builtins/Example.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Previewer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Previewer */ "./node_modules/dumi-theme-default/es/builtins/Previewer.js");
+/* harmony import */ var dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dumi-theme-default/es/builtins/SourceCode */ "./node_modules/dumi-theme-default/es/builtins/SourceCode.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Tree__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Tree */ "./node_modules/dumi-theme-default/es/builtins/Tree.js");
+/* harmony import */ var dumi_theme_default_es_builtins_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! dumi-theme-default/es/builtins/Table */ "./node_modules/dumi-theme-default/es/builtins/Table.js");
+var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\\u8FD9\u4E16\u754C\u90A3\u4E48\u591A\u4EBA.md";
+
+
+
+
+
+
+
+
+
+
+ // memo for page content, to avoid useless re-render since other context fields changed
+
+const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
+  demos: DUMI_ALL_DEMOS
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "markdown",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "\u8FD9\u4E16\u754C\u90A3\u4E48\u591A\u4EBA",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u8FD9\u4E16\u754C\u90A3\u4E48\u591A\u4EBA",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 54
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 113
+    }
+  })), "\u8FD9\u4E16\u754C\u90A3\u4E48\u591A\u4EBA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u6F14\u594F",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u6F14\u594F",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
@@ -6424,15 +1095,21 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 22,
       columnNumber: 67
     }
-  })), "\u7B80\u4ECB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u6F14\u594F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "//player.bilibili.com/player.html?aid=766424858&bvid=BV1Rr4y1h7nR&cid=506934700&page=1",
+    scrolling: "no",
+    border: 0,
+    frameBorder: "no",
+    framespacing: "0",
+    allowFullScreen: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 1
     }
-  }, "\u5728 Docker \u4E2D\uFF0C\u5F53\u6211\u4EEC\u6267\u884C docker pull xxx \u7684\u65F6\u5019 \uFF0C\u5B83\u5B9E\u9645\u4E0A\u662F\u4ECE registry.hub.docker.com \u8FD9\u4E2A\u5730\u5740\u53BB\u67E5\u627E\uFF0C\u8FD9\u5C31\u662F Docker \u516C\u53F8\u4E3A\u6211\u4EEC\u63D0\u4F9B\u7684\u516C\u5171\u4ED3\u5E93\u3002\u5728\u5DE5\u4F5C\u4E2D\uFF0C\u6211\u4EEC\u4E0D\u53EF\u80FD\u628A\u4F01\u4E1A\u9879\u76EE push \u5230\u516C\u6709\u4ED3\u5E93\u8FDB\u884C\u7BA1\u7406\u3002\u6240\u4EE5\u4E3A\u4E86\u66F4\u597D\u7684\u7BA1\u7406\u955C\u50CF\uFF0CDocker \u4E0D\u4EC5\u63D0\u4F9B\u4E86\u4E00\u4E2A\u4E2D\u592E\u4ED3\u5E93\uFF0C\u540C\u65F6\u4E5F\u5141\u8BB8\u6211\u4EEC\u642D\u5EFA\u672C\u5730\u79C1\u6709\u4ED3\u5E93\u3002\u4E00\u822C\u6709 registry\u3001harbor \u4E24\u79CD\u79C1\u6709\u4ED3\u5E93\u642D\u5EFA\u7684\u65B9\u5F0F\uFF0C\u672C\u7BC7\u4ECB\u7ECD registry \u7684\u65B9\u5F0F\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "registry-\u7684\u642D\u5EFA",
+  }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u7B80\u8C31c-\u8C03",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6440,14 +1117,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#registry-\u7684\u642D\u5EFA",
+    to: "#\u7B80\u8C31c-\u8C03",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 23
+      columnNumber: 16
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -6455,56 +1132,69 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 87
+      columnNumber: 73
     }
-  })), "registry \u7684\u642D\u5EFA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u7B80\u8C31\uFF08c \u8C03\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme_default_es_builtins_SourceCode__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    code: "(#4 777) #1#2#4#2\n#2#1 (7) (#57#57 #5#4)\n(#4 777)#1#2#4 #5 #4\n#2 #1 (7) (#5#4#577)\n\n②\n(#4 777) #1#2#4#2\n#2#1 (7) (#57#57 #5#4)\n(#4 77 7)#1#2#4 #5 #4\n#2 #1 (7) (#5#4#4)#1(7)\n\n#4#1#2#2#1(7)#1#2#4\n#57#5#4#2#1(7#5)#4#2#1\n#2 #1 (7) #1#2#4\n(7)#5#57#2 #4#2#1(7)#1#2#5#4\n\n#2#47【#1】【#2】 (7)#27#5#4\n#5#4#2#1(7) (#57)#4#2#1\n#2#47【#1】【#2】 (7)#27【#1】7\n7#5#4#2#1(7) (#57)#4#2#1(77)\n②x2\n\n#2#47【#1】【#2】 (7)#27#5#4\n#5#4#2#1(7) (#57)#4#2#1\n#2#47【#1】【#2】 (7)#27【#1】7\n7#5#4#2#1(7) (#57)#4#2#1(77)\n\n(#4 777) #1#2#4#2\n#2#1 (7) (#57#57 #5#4)\n(#4 777)#1#2#4 #5 #4\n#2 #1 (7) (#5#4) (#4)#1(7)",
+    lang: "unknown",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 1
     }
-  }, "Docker \u5B98\u65B9\u63D0\u4F9B\u4E86\u4E00\u4E2A\u642D\u5EFA\u79C1\u6709\u4ED3\u5E93\u7684\u955C\u50CF registry \uFF0C\u53EA\u9700\u628A\u955C\u50CF\u4E0B\u8F7D\u4E0B\u6765\uFF0C\u8FD0\u884C\u5BB9\u5668\u5E76\u66B4\u9732 5000 \u7AEF\u53E3\uFF0C\u5C31\u53EF\u4EE5\u4F7F\u7528\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u7B80\u8C31b-\u8C03",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
       columnNumber: 1
     }
-  }, "\u7F3A\u70B9\uFF1A\u7F3A\u5C11\u5BF9\u955C\u50CF\u7684\u7BA1\u7406\u3001\u6743\u9650\u7684\u7BA1\u7406\u7B49\u7B49\uFF0C\u4E0D\u9002\u5408\u516C\u5171\u9879\u76EE\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
-    to: "#\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1",
+    to: "#\u7B80\u8C31b-\u8C03",
     "aria-hidden": "true",
     tabIndex: -1,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 19
+      lineNumber: 26,
+      columnNumber: 16
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 79
+      lineNumber: 26,
+      columnNumber: 73
     }
-  })), "\u963F\u91CC\u79C1\u6709\u955C\u50CF\u670D\u52A1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  })), "\u7B80\u8C31\uFF08b \u8C03\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ./这世界那么多人1.png */ "./docs/music/这世界那么多人1.png"),
+    alt: "",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 4
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ./这世界那么多人2.png */ "./docs/music/这世界那么多人2.png"),
+    alt: "",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
       columnNumber: 1
     }
-  }, "\u767B\u5F55\u963F\u91CC\u4E91\u540E\u53F0\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u6709\u4E00\u4E2A\u79C1\u4EBA\u514D\u8D39\u7684\u955C\u50CF\u4ED3\u5E93\u5730\u5740\u3002")));
+  }))));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -6528,6 +1218,28 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     }
   });
 });
+
+/***/ }),
+
+/***/ "./docs/music/这世界那么多人1.png":
+/*!*********************************!*\
+  !*** ./docs/music/这世界那么多人1.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/这世界那么多人1.e5b46eb7.png";
+
+/***/ }),
+
+/***/ "./docs/music/这世界那么多人2.png":
+/*!*********************************!*\
+  !*** ./docs/music/这世界那么多人2.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/这世界那么多人2.85cac23d.png";
 
 /***/ }),
 
@@ -28114,7 +22826,7 @@ var getDemoUrl = function getDemoUrl(demoId, htmlSuffix) {
 
   var isHashRoute = typeof hashRoute === 'string';
   return [isHashRoute ? "".concat(base, "#") : origin, // compatible with (empty), /base & /base/
-  "".concat(((_window2 = window) === null || _window2 === void 0 ? void 0 : "/doc-study-docker") || '', "/").replace(/\/\/$/, '/'), getDemoRouteName(), '/', demoId, "".concat(htmlSuffix ? '.html' : '')].join('');
+  "".concat(((_window2 = window) === null || _window2 === void 0 ? void 0 : "/doc-web-harm") || '', "/").replace(/\/\/$/, '/'), getDemoRouteName(), '/', demoId, "".concat(htmlSuffix ? '.html' : '')].join('');
 };
 /**
  * hooks for get single demo url
@@ -29846,8 +24558,8 @@ exports["default"] = _default;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderClient", function() { return renderClient; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderRoutes", function() { return renderRoutes; });
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _umijs_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @umijs/runtime */ "./node_modules/@umijs/runtime/dist/index.esm.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
@@ -30189,12 +24901,12 @@ function wrapInitialPropsFetch(route, opts) {
        * 4. 开启动态加载后，会在执行 getInitialProps 前预加载下
        */
       var handleGetInitialProps = /*#__PURE__*/function () {
-        var _ref = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        var _ref = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
           var _preloadComponent;
 
           var preloadComponent, defaultCtx, ctx, _initialProps;
 
-          return D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          return D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -30416,7 +25128,7 @@ function preloadComponent(_x) {
 }
 
 function _preloadComponent() {
-  _preloadComponent = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(readyRoutes) {
+  _preloadComponent = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(readyRoutes) {
     var pathname,
         matchedRoutes,
         _iterator,
@@ -30427,7 +25139,7 @@ function _preloadComponent() {
         _preloadComponent2,
         _args = arguments;
 
-    return D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    return D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -30565,8 +25277,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Plugin", function() { return Plugin; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dynamic", function() { return dynamic; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isBrowser", function() { return isBrowser; });
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator */ "./node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var history_with_query__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! history-with-query */ "./node_modules/history-with-query/esm/history.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createBrowserHistory", function() { return history_with_query__WEBPACK_IMPORTED_MODULE_1__["createBrowserHistory"]; });
 
@@ -31324,9 +26036,9 @@ var Plugin = /*#__PURE__*/function () {
         case ApplyPluginsType.modify:
           if (async) {
             return hooks.reduce( /*#__PURE__*/function () {
-              var _ref3 = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(memo, hook) {
+              var _ref3 = _asyncToGenerator( /*#__PURE__*/D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(memo, hook) {
                 var ret;
-                return D_projects_gatsby_documents_doc_study_docker_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+                return D_projects_gatsby_documents_doc_web_harm_node_modules_umijs_babel_preset_umi_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
@@ -42536,8 +37248,11 @@ var Highlight = /*@__PURE__*/function (Component) {
 __webpack_require__.r(__webpack_exports__);
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
- * MIT license http://www.opensource.org/licenses/mit-license.php/
- * @author Lea Verou http://lea.verou.me
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
  */
 
 /**
@@ -42551,70 +37266,255 @@ __webpack_require__.r(__webpack_exports__);
  * It has also been run through prettier
  */
 var Prism = function () {
-  var uniqueId = 0;
+  // Private helper vars
+  var lang = /(?:^|\s)lang(?:uage)?-([\w-]+)(?=\s|$)/i;
+  var uniqueId = 0; // The grammar object for plaintext
+
+  var plainTextGrammar = {};
   var _ = {
+    /**
+     * A namespace for utility methods.
+     *
+     * All function in this namespace that are not explicitly marked as _public_ are for __internal use only__ and may
+     * change or disappear at any time.
+     *
+     * @namespace
+     * @memberof Prism
+     */
     util: {
       encode: function encode(tokens) {
         if (tokens instanceof Token) {
-          return new Token(tokens.type, _.util.encode(tokens.content), tokens.alias);
-        } else if (_.util.type(tokens) === "Array") {
-          return tokens.map(_.util.encode);
+          return new Token(tokens.type, encode(tokens.content), tokens.alias);
+        } else if (Array.isArray(tokens)) {
+          return tokens.map(encode);
         } else {
-          return tokens.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/\u00a0/g, " ");
+          return tokens.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\u00a0/g, ' ');
         }
       },
+
+      /**
+       * Returns the name of the type of the given value.
+       *
+       * @param {any} o
+       * @returns {string}
+       * @example
+       * type(null)      === 'Null'
+       * type(undefined) === 'Undefined'
+       * type(123)       === 'Number'
+       * type('foo')     === 'String'
+       * type(true)      === 'Boolean'
+       * type([1, 2])    === 'Array'
+       * type({})        === 'Object'
+       * type(String)    === 'Function'
+       * type(/abc+/)    === 'RegExp'
+       */
       type: function type(o) {
-        return Object.prototype.toString.call(o).match(/\[object (\w+)\]/)[1];
+        return Object.prototype.toString.call(o).slice(8, -1);
       },
+
+      /**
+       * Returns a unique number for the given object. Later calls will still return the same number.
+       *
+       * @param {Object} obj
+       * @returns {number}
+       */
       objId: function objId(obj) {
-        if (!obj["__id"]) {
-          Object.defineProperty(obj, "__id", {
+        if (!obj['__id']) {
+          Object.defineProperty(obj, '__id', {
             value: ++uniqueId
           });
         }
 
-        return obj["__id"];
+        return obj['__id'];
       },
-      // Deep clone a language definition (e.g. to extend it)
-      clone: function clone(o, visited) {
-        var type = _.util.type(o);
 
+      /**
+       * Creates a deep clone of the given object.
+       *
+       * The main intended use of this function is to clone language definitions.
+       *
+       * @param {T} o
+       * @param {Record<number, any>} [visited]
+       * @returns {T}
+       * @template T
+       */
+      clone: function deepClone(o, visited) {
         visited = visited || {};
+        var clone;
+        var id;
 
-        switch (type) {
-          case "Object":
-            if (visited[_.util.objId(o)]) {
-              return visited[_.util.objId(o)];
+        switch (_.util.type(o)) {
+          case 'Object':
+            id = _.util.objId(o);
+
+            if (visited[id]) {
+              return visited[id];
             }
 
-            var clone = {};
-            visited[_.util.objId(o)] = clone;
+            clone =
+            /** @type {Record<string, any>} */
+            {};
+            visited[id] = clone;
 
             for (var key in o) {
               if (o.hasOwnProperty(key)) {
-                clone[key] = _.util.clone(o[key], visited);
+                clone[key] = deepClone(o[key], visited);
               }
             }
 
-            return clone;
+            return (
+              /** @type {any} */
+              clone
+            );
 
-          case "Array":
-            if (visited[_.util.objId(o)]) {
-              return visited[_.util.objId(o)];
+          case 'Array':
+            id = _.util.objId(o);
+
+            if (visited[id]) {
+              return visited[id];
             }
 
-            var clone = [];
-            visited[_.util.objId(o)] = clone;
+            clone = [];
+            visited[id] = clone;
+
+            /** @type {Array} */
+
+            /** @type {any} */
             o.forEach(function (v, i) {
-              clone[i] = _.util.clone(v, visited);
+              clone[i] = deepClone(v, visited);
             });
-            return clone;
+            return (
+              /** @type {any} */
+              clone
+            );
+
+          default:
+            return o;
+        }
+      },
+
+      /**
+       * Returns the Prism language of the given element set by a `language-xxxx` or `lang-xxxx` class.
+       *
+       * If no language is set for the element or the element is `null` or `undefined`, `none` will be returned.
+       *
+       * @param {Element} element
+       * @returns {string}
+       */
+      getLanguage: function getLanguage(element) {
+        while (element) {
+          var m = lang.exec(element.className);
+
+          if (m) {
+            return m[1].toLowerCase();
+          }
+
+          element = element.parentElement;
         }
 
-        return o;
+        return 'none';
+      },
+
+      /**
+       * Sets the Prism `language-xxxx` class of the given element.
+       *
+       * @param {Element} element
+       * @param {string} language
+       * @returns {void}
+       */
+      setLanguage: function setLanguage(element, language) {
+        // remove all `language-xxxx` classes
+        // (this might leave behind a leading space)
+        element.className = element.className.replace(RegExp(lang, 'gi'), ''); // add the new `language-xxxx` class
+        // (using `classList` will automatically clean up spaces for us)
+
+        element.classList.add('language-' + language);
+      },
+
+      /**
+       * Returns whether a given class is active for `element`.
+       *
+       * The class can be activated if `element` or one of its ancestors has the given class and it can be deactivated
+       * if `element` or one of its ancestors has the negated version of the given class. The _negated version_ of the
+       * given class is just the given class with a `no-` prefix.
+       *
+       * Whether the class is active is determined by the closest ancestor of `element` (where `element` itself is
+       * closest ancestor) that has the given class or the negated version of it. If neither `element` nor any of its
+       * ancestors have the given class or the negated version of it, then the default activation will be returned.
+       *
+       * In the paradoxical situation where the closest ancestor contains __both__ the given class and the negated
+       * version of it, the class is considered active.
+       *
+       * @param {Element} element
+       * @param {string} className
+       * @param {boolean} [defaultActivation=false]
+       * @returns {boolean}
+       */
+      isActive: function isActive(element, className, defaultActivation) {
+        var no = 'no-' + className;
+
+        while (element) {
+          var classList = element.classList;
+
+          if (classList.contains(className)) {
+            return true;
+          }
+
+          if (classList.contains(no)) {
+            return false;
+          }
+
+          element = element.parentElement;
+        }
+
+        return !!defaultActivation;
       }
     },
+
+    /**
+     * This namespace contains all currently loaded languages and the some helper functions to create and modify languages.
+     *
+     * @namespace
+     * @memberof Prism
+     * @public
+     */
     languages: {
+      /**
+       * The grammar for plain, unformatted text.
+       */
+      plain: plainTextGrammar,
+      plaintext: plainTextGrammar,
+      text: plainTextGrammar,
+      txt: plainTextGrammar,
+
+      /**
+       * Creates a deep copy of the language with the given id and appends the given tokens.
+       *
+       * If a token in `redef` also appears in the copied language, then the existing token in the copied language
+       * will be overwritten at its original position.
+       *
+       * ## Best practices
+       *
+       * Since the position of overwriting tokens (token in `redef` that overwrite tokens in the copied language)
+       * doesn't matter, they can technically be in any order. However, this can be confusing to others that trying to
+       * understand the language definition because, normally, the order of tokens matters in Prism grammars.
+       *
+       * Therefore, it is encouraged to order overwriting tokens according to the positions of the overwritten tokens.
+       * Furthermore, all non-overwriting tokens should be placed after the overwriting ones.
+       *
+       * @param {string} id The id of the language to extend. This has to be a key in `Prism.languages`.
+       * @param {Grammar} redef The new tokens to append.
+       * @returns {Grammar} The new language created.
+       * @public
+       * @example
+       * Prism.languages['css-with-colors'] = Prism.languages.extend('css', {
+       *     // Prism.languages.css already has a 'comment' token, so this token will overwrite CSS' 'comment' token
+       *     // at its original position
+       *     'comment': { ... },
+       *     // CSS doesn't have a 'color' token, so this token will be appended
+       *     'color': /\b(?:red|green|blue)\b/
+       * });
+       */
       extend: function extend(id, redef) {
         var lang = _.util.clone(_.languages[id]);
 
@@ -42626,29 +37526,86 @@ var Prism = function () {
       },
 
       /**
-       * Insert a token before another token in a language literal
-       * As this needs to recreate the object (we cannot actually insert before keys in object literals),
-       * we cannot just provide an object, we need anobject and a key.
-       * @param inside The key (or language id) of the parent
-       * @param before The key to insert before. If not provided, the function appends instead.
-       * @param insert Object with the key/value pairs to insert
-       * @param root The object that contains `inside`. If equal to Prism.languages, it can be omitted.
+       * Inserts tokens _before_ another token in a language definition or any other grammar.
+       *
+       * ## Usage
+       *
+       * This helper method makes it easy to modify existing languages. For example, the CSS language definition
+       * not only defines CSS highlighting for CSS documents, but also needs to define highlighting for CSS embedded
+       * in HTML through `<style>` elements. To do this, it needs to modify `Prism.languages.markup` and add the
+       * appropriate tokens. However, `Prism.languages.markup` is a regular JavaScript object literal, so if you do
+       * this:
+       *
+       * ```js
+       * Prism.languages.markup.style = {
+       *     // token
+       * };
+       * ```
+       *
+       * then the `style` token will be added (and processed) at the end. `insertBefore` allows you to insert tokens
+       * before existing tokens. For the CSS example above, you would use it like this:
+       *
+       * ```js
+       * Prism.languages.insertBefore('markup', 'cdata', {
+       *     'style': {
+       *         // token
+       *     }
+       * });
+       * ```
+       *
+       * ## Special cases
+       *
+       * If the grammars of `inside` and `insert` have tokens with the same name, the tokens in `inside`'s grammar
+       * will be ignored.
+       *
+       * This behavior can be used to insert tokens after `before`:
+       *
+       * ```js
+       * Prism.languages.insertBefore('markup', 'comment', {
+       *     'comment': Prism.languages.markup.comment,
+       *     // tokens after 'comment'
+       * });
+       * ```
+       *
+       * ## Limitations
+       *
+       * The main problem `insertBefore` has to solve is iteration order. Since ES2015, the iteration order for object
+       * properties is guaranteed to be the insertion order (except for integer keys) but some browsers behave
+       * differently when keys are deleted and re-inserted. So `insertBefore` can't be implemented by temporarily
+       * deleting properties which is necessary to insert at arbitrary positions.
+       *
+       * To solve this problem, `insertBefore` doesn't actually insert the given tokens into the target object.
+       * Instead, it will create a new object and replace all references to the target object with the new one. This
+       * can be done without temporarily deleting properties, so the iteration order is well-defined.
+       *
+       * However, only references that can be reached from `Prism.languages` or `insert` will be replaced. I.e. if
+       * you hold the target object in a variable, then the value of the variable will not change.
+       *
+       * ```js
+       * var oldMarkup = Prism.languages.markup;
+       * var newMarkup = Prism.languages.insertBefore('markup', 'comment', { ... });
+       *
+       * assert(oldMarkup !== Prism.languages.markup);
+       * assert(newMarkup === Prism.languages.markup);
+       * ```
+       *
+       * @param {string} inside The property of `root` (e.g. a language id in `Prism.languages`) that contains the
+       * object to be modified.
+       * @param {string} before The key to insert before.
+       * @param {Grammar} insert An object containing the key-value pairs to be inserted.
+       * @param {Object<string, any>} [root] The object containing `inside`, i.e. the object that contains the
+       * object to be modified.
+       *
+       * Defaults to `Prism.languages`.
+       * @returns {Grammar} The new grammar object.
+       * @public
        */
       insertBefore: function insertBefore(inside, before, insert, root) {
-        root = root || _.languages;
+        root = root ||
+        /** @type {any} */
+        _.languages;
         var grammar = root[inside];
-
-        if (arguments.length == 2) {
-          insert = arguments[1];
-
-          for (var newToken in insert) {
-            if (insert.hasOwnProperty(newToken)) {
-              grammar[newToken] = insert[newToken];
-            }
-          }
-
-          return grammar;
-        }
+        /** @type {Grammar} */
 
         var ret = {};
 
@@ -42660,43 +37617,71 @@ var Prism = function () {
                   ret[newToken] = insert[newToken];
                 }
               }
+            } // Do not insert token which also occur in insert. See #1525
+
+
+            if (!insert.hasOwnProperty(token)) {
+              ret[token] = grammar[token];
             }
-
-            ret[token] = grammar[token];
           }
-        } // Update references in other language definitions
+        }
 
+        var old = root[inside];
+        root[inside] = ret; // Update references in other language definitions
 
         _.languages.DFS(_.languages, function (key, value) {
-          if (value === root[inside] && key != inside) {
+          if (value === old && key != inside) {
             this[key] = ret;
           }
         });
 
-        return root[inside] = ret;
+        return ret;
       },
       // Traverse a language definition with Depth First Search
       DFS: function DFS(o, callback, type, visited) {
         visited = visited || {};
+        var objId = _.util.objId;
 
         for (var i in o) {
           if (o.hasOwnProperty(i)) {
             callback.call(o, i, o[i], type || i);
+            var property = o[i];
 
-            if (_.util.type(o[i]) === "Object" && !visited[_.util.objId(o[i])]) {
-              visited[_.util.objId(o[i])] = true;
+            var propertyType = _.util.type(property);
 
-              _.languages.DFS(o[i], callback, null, visited);
-            } else if (_.util.type(o[i]) === "Array" && !visited[_.util.objId(o[i])]) {
-              visited[_.util.objId(o[i])] = true;
-
-              _.languages.DFS(o[i], callback, i, visited);
+            if (propertyType === 'Object' && !visited[objId(property)]) {
+              visited[objId(property)] = true;
+              DFS(property, callback, null, visited);
+            } else if (propertyType === 'Array' && !visited[objId(property)]) {
+              visited[objId(property)] = true;
+              DFS(property, callback, i, visited);
             }
           }
         }
       }
     },
     plugins: {},
+
+    /**
+     * Low-level function, only use if you know what you’re doing. It accepts a string of text as input
+     * and the language definitions to use, and returns a string with the HTML produced.
+     *
+     * The following hooks will be run:
+     * 1. `before-tokenize`
+     * 2. `after-tokenize`
+     * 3. `wrap`: On each {@link Token}.
+     *
+     * @param {string} text A string with the code to be highlighted.
+     * @param {Grammar} grammar An object containing the tokens to use.
+     *
+     * Usually a language definition like `Prism.languages.markup`.
+     * @param {string} language The name of the language definition passed to `grammar`.
+     * @returns {string} The highlighted HTML.
+     * @memberof Prism
+     * @public
+     * @example
+     * Prism.highlight('var foo = true;', Prism.languages.javascript, 'javascript');
+     */
     highlight: function highlight(text, grammar, language) {
       var env = {
         code: text,
@@ -42704,145 +37689,40 @@ var Prism = function () {
         language: language
       };
 
-      _.hooks.run("before-tokenize", env);
+      _.hooks.run('before-tokenize', env);
 
       env.tokens = _.tokenize(env.code, env.grammar);
 
-      _.hooks.run("after-tokenize", env);
+      _.hooks.run('after-tokenize', env);
 
       return Token.stringify(_.util.encode(env.tokens), env.language);
     },
-    matchGrammar: function matchGrammar(text, strarr, grammar, index, startPos, oneshot, target) {
-      var Token = _.Token;
 
-      for (var token in grammar) {
-        if (!grammar.hasOwnProperty(token) || !grammar[token]) {
-          continue;
-        }
-
-        if (token == target) {
-          return;
-        }
-
-        var patterns = grammar[token];
-        patterns = _.util.type(patterns) === "Array" ? patterns : [patterns];
-
-        for (var j = 0; j < patterns.length; ++j) {
-          var pattern = patterns[j],
-              inside = pattern.inside,
-              lookbehind = !!pattern.lookbehind,
-              greedy = !!pattern.greedy,
-              lookbehindLength = 0,
-              alias = pattern.alias;
-
-          if (greedy && !pattern.pattern.global) {
-            // Without the global flag, lastIndex won't work
-            var flags = pattern.pattern.toString().match(/[imuy]*$/)[0];
-            pattern.pattern = RegExp(pattern.pattern.source, flags + "g");
-          }
-
-          pattern = pattern.pattern || pattern; // Don’t cache length as it changes during the loop
-
-          for (var i = index, pos = startPos; i < strarr.length; pos += strarr[i].length, ++i) {
-            var str = strarr[i];
-
-            if (strarr.length > text.length) {
-              // Something went terribly wrong, ABORT, ABORT!
-              return;
-            }
-
-            if (str instanceof Token) {
-              continue;
-            }
-
-            if (greedy && i != strarr.length - 1) {
-              pattern.lastIndex = pos;
-              var match = pattern.exec(text);
-
-              if (!match) {
-                break;
-              }
-
-              var from = match.index + (lookbehind ? match[1].length : 0),
-                  to = match.index + match[0].length,
-                  k = i,
-                  p = pos;
-
-              for (var len = strarr.length; k < len && (p < to || !strarr[k].type && !strarr[k - 1].greedy); ++k) {
-                p += strarr[k].length; // Move the index i to the element in strarr that is closest to from
-
-                if (from >= p) {
-                  ++i;
-                  pos = p;
-                }
-              } // If strarr[i] is a Token, then the match starts inside another Token, which is invalid
-
-
-              if (strarr[i] instanceof Token) {
-                continue;
-              } // Number of tokens to delete and replace with the new match
-
-
-              delNum = k - i;
-              str = text.slice(pos, p);
-              match.index -= pos;
-            } else {
-              pattern.lastIndex = 0;
-              var match = pattern.exec(str),
-                  delNum = 1;
-            }
-
-            if (!match) {
-              if (oneshot) {
-                break;
-              }
-
-              continue;
-            }
-
-            if (lookbehind) {
-              lookbehindLength = match[1] ? match[1].length : 0;
-            }
-
-            var from = match.index + lookbehindLength,
-                match = match[0].slice(lookbehindLength),
-                to = from + match.length,
-                before = str.slice(0, from),
-                after = str.slice(to);
-            var args = [i, delNum];
-
-            if (before) {
-              ++i;
-              pos += before.length;
-              args.push(before);
-            }
-
-            var wrapped = new Token(token, inside ? _.tokenize(match, inside) : match, alias, match, greedy);
-            args.push(wrapped);
-
-            if (after) {
-              args.push(after);
-            }
-
-            Array.prototype.splice.apply(strarr, args);
-
-            if (delNum != 1) {
-              _.matchGrammar(text, strarr, grammar, i, pos, true, token);
-            }
-
-            if (oneshot) {
-              break;
-            }
-          }
-        }
-      }
-    },
-    hooks: {
-      add: function add() {},
-      run: function run(name, env) {}
-    },
-    tokenize: function tokenize(text, grammar, language) {
-      var strarr = [text];
+    /**
+     * This is the heart of Prism, and the most low-level function you can use. It accepts a string of text as input
+     * and the language definitions to use, and returns an array with the tokenized code.
+     *
+     * When the language definition includes nested tokens, the function is called recursively on each of these tokens.
+     *
+     * This method could be useful in other contexts as well, as a very crude parser.
+     *
+     * @param {string} text A string with the code to be highlighted.
+     * @param {Grammar} grammar An object containing the tokens to use.
+     *
+     * Usually a language definition like `Prism.languages.markup`.
+     * @returns {TokenStream} An array of strings and tokens, a token stream.
+     * @memberof Prism
+     * @public
+     * @example
+     * let code = `var foo = 0;`;
+     * let tokens = Prism.tokenize(code, Prism.languages.javascript);
+     * tokens.forEach(token => {
+     *     if (token instanceof Prism.Token && token.type === 'number') {
+     *         console.log(`Found numeric literal: ${token.content}`);
+     *     }
+     * });
+     */
+    tokenize: function tokenize(text, grammar) {
       var rest = grammar.rest;
 
       if (rest) {
@@ -42853,70 +37733,486 @@ var Prism = function () {
         delete grammar.rest;
       }
 
-      _.matchGrammar(text, strarr, grammar, 0, 0, false);
+      var tokenList = new LinkedList();
+      addAfter(tokenList, tokenList.head, text);
+      matchGrammar(text, tokenList, grammar, tokenList.head, 0);
+      return toArray(tokenList);
+    },
 
-      return strarr;
-    }
-  };
+    /**
+     * @namespace
+     * @memberof Prism
+     * @public
+     */
+    hooks: {
+      all: {},
 
-  var Token = _.Token = function (type, content, alias, matchedStr, greedy) {
+      /**
+       * Adds the given callback to the list of callbacks for the given hook.
+       *
+       * The callback will be invoked when the hook it is registered for is run.
+       * Hooks are usually directly run by a highlight function but you can also run hooks yourself.
+       *
+       * One callback function can be registered to multiple hooks and the same hook multiple times.
+       *
+       * @param {string} name The name of the hook.
+       * @param {HookCallback} callback The callback function which is given environment variables.
+       * @public
+       */
+      add: function add(name, callback) {
+        var hooks = _.hooks.all;
+        hooks[name] = hooks[name] || [];
+        hooks[name].push(callback);
+      },
+
+      /**
+       * Runs a hook invoking all registered callbacks with the given environment variables.
+       *
+       * Callbacks will be invoked synchronously and in the order in which they were registered.
+       *
+       * @param {string} name The name of the hook.
+       * @param {Object<string, any>} env The environment variables of the hook passed to all callbacks registered.
+       * @public
+       */
+      run: function run(name, env) {
+        var callbacks = _.hooks.all[name];
+
+        if (!callbacks || !callbacks.length) {
+          return;
+        }
+
+        for (var i = 0, callback; callback = callbacks[i++];) {
+          callback(env);
+        }
+      }
+    },
+    Token: Token
+  }; // Typescript note:
+  // The following can be used to import the Token type in JSDoc:
+  //
+  //   @typedef {InstanceType<import("./prism-core")["Token"]>} Token
+
+  /**
+   * Creates a new token.
+   *
+   * @param {string} type See {@link Token#type type}
+   * @param {string | TokenStream} content See {@link Token#content content}
+   * @param {string|string[]} [alias] The alias(es) of the token.
+   * @param {string} [matchedStr=""] A copy of the full string this token was created from.
+   * @class
+   * @global
+   * @public
+   */
+
+  function Token(type, content, alias, matchedStr) {
+    /**
+     * The type of the token.
+     *
+     * This is usually the key of a pattern in a {@link Grammar}.
+     *
+     * @type {string}
+     * @see GrammarToken
+     * @public
+     */
     this.type = type;
+    /**
+     * The strings or tokens contained by this token.
+     *
+     * This will be a token stream if the pattern matched also defined an `inside` grammar.
+     *
+     * @type {string | TokenStream}
+     * @public
+     */
+
     this.content = content;
+    /**
+     * The alias(es) of the token.
+     *
+     * @type {string|string[]}
+     * @see GrammarToken
+     * @public
+     */
+
     this.alias = alias; // Copy of the full string this token was created from
 
-    this.length = (matchedStr || "").length | 0;
-    this.greedy = !!greedy;
-  };
+    this.length = (matchedStr || '').length | 0;
+  }
+  /**
+   * A token stream is an array of strings and {@link Token Token} objects.
+   *
+   * Token streams have to fulfill a few properties that are assumed by most functions (mostly internal ones) that process
+   * them.
+   *
+   * 1. No adjacent strings.
+   * 2. No empty strings.
+   *
+   *    The only exception here is the token stream that only contains the empty string and nothing else.
+   *
+   * @typedef {Array<string | Token>} TokenStream
+   * @global
+   * @public
+   */
 
-  Token.stringify = function (o, language, parent) {
-    if (typeof o == "string") {
+  /**
+   * Converts the given token or token stream to an HTML representation.
+   *
+   * The following hooks will be run:
+   * 1. `wrap`: On each {@link Token}.
+   *
+   * @param {string | Token | TokenStream} o The token or token stream to be converted.
+   * @param {string} language The name of current language.
+   * @returns {string} The HTML representation of the token or token stream.
+   * @memberof Token
+   * @static
+   */
+
+
+  Token.stringify = function stringify(o, language) {
+    if (typeof o == 'string') {
       return o;
     }
 
-    if (_.util.type(o) === "Array") {
-      return o.map(function (element) {
-        return Token.stringify(element, language, o);
-      }).join("");
+    if (Array.isArray(o)) {
+      var s = '';
+      o.forEach(function (e) {
+        s += stringify(e, language);
+      });
+      return s;
     }
 
     var env = {
       type: o.type,
-      content: Token.stringify(o.content, language, parent),
-      tag: "span",
-      classes: ["token", o.type],
+      content: stringify(o.content, language),
+      tag: 'span',
+      classes: ['token', o.type],
       attributes: {},
-      language: language,
-      parent: parent
+      language: language
     };
+    var aliases = o.alias;
 
-    if (o.alias) {
-      var aliases = _.util.type(o.alias) === "Array" ? o.alias : [o.alias];
-      Array.prototype.push.apply(env.classes, aliases);
+    if (aliases) {
+      if (Array.isArray(aliases)) {
+        Array.prototype.push.apply(env.classes, aliases);
+      } else {
+        env.classes.push(aliases);
+      }
     }
 
-    var attributes = Object.keys(env.attributes).map(function (name) {
-      return name + '="' + (env.attributes[name] || "").replace(/"/g, "&quot;") + '"';
-    }).join(" ");
-    return "<" + env.tag + ' class="' + env.classes.join(" ") + '"' + (attributes ? " " + attributes : "") + ">" + env.content + "</" + env.tag + ">";
+    _.hooks.run('wrap', env);
+
+    var attributes = '';
+
+    for (var name in env.attributes) {
+      attributes += ' ' + name + '="' + (env.attributes[name] || '').replace(/"/g, '&quot;') + '"';
+    }
+
+    return '<' + env.tag + ' class="' + env.classes.join(' ') + '"' + attributes + '>' + env.content + '</' + env.tag + '>';
   };
+  /**
+   * @param {RegExp} pattern
+   * @param {number} pos
+   * @param {string} text
+   * @param {boolean} lookbehind
+   * @returns {RegExpExecArray | null}
+   */
+
+
+  function matchPattern(pattern, pos, text, lookbehind) {
+    pattern.lastIndex = pos;
+    var match = pattern.exec(text);
+
+    if (match && lookbehind && match[1]) {
+      // change the match to remove the text matched by the Prism lookbehind group
+      var lookbehindLength = match[1].length;
+      match.index += lookbehindLength;
+      match[0] = match[0].slice(lookbehindLength);
+    }
+
+    return match;
+  }
+  /**
+   * @param {string} text
+   * @param {LinkedList<string | Token>} tokenList
+   * @param {any} grammar
+   * @param {LinkedListNode<string | Token>} startNode
+   * @param {number} startPos
+   * @param {RematchOptions} [rematch]
+   * @returns {void}
+   * @private
+   *
+   * @typedef RematchOptions
+   * @property {string} cause
+   * @property {number} reach
+   */
+
+
+  function matchGrammar(text, tokenList, grammar, startNode, startPos, rematch) {
+    for (var token in grammar) {
+      if (!grammar.hasOwnProperty(token) || !grammar[token]) {
+        continue;
+      }
+
+      var patterns = grammar[token];
+      patterns = Array.isArray(patterns) ? patterns : [patterns];
+
+      for (var j = 0; j < patterns.length; ++j) {
+        if (rematch && rematch.cause == token + ',' + j) {
+          return;
+        }
+
+        var patternObj = patterns[j];
+        var inside = patternObj.inside;
+        var lookbehind = !!patternObj.lookbehind;
+        var greedy = !!patternObj.greedy;
+        var alias = patternObj.alias;
+
+        if (greedy && !patternObj.pattern.global) {
+          // Without the global flag, lastIndex won't work
+          var flags = patternObj.pattern.toString().match(/[imsuy]*$/)[0];
+          patternObj.pattern = RegExp(patternObj.pattern.source, flags + 'g');
+        }
+        /** @type {RegExp} */
+
+
+        var pattern = patternObj.pattern || patternObj;
+
+        for ( // iterate the token list and keep track of the current token/string position
+        var currentNode = startNode.next, pos = startPos; currentNode !== tokenList.tail; pos += currentNode.value.length, currentNode = currentNode.next) {
+          if (rematch && pos >= rematch.reach) {
+            break;
+          }
+
+          var str = currentNode.value;
+
+          if (tokenList.length > text.length) {
+            // Something went terribly wrong, ABORT, ABORT!
+            return;
+          }
+
+          if (str instanceof Token) {
+            continue;
+          }
+
+          var removeCount = 1; // this is the to parameter of removeBetween
+
+          var match;
+
+          if (greedy) {
+            match = matchPattern(pattern, pos, text, lookbehind);
+
+            if (!match || match.index >= text.length) {
+              break;
+            }
+
+            var from = match.index;
+            var to = match.index + match[0].length;
+            var p = pos; // find the node that contains the match
+
+            p += currentNode.value.length;
+
+            while (from >= p) {
+              currentNode = currentNode.next;
+              p += currentNode.value.length;
+            } // adjust pos (and p)
+
+
+            p -= currentNode.value.length;
+            pos = p; // the current node is a Token, then the match starts inside another Token, which is invalid
+
+            if (currentNode.value instanceof Token) {
+              continue;
+            } // find the last node which is affected by this match
+
+
+            for (var k = currentNode; k !== tokenList.tail && (p < to || typeof k.value === 'string'); k = k.next) {
+              removeCount++;
+              p += k.value.length;
+            }
+
+            removeCount--; // replace with the new match
+
+            str = text.slice(pos, p);
+            match.index -= pos;
+          } else {
+            match = matchPattern(pattern, 0, str, lookbehind);
+
+            if (!match) {
+              continue;
+            }
+          } // eslint-disable-next-line no-redeclare
+
+
+          var from = match.index;
+          var matchStr = match[0];
+          var before = str.slice(0, from);
+          var after = str.slice(from + matchStr.length);
+          var reach = pos + str.length;
+
+          if (rematch && reach > rematch.reach) {
+            rematch.reach = reach;
+          }
+
+          var removeFrom = currentNode.prev;
+
+          if (before) {
+            removeFrom = addAfter(tokenList, removeFrom, before);
+            pos += before.length;
+          }
+
+          removeRange(tokenList, removeFrom, removeCount);
+          var wrapped = new Token(token, inside ? _.tokenize(matchStr, inside) : matchStr, alias, matchStr);
+          currentNode = addAfter(tokenList, removeFrom, wrapped);
+
+          if (after) {
+            addAfter(tokenList, currentNode, after);
+          }
+
+          if (removeCount > 1) {
+            // at least one Token object was removed, so we have to do some rematching
+            // this can only happen if the current pattern is greedy
+
+            /** @type {RematchOptions} */
+            var nestedRematch = {
+              cause: token + ',' + j,
+              reach: reach
+            };
+            matchGrammar(text, tokenList, grammar, currentNode.prev, pos, nestedRematch); // the reach might have been extended because of the rematching
+
+            if (rematch && nestedRematch.reach > rematch.reach) {
+              rematch.reach = nestedRematch.reach;
+            }
+          }
+        }
+      }
+    }
+  }
+  /**
+   * @typedef LinkedListNode
+   * @property {T} value
+   * @property {LinkedListNode<T> | null} prev The previous node.
+   * @property {LinkedListNode<T> | null} next The next node.
+   * @template T
+   * @private
+   */
+
+  /**
+   * @template T
+   * @private
+   */
+
+
+  function LinkedList() {
+    /** @type {LinkedListNode<T>} */
+    var head = {
+      value: null,
+      prev: null,
+      next: null
+    };
+    /** @type {LinkedListNode<T>} */
+
+    var tail = {
+      value: null,
+      prev: head,
+      next: null
+    };
+    head.next = tail;
+    /** @type {LinkedListNode<T>} */
+
+    this.head = head;
+    /** @type {LinkedListNode<T>} */
+
+    this.tail = tail;
+    this.length = 0;
+  }
+  /**
+   * Adds a new node with the given value to the list.
+   *
+   * @param {LinkedList<T>} list
+   * @param {LinkedListNode<T>} node
+   * @param {T} value
+   * @returns {LinkedListNode<T>} The added node.
+   * @template T
+   */
+
+
+  function addAfter(list, node, value) {
+    // assumes that node != list.tail && values.length >= 0
+    var next = node.next;
+    var newNode = {
+      value: value,
+      prev: node,
+      next: next
+    };
+    node.next = newNode;
+    next.prev = newNode;
+    list.length++;
+    return newNode;
+  }
+  /**
+   * Removes `count` nodes after the given node. The given node will not be removed.
+   *
+   * @param {LinkedList<T>} list
+   * @param {LinkedListNode<T>} node
+   * @param {number} count
+   * @template T
+   */
+
+
+  function removeRange(list, node, count) {
+    var next = node.next;
+
+    for (var i = 0; i < count && next !== list.tail; i++) {
+      next = next.next;
+    }
+
+    node.next = next;
+    next.prev = node;
+    list.length -= i;
+  }
+  /**
+   * @param {LinkedList<T>} list
+   * @returns {T[]}
+   * @template T
+   */
+
+
+  function toArray(list) {
+    var array = [];
+    var node = list.head.next;
+
+    while (node !== list.tail) {
+      array.push(node.value);
+      node = node.next;
+    }
+
+    return array;
+  }
 
   return _;
 }();
+
+var prism = Prism;
+Prism["default"] = Prism;
 /* This content is auto-generated to include some prismjs language components: */
 
 /* "prismjs/components/prism-markup" */
 
-
-Prism.languages.markup = {
-  'comment': /<!--[\s\S]*?-->/,
-  'prolog': /<\?[\s\S]+?\?>/,
+prism.languages.markup = {
+  'comment': {
+    pattern: /<!--(?:(?!<!--)[\s\S])*?-->/,
+    greedy: true
+  },
+  'prolog': {
+    pattern: /<\?[\s\S]+?\?>/,
+    greedy: true
+  },
   'doctype': {
     // https://www.w3.org/TR/xml/#NT-doctypedecl
     pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,
     greedy: true,
     inside: {
       'internal-subset': {
-        pattern: /(\[)[\s\S]+(?=\]>$)/,
+        pattern: /(^[^\[]*\[)[\s\S]+(?=\]>$)/,
         lookbehind: true,
         greedy: true,
         inside: null // see below
@@ -42927,11 +38223,14 @@ Prism.languages.markup = {
         greedy: true
       },
       'punctuation': /^<!|>$|[[\]]/,
-      'doctype-tag': /^DOCTYPE/,
+      'doctype-tag': /^DOCTYPE/i,
       'name': /[^\s<>'"]+/
     }
   },
-  'cdata': /<!\[CDATA\[[\s\S]*?]]>/i,
+  'cdata': {
+    pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i,
+    greedy: true
+  },
   'tag': {
     pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,
     greedy: true,
@@ -42943,6 +38242,7 @@ Prism.languages.markup = {
           'namespace': /^[^\s>\/:]+:/
         }
       },
+      'special-attr': [],
       'attr-value': {
         pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,
         inside: {
@@ -42966,15 +38266,15 @@ Prism.languages.markup = {
     alias: 'named-entity'
   }, /&#x?[\da-f]{1,8};/i]
 };
-Prism.languages.markup['tag'].inside['attr-value'].inside['entity'] = Prism.languages.markup['entity'];
-Prism.languages.markup['doctype'].inside['internal-subset'].inside = Prism.languages.markup; // Plugin to make entity title show the real entity, idea by Roman Komarov
+prism.languages.markup['tag'].inside['attr-value'].inside['entity'] = prism.languages.markup['entity'];
+prism.languages.markup['doctype'].inside['internal-subset'].inside = prism.languages.markup; // Plugin to make entity title show the real entity, idea by Roman Komarov
 
-Prism.hooks.add('wrap', function (env) {
+prism.hooks.add('wrap', function (env) {
   if (env.type === 'entity') {
     env.attributes['title'] = env.content.replace(/&amp;/, '&');
   }
 });
-Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
+Object.defineProperty(prism.languages.markup.tag, 'addInlined', {
   /**
    * Adds an inlined language to markup.
    *
@@ -42991,7 +38291,7 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
     includedCdataInside['language-' + lang] = {
       pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,
       lookbehind: true,
-      inside: Prism.languages[lang]
+      inside: prism.languages[lang]
     };
     includedCdataInside['cdata'] = /^<!\[CDATA\[|\]\]>$/i;
     var inside = {
@@ -43002,7 +38302,7 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
     };
     inside['language-' + lang] = {
       pattern: /[\s\S]+/,
-      inside: Prism.languages[lang]
+      inside: prism.languages[lang]
     };
     var def = {};
     def[tagName] = {
@@ -43013,16 +38313,53 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
       greedy: true,
       inside: inside
     };
-    Prism.languages.insertBefore('markup', 'cdata', def);
+    prism.languages.insertBefore('markup', 'cdata', def);
   }
 });
-Prism.languages.html = Prism.languages.markup;
-Prism.languages.mathml = Prism.languages.markup;
-Prism.languages.svg = Prism.languages.markup;
-Prism.languages.xml = Prism.languages.extend('markup', {});
-Prism.languages.ssml = Prism.languages.xml;
-Prism.languages.atom = Prism.languages.xml;
-Prism.languages.rss = Prism.languages.xml;
+Object.defineProperty(prism.languages.markup.tag, 'addAttribute', {
+  /**
+   * Adds an pattern to highlight languages embedded in HTML attributes.
+   *
+   * An example of an inlined language is CSS with `style` attributes.
+   *
+   * @param {string} attrName The name of the tag that contains the inlined language. This name will be treated as
+   * case insensitive.
+   * @param {string} lang The language key.
+   * @example
+   * addAttribute('style', 'css');
+   */
+  value: function value(attrName, lang) {
+    prism.languages.markup.tag.inside['special-attr'].push({
+      pattern: RegExp(/(^|["'\s])/.source + '(?:' + attrName + ')' + /\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))/.source, 'i'),
+      lookbehind: true,
+      inside: {
+        'attr-name': /^[^\s=]+/,
+        'attr-value': {
+          pattern: /=[\s\S]+/,
+          inside: {
+            'value': {
+              pattern: /(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/,
+              lookbehind: true,
+              alias: [lang, 'language-' + lang],
+              inside: prism.languages[lang]
+            },
+            'punctuation': [{
+              pattern: /^=/,
+              alias: 'attr-equals'
+            }, /"|'/]
+          }
+        }
+      }
+    });
+  }
+});
+prism.languages.html = prism.languages.markup;
+prism.languages.mathml = prism.languages.markup;
+prism.languages.svg = prism.languages.markup;
+prism.languages.xml = prism.languages.extend('markup', {});
+prism.languages.ssml = prism.languages.xml;
+prism.languages.atom = prism.languages.xml;
+prism.languages.rss = prism.languages.xml;
 /* "prismjs/components/prism-bash" */
 
 (function (Prism) {
@@ -43042,7 +38379,7 @@ Prism.languages.rss = Prism.languages.xml;
   var insideString = {
     'bash': commandAfterHeredoc,
     'environment': {
-      pattern: RegExp("\\$" + envVars),
+      pattern: RegExp('\\$' + envVars),
       alias: 'constant'
     },
     'variable': [// [0]: Arithmetic Environment
@@ -43057,7 +38394,7 @@ Prism.languages.rss = Prism.languages.xml;
         }, /^\$\(\(/],
         'number': /\b0x[\dA-Fa-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:[Ee]-?\d+)?/,
         // Operators according to https://www.gnu.org/software/bash/manual/bashref.html#Shell-Arithmetic
-        'operator': /--?|-=|\+\+?|\+=|!=?|~|\*\*?|\*=|\/=?|%=?|<<=?|>>=?|<=?|>=?|==?|&&?|&=|\^=?|\|\|?|\|=|\?|:/,
+        'operator': /--|\+\+|\*\*=?|<<=?|>>=?|&&|\|\||[=!+\-*/%<>^&|]=?|[?~:]/,
         // If there is no $ sign at the beginning highlight (( and )) as punctuation
         'punctuation': /\(\(?|\)\)?|,|;/
       }
@@ -43076,14 +38413,14 @@ Prism.languages.rss = Prism.languages.xml;
         'operator': /:[-=?+]?|[!\/]|##?|%%?|\^\^?|,,?/,
         'punctuation': /[\[\]]/,
         'environment': {
-          pattern: RegExp("(\\{)" + envVars),
+          pattern: RegExp('(\\{)' + envVars),
           lookbehind: true,
           alias: 'constant'
         }
       }
     }, /\$(?:\w+|[#?*!@$])/],
     // Escape sequences from echo and printf's manuals, and escaped quotes.
-    'entity': /\\(?:[abceEfnrtv\\"]|O?[0-7]{1,3}|x[0-9a-fA-F]{1,2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})/
+    'entity': /\\(?:[abceEfnrtv\\"]|O?[0-7]{1,3}|U[0-9a-fA-F]{8}|u[0-9a-fA-F]{4}|x[0-9a-fA-F]{1,2})/
   };
   Prism.languages.bash = {
     'shebang': {
@@ -43100,12 +38437,12 @@ Prism.languages.rss = Prism.languages.xml;
     // but not “foo {”
     {
       // a) and c)
-      pattern: /(\bfunction\s+)\w+(?=(?:\s*\(?:\s*\))?\s*\{)/,
+      pattern: /(\bfunction\s+)[\w-]+(?=(?:\s*\(?:\s*\))?\s*\{)/,
       lookbehind: true,
       alias: 'function'
     }, {
       // b)
-      pattern: /\b\w+(?=\s*\(\s*\)\s*\{)/,
+      pattern: /\b[\w-]+(?=\s*\(\s*\)\s*\{)/,
       alias: 'function'
     }],
     // Highlight variable names as variables in for and select beginnings.
@@ -43120,7 +38457,7 @@ Prism.languages.rss = Prism.languages.xml;
       pattern: /(^|[\s;|&]|[<>]\()\w+(?=\+?=)/,
       inside: {
         'environment': {
-          pattern: RegExp("(^|[\\s;|&]|[<>]\\()" + envVars),
+          pattern: RegExp('(^|[\\s;|&]|[<>]\\()' + envVars),
           lookbehind: true,
           alias: 'constant'
         }
@@ -43130,7 +38467,7 @@ Prism.languages.rss = Prism.languages.xml;
     },
     'string': [// Support for Here-documents https://en.wikipedia.org/wiki/Here_document
     {
-      pattern: /((?:^|[^<])<<-?\s*)(\w+?)\s[\s\S]*?(?:\r?\n|\r)\2/,
+      pattern: /((?:^|[^<])<<-?\s*)(\w+)\s[\s\S]*?(?:\r?\n|\r)\2/,
       lookbehind: true,
       greedy: true,
       inside: insideString
@@ -43145,33 +38482,46 @@ Prism.languages.rss = Prism.languages.xml;
       }
     }, // “Normal” string
     {
-      pattern: /(^|[^\\](?:\\\\)*)(["'])(?:\\[\s\S]|\$\([^)]+\)|\$(?!\()|`[^`]+`|(?!\2)[^\\`$])*\2/,
+      // https://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html
+      pattern: /(^|[^\\](?:\\\\)*)"(?:\\[\s\S]|\$\([^)]+\)|\$(?!\()|`[^`]+`|[^"\\`$])*"/,
       lookbehind: true,
       greedy: true,
       inside: insideString
+    }, {
+      // https://www.gnu.org/software/bash/manual/html_node/Single-Quotes.html
+      pattern: /(^|[^$\\])'[^']*'/,
+      lookbehind: true,
+      greedy: true
+    }, {
+      // https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html
+      pattern: /\$'(?:[^'\\]|\\[\s\S])*'/,
+      greedy: true,
+      inside: {
+        'entity': insideString.entity
+      }
     }],
     'environment': {
-      pattern: RegExp("\\$?" + envVars),
+      pattern: RegExp('\\$?' + envVars),
       alias: 'constant'
     },
     'variable': insideString.variable,
     'function': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:add|apropos|apt|aptitude|apt-cache|apt-get|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|composer|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:add|apropos|apt|apt-cache|apt-get|aptitude|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|composer|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|docker|docker-compose|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|node|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|podman|podman-compose|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vcpkg|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     'keyword': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:if|then|else|elif|fi|for|while|in|case|esac|function|select|do|done|until)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:case|do|done|elif|else|esac|fi|for|function|if|in|select|then|until|while)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     // https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
     'builtin': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:\.|:|break|cd|continue|eval|exec|exit|export|getopts|hash|pwd|readonly|return|shift|test|times|trap|umask|unset|alias|bind|builtin|caller|command|declare|echo|enable|help|let|local|logout|mapfile|printf|read|readarray|source|type|typeset|ulimit|unalias|set|shopt)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:\.|:|alias|bind|break|builtin|caller|cd|command|continue|declare|echo|enable|eval|exec|exit|export|getopts|hash|help|let|local|logout|mapfile|printf|pwd|read|readarray|readonly|return|set|shift|shopt|source|test|times|trap|type|typeset|ulimit|umask|unalias|unset)(?=$|[)\s;|&])/,
       lookbehind: true,
       // Alias added to make those easier to distinguish from strings.
       alias: 'class-name'
     },
     'boolean': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:true|false)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:false|true)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     'file-descriptor': {
@@ -43180,7 +38530,7 @@ Prism.languages.rss = Prism.languages.xml;
     },
     'operator': {
       // Lots of redirections here, but not just that.
-      pattern: /\d?<>|>\||\+=|==?|!=?|=~|<<[<-]?|[&\d]?>>|\d?[<>]&?|&[>&]?|\|[&|]?|<=?|>=?/,
+      pattern: /\d?<>|>\||\+=|=[=~]?|!=?|<<[<-]?|[&\d]?>>|\d[<>]&?|[<>][&=]?|&[>&]?|\|[&|]?/,
       inside: {
         'file-descriptor': {
           pattern: /^\d/,
@@ -43205,11 +38555,11 @@ Prism.languages.rss = Prism.languages.xml;
   }
 
   Prism.languages.shell = Prism.languages.bash;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-clike" */
 
 
-Prism.languages.clike = {
+prism.languages.clike = {
   'comment': [{
     pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
     lookbehind: true,
@@ -43224,40 +38574,52 @@ Prism.languages.clike = {
     greedy: true
   },
   'class-name': {
-    pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)\s+|\bcatch\s+\()[\w.\\]+/i,
+    pattern: /(\b(?:class|extends|implements|instanceof|interface|new|trait)\s+|\bcatch\s+\()[\w.\\]+/i,
     lookbehind: true,
     inside: {
       'punctuation': /[.\\]/
     }
   },
-  'keyword': /\b(?:if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,
-  'boolean': /\b(?:true|false)\b/,
-  'function': /\w+(?=\()/,
+  'keyword': /\b(?:break|catch|continue|do|else|finally|for|function|if|in|instanceof|new|null|return|throw|try|while)\b/,
+  'boolean': /\b(?:false|true)\b/,
+  'function': /\b\w+(?=\()/,
   'number': /\b0x[\da-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?/i,
   'operator': /[<>]=?|[!=]=?=?|--?|\+\+?|&&?|\|\|?|[?*/~^%]/,
   'punctuation': /[{}[\];(),.:]/
 };
 /* "prismjs/components/prism-c" */
 
-Prism.languages.c = Prism.languages.extend('clike', {
+prism.languages.c = prism.languages.extend('clike', {
   'comment': {
     pattern: /\/\/(?:[^\r\n\\]|\\(?:\r\n?|\n|(?![\r\n])))*|\/\*[\s\S]*?(?:\*\/|$)/,
+    greedy: true
+  },
+  'string': {
+    // https://en.cppreference.com/w/c/language/string_literal
+    pattern: /"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
     greedy: true
   },
   'class-name': {
     pattern: /(\b(?:enum|struct)\s+(?:__attribute__\s*\(\([\s\S]*?\)\)\s*)?)\w+|\b[a-z]\w*_t\b/,
     lookbehind: true
   },
-  'keyword': /\b(?:__attribute__|_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local|asm|typeof|inline|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b/,
-  'function': /[a-z_]\w*(?=\s*\()/i,
+  'keyword': /\b(?:_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local|__attribute__|asm|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|inline|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|typeof|union|unsigned|void|volatile|while)\b/,
+  'function': /\b[a-z_]\w*(?=\s*\()/i,
   'number': /(?:\b0x(?:[\da-f]+(?:\.[\da-f]*)?|\.[\da-f]+)(?:p[+-]?\d+)?|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?)[ful]{0,4}/i,
   'operator': />>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*/%&|^!=<>]=?/
 });
-Prism.languages.insertBefore('c', 'string', {
+prism.languages.insertBefore('c', 'string', {
+  'char': {
+    // https://en.cppreference.com/w/c/language/character_constant
+    pattern: /'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n]){0,32}'/,
+    greedy: true
+  }
+});
+prism.languages.insertBefore('c', 'string', {
   'macro': {
     // allow for multiline macro definitions
     // spaces after the # character compile fine with gcc
-    pattern: /(^\s*)#\s*[a-z](?:[^\r\n\\/]|\/(?!\*)|\/\*(?:[^*]|\*(?!\/))*\*\/|\\(?:\r\n|[\s\S]))*/im,
+    pattern: /(^[\t ]*)#\s*[a-z](?:[^\r\n\\/]|\/(?!\*)|\/\*(?:[^*]|\*(?!\/))*\*\/|\\(?:\r\n|[\s\S]))*/im,
     lookbehind: true,
     greedy: true,
     alias: 'property',
@@ -43266,8 +38628,9 @@ Prism.languages.insertBefore('c', 'string', {
         // highlight the path of the include statement as a string
         pattern: /^(#\s*include\s*)<[^>]+>/,
         lookbehind: true
-      }, Prism.languages.c['string']],
-      'comment': Prism.languages.c['comment'],
+      }, prism.languages.c['string']],
+      'char': prism.languages.c['char'],
+      'comment': prism.languages.c['comment'],
       'macro-name': [{
         pattern: /(^#\s*define\s+)\w+\b(?!\()/i,
         lookbehind: true
@@ -43286,18 +38649,23 @@ Prism.languages.insertBefore('c', 'string', {
       'punctuation': /##|\\(?=[\r\n])/,
       'expression': {
         pattern: /\S[\s\S]*/,
-        inside: Prism.languages.c
+        inside: prism.languages.c
       }
     }
-  },
-  // highlight predefined macros as constants
-  'constant': /\b(?:__FILE__|__LINE__|__DATE__|__TIME__|__TIMESTAMP__|__func__|EOF|NULL|SEEK_CUR|SEEK_END|SEEK_SET|stdin|stdout|stderr)\b/
+  }
 });
-delete Prism.languages.c['boolean'];
+prism.languages.insertBefore('c', 'function', {
+  // highlight predefined macros as constants
+  'constant': /\b(?:EOF|NULL|SEEK_CUR|SEEK_END|SEEK_SET|__DATE__|__FILE__|__LINE__|__TIMESTAMP__|__TIME__|__func__|stderr|stdin|stdout)\b/
+});
+delete prism.languages.c['boolean'];
 /* "prismjs/components/prism-cpp" */
 
 (function (Prism) {
-  var keyword = /\b(?:alignas|alignof|asm|auto|bool|break|case|catch|char|char8_t|char16_t|char32_t|class|compl|concept|const|consteval|constexpr|constinit|const_cast|continue|co_await|co_return|co_yield|decltype|default|delete|do|double|dynamic_cast|else|enum|explicit|export|extern|float|for|friend|goto|if|inline|int|int8_t|int16_t|int32_t|int64_t|uint8_t|uint16_t|uint32_t|uint64_t|long|mutable|namespace|new|noexcept|nullptr|operator|private|protected|public|register|reinterpret_cast|requires|return|short|signed|sizeof|static|static_assert|static_cast|struct|switch|template|this|thread_local|throw|try|typedef|typeid|typename|union|unsigned|using|virtual|void|volatile|wchar_t|while)\b/;
+  var keyword = /\b(?:alignas|alignof|asm|auto|bool|break|case|catch|char|char16_t|char32_t|char8_t|class|co_await|co_return|co_yield|compl|concept|const|const_cast|consteval|constexpr|constinit|continue|decltype|default|delete|do|double|dynamic_cast|else|enum|explicit|export|extern|final|float|for|friend|goto|if|import|inline|int|int16_t|int32_t|int64_t|int8_t|long|module|mutable|namespace|new|noexcept|nullptr|operator|override|private|protected|public|register|reinterpret_cast|requires|return|short|signed|sizeof|static|static_assert|static_cast|struct|switch|template|this|thread_local|throw|try|typedef|typeid|typename|uint16_t|uint32_t|uint64_t|uint8_t|union|unsigned|using|virtual|void|volatile|wchar_t|while)\b/;
+  var modName = /\b(?!<keyword>)\w+(?:\s*\.\s*\w+)*\b/.source.replace(/<keyword>/g, function () {
+    return keyword.source;
+  });
   Prism.languages.cpp = Prism.languages.extend('c', {
     'class-name': [{
       pattern: RegExp(/(\b(?:class|concept|enum|struct|typename)\s+)(?!<keyword>)\w+/.source.replace(/<keyword>/g, function () {
@@ -43312,20 +38680,54 @@ delete Prism.languages.c['boolean'];
     //   Foo::~Foo() {}
     /\b[A-Z_]\w*(?=\s*::\s*~\w+\s*\()/i, // This also intends to capture the class name of method implementations but here the class has template
     // parameters, so it can't be a namespace (until C++ adds generic namespaces).
-    /\w+(?=\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>\s*::\s*\w+\s*\()/],
+    /\b\w+(?=\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>\s*::\s*\w+\s*\()/],
     'keyword': keyword,
     'number': {
       pattern: /(?:\b0b[01']+|\b0x(?:[\da-f']+(?:\.[\da-f']*)?|\.[\da-f']+)(?:p[+-]?[\d']+)?|(?:\b[\d']+(?:\.[\d']*)?|\B\.[\d']+)(?:e[+-]?[\d']+)?)[ful]{0,4}/i,
       greedy: true
     },
-    'operator': />>=?|<<=?|->|([-+&|:])\1|[?:~]|<=>|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b/,
-    'boolean': /\b(?:true|false)\b/
+    'operator': />>=?|<<=?|->|--|\+\+|&&|\|\||[?:~]|<=>|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b/,
+    'boolean': /\b(?:false|true)\b/
   });
   Prism.languages.insertBefore('cpp', 'string', {
+    'module': {
+      // https://en.cppreference.com/w/cpp/language/modules
+      pattern: RegExp(/(\b(?:import|module)\s+)/.source + '(?:' + // header-name
+      /"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|<[^<>\r\n]*>/.source + '|' + // module name or partition or both
+      /<mod-name>(?:\s*:\s*<mod-name>)?|:\s*<mod-name>/.source.replace(/<mod-name>/g, function () {
+        return modName;
+      }) + ')'),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'string': /^[<"][\s\S]+/,
+        'operator': /:/,
+        'punctuation': /\./
+      }
+    },
     'raw-string': {
       pattern: /R"([^()\\ ]{0,16})\([\s\S]*?\)\1"/,
       alias: 'string',
       greedy: true
+    }
+  });
+  Prism.languages.insertBefore('cpp', 'keyword', {
+    'generic-function': {
+      pattern: /\b(?!operator\b)[a-z_]\w*\s*<(?:[^<>]|<[^<>]*>)*>(?=\s*\()/i,
+      inside: {
+        'function': /^\w+/,
+        'generic': {
+          pattern: /<[\s\S]+/,
+          alias: 'class-name',
+          inside: Prism.languages.cpp
+        }
+      }
+    }
+  });
+  Prism.languages.insertBefore('cpp', 'operator', {
+    'double-colon': {
+      pattern: /::/,
+      alias: 'punctuation'
     }
   });
   Prism.languages.insertBefore('cpp', 'class-name', {
@@ -43338,16 +38740,16 @@ delete Prism.languages.c['boolean'];
       inside: Prism.languages.extend('cpp', {})
     }
   });
-  Prism.languages.insertBefore('inside', 'operator', {
+  Prism.languages.insertBefore('inside', 'double-colon', {
     // All untokenized words that are not namespaces should be class names
     'class-name': /\b[a-z_]\w*\b(?!\s*::)/i
   }, Prism.languages.cpp['base-clause']);
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-css" */
 
 
 (function (Prism) {
-  var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
+  var string = /(?:"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n])*')/;
   Prism.languages.css = {
     'comment': /\/\*[\s\S]*?\*\//,
     'atrule': {
@@ -43379,14 +38781,23 @@ delete Prism.languages.c['boolean'];
         }
       }
     },
-    'selector': RegExp('[^{}\\s](?:[^{};"\'\\s]|\\s+(?![\\s{])|' + string.source + ')*(?=\\s*\\{)'),
+    'selector': {
+      pattern: RegExp('(^|[{}\\s])[^{}\\s](?:[^{};"\'\\s]|\\s+(?![\\s{])|' + string.source + ')*(?=\\s*\\{)'),
+      lookbehind: true
+    },
     'string': {
       pattern: string,
       greedy: true
     },
-    'property': /(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,
+    'property': {
+      pattern: /(^|[^-\w\xA0-\uFFFF])(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,
+      lookbehind: true
+    },
     'important': /!important\b/i,
-    'function': /[-a-z0-9]+(?=\()/i,
+    'function': {
+      pattern: /(^|[^-a-z0-9])[-a-z0-9]+(?=\()/i,
+      lookbehind: true
+    },
     'punctuation': /[(){};:,]/
   };
   Prism.languages.css['atrule'].inside.rest = Prism.languages.css;
@@ -43394,32 +38805,9 @@ delete Prism.languages.c['boolean'];
 
   if (markup) {
     markup.tag.addInlined('style', 'css');
-    Prism.languages.insertBefore('inside', 'attr-value', {
-      'style-attr': {
-        pattern: /(^|["'\s])style\s*=\s*(?:"[^"]*"|'[^']*')/i,
-        lookbehind: true,
-        inside: {
-          'attr-value': {
-            pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,
-            inside: {
-              'style': {
-                pattern: /(["'])[\s\S]+(?=["']$)/,
-                lookbehind: true,
-                alias: 'language-css',
-                inside: Prism.languages.css
-              },
-              'punctuation': [{
-                pattern: /^=/,
-                alias: 'attr-equals'
-              }, /"|'/]
-            }
-          },
-          'attr-name': /^style/i
-        }
-      }
-    }, markup.tag);
+    markup.tag.addAttribute('style', 'css');
   }
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-css-extras" */
 
 
@@ -43427,7 +38815,8 @@ delete Prism.languages.c['boolean'];
   var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
   var selectorInside;
   Prism.languages.css.selector = {
-    pattern: Prism.languages.css.selector,
+    pattern: Prism.languages.css.selector.pattern,
+    lookbehind: true,
     inside: selectorInside = {
       'pseudo-element': /:(?:after|before|first-letter|first-line|selection)|::[-\w]+/,
       'pseudo-class': /:[-\w]+/,
@@ -43487,7 +38876,7 @@ delete Prism.languages.c['boolean'];
     }
   });
   var unit = {
-    pattern: /(\b\d+)(?:%|[a-z]+\b)/,
+    pattern: /(\b\d+)(?:%|[a-z]+(?![\w-]))/,
     lookbehind: true
   }; // 123 -123 .123 -.123 12.3 -12.3
 
@@ -43503,11 +38892,14 @@ delete Prism.languages.c['boolean'];
     // CAREFUL!
     // Previewers and Inline color use hexcode and color.
     'hexcode': {
-      pattern: /\B#(?:[\da-f]{1,2}){3,4}\b/i,
+      pattern: /\B#[\da-f]{3,8}\b/i,
       alias: 'color'
     },
-    'color': [/\b(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)\b/i, {
-      pattern: /\b(?:rgb|hsl)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:rgb|hsl)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
+    'color': [{
+      pattern: /(^|[^\w-])(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)(?![\w-])/i,
+      lookbehind: true
+    }, {
+      pattern: /\b(?:hsl|rgb)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:hsl|rgb)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
       inside: {
         'unit': unit,
         'number': number,
@@ -43520,31 +38912,41 @@ delete Prism.languages.c['boolean'];
     'unit': unit,
     'number': number
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-javascript" */
 
 
-Prism.languages.javascript = Prism.languages.extend('clike', {
-  'class-name': [Prism.languages.clike['class-name'], {
-    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$A-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\.(?:prototype|constructor))/,
+prism.languages.javascript = prism.languages.extend('clike', {
+  'class-name': [prism.languages.clike['class-name'], {
+    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$A-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\.(?:constructor|prototype))/,
     lookbehind: true
   }],
   'keyword': [{
-    pattern: /((?:^|})\s*)(?:catch|finally)\b/,
+    pattern: /((?:^|\})\s*)catch\b/,
     lookbehind: true
   }, {
-    pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|(?:get|set)(?=\s*[\[$\w\xA0-\uFFFF])|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
+    pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|assert(?=\s*\{)|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally(?=\s*(?:\{|$))|for|from(?=\s*(?:['"]|$))|function|(?:get|set)(?=\s*(?:[#\[$\w\xA0-\uFFFF]|$))|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
     lookbehind: true
   }],
   // Allow for all non-ASCII characters (See http://stackoverflow.com/a/2008444)
   'function': /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,
-  'number': /\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,
+  'number': {
+    pattern: RegExp(/(^|[^\w$])/.source + '(?:' + ( // constant
+    /NaN|Infinity/.source + '|' + // binary integer
+    /0[bB][01]+(?:_[01]+)*n?/.source + '|' + // octal integer
+    /0[oO][0-7]+(?:_[0-7]+)*n?/.source + '|' + // hexadecimal integer
+    /0[xX][\dA-Fa-f]+(?:_[\dA-Fa-f]+)*n?/.source + '|' + // decimal bigint
+    /\d+(?:_\d+)*n/.source + '|' + // decimal number (integer or float) but no bigint
+    /(?:\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\.\d+(?:_\d+)*)(?:[Ee][+-]?\d+(?:_\d+)*)?/.source) + ')' + /(?![\w$])/.source),
+    lookbehind: true
+  },
   'operator': /--|\+\+|\*\*=?|=>|&&=?|\|\|=?|[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?\?=?|\?\.?|[~:]/
 });
-Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
-Prism.languages.insertBefore('javascript', 'keyword', {
+prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|extends|implements|instanceof|interface|new)\s+)[\w.\\]+/;
+prism.languages.insertBefore('javascript', 'keyword', {
   'regex': {
-    pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
+    // eslint-disable-next-line regexp/no-dupe-characters-character-class
+    pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*\]|\\.|[^/\\\[\r\n])+\/[dgimyus]{0,7}(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
     lookbehind: true,
     greedy: true,
     inside: {
@@ -43552,10 +38954,10 @@ Prism.languages.insertBefore('javascript', 'keyword', {
         pattern: /^(\/)[\s\S]+(?=\/[a-z]*$)/,
         lookbehind: true,
         alias: 'language-regex',
-        inside: Prism.languages.regex
+        inside: prism.languages.regex
       },
-      'regex-flags': /[a-z]+$/,
-      'regex-delimiter': /^\/|\/$/
+      'regex-delimiter': /^\/|\/$/,
+      'regex-flags': /^[a-z]+$/
     }
   },
   // This must be declared before keyword because we use "function" inside the look-forward
@@ -43566,24 +38968,30 @@ Prism.languages.insertBefore('javascript', 'keyword', {
   'parameter': [{
     pattern: /(function(?:\s+(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*)?\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\))/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }, {
-    pattern: /(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*=>)/i,
-    inside: Prism.languages.javascript
+    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$a-z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*=>)/i,
+    lookbehind: true,
+    inside: prism.languages.javascript
   }, {
     pattern: /(\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*=>)/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }, {
     pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*)\(\s*|\]\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*\{)/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }],
   'constant': /\b[A-Z](?:[A-Z_]|\dx?)*\b/
 });
-Prism.languages.insertBefore('javascript', 'string', {
+prism.languages.insertBefore('javascript', 'string', {
+  'hashbang': {
+    pattern: /^#!.*/,
+    greedy: true,
+    alias: 'comment'
+  },
   'template-string': {
-    pattern: /`(?:\\[\s\S]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,
+    pattern: /`(?:\\[\s\S]|\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}|(?!\$\{)[^\\`])*`/,
     greedy: true,
     inside: {
       'template-punctuation': {
@@ -43591,56 +38999,90 @@ Prism.languages.insertBefore('javascript', 'string', {
         alias: 'string'
       },
       'interpolation': {
-        pattern: /((?:^|[^\\])(?:\\{2})*)\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}/,
+        pattern: /((?:^|[^\\])(?:\\{2})*)\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}/,
         lookbehind: true,
         inside: {
           'interpolation-punctuation': {
-            pattern: /^\${|}$/,
+            pattern: /^\$\{|\}$/,
             alias: 'punctuation'
           },
-          rest: Prism.languages.javascript
+          rest: prism.languages.javascript
         }
       },
       'string': /[\s\S]+/
     }
+  },
+  'string-property': {
+    pattern: /((?:^|[,{])[ \t]*)(["'])(?:\\(?:\r\n|[\s\S])|(?!\2)[^\\\r\n])*\2(?=\s*:)/m,
+    lookbehind: true,
+    greedy: true,
+    alias: 'property'
+  }
+});
+prism.languages.insertBefore('javascript', 'operator', {
+  'literal-property': {
+    pattern: /((?:^|[,{])[ \t]*)(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*:)/m,
+    lookbehind: true,
+    alias: 'property'
   }
 });
 
-if (Prism.languages.markup) {
-  Prism.languages.markup.tag.addInlined('script', 'javascript');
+if (prism.languages.markup) {
+  prism.languages.markup.tag.addInlined('script', 'javascript'); // add attribute support for all DOM events.
+  // https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events
+
+  prism.languages.markup.tag.addAttribute(/on(?:abort|blur|change|click|composition(?:end|start|update)|dblclick|error|focus(?:in|out)?|key(?:down|up)|load|mouse(?:down|enter|leave|move|out|over|up)|reset|resize|scroll|select|slotchange|submit|unload|wheel)/.source, 'javascript');
 }
 
-Prism.languages.js = Prism.languages.javascript;
+prism.languages.js = prism.languages.javascript;
 /* "prismjs/components/prism-jsx" */
 
 (function (Prism) {
   var javascript = Prism.util.clone(Prism.languages.javascript);
+  var space = /(?:\s|\/\/.*(?!.)|\/\*(?:[^*]|\*(?!\/))\*\/)/.source;
+  var braces = /(?:\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])*\})/.source;
+  var spread = /(?:\{<S>*\.{3}(?:[^{}]|<BRACES>)*\})/.source;
+  /**
+   * @param {string} source
+   * @param {string} [flags]
+   */
+
+  function re(source, flags) {
+    source = source.replace(/<S>/g, function () {
+      return space;
+    }).replace(/<BRACES>/g, function () {
+      return braces;
+    }).replace(/<SPREAD>/g, function () {
+      return spread;
+    });
+    return RegExp(source, flags);
+  }
+
+  spread = re(spread).source;
   Prism.languages.jsx = Prism.languages.extend('markup', javascript);
-  Prism.languages.jsx.tag.pattern = /<\/?(?:[\w.:-]+(?:\s+(?:[\w.:$-]+(?:=(?:"(?:\\[^]|[^\\"])*"|'(?:\\[^]|[^\\'])*'|[^\s{'">=]+|\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])+\}))?|\{\s*\.{3}\s*[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\s*\}))*\s*\/?)?>/i;
-  Prism.languages.jsx.tag.inside['tag'].pattern = /^<\/?[^\s>\/]*/i;
-  Prism.languages.jsx.tag.inside['attr-value'].pattern = /=(?!\{)(?:"(?:\\[^]|[^\\"])*"|'(?:\\[^]|[^\\'])*'|[^\s'">]+)/i;
+  Prism.languages.jsx.tag.pattern = re(/<\/?(?:[\w.:-]+(?:<S>+(?:[\w.:$-]+(?:=(?:"(?:\\[\s\S]|[^\\"])*"|'(?:\\[\s\S]|[^\\'])*'|[^\s{'"/>=]+|<BRACES>))?|<SPREAD>))*<S>*\/?)?>/.source);
+  Prism.languages.jsx.tag.inside['tag'].pattern = /^<\/?[^\s>\/]*/;
+  Prism.languages.jsx.tag.inside['attr-value'].pattern = /=(?!\{)(?:"(?:\\[\s\S]|[^\\"])*"|'(?:\\[\s\S]|[^\\'])*'|[^\s'">]+)/;
   Prism.languages.jsx.tag.inside['tag'].inside['class-name'] = /^[A-Z]\w*(?:\.[A-Z]\w*)*$/;
+  Prism.languages.jsx.tag.inside['comment'] = javascript['comment'];
   Prism.languages.insertBefore('inside', 'attr-name', {
     'spread': {
-      pattern: /\{\s*\.{3}\s*[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\s*\}/,
-      inside: {
-        'punctuation': /\.{3}|[{}.]/,
-        'attr-value': /\w+/
-      }
+      pattern: re(/<SPREAD>/.source),
+      inside: Prism.languages.jsx
     }
   }, Prism.languages.jsx.tag);
-  Prism.languages.insertBefore('inside', 'attr-value', {
+  Prism.languages.insertBefore('inside', 'special-attr', {
     'script': {
       // Allow for two levels of nesting
-      pattern: /=(?:\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])+\})/i,
+      pattern: re(/=<BRACES>/.source),
+      alias: 'language-javascript',
       inside: {
         'script-punctuation': {
-          pattern: /^=(?={)/,
+          pattern: /^=(?=\{)/,
           alias: 'punctuation'
         },
         rest: Prism.languages.jsx
-      },
-      'alias': 'language-javascript'
+      }
     }
   }, Prism.languages.jsx.tag); // The following will handle plain text inside tags
 
@@ -43730,7 +39172,7 @@ Prism.languages.js = Prism.languages.javascript;
 
     walkTokens(env.tokens);
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-js-extras" */
 
 
@@ -43753,7 +39195,7 @@ Prism.languages.js = Prism.languages.javascript;
     'known-class-name': [{
       // standard built-ins
       // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-      pattern: /\b(?:(?:(?:Uint|Int)(?:8|16|32)|Uint8Clamped|Float(?:32|64))?Array|ArrayBuffer|BigInt|Boolean|DataView|Date|Error|Function|Intl|JSON|Math|Number|Object|Promise|Proxy|Reflect|RegExp|String|Symbol|(?:Weak)?(?:Set|Map)|WebAssembly)\b/,
+      pattern: /\b(?:(?:Float(?:32|64)|(?:Int|Uint)(?:8|16|32)|Uint8Clamped)?Array|ArrayBuffer|BigInt|Boolean|DataView|Date|Error|Function|Intl|JSON|(?:Weak)?(?:Map|Set)|Math|Number|Object|Promise|Proxy|Reflect|RegExp|String|Symbol|WebAssembly)\b/,
       alias: 'class-name'
     }, {
       // errors
@@ -43793,7 +39235,7 @@ Prism.languages.js = Prism.languages.javascript;
     pattern: /\b(?:as|default|export|from|import)\b/,
     alias: 'module'
   }, {
-    pattern: /\b(?:await|break|catch|continue|do|else|for|finally|if|return|switch|throw|try|while|yield)\b/,
+    pattern: /\b(?:await|break|catch|continue|do|else|finally|for|if|return|switch|throw|try|while|yield)\b/,
     alias: 'control-flow'
   }, {
     pattern: /\bnull\b/,
@@ -43823,7 +39265,7 @@ Prism.languages.js = Prism.languages.javascript;
     },
     'dom': {
       // this contains only a few commonly used DOM variables
-      pattern: /\b(?:document|location|navigator|performance|(?:local|session)Storage|window)\b/,
+      pattern: /\b(?:document|(?:local|session)Storage|location|navigator|performance|window)\b/,
       alias: 'variable'
     },
     'console': {
@@ -43849,14 +39291,354 @@ Prism.languages.js = Prism.languages.javascript;
     value.inside = inside;
     inside['maybe-class-name'] = /^[A-Z][\s\S]*/;
   }
-})(Prism);
+})(prism);
+/* "prismjs/components/prism-js-templates" */
+
+
+(function (Prism) {
+  var templateString = Prism.languages.javascript['template-string']; // see the pattern in prism-javascript.js
+
+  var templateLiteralPattern = templateString.pattern.source;
+  var interpolationObject = templateString.inside['interpolation'];
+  var interpolationPunctuationObject = interpolationObject.inside['interpolation-punctuation'];
+  var interpolationPattern = interpolationObject.pattern.source;
+  /**
+   * Creates a new pattern to match a template string with a special tag.
+   *
+   * This will return `undefined` if there is no grammar with the given language id.
+   *
+   * @param {string} language The language id of the embedded language. E.g. `markdown`.
+   * @param {string} tag The regex pattern to match the tag.
+   * @returns {object | undefined}
+   * @example
+   * createTemplate('css', /\bcss/.source);
+   */
+
+  function createTemplate(language, tag) {
+    if (!Prism.languages[language]) {
+      return undefined;
+    }
+
+    return {
+      pattern: RegExp('((?:' + tag + ')\\s*)' + templateLiteralPattern),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'template-punctuation': {
+          pattern: /^`|`$/,
+          alias: 'string'
+        },
+        'embedded-code': {
+          pattern: /[\s\S]+/,
+          alias: language
+        }
+      }
+    };
+  }
+
+  Prism.languages.javascript['template-string'] = [// styled-jsx:
+  //   css`a { color: #25F; }`
+  // styled-components:
+  //   styled.h1`color: red;`
+  createTemplate('css', /\b(?:styled(?:\([^)]*\))?(?:\s*\.\s*\w+(?:\([^)]*\))*)*|css(?:\s*\.\s*(?:global|resolve))?|createGlobalStyle|keyframes)/.source), // html`<p></p>`
+  // div.innerHTML = `<p></p>`
+  createTemplate('html', /\bhtml|\.\s*(?:inner|outer)HTML\s*\+?=/.source), // svg`<path fill="#fff" d="M55.37 ..."/>`
+  createTemplate('svg', /\bsvg/.source), // md`# h1`, markdown`## h2`
+  createTemplate('markdown', /\b(?:markdown|md)/.source), // gql`...`, graphql`...`, graphql.experimental`...`
+  createTemplate('graphql', /\b(?:gql|graphql(?:\s*\.\s*experimental)?)/.source), // sql`...`
+  createTemplate('sql', /\bsql/.source), // vanilla template string
+  templateString].filter(Boolean);
+  /**
+   * Returns a specific placeholder literal for the given language.
+   *
+   * @param {number} counter
+   * @param {string} language
+   * @returns {string}
+   */
+
+  function getPlaceholder(counter, language) {
+    return '___' + language.toUpperCase() + '_' + counter + '___';
+  }
+  /**
+   * Returns the tokens of `Prism.tokenize` but also runs the `before-tokenize` and `after-tokenize` hooks.
+   *
+   * @param {string} code
+   * @param {any} grammar
+   * @param {string} language
+   * @returns {(string|Token)[]}
+   */
+
+
+  function tokenizeWithHooks(code, grammar, language) {
+    var env = {
+      code: code,
+      grammar: grammar,
+      language: language
+    };
+    Prism.hooks.run('before-tokenize', env);
+    env.tokens = Prism.tokenize(env.code, env.grammar);
+    Prism.hooks.run('after-tokenize', env);
+    return env.tokens;
+  }
+  /**
+   * Returns the token of the given JavaScript interpolation expression.
+   *
+   * @param {string} expression The code of the expression. E.g. `"${42}"`
+   * @returns {Token}
+   */
+
+
+  function tokenizeInterpolationExpression(expression) {
+    var tempGrammar = {};
+    tempGrammar['interpolation-punctuation'] = interpolationPunctuationObject;
+    /** @type {Array} */
+
+    var tokens = Prism.tokenize(expression, tempGrammar);
+
+    if (tokens.length === 3) {
+      /**
+       * The token array will look like this
+       * [
+       *     ["interpolation-punctuation", "${"]
+       *     "..." // JavaScript expression of the interpolation
+       *     ["interpolation-punctuation", "}"]
+       * ]
+       */
+      var args = [1, 1];
+      args.push.apply(args, tokenizeWithHooks(tokens[1], Prism.languages.javascript, 'javascript'));
+      tokens.splice.apply(tokens, args);
+    }
+
+    return new Prism.Token('interpolation', tokens, interpolationObject.alias, expression);
+  }
+  /**
+   * Tokenizes the given code with support for JavaScript interpolation expressions mixed in.
+   *
+   * This function has 3 phases:
+   *
+   * 1. Replace all JavaScript interpolation expression with a placeholder.
+   *    The placeholder will have the syntax of a identify of the target language.
+   * 2. Tokenize the code with placeholders.
+   * 3. Tokenize the interpolation expressions and re-insert them into the tokenize code.
+   *    The insertion only works if a placeholder hasn't been "ripped apart" meaning that the placeholder has been
+   *    tokenized as two tokens by the grammar of the embedded language.
+   *
+   * @param {string} code
+   * @param {object} grammar
+   * @param {string} language
+   * @returns {Token}
+   */
+
+
+  function tokenizeEmbedded(code, grammar, language) {
+    // 1. First filter out all interpolations
+    // because they might be escaped, we need a lookbehind, so we use Prism
+
+    /** @type {(Token|string)[]} */
+    var _tokens = Prism.tokenize(code, {
+      'interpolation': {
+        pattern: RegExp(interpolationPattern),
+        lookbehind: true
+      }
+    }); // replace all interpolations with a placeholder which is not in the code already
+
+
+    var placeholderCounter = 0;
+    /** @type {Object<string, string>} */
+
+    var placeholderMap = {};
+
+    var embeddedCode = _tokens.map(function (token) {
+      if (typeof token === 'string') {
+        return token;
+      } else {
+        var interpolationExpression = token.content;
+        var placeholder;
+
+        while (code.indexOf(placeholder = getPlaceholder(placeholderCounter++, language)) !== -1) {
+          /* noop */
+        }
+
+        placeholderMap[placeholder] = interpolationExpression;
+        return placeholder;
+      }
+    }).join(''); // 2. Tokenize the embedded code
+
+
+    var embeddedTokens = tokenizeWithHooks(embeddedCode, grammar, language); // 3. Re-insert the interpolation
+
+    var placeholders = Object.keys(placeholderMap);
+    placeholderCounter = 0;
+    /**
+     *
+     * @param {(Token|string)[]} tokens
+     * @returns {void}
+     */
+
+    function walkTokens(tokens) {
+      for (var i = 0; i < tokens.length; i++) {
+        if (placeholderCounter >= placeholders.length) {
+          return;
+        }
+
+        var token = tokens[i];
+
+        if (typeof token === 'string' || typeof token.content === 'string') {
+          var placeholder = placeholders[placeholderCounter];
+          var s = typeof token === 'string' ? token :
+          /** @type {string} */
+          token.content;
+          var index = s.indexOf(placeholder);
+
+          if (index !== -1) {
+            ++placeholderCounter;
+            var before = s.substring(0, index);
+            var middle = tokenizeInterpolationExpression(placeholderMap[placeholder]);
+            var after = s.substring(index + placeholder.length);
+            var replacement = [];
+
+            if (before) {
+              replacement.push(before);
+            }
+
+            replacement.push(middle);
+
+            if (after) {
+              var afterTokens = [after];
+              walkTokens(afterTokens);
+              replacement.push.apply(replacement, afterTokens);
+            }
+
+            if (typeof token === 'string') {
+              tokens.splice.apply(tokens, [i, 1].concat(replacement));
+              i += replacement.length - 1;
+            } else {
+              token.content = replacement;
+            }
+          }
+        } else {
+          var content = token.content;
+
+          if (Array.isArray(content)) {
+            walkTokens(content);
+          } else {
+            walkTokens([content]);
+          }
+        }
+      }
+    }
+
+    walkTokens(embeddedTokens);
+    return new Prism.Token(language, embeddedTokens, 'language-' + language, code);
+  }
+  /**
+   * The languages for which JS templating will handle tagged template literals.
+   *
+   * JS templating isn't active for only JavaScript but also related languages like TypeScript, JSX, and TSX.
+   */
+
+
+  var supportedLanguages = {
+    'javascript': true,
+    'js': true,
+    'typescript': true,
+    'ts': true,
+    'jsx': true,
+    'tsx': true
+  };
+  Prism.hooks.add('after-tokenize', function (env) {
+    if (!(env.language in supportedLanguages)) {
+      return;
+    }
+    /**
+     * Finds and tokenizes all template strings with an embedded languages.
+     *
+     * @param {(Token | string)[]} tokens
+     * @returns {void}
+     */
+
+
+    function findTemplateStrings(tokens) {
+      for (var i = 0, l = tokens.length; i < l; i++) {
+        var token = tokens[i];
+
+        if (typeof token === 'string') {
+          continue;
+        }
+
+        var content = token.content;
+
+        if (!Array.isArray(content)) {
+          if (typeof content !== 'string') {
+            findTemplateStrings([content]);
+          }
+
+          continue;
+        }
+
+        if (token.type === 'template-string') {
+          /**
+           * A JavaScript template-string token will look like this:
+           *
+           * ["template-string", [
+           *     ["template-punctuation", "`"],
+           *     (
+           *         An array of "string" and "interpolation" tokens. This is the simple string case.
+           *         or
+           *         ["embedded-code", "..."] This is the token containing the embedded code.
+           *                                  It also has an alias which is the language of the embedded code.
+           *     ),
+           *     ["template-punctuation", "`"]
+           * ]]
+           */
+          var embedded = content[1];
+
+          if (content.length === 3 && typeof embedded !== 'string' && embedded.type === 'embedded-code') {
+            // get string content
+            var code = stringContent(embedded);
+            var alias = embedded.alias;
+            var language = Array.isArray(alias) ? alias[0] : alias;
+            var grammar = Prism.languages[language];
+
+            if (!grammar) {
+              // the embedded language isn't registered.
+              continue;
+            }
+
+            content[1] = tokenizeEmbedded(code, grammar, language);
+          }
+        } else {
+          findTemplateStrings(content);
+        }
+      }
+    }
+
+    findTemplateStrings(env.tokens);
+  });
+  /**
+   * Returns the string content of a token or token stream.
+   *
+   * @param {string | Token | (string | Token)[]} value
+   * @returns {string}
+   */
+
+  function stringContent(value) {
+    if (typeof value === 'string') {
+      return value;
+    } else if (Array.isArray(value)) {
+      return value.map(stringContent).join('');
+    } else {
+      return stringContent(value.content);
+    }
+  }
+})(prism);
 /* "prismjs/components/prism-coffeescript" */
 
 
 (function (Prism) {
   // Ignore comments starting with { to privilege string interpolation highlighting
-  var comment = /#(?!\{).+/,
-      interpolation = {
+  var comment = /#(?!\{).+/;
+  var interpolation = {
     pattern: /#\{[^}]+\}/,
     alias: 'variable'
   };
@@ -43930,7 +39712,7 @@ Prism.languages.js = Prism.languages.javascript;
   });
   delete Prism.languages.coffeescript['template-string'];
   Prism.languages.coffee = Prism.languages.coffeescript;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-diff" */
 
 
@@ -43966,8 +39748,8 @@ Prism.languages.js = Prism.languages.javascript;
       alias.push(/\w+/.exec(name)[0]);
     }
 
-    if (name === "diff") {
-      alias.push("bold");
+    if (name === 'diff') {
+      alias.push('bold');
     }
 
     Prism.languages.diff[name] = {
@@ -43989,11 +39771,11 @@ Prism.languages.js = Prism.languages.javascript;
   Object.defineProperty(Prism.languages.diff, 'PREFIXES', {
     value: PREFIXES
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-git" */
 
 
-Prism.languages.git = {
+prism.languages.git = {
   /*
    * A simple one line comment like in a git status command
    * For instance:
@@ -44014,7 +39796,7 @@ Prism.languages.git = {
   /*
    * a string (double and simple quote)
    */
-  'string': /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,
+  'string': /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/,
 
   /*
    * a git command. It starts with a random prompt finishing by a $, then "git" then some other parameters
@@ -44030,7 +39812,7 @@ Prism.languages.git = {
        * $ git diff --cached
        * $ git log -p
        */
-      'parameter': /\s--?\w+/m
+      'parameter': /\s--?\w+/
     }
   },
 
@@ -44063,21 +39845,31 @@ Prism.languages.git = {
 };
 /* "prismjs/components/prism-go" */
 
-Prism.languages.go = Prism.languages.extend('clike', {
+prism.languages.go = prism.languages.extend('clike', {
   'string': {
-    pattern: /(["'`])(?:\\[\s\S]|(?!\1)[^\\])*\1/,
+    pattern: /(^|[^\\])"(?:\\.|[^"\\\r\n])*"|`[^`]*`/,
+    lookbehind: true,
     greedy: true
   },
   'keyword': /\b(?:break|case|chan|const|continue|default|defer|else|fallthrough|for|func|go(?:to)?|if|import|interface|map|package|range|return|select|struct|switch|type|var)\b/,
-  'boolean': /\b(?:_|iota|nil|true|false)\b/,
-  'number': /(?:\b0x[a-f\d]+|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[-+]?\d+)?)i?/i,
+  'boolean': /\b(?:_|false|iota|nil|true)\b/,
+  'number': [// binary and octal integers
+  /\b0(?:b[01_]+|o[0-7_]+)i?\b/i, // hexadecimal integers and floats
+  /\b0x(?:[a-f\d_]+(?:\.[a-f\d_]*)?|\.[a-f\d_]+)(?:p[+-]?\d+(?:_\d+)*)?i?(?!\w)/i, // decimal integers and floats
+  /(?:\b\d[\d_]*(?:\.[\d_]*)?|\B\.\d[\d_]*)(?:e[+-]?[\d_]+)?i?(?!\w)/i],
   'operator': /[*\/%^!=]=?|\+[=+]?|-[=-]?|\|[=|]?|&(?:=|&|\^=?)?|>(?:>=?|=)?|<(?:<=?|=|-)?|:=|\.\.\./,
-  'builtin': /\b(?:bool|byte|complex(?:64|128)|error|float(?:32|64)|rune|string|u?int(?:8|16|32|64)?|uintptr|append|cap|close|complex|copy|delete|imag|len|make|new|panic|print(?:ln)?|real|recover)\b/
+  'builtin': /\b(?:append|bool|byte|cap|close|complex|complex(?:64|128)|copy|delete|error|float(?:32|64)|u?int(?:8|16|32|64)?|imag|len|make|new|panic|print(?:ln)?|real|recover|rune|string|uintptr)\b/
 });
-delete Prism.languages.go['class-name'];
+prism.languages.insertBefore('go', 'string', {
+  'char': {
+    pattern: /'(?:\\.|[^'\\\r\n]){0,10}'/,
+    greedy: true
+  }
+});
+delete prism.languages.go['class-name'];
 /* "prismjs/components/prism-graphql" */
 
-Prism.languages.graphql = {
+prism.languages.graphql = {
   'comment': /#.*/,
   'description': {
     pattern: /(?:"""(?:[^"]|(?!""")")*"""|"(?:\\.|[^\\"\r\n])*")(?=\s*[a-z_])/i,
@@ -44087,7 +39879,7 @@ Prism.languages.graphql = {
       'language-markdown': {
         pattern: /(^"(?:"")?)(?!\1)[\s\S]+(?=\1$)/,
         lookbehind: true,
-        inside: Prism.languages.markdown
+        inside: prism.languages.markdown
       }
     }
   },
@@ -44096,18 +39888,24 @@ Prism.languages.graphql = {
     greedy: true
   },
   'number': /(?:\B-|\b)\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
-  'boolean': /\b(?:true|false)\b/,
+  'boolean': /\b(?:false|true)\b/,
   'variable': /\$[a-z_]\w*/i,
   'directive': {
     pattern: /@[a-z_]\w*/i,
     alias: 'function'
   },
   'attr-name': {
-    pattern: /[a-z_]\w*(?=\s*(?:\((?:[^()"]|"(?:\\.|[^\\"\r\n])*")*\))?:)/i,
+    pattern: /\b[a-z_]\w*(?=\s*(?:\((?:[^()"]|"(?:\\.|[^\\"\r\n])*")*\))?:)/i,
     greedy: true
   },
+  'atom-input': {
+    pattern: /\b[A-Z]\w*Input\b/,
+    alias: 'class-name'
+  },
+  'scalar': /\b(?:Boolean|Float|ID|Int|String)\b/,
+  'constant': /\b[A-Z][A-Z_\d]*\b/,
   'class-name': {
-    pattern: /(\b(?:enum|implements|interface|on|scalar|type|union)\s+|&\s*)[a-zA-Z_]\w*/,
+    pattern: /(\b(?:enum|implements|interface|on|scalar|type|union)\s+|&\s*|:\s*|\[)[A-Z_]\w*/,
     lookbehind: true
   },
   'fragment': {
@@ -44115,11 +39913,182 @@ Prism.languages.graphql = {
     lookbehind: true,
     alias: 'function'
   },
+  'definition-mutation': {
+    pattern: /(\bmutation\s+)[a-zA-Z_]\w*/,
+    lookbehind: true,
+    alias: 'function'
+  },
+  'definition-query': {
+    pattern: /(\bquery\s+)[a-zA-Z_]\w*/,
+    lookbehind: true,
+    alias: 'function'
+  },
   'keyword': /\b(?:directive|enum|extend|fragment|implements|input|interface|mutation|on|query|repeatable|scalar|schema|subscription|type|union)\b/,
   'operator': /[!=|&]|\.{3}/,
+  'property-query': /\w+(?=\s*\()/,
+  'object': /\w+(?=\s*\{)/,
   'punctuation': /[!(){}\[\]:=,]/,
-  'constant': /\b(?!ID\b)[A-Z][A-Z_\d]*\b/
+  'property': /\w+/
 };
+prism.hooks.add('after-tokenize', function afterTokenizeGraphql(env) {
+  if (env.language !== 'graphql') {
+    return;
+  }
+  /**
+   * get the graphql token stream that we want to customize
+   *
+   * @typedef {InstanceType<import("./prism-core")["Token"]>} Token
+   * @type {Token[]}
+   */
+
+
+  var validTokens = env.tokens.filter(function (token) {
+    return typeof token !== 'string' && token.type !== 'comment' && token.type !== 'scalar';
+  });
+  var currentIndex = 0;
+  /**
+   * Returns whether the token relative to the current index has the given type.
+   *
+   * @param {number} offset
+   * @returns {Token | undefined}
+   */
+
+  function getToken(offset) {
+    return validTokens[currentIndex + offset];
+  }
+  /**
+   * Returns whether the token relative to the current index has the given type.
+   *
+   * @param {readonly string[]} types
+   * @param {number} [offset=0]
+   * @returns {boolean}
+   */
+
+
+  function isTokenType(types, offset) {
+    offset = offset || 0;
+
+    for (var i = 0; i < types.length; i++) {
+      var token = getToken(i + offset);
+
+      if (!token || token.type !== types[i]) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+  /**
+   * Returns the index of the closing bracket to an opening bracket.
+   *
+   * It is assumed that `token[currentIndex - 1]` is an opening bracket.
+   *
+   * If no closing bracket could be found, `-1` will be returned.
+   *
+   * @param {RegExp} open
+   * @param {RegExp} close
+   * @returns {number}
+   */
+
+
+  function findClosingBracket(open, close) {
+    var stackHeight = 1;
+
+    for (var i = currentIndex; i < validTokens.length; i++) {
+      var token = validTokens[i];
+      var content = token.content;
+
+      if (token.type === 'punctuation' && typeof content === 'string') {
+        if (open.test(content)) {
+          stackHeight++;
+        } else if (close.test(content)) {
+          stackHeight--;
+
+          if (stackHeight === 0) {
+            return i;
+          }
+        }
+      }
+    }
+
+    return -1;
+  }
+  /**
+   * Adds an alias to the given token.
+   *
+   * @param {Token} token
+   * @param {string} alias
+   * @returns {void}
+   */
+
+
+  function addAlias(token, alias) {
+    var aliases = token.alias;
+
+    if (!aliases) {
+      token.alias = aliases = [];
+    } else if (!Array.isArray(aliases)) {
+      token.alias = aliases = [aliases];
+    }
+
+    aliases.push(alias);
+  }
+
+  for (; currentIndex < validTokens.length;) {
+    var startToken = validTokens[currentIndex++]; // add special aliases for mutation tokens
+
+    if (startToken.type === 'keyword' && startToken.content === 'mutation') {
+      // any array of the names of all input variables (if any)
+      var inputVariables = [];
+
+      if (isTokenType(['definition-mutation', 'punctuation']) && getToken(1).content === '(') {
+        // definition
+        currentIndex += 2; // skip 'definition-mutation' and 'punctuation'
+
+        var definitionEnd = findClosingBracket(/^\($/, /^\)$/);
+
+        if (definitionEnd === -1) {
+          continue;
+        } // find all input variables
+
+
+        for (; currentIndex < definitionEnd; currentIndex++) {
+          var t = getToken(0);
+
+          if (t.type === 'variable') {
+            addAlias(t, 'variable-input');
+            inputVariables.push(t.content);
+          }
+        }
+
+        currentIndex = definitionEnd + 1;
+      }
+
+      if (isTokenType(['punctuation', 'property-query']) && getToken(0).content === '{') {
+        currentIndex++; // skip opening bracket
+
+        addAlias(getToken(0), 'property-mutation');
+
+        if (inputVariables.length > 0) {
+          var mutationEnd = findClosingBracket(/^\{$/, /^\}$/);
+
+          if (mutationEnd === -1) {
+            continue;
+          } // give references to input variables a special alias
+
+
+          for (var i = currentIndex; i < mutationEnd; i++) {
+            var varToken = validTokens[i];
+
+            if (varToken.type === 'variable' && inputVariables.indexOf(varToken.content) >= 0) {
+              addAlias(varToken, 'variable-input');
+            }
+          }
+        }
+      }
+    }
+  }
+});
 /* "prismjs/components/prism-markup-templating" */
 
 (function (Prism) {
@@ -44243,7 +40212,7 @@ Prism.languages.graphql = {
       }
     }
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-handlebars" */
 
 
@@ -44251,14 +40220,14 @@ Prism.languages.graphql = {
   Prism.languages.handlebars = {
     'comment': /\{\{![\s\S]*?\}\}/,
     'delimiter': {
-      pattern: /^\{\{\{?|\}\}\}?$/i,
+      pattern: /^\{\{\{?|\}\}\}?$/,
       alias: 'punctuation'
     },
     'string': /(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,
     'number': /\b0x[\dA-Fa-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:[Ee][+-]?\d+)?/,
-    'boolean': /\b(?:true|false)\b/,
+    'boolean': /\b(?:false|true)\b/,
     'block': {
-      pattern: /^(\s*(?:~\s*)?)[#\/]\S+?(?=\s*(?:~\s*)?$|\s)/i,
+      pattern: /^(\s*(?:~\s*)?)[#\/]\S+?(?=\s*(?:~\s*)?$|\s)/,
       lookbehind: true,
       alias: 'keyword'
     },
@@ -44279,18 +40248,21 @@ Prism.languages.graphql = {
   Prism.hooks.add('after-tokenize', function (env) {
     Prism.languages['markup-templating'].tokenizePlaceholders(env, 'handlebars');
   });
-})(Prism);
+  Prism.languages.hbs = Prism.languages.handlebars;
+})(prism);
 /* "prismjs/components/prism-json" */
 // https://www.json.org/json-en.html
 
 
-Prism.languages.json = {
+prism.languages.json = {
   'property': {
-    pattern: /"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
+    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
+    lookbehind: true,
     greedy: true
   },
   'string': {
-    pattern: /"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+    lookbehind: true,
     greedy: true
   },
   'comment': {
@@ -44300,13 +40272,13 @@ Prism.languages.json = {
   'number': /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
   'punctuation': /[{}[\],]/,
   'operator': /:/,
-  'boolean': /\b(?:true|false)\b/,
+  'boolean': /\b(?:false|true)\b/,
   'null': {
     pattern: /\bnull\b/,
     alias: 'keyword'
   }
 };
-Prism.languages.webmanifest = Prism.languages.json;
+prism.languages.webmanifest = prism.languages.json;
 /* "prismjs/components/prism-less" */
 
 /* FIXME :
@@ -44317,7 +40289,7 @@ Prism.languages.webmanifest = Prism.languages.json;
  A comment before a mixin usage prevents the latter to be properly highlighted.
  */
 
-Prism.languages.less = Prism.languages.extend('css', {
+prism.languages.less = prism.languages.extend('css', {
   'comment': [/\/\*[\s\S]*?\*\//, {
     pattern: /(^|[^\\])\/\/.*/,
     lookbehind: true
@@ -44336,15 +40308,15 @@ Prism.languages.less = Prism.languages.extend('css', {
       'variable': /@+[\w-]+/
     }
   },
-  'property': /(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/i,
+  'property': /(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/,
   'operator': /[+\-*\/]/
 });
-Prism.languages.insertBefore('less', 'property', {
+prism.languages.insertBefore('less', 'property', {
   'variable': [// Variable declaration (the colon must be consumed!)
   {
     pattern: /@[\w-]+\s*:/,
     inside: {
-      "punctuation": /:/
+      'punctuation': /:/
     }
   }, // Variable usage
   /@@?[\w-]+/],
@@ -44356,7 +40328,7 @@ Prism.languages.insertBefore('less', 'property', {
 });
 /* "prismjs/components/prism-makefile" */
 
-Prism.languages.makefile = {
+prism.languages.makefile = {
   'comment': {
     pattern: /(^|[^\\])#(?:\\(?:\r\n|[\s\S])|[^\\\r\n])*/,
     lookbehind: true
@@ -44365,22 +40337,24 @@ Prism.languages.makefile = {
     pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
     greedy: true
   },
-  // Built-in target names
-  'builtin': /\.[A-Z][^:#=\s]+(?=\s*:(?!=))/,
-  // Targets
-  'symbol': {
+  'builtin-target': {
+    pattern: /\.[A-Z][^:#=\s]+(?=\s*:(?!=))/,
+    alias: 'builtin'
+  },
+  'target': {
     pattern: /^(?:[^:=\s]|[ \t]+(?![\s:]))+(?=\s*:(?!=))/m,
+    alias: 'symbol',
     inside: {
       'variable': /\$+(?:(?!\$)[^(){}:#=\s]+|(?=[({]))/
     }
   },
   'variable': /\$+(?:(?!\$)[^(){}:#=\s]+|\([@*%<^+?][DF]\)|(?=[({]))/,
-  'keyword': [// Directives
-  /-include\b|\b(?:define|else|endef|endif|export|ifn?def|ifn?eq|include|override|private|sinclude|undefine|unexport|vpath)\b/, // Functions
-  {
-    pattern: /(\()(?:addsuffix|abspath|and|basename|call|dir|error|eval|file|filter(?:-out)?|findstring|firstword|flavor|foreach|guile|if|info|join|lastword|load|notdir|or|origin|patsubst|realpath|shell|sort|strip|subst|suffix|value|warning|wildcard|word(?:s|list)?)(?=[ \t])/,
+  // Directives
+  'keyword': /-include\b|\b(?:define|else|endef|endif|export|ifn?def|ifn?eq|include|override|private|sinclude|undefine|unexport|vpath)\b/,
+  'function': {
+    pattern: /(\()(?:abspath|addsuffix|and|basename|call|dir|error|eval|file|filter(?:-out)?|findstring|firstword|flavor|foreach|guile|if|info|join|lastword|load|notdir|or|origin|patsubst|realpath|shell|sort|strip|subst|suffix|value|warning|wildcard|word(?:list|s)?)(?=[ \t])/,
     lookbehind: true
-  }],
+  },
   'operator': /(?:::|[?:+!])?=|[|@]/,
   'punctuation': /[:;(){}]/
 };
@@ -44388,7 +40362,7 @@ Prism.languages.makefile = {
 
 (function (Prism) {
   // Allow only one line break
-  var inner = /(?:\\.|[^\\\n\r]|(?:\n|\r\n?)(?!\n|\r\n?))/.source;
+  var inner = /(?:\\.|[^\\\n\r]|(?:\n|\r\n?)(?![\r\n]))/.source;
   /**
    * This function is intended for the creation of the bold or italic pattern.
    *
@@ -44420,7 +40394,7 @@ Prism.languages.makefile = {
       greedy: true,
       inside: {
         'punctuation': /^---|---$/,
-        'font-matter': {
+        'front-matter': {
           pattern: /\S+(?:\s+\S+)*/,
           alias: ['yaml', 'language-yaml'],
           inside: Prism.languages.yaml
@@ -44470,11 +40444,6 @@ Prism.languages.makefile = {
       // Prefixed by 4 spaces or 1 tab and preceded by an empty line
       pattern: /((?:^|\n)[ \t]*\n|(?:^|\r\n?)[ \t]*\r\n?)(?: {4}|\t).+(?:(?:\n|\r\n?)(?: {4}|\t).+)*/,
       lookbehind: true,
-      alias: 'keyword'
-    }, {
-      // `code`
-      // ``code``
-      pattern: /``.+?``|`[^`\r\n]+`/,
       alias: 'keyword'
     }, {
       // ```optional language
@@ -44585,7 +40554,8 @@ Prism.languages.makefile = {
     'strike': {
       // ~~strike through~~
       // ~strike~
-      pattern: createInline(/(~~?)(?:(?!~)<inner>)+?\2/.source),
+      // eslint-disable-next-line regexp/strict
+      pattern: createInline(/(~~?)(?:(?!~)<inner>)+\2/.source),
       lookbehind: true,
       greedy: true,
       inside: {
@@ -44597,6 +40567,14 @@ Prism.languages.makefile = {
         },
         'punctuation': /~~?/
       }
+    },
+    'code-snippet': {
+      // `code`
+      // ``code``
+      pattern: /(^|[^\\`])(?:``[^`\r\n]+(?:`[^`\r\n]+)*``(?!`)|`[^`\r\n]+`(?!`))/,
+      lookbehind: true,
+      greedy: true,
+      alias: ['code', 'keyword']
     },
     'url': {
       // [example](http://example.com "Optional title")
@@ -44629,7 +40607,7 @@ Prism.languages.makefile = {
     }
   });
   ['url', 'bold', 'italic', 'strike'].forEach(function (token) {
-    ['url', 'bold', 'italic', 'strike'].forEach(function (inside) {
+    ['url', 'bold', 'italic', 'strike', 'code-snippet'].forEach(function (inside) {
       if (token !== inside) {
         Prism.languages.markdown[token].inside.content.inside[inside] = Prism.languages.markdown[inside];
       }
@@ -44723,42 +40701,109 @@ Prism.languages.makefile = {
         });
       }
     } else {
-      // reverse Prism.util.encode
-      var code = env.content.replace(/&lt;/g, '<').replace(/&amp;/g, '&');
-      env.content = Prism.highlight(code, grammar, codeLang);
+      env.content = Prism.highlight(textContent(env.content), grammar, codeLang);
     }
   });
+  var tagPattern = RegExp(Prism.languages.markup.tag.pattern.source, 'gi');
+  /**
+   * A list of known entity names.
+   *
+   * This will always be incomplete to save space. The current list is the one used by lowdash's unescape function.
+   *
+   * @see {@link https://github.com/lodash/lodash/blob/2da024c3b4f9947a48517639de7560457cd4ec6c/unescape.js#L2}
+   */
+
+  var KNOWN_ENTITY_NAMES = {
+    'amp': '&',
+    'lt': '<',
+    'gt': '>',
+    'quot': '"'
+  }; // IE 11 doesn't support `String.fromCodePoint`
+
+  var fromCodePoint = String.fromCodePoint || String.fromCharCode;
+  /**
+   * Returns the text content of a given HTML source code string.
+   *
+   * @param {string} html
+   * @returns {string}
+   */
+
+  function textContent(html) {
+    // remove all tags
+    var text = html.replace(tagPattern, ''); // decode known entities
+
+    text = text.replace(/&(\w{1,8}|#x?[\da-f]{1,8});/gi, function (m, code) {
+      code = code.toLowerCase();
+
+      if (code[0] === '#') {
+        var value;
+
+        if (code[1] === 'x') {
+          value = parseInt(code.slice(2), 16);
+        } else {
+          value = Number(code.slice(1));
+        }
+
+        return fromCodePoint(value);
+      } else {
+        var known = KNOWN_ENTITY_NAMES[code];
+
+        if (known) {
+          return known;
+        } // unable to decode
+
+
+        return m;
+      }
+    });
+    return text;
+  }
+
   Prism.languages.md = Prism.languages.markdown;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-objectivec" */
 
 
-Prism.languages.objectivec = Prism.languages.extend('c', {
-  'string': /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1|@"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
-  'keyword': /\b(?:asm|typeof|inline|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while|in|self|super)\b|(?:@interface|@end|@implementation|@protocol|@class|@public|@protected|@private|@property|@try|@catch|@finally|@throw|@synthesize|@dynamic|@selector)\b/,
+prism.languages.objectivec = prism.languages.extend('c', {
+  'string': {
+    pattern: /@?"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
+    greedy: true
+  },
+  'keyword': /\b(?:asm|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|in|inline|int|long|register|return|self|short|signed|sizeof|static|struct|super|switch|typedef|typeof|union|unsigned|void|volatile|while)\b|(?:@interface|@end|@implementation|@protocol|@class|@public|@protected|@private|@property|@try|@catch|@finally|@throw|@synthesize|@dynamic|@selector)\b/,
   'operator': /-[->]?|\+\+?|!=?|<<?=?|>>?=?|==?|&&?|\|\|?|[~^%?*\/@]/
 });
-delete Prism.languages.objectivec['class-name'];
-Prism.languages.objc = Prism.languages.objectivec;
+delete prism.languages.objectivec['class-name'];
+prism.languages.objc = prism.languages.objectivec;
 /* "prismjs/components/prism-ocaml" */
+// https://ocaml.org/manual/lex.html
 
-Prism.languages.ocaml = {
-  'comment': /\(\*[\s\S]*?\*\)/,
+prism.languages.ocaml = {
+  'comment': {
+    pattern: /\(\*[\s\S]*?\*\)/,
+    greedy: true
+  },
+  'char': {
+    pattern: /'(?:[^\\\r\n']|\\(?:.|[ox]?[0-9a-f]{1,3}))'/i,
+    greedy: true
+  },
   'string': [{
-    pattern: /"(?:\\.|[^\\\r\n"])*"/,
+    pattern: /"(?:\\(?:[\s\S]|\r\n)|[^\\\r\n"])*"/,
     greedy: true
   }, {
-    pattern: /(['`])(?:\\(?:\d+|x[\da-f]+|.)|(?!\1)[^\\\r\n])\1/i,
+    pattern: /\{([a-z_]*)\|[\s\S]*?\|\1\}/,
     greedy: true
   }],
-  'number': /\b(?:0x[\da-f][\da-f_]+|(?:0[bo])?\d[\d_]*(?:\.[\d_]*)?(?:e[+-]?[\d_]+)?)/i,
+  'number': [// binary and octal
+  /\b(?:0b[01][01_]*|0o[0-7][0-7_]*)\b/i, // hexadecimal
+  /\b0x[a-f0-9][a-f0-9_]*(?:\.[a-f0-9_]*)?(?:p[+-]?\d[\d_]*)?(?!\w)/i, // decimal
+  /\b\d[\d_]*(?:\.[\d_]*)?(?:e[+-]?\d[\d_]*)?(?!\w)/i],
   'directive': {
     pattern: /\B#\w+/,
-    alias: 'important'
+    alias: 'property'
   },
   'label': {
     pattern: /\B~\w+/,
-    alias: 'function'
+    alias: 'property'
   },
   'type-variable': {
     pattern: /\B'\w+/,
@@ -44766,38 +40811,39 @@ Prism.languages.ocaml = {
   },
   'variant': {
     pattern: /`\w+/,
-    alias: 'variable'
-  },
-  'module': {
-    pattern: /\b[A-Z]\w+/,
-    alias: 'variable'
+    alias: 'symbol'
   },
   // For the list of keywords and operators,
   // see: http://caml.inria.fr/pub/docs/manual-ocaml/lex.html#sec84
   'keyword': /\b(?:as|assert|begin|class|constraint|do|done|downto|else|end|exception|external|for|fun|function|functor|if|in|include|inherit|initializer|lazy|let|match|method|module|mutable|new|nonrec|object|of|open|private|rec|sig|struct|then|to|try|type|val|value|virtual|when|where|while|with)\b/,
   'boolean': /\b(?:false|true)\b/,
+  'operator-like-punctuation': {
+    pattern: /\[[<>|]|[>|]\]|\{<|>\}/,
+    alias: 'punctuation'
+  },
   // Custom operators are allowed
-  'operator': /:=|[=<>@^|&+\-*\/$%!?~][!$%&*+\-.\/:<=>?@^|~]*|\b(?:and|asr|land|lor|lsl|lsr|lxor|mod|or)\b/,
-  'punctuation': /[(){}\[\]|.,:;]|\b_\b/
+  'operator': /\.[.~]|:[=>]|[=<>@^|&+\-*\/$%!?~][!$%&*+\-.\/:<=>?@^|~]*|\b(?:and|asr|land|lor|lsl|lsr|lxor|mod|or)\b/,
+  'punctuation': /;;|::|[(){}\[\].,:;#]|\b_\b/
 };
 /* "prismjs/components/prism-python" */
 
-Prism.languages.python = {
+prism.languages.python = {
   'comment': {
     pattern: /(^|[^\\])#.*/,
-    lookbehind: true
+    lookbehind: true,
+    greedy: true
   },
   'string-interpolation': {
-    pattern: /(?:f|rf|fr)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
+    pattern: /(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
     greedy: true,
     inside: {
       'interpolation': {
         // "{" <expression> <optional "!s", "!r", or "!a"> <optional ":" format specifier> "}"
-        pattern: /((?:^|[^{])(?:{{)*){(?!{)(?:[^{}]|{(?!{)(?:[^{}]|{(?!{)(?:[^{}])+})+})+}/,
+        pattern: /((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,
         lookbehind: true,
         inside: {
           'format-spec': {
-            pattern: /(:)[^:(){}]+(?=}$)/,
+            pattern: /(:)[^:(){}]+(?=\}$)/,
             lookbehind: true
           },
           'conversion-option': {
@@ -44811,12 +40857,12 @@ Prism.languages.python = {
     }
   },
   'triple-quoted-string': {
-    pattern: /(?:[rub]|rb|br)?("""|''')[\s\S]*?\1/i,
+    pattern: /(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,
     greedy: true,
     alias: 'string'
   },
   'string': {
-    pattern: /(?:[rub]|rb|br)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,
+    pattern: /(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,
     greedy: true
   },
   'function': {
@@ -44828,25 +40874,25 @@ Prism.languages.python = {
     lookbehind: true
   },
   'decorator': {
-    pattern: /(^\s*)@\w+(?:\.\w+)*/im,
+    pattern: /(^[\t ]*)@\w+(?:\.\w+)*/m,
     lookbehind: true,
     alias: ['annotation', 'punctuation'],
     inside: {
       'punctuation': /\./
     }
   },
-  'keyword': /\b(?:and|as|assert|async|await|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,
+  'keyword': /\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,
   'builtin': /\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,
-  'boolean': /\b(?:True|False|None)\b/,
-  'number': /(?:\b(?=\d)|\B(?=\.))(?:0[bo])?(?:(?:\d|0x[\da-f])[\da-f]*(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?j?\b/i,
-  'operator': /[-+%=]=?|!=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,
+  'boolean': /\b(?:False|None|True)\b/,
+  'number': /\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,
+  'operator': /[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,
   'punctuation': /[{}[\];(),.:]/
 };
-Prism.languages.python['string-interpolation'].inside['interpolation'].inside.rest = Prism.languages.python;
-Prism.languages.py = Prism.languages.python;
+prism.languages.python['string-interpolation'].inside['interpolation'].inside.rest = prism.languages.python;
+prism.languages.py = prism.languages.python;
 /* "prismjs/components/prism-reason" */
 
-Prism.languages.reason = Prism.languages.extend('clike', {
+prism.languages.reason = prism.languages.extend('clike', {
   'string': {
     pattern: /"(?:\\(?:\r\n|[\s\S])|[^\\\r\n"])*"/,
     greedy: true
@@ -44854,25 +40900,22 @@ Prism.languages.reason = Prism.languages.extend('clike', {
   // 'class-name' must be matched *after* 'constructor' defined below
   'class-name': /\b[A-Z]\w*/,
   'keyword': /\b(?:and|as|assert|begin|class|constraint|do|done|downto|else|end|exception|external|for|fun|function|functor|if|in|include|inherit|initializer|lazy|let|method|module|mutable|new|nonrec|object|of|open|or|private|rec|sig|struct|switch|then|to|try|type|val|virtual|when|while|with)\b/,
-  'operator': /\.{3}|:[:=]|\|>|->|=(?:==?|>)?|<=?|>=?|[|^?'#!~`]|[+\-*\/]\.?|\b(?:mod|land|lor|lxor|lsl|lsr|asr)\b/
+  'operator': /\.{3}|:[:=]|\|>|->|=(?:==?|>)?|<=?|>=?|[|^?'#!~`]|[+\-*\/]\.?|\b(?:asr|land|lor|lsl|lsr|lxor|mod)\b/
 });
-Prism.languages.insertBefore('reason', 'class-name', {
-  'character': {
+prism.languages.insertBefore('reason', 'class-name', {
+  'char': {
     pattern: /'(?:\\x[\da-f]{2}|\\o[0-3][0-7][0-7]|\\\d{3}|\\.|[^'\\\r\n])'/,
-    alias: 'string'
+    greedy: true
   },
-  'constructor': {
-    // Negative look-ahead prevents from matching things like String.capitalize
-    pattern: /\b[A-Z]\w*\b(?!\s*\.)/,
-    alias: 'variable'
-  },
+  // Negative look-ahead prevents from matching things like String.capitalize
+  'constructor': /\b[A-Z]\w*\b(?!\s*\.)/,
   'label': {
     pattern: /\b[a-z]\w*(?=::)/,
     alias: 'symbol'
   }
 }); // We can't match functions property, so let's not even try.
 
-delete Prism.languages.reason["function"];
+delete prism.languages.reason["function"];
 /* "prismjs/components/prism-sass" */
 
 (function (Prism) {
@@ -44880,7 +40923,8 @@ delete Prism.languages.reason["function"];
     // Sass comments don't need to be closed, only indented
     'comment': {
       pattern: /^([ \t]*)\/[\/*].*(?:(?:\r?\n|\r)\1[ \t].+)*/m,
-      lookbehind: true
+      lookbehind: true,
+      greedy: true
     }
   });
   Prism.languages.insertBefore('sass', 'atrule', {
@@ -44888,21 +40932,23 @@ delete Prism.languages.reason["function"];
     'atrule-line': {
       // Includes support for = and + shortcuts
       pattern: /^(?:[ \t]*)[@+=].+/m,
+      greedy: true,
       inside: {
-        'atrule': /(?:@[\w-]+|[+=])/m
+        'atrule': /(?:@[\w-]+|[+=])/
       }
     }
   });
   delete Prism.languages.sass.atrule;
   var variable = /\$[-\w]+|#\{\$[-\w]+\}/;
-  var operator = [/[+*\/%]|[=!]=|<=?|>=?|\b(?:and|or|not)\b/, {
-    pattern: /(\s+)-(?=\s)/,
+  var operator = [/[+*\/%]|[=!]=|<=?|>=?|\b(?:and|not|or)\b/, {
+    pattern: /(\s)-(?=\s)/,
     lookbehind: true
   }];
   Prism.languages.insertBefore('sass', 'property', {
     // We want to consume the whole line
     'variable-line': {
       pattern: /^[ \t]*\$.+/m,
+      greedy: true,
       inside: {
         'punctuation': /:/,
         'variable': variable,
@@ -44912,6 +40958,7 @@ delete Prism.languages.reason["function"];
     // We want to consume the whole line
     'property-line': {
       pattern: /^[ \t]*(?:[^:\s]+ *:.*|:[^:\s].*)/m,
+      greedy: true,
       inside: {
         'property': [/[^:\s]+(?=\s*:)/, {
           pattern: /(:)[^:\s]+/,
@@ -44930,15 +40977,16 @@ delete Prism.languages.reason["function"];
 
   Prism.languages.insertBefore('sass', 'punctuation', {
     'selector': {
-      pattern: /([ \t]*)\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*(?:,(?:\r?\n|\r)\1[ \t]+\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*)*/,
-      lookbehind: true
+      pattern: /^([ \t]*)\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*(?:,(?:\r?\n|\r)\1[ \t]+\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*)*/m,
+      lookbehind: true,
+      greedy: true
     }
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-scss" */
 
 
-Prism.languages.scss = Prism.languages.extend('css', {
+prism.languages.scss = prism.languages.extend('css', {
   'comment': {
     pattern: /(^|[^\\])(?:\/\*[\s\S]*?\*\/|\/\/.*)/,
     lookbehind: true
@@ -44961,7 +41009,7 @@ Prism.languages.scss = Prism.languages.extend('css', {
   // this one was hard to do, so please be careful if you edit this one :)
   'selector': {
     // Initial look-ahead is used to prevent matching of blank selectors
-    pattern: /(?=\S)[^@;{}()]?(?:[^@;{}()\s]|\s+(?!\s)|#\{\$[-\w]+\})+(?=\s*\{(?:\}|\s|[^}][^:{}]*[:{][^}]+))/m,
+    pattern: /(?=\S)[^@;{}()]?(?:[^@;{}()\s]|\s+(?!\s)|#\{\$[-\w]+\})+(?=\s*\{(?:\}|\s|[^}][^:{}]*[:{][^}]))/,
     inside: {
       'parent': {
         pattern: /&/,
@@ -44978,19 +41026,19 @@ Prism.languages.scss = Prism.languages.extend('css', {
     }
   }
 });
-Prism.languages.insertBefore('scss', 'atrule', {
-  'keyword': [/@(?:if|else(?: if)?|forward|for|each|while|import|use|extend|debug|warn|mixin|include|function|return|content)\b/i, {
-    pattern: /( +)(?:from|through)(?= )/,
+prism.languages.insertBefore('scss', 'atrule', {
+  'keyword': [/@(?:content|debug|each|else(?: if)?|extend|for|forward|function|if|import|include|mixin|return|use|warn|while)\b/i, {
+    pattern: /( )(?:from|through)(?= )/,
     lookbehind: true
   }]
 });
-Prism.languages.insertBefore('scss', 'important', {
+prism.languages.insertBefore('scss', 'important', {
   // var and interpolated vars
   'variable': /\$[-\w]+|#\{\$[-\w]+\}/
 });
-Prism.languages.insertBefore('scss', 'function', {
+prism.languages.insertBefore('scss', 'function', {
   'module-modifier': {
-    pattern: /\b(?:as|with|show|hide)\b/i,
+    pattern: /\b(?:as|hide|show|with)\b/i,
     alias: 'keyword'
   },
   'placeholder': {
@@ -45001,20 +41049,20 @@ Prism.languages.insertBefore('scss', 'function', {
     pattern: /\B!(?:default|optional)\b/i,
     alias: 'keyword'
   },
-  'boolean': /\b(?:true|false)\b/,
+  'boolean': /\b(?:false|true)\b/,
   'null': {
     pattern: /\bnull\b/,
     alias: 'keyword'
   },
   'operator': {
-    pattern: /(\s)(?:[-+*\/%]|[=!]=|<=?|>=?|and|or|not)(?=\s)/,
+    pattern: /(\s)(?:[-+*\/%]|[=!]=|<=?|>=?|and|not|or)(?=\s)/,
     lookbehind: true
   }
 });
-Prism.languages.scss['atrule'].inside.rest = Prism.languages.scss;
+prism.languages.scss['atrule'].inside.rest = prism.languages.scss;
 /* "prismjs/components/prism-sql" */
 
-Prism.languages.sql = {
+prism.languages.sql = {
   'comment': {
     pattern: /(^|[^\\])(?:\/\*[\s\S]*?\*\/|(?:--|\/\/|#).*)/,
     lookbehind: true
@@ -45028,12 +41076,20 @@ Prism.languages.sql = {
     greedy: true,
     lookbehind: true
   },
+  'identifier': {
+    pattern: /(^|[^@\\])`(?:\\[\s\S]|[^`\\]|``)*`/,
+    greedy: true,
+    lookbehind: true,
+    inside: {
+      'punctuation': /^`|`$/
+    }
+  },
   'function': /\b(?:AVG|COUNT|FIRST|FORMAT|LAST|LCASE|LEN|MAX|MID|MIN|MOD|NOW|ROUND|SUM|UCASE)(?=\s*\()/i,
   // Should we highlight user defined functions too?
-  'keyword': /\b(?:ACTION|ADD|AFTER|ALGORITHM|ALL|ALTER|ANALYZE|ANY|APPLY|AS|ASC|AUTHORIZATION|AUTO_INCREMENT|BACKUP|BDB|BEGIN|BERKELEYDB|BIGINT|BINARY|BIT|BLOB|BOOL|BOOLEAN|BREAK|BROWSE|BTREE|BULK|BY|CALL|CASCADED?|CASE|CHAIN|CHAR(?:ACTER|SET)?|CHECK(?:POINT)?|CLOSE|CLUSTERED|COALESCE|COLLATE|COLUMNS?|COMMENT|COMMIT(?:TED)?|COMPUTE|CONNECT|CONSISTENT|CONSTRAINT|CONTAINS(?:TABLE)?|CONTINUE|CONVERT|CREATE|CROSS|CURRENT(?:_DATE|_TIME|_TIMESTAMP|_USER)?|CURSOR|CYCLE|DATA(?:BASES?)?|DATE(?:TIME)?|DAY|DBCC|DEALLOCATE|DEC|DECIMAL|DECLARE|DEFAULT|DEFINER|DELAYED|DELETE|DELIMITERS?|DENY|DESC|DESCRIBE|DETERMINISTIC|DISABLE|DISCARD|DISK|DISTINCT|DISTINCTROW|DISTRIBUTED|DO|DOUBLE|DROP|DUMMY|DUMP(?:FILE)?|DUPLICATE|ELSE(?:IF)?|ENABLE|ENCLOSED|END|ENGINE|ENUM|ERRLVL|ERRORS|ESCAPED?|EXCEPT|EXEC(?:UTE)?|EXISTS|EXIT|EXPLAIN|EXTENDED|FETCH|FIELDS|FILE|FILLFACTOR|FIRST|FIXED|FLOAT|FOLLOWING|FOR(?: EACH ROW)?|FORCE|FOREIGN|FREETEXT(?:TABLE)?|FROM|FULL|FUNCTION|GEOMETRY(?:COLLECTION)?|GLOBAL|GOTO|GRANT|GROUP|HANDLER|HASH|HAVING|HOLDLOCK|HOUR|IDENTITY(?:_INSERT|COL)?|IF|IGNORE|IMPORT|INDEX|INFILE|INNER|INNODB|INOUT|INSERT|INT|INTEGER|INTERSECT|INTERVAL|INTO|INVOKER|ISOLATION|ITERATE|JOIN|KEYS?|KILL|LANGUAGE|LAST|LEAVE|LEFT|LEVEL|LIMIT|LINENO|LINES|LINESTRING|LOAD|LOCAL|LOCK|LONG(?:BLOB|TEXT)|LOOP|MATCH(?:ED)?|MEDIUM(?:BLOB|INT|TEXT)|MERGE|MIDDLEINT|MINUTE|MODE|MODIFIES|MODIFY|MONTH|MULTI(?:LINESTRING|POINT|POLYGON)|NATIONAL|NATURAL|NCHAR|NEXT|NO|NONCLUSTERED|NULLIF|NUMERIC|OFF?|OFFSETS?|ON|OPEN(?:DATASOURCE|QUERY|ROWSET)?|OPTIMIZE|OPTION(?:ALLY)?|ORDER|OUT(?:ER|FILE)?|OVER|PARTIAL|PARTITION|PERCENT|PIVOT|PLAN|POINT|POLYGON|PRECEDING|PRECISION|PREPARE|PREV|PRIMARY|PRINT|PRIVILEGES|PROC(?:EDURE)?|PUBLIC|PURGE|QUICK|RAISERROR|READS?|REAL|RECONFIGURE|REFERENCES|RELEASE|RENAME|REPEAT(?:ABLE)?|REPLACE|REPLICATION|REQUIRE|RESIGNAL|RESTORE|RESTRICT|RETURN(?:S|ING)?|REVOKE|RIGHT|ROLLBACK|ROUTINE|ROW(?:COUNT|GUIDCOL|S)?|RTREE|RULE|SAVE(?:POINT)?|SCHEMA|SECOND|SELECT|SERIAL(?:IZABLE)?|SESSION(?:_USER)?|SET(?:USER)?|SHARE|SHOW|SHUTDOWN|SIMPLE|SMALLINT|SNAPSHOT|SOME|SONAME|SQL|START(?:ING)?|STATISTICS|STATUS|STRIPED|SYSTEM_USER|TABLES?|TABLESPACE|TEMP(?:ORARY|TABLE)?|TERMINATED|TEXT(?:SIZE)?|THEN|TIME(?:STAMP)?|TINY(?:BLOB|INT|TEXT)|TOP?|TRAN(?:SACTIONS?)?|TRIGGER|TRUNCATE|TSEQUAL|TYPES?|UNBOUNDED|UNCOMMITTED|UNDEFINED|UNION|UNIQUE|UNLOCK|UNPIVOT|UNSIGNED|UPDATE(?:TEXT)?|USAGE|USE|USER|USING|VALUES?|VAR(?:BINARY|CHAR|CHARACTER|YING)|VIEW|WAITFOR|WARNINGS|WHEN|WHERE|WHILE|WITH(?: ROLLUP|IN)?|WORK|WRITE(?:TEXT)?|YEAR)\b/i,
-  'boolean': /\b(?:TRUE|FALSE|NULL)\b/i,
+  'keyword': /\b(?:ACTION|ADD|AFTER|ALGORITHM|ALL|ALTER|ANALYZE|ANY|APPLY|AS|ASC|AUTHORIZATION|AUTO_INCREMENT|BACKUP|BDB|BEGIN|BERKELEYDB|BIGINT|BINARY|BIT|BLOB|BOOL|BOOLEAN|BREAK|BROWSE|BTREE|BULK|BY|CALL|CASCADED?|CASE|CHAIN|CHAR(?:ACTER|SET)?|CHECK(?:POINT)?|CLOSE|CLUSTERED|COALESCE|COLLATE|COLUMNS?|COMMENT|COMMIT(?:TED)?|COMPUTE|CONNECT|CONSISTENT|CONSTRAINT|CONTAINS(?:TABLE)?|CONTINUE|CONVERT|CREATE|CROSS|CURRENT(?:_DATE|_TIME|_TIMESTAMP|_USER)?|CURSOR|CYCLE|DATA(?:BASES?)?|DATE(?:TIME)?|DAY|DBCC|DEALLOCATE|DEC|DECIMAL|DECLARE|DEFAULT|DEFINER|DELAYED|DELETE|DELIMITERS?|DENY|DESC|DESCRIBE|DETERMINISTIC|DISABLE|DISCARD|DISK|DISTINCT|DISTINCTROW|DISTRIBUTED|DO|DOUBLE|DROP|DUMMY|DUMP(?:FILE)?|DUPLICATE|ELSE(?:IF)?|ENABLE|ENCLOSED|END|ENGINE|ENUM|ERRLVL|ERRORS|ESCAPED?|EXCEPT|EXEC(?:UTE)?|EXISTS|EXIT|EXPLAIN|EXTENDED|FETCH|FIELDS|FILE|FILLFACTOR|FIRST|FIXED|FLOAT|FOLLOWING|FOR(?: EACH ROW)?|FORCE|FOREIGN|FREETEXT(?:TABLE)?|FROM|FULL|FUNCTION|GEOMETRY(?:COLLECTION)?|GLOBAL|GOTO|GRANT|GROUP|HANDLER|HASH|HAVING|HOLDLOCK|HOUR|IDENTITY(?:COL|_INSERT)?|IF|IGNORE|IMPORT|INDEX|INFILE|INNER|INNODB|INOUT|INSERT|INT|INTEGER|INTERSECT|INTERVAL|INTO|INVOKER|ISOLATION|ITERATE|JOIN|KEYS?|KILL|LANGUAGE|LAST|LEAVE|LEFT|LEVEL|LIMIT|LINENO|LINES|LINESTRING|LOAD|LOCAL|LOCK|LONG(?:BLOB|TEXT)|LOOP|MATCH(?:ED)?|MEDIUM(?:BLOB|INT|TEXT)|MERGE|MIDDLEINT|MINUTE|MODE|MODIFIES|MODIFY|MONTH|MULTI(?:LINESTRING|POINT|POLYGON)|NATIONAL|NATURAL|NCHAR|NEXT|NO|NONCLUSTERED|NULLIF|NUMERIC|OFF?|OFFSETS?|ON|OPEN(?:DATASOURCE|QUERY|ROWSET)?|OPTIMIZE|OPTION(?:ALLY)?|ORDER|OUT(?:ER|FILE)?|OVER|PARTIAL|PARTITION|PERCENT|PIVOT|PLAN|POINT|POLYGON|PRECEDING|PRECISION|PREPARE|PREV|PRIMARY|PRINT|PRIVILEGES|PROC(?:EDURE)?|PUBLIC|PURGE|QUICK|RAISERROR|READS?|REAL|RECONFIGURE|REFERENCES|RELEASE|RENAME|REPEAT(?:ABLE)?|REPLACE|REPLICATION|REQUIRE|RESIGNAL|RESTORE|RESTRICT|RETURN(?:ING|S)?|REVOKE|RIGHT|ROLLBACK|ROUTINE|ROW(?:COUNT|GUIDCOL|S)?|RTREE|RULE|SAVE(?:POINT)?|SCHEMA|SECOND|SELECT|SERIAL(?:IZABLE)?|SESSION(?:_USER)?|SET(?:USER)?|SHARE|SHOW|SHUTDOWN|SIMPLE|SMALLINT|SNAPSHOT|SOME|SONAME|SQL|START(?:ING)?|STATISTICS|STATUS|STRIPED|SYSTEM_USER|TABLES?|TABLESPACE|TEMP(?:ORARY|TABLE)?|TERMINATED|TEXT(?:SIZE)?|THEN|TIME(?:STAMP)?|TINY(?:BLOB|INT|TEXT)|TOP?|TRAN(?:SACTIONS?)?|TRIGGER|TRUNCATE|TSEQUAL|TYPES?|UNBOUNDED|UNCOMMITTED|UNDEFINED|UNION|UNIQUE|UNLOCK|UNPIVOT|UNSIGNED|UPDATE(?:TEXT)?|USAGE|USE|USER|USING|VALUES?|VAR(?:BINARY|CHAR|CHARACTER|YING)|VIEW|WAITFOR|WARNINGS|WHEN|WHERE|WHILE|WITH(?: ROLLUP|IN)?|WORK|WRITE(?:TEXT)?|YEAR)\b/i,
+  'boolean': /\b(?:FALSE|NULL|TRUE)\b/i,
   'number': /\b0x[\da-f]+\b|\b\d+(?:\.\d*)?|\B\.\d+\b/i,
-  'operator': /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|BETWEEN|IN|LIKE|NOT|OR|IS|DIV|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
+  'operator': /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|BETWEEN|DIV|ILIKE|IN|IS|LIKE|NOT|OR|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
   'punctuation': /[;[\]()`,.]/
 };
 /* "prismjs/components/prism-stylus" */
@@ -45054,7 +41110,7 @@ Prism.languages.sql = {
       lookbehind: true
     },
     'url': {
-      pattern: /url\((["']?).*?\1\)/i,
+      pattern: /\burl\((["']?).*?\1\)/i,
       greedy: true
     },
     'string': {
@@ -45067,12 +41123,12 @@ Prism.languages.sql = {
     // See below
     'important': /\B!(?:important|optional)\b/i,
     'keyword': {
-      pattern: /(^|\s+)(?:(?:if|else|for|return|unless)(?=\s+|$)|@[\w-]+)/,
+      pattern: /(^|\s+)(?:(?:else|for|if|return|unless)(?=\s|$)|@[\w-]+)/,
       lookbehind: true
     },
     'hexcode': /#[\da-f]{3,6}/i,
     'color': [/\b(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)\b/i, {
-      pattern: /\b(?:rgb|hsl)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:rgb|hsl)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
+      pattern: /\b(?:hsl|rgb)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:hsl|rgb)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
       inside: {
         'unit': unit,
         'number': number,
@@ -45082,7 +41138,7 @@ Prism.languages.sql = {
     }],
     'entity': /\\[\da-f]{1,8}/i,
     'unit': unit,
-    'boolean': /\b(?:true|false)\b/,
+    'boolean': /\b(?:false|true)\b/,
     'operator': [// We want non-word chars around "-" because it is
     // accepted in property names.
     /~|[+!\/%<>?=]=?|[-:]=|\*[*=]?|\.{2,3}|&&|\|\||\B-\B|\b(?:and|in|is(?: a| defined| not|nt)?|not|or)\b/],
@@ -45094,7 +41150,7 @@ Prism.languages.sql = {
     alias: 'variable',
     inside: {
       'delimiter': {
-        pattern: /^{|}$/,
+        pattern: /^\{|\}$/,
         alias: 'punctuation'
       },
       rest: inside
@@ -45109,7 +41165,7 @@ Prism.languages.sql = {
   };
   Prism.languages.stylus = {
     'atrule-declaration': {
-      pattern: /(^\s*)@.+/m,
+      pattern: /(^[ \t]*)@.+/m,
       lookbehind: true,
       inside: {
         'atrule': /^@[\w-]+/,
@@ -45125,7 +41181,7 @@ Prism.languages.sql = {
       }
     },
     'statement': {
-      pattern: /(^[ \t]*)(?:if|else|for|return|unless)[ \t].+/m,
+      pattern: /(^[ \t]*)(?:else|for|if|return|unless)[ \t].+/m,
       lookbehind: true,
       inside: {
         'keyword': /^\S+/,
@@ -45135,7 +41191,7 @@ Prism.languages.sql = {
     // A property/value pair cannot end with a comma or a brace
     // It cannot have indented content unless it ended with a semicolon
     'property-declaration': {
-      pattern: /((?:^|\{)([ \t]*))(?:[\w-]|\{[^}\r\n]+\})+(?:\s*:\s*|[ \t]+)(?!\s)[^{\r\n]*(?:;|[^{\r\n,](?=$)(?!(?:\r?\n|\r)(?:\{|\2[ \t]+)))/m,
+      pattern: /((?:^|\{)([ \t]*))(?:[\w-]|\{[^}\r\n]+\})+(?:\s*:\s*|[ \t]+)(?!\s)[^{\r\n]*(?:;|[^{\r\n,]$(?!(?:\r?\n|\r)(?:\{|\2[ \t])))/m,
       lookbehind: true,
       inside: {
         'property': {
@@ -45151,7 +41207,7 @@ Prism.languages.sql = {
     // It can span multiple lines.
     // It must end with a comma or an accolade or have indented content.
     'selector': {
-      pattern: /(^[ \t]*)(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)(?:(?:\r?\n|\r)(?:\1(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)))*(?:,$|\{|(?=(?:\r?\n|\r)(?:\{|\1[ \t]+)))/m,
+      pattern: /(^[ \t]*)(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)(?:(?:\r?\n|\r)(?:\1(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)))*(?:,$|\{|(?=(?:\r?\n|\r)(?:\{|\1[ \t])))/m,
       lookbehind: true,
       inside: {
         'interpolation': inside.interpolation,
@@ -45169,7 +41225,7 @@ Prism.languages.sql = {
     'interpolation': inside.interpolation,
     'punctuation': /[{}()\[\];:.]/
   };
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-typescript" */
 
 
@@ -45182,17 +41238,30 @@ Prism.languages.sql = {
       inside: null // see below
 
     },
-    // From JavaScript Prism keyword list and TypeScript language spec: https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#221-reserved-words
-    'keyword': /\b(?:abstract|as|asserts|async|await|break|case|catch|class|const|constructor|continue|debugger|declare|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|is|keyof|let|module|namespace|new|null|of|package|private|protected|public|readonly|return|require|set|static|super|switch|this|throw|try|type|typeof|undefined|var|void|while|with|yield)\b/,
-    'builtin': /\b(?:string|Function|any|number|boolean|Array|symbol|console|Promise|unknown|never)\b/
-  }); // doesn't work with TS because TS is too complex
+    'builtin': /\b(?:Array|Function|Promise|any|boolean|console|never|number|string|symbol|unknown)\b/
+  }); // The keywords TypeScript adds to JavaScript
 
-  delete Prism.languages.typescript['parameter']; // a version of typescript specifically for highlighting types
+  Prism.languages.typescript.keyword.push(/\b(?:abstract|declare|is|keyof|readonly|require)\b/, // keywords that have to be followed by an identifier
+  /\b(?:asserts|infer|interface|module|namespace|type)\b(?=\s*(?:[{_$a-zA-Z\xA0-\uFFFF]|$))/, // This is for `import type *, {}`
+  /\btype\b(?=\s*(?:[\{*]|$))/); // doesn't work with TS because TS is too complex
+
+  delete Prism.languages.typescript['parameter'];
+  delete Prism.languages.typescript['literal-property']; // a version of typescript specifically for highlighting types
 
   var typeInside = Prism.languages.extend('typescript', {});
   delete typeInside['class-name'];
   Prism.languages.typescript['class-name'].inside = typeInside;
   Prism.languages.insertBefore('typescript', 'function', {
+    'decorator': {
+      pattern: /@[$\w\xA0-\uFFFF]+/,
+      inside: {
+        'at': {
+          pattern: /^@/,
+          alias: 'operator'
+        },
+        'function': /^[\s\S]+/
+      }
+    },
     'generic-function': {
       // e.g. foo<T extends "bar" | "baz">( ...
       pattern: /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>(?=\s*\()/,
@@ -45209,24 +41278,27 @@ Prism.languages.sql = {
     }
   });
   Prism.languages.ts = Prism.languages.typescript;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-tsx" */
 
 
 (function (Prism) {
   var typescript = Prism.util.clone(Prism.languages.typescript);
-  Prism.languages.tsx = Prism.languages.extend('jsx', typescript); // This will prevent collisions between TSX tags and TS generic types.
+  Prism.languages.tsx = Prism.languages.extend('jsx', typescript); // doesn't work with TS because TS is too complex
+
+  delete Prism.languages.tsx['parameter'];
+  delete Prism.languages.tsx['literal-property']; // This will prevent collisions between TSX tags and TS generic types.
   // Idea by https://github.com/karlhorky
   // Discussion: https://github.com/PrismJS/prism/issues/2594#issuecomment-710666928
 
   var tag = Prism.languages.tsx.tag;
   tag.pattern = RegExp(/(^|[^\w$]|(?=<\/))/.source + '(?:' + tag.pattern.source + ')', tag.pattern.flags);
   tag.lookbehind = true;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-wasm" */
 
 
-Prism.languages.wasm = {
+prism.languages.wasm = {
   'comment': [/\(;[\s\S]*?;\)/, {
     pattern: /;;.*/,
     greedy: true
@@ -45241,12 +41313,12 @@ Prism.languages.wasm = {
       'operator': /=/
     }
   }, {
-    pattern: /\b(?:(?:f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))?|memory\.(?:grow|size))\b/,
+    pattern: /\b(?:(?:f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|neg?|nearest|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|sqrt|store(?:8|16|32)?|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))?|memory\.(?:grow|size))\b/,
     inside: {
       'punctuation': /\./
     }
   }, /\b(?:anyfunc|block|br(?:_if|_table)?|call(?:_indirect)?|data|drop|elem|else|end|export|func|get_(?:global|local)|global|if|import|local|loop|memory|module|mut|nop|offset|param|result|return|select|set_(?:global|local)|start|table|tee_local|then|type|unreachable)\b/],
-  'variable': /\$[\w!#$%&'*+\-./:<=>?@\\^_`|~]+/i,
+  'variable': /\$[\w!#$%&'*+\-./:<=>?@\\^`|~]+/,
   'number': /[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/,
   'punctuation': /[()]/
 };
@@ -45277,7 +41349,7 @@ Prism.languages.wasm = {
   function createValuePattern(value, flags) {
     flags = (flags || '').replace(/m/g, '') + 'm'; // add m flag
 
-    var pattern = /([:\-,[{]\s*(?:\s<<prop>>[ \t]+)?)(?:<<value>>)(?=[ \t]*(?:$|,|]|}|(?:[\r\n]\s*)?#))/.source.replace(/<<prop>>/g, function () {
+    var pattern = /([:\-,[{]\s*(?:\s<<prop>>[ \t]+)?)(?:<<value>>)(?=[ \t]*(?:$|,|\]|\}|(?:[\r\n]\s*)?#))/.source.replace(/<<prop>>/g, function () {
       return properties;
     }).replace(/<<value>>/g, function () {
       return value;
@@ -45315,7 +41387,7 @@ Prism.languages.wasm = {
       alias: 'number'
     },
     'boolean': {
-      pattern: createValuePattern(/true|false/.source, 'i'),
+      pattern: createValuePattern(/false|true/.source, 'i'),
       lookbehind: true,
       alias: 'important'
     },
@@ -45330,7 +41402,7 @@ Prism.languages.wasm = {
       greedy: true
     },
     'number': {
-      pattern: createValuePattern(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.?\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, 'i'),
+      pattern: createValuePattern(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, 'i'),
       lookbehind: true
     },
     'tag': tag,
@@ -45338,9 +41410,9 @@ Prism.languages.wasm = {
     'punctuation': /---|[:[\]{}\-,|>?]|\.\.\./
   };
   Prism.languages.yml = Prism.languages.yaml;
-})(Prism);
+})(prism);
 
-/* harmony default export */ __webpack_exports__["default"] = (Prism);
+/* harmony default export */ __webpack_exports__["default"] = (prism);
 
 /***/ }),
 
@@ -46877,10 +42949,10 @@ function useAccessibility(_ref) {
   };
 
   var focusOpenedMenu = function focusOpenedMenu() {
-    console.log(menuRef);
-
     if (menuRef.current) {
-      var menuList = menuRef.current.className.includes(menuClassName) ? menuRef.current : menuRef.current.querySelector(menuClassName);
+      var _menuRef$current$clas, _menuRef$current$quer, _menuRef$current;
+
+      var menuList = ((_menuRef$current$clas = menuRef.current.className) === null || _menuRef$current$clas === void 0 ? void 0 : _menuRef$current$clas.includes(menuClassName)) ? menuRef.current : (_menuRef$current$quer = (_menuRef$current = menuRef.current).querySelector) === null || _menuRef$current$quer === void 0 ? void 0 : _menuRef$current$quer.call(_menuRef$current, menuClassName);
 
       if (menuList) {
         menuList['focus'](); // eslint-disable-line @typescript-eslint/dot-notation
@@ -50586,6 +46658,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _excluded = ["prefixCls", "invalidate", "item", "renderItem", "responsive", "registerSize", "itemKey", "className", "style", "children", "display", "order", "component"];
 
 
  // Use shared variable to save bundle size
@@ -50607,7 +46680,7 @@ function InternalItem(props, ref) {
       order = props.order,
       _props$component = props.component,
       Component = _props$component === void 0 ? 'div' : _props$component,
-      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(props, ["prefixCls", "invalidate", "item", "renderItem", "responsive", "registerSize", "itemKey", "className", "style", "children", "display", "order", "component"]);
+      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(props, _excluded);
 
   var mergedHidden = responsive && !display; // ================================ Effect ================================
 
@@ -50685,12 +46758,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var rc_resize_observer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rc-resize-observer */ "./node_modules/rc-resize-observer/es/index.js");
-/* harmony import */ var _Item__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Item */ "./node_modules/rc-overflow/es/Item.js");
-/* harmony import */ var _hooks_useBatchFrameState__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./hooks/useBatchFrameState */ "./node_modules/rc-overflow/es/hooks/useBatchFrameState.js");
-/* harmony import */ var _RawItem__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./RawItem */ "./node_modules/rc-overflow/es/RawItem.js");
+/* harmony import */ var rc_util_es_hooks_useLayoutEffect__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rc-util/es/hooks/useLayoutEffect */ "./node_modules/rc-util/es/hooks/useLayoutEffect.js");
+/* harmony import */ var _Item__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Item */ "./node_modules/rc-overflow/es/Item.js");
+/* harmony import */ var _hooks_useBatchFrameState__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./hooks/useBatchFrameState */ "./node_modules/rc-overflow/es/hooks/useBatchFrameState.js");
+/* harmony import */ var _RawItem__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./RawItem */ "./node_modules/rc-overflow/es/RawItem.js");
 
 
 
+
+var _excluded = ["prefixCls", "data", "renderItem", "renderRawItem", "itemKey", "itemWidth", "ssr", "style", "className", "maxCount", "renderRest", "renderRawRest", "suffix", "component", "itemComponent", "onVisibleChange"];
 
 
 
@@ -50728,9 +46804,9 @@ function Overflow(props, ref) {
       Component = _props$component === void 0 ? 'div' : _props$component,
       itemComponent = props.itemComponent,
       onVisibleChange = props.onVisibleChange,
-      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_3__["default"])(props, ["prefixCls", "data", "renderItem", "renderRawItem", "itemKey", "itemWidth", "ssr", "style", "className", "maxCount", "renderRest", "renderRawRest", "suffix", "component", "itemComponent", "onVisibleChange"]);
+      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_3__["default"])(props, _excluded);
 
-  var createUseState = Object(_hooks_useBatchFrameState__WEBPACK_IMPORTED_MODULE_8__["useBatchFrameState"])();
+  var createUseState = Object(_hooks_useBatchFrameState__WEBPACK_IMPORTED_MODULE_9__["useBatchFrameState"])();
   var fullySSR = ssr === 'full';
 
   var _createUseState = createUseState(null),
@@ -50872,7 +46948,7 @@ function Overflow(props, ref) {
     return itemWidths.get(getKey(mergedData[index], index));
   }
 
-  react__WEBPACK_IMPORTED_MODULE_4__["useEffect"](function () {
+  Object(rc_util_es_hooks_useLayoutEffect__WEBPACK_IMPORTED_MODULE_7__["default"])(function () {
     if (mergedContainerWidth && mergedRestWidth && mergedData) {
       var totalWidth = suffixWidth;
       var len = mergedData.length;
@@ -50948,7 +47024,7 @@ function Overflow(props, ref) {
     }, renderRawItem(item, index));
   } : function (item, index) {
     var key = getKey(item, index);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, {
       order: index,
       key: key,
       item: item,
@@ -50969,7 +47045,7 @@ function Overflow(props, ref) {
 
   if (!renderRawRest) {
     var mergedRenderRest = renderRest || defaultRenderRest;
-    restNode = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, restContextProps), typeof mergedRenderRest === 'function' ? mergedRenderRest(omittedItems) : mergedRenderRest);
+    restNode = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, restContextProps), typeof mergedRenderRest === 'function' ? mergedRenderRest(omittedItems) : mergedRenderRest);
   } else if (renderRawRest) {
     restNode = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](OverflowContext.Provider, {
       value: Object(_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, itemSharedProps), restContextProps)
@@ -50980,7 +47056,7 @@ function Overflow(props, ref) {
     className: classnames__WEBPACK_IMPORTED_MODULE_5___default()(!invalidate && prefixCls, className),
     style: style,
     ref: ref
-  }, restProps), mergedData.map(internalRenderItemNode), showRest ? restNode : null, suffix && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, {
+  }, restProps), mergedData.map(internalRenderItemNode), showRest ? restNode : null, suffix && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Item__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, itemSharedProps, {
     order: mergedDisplayCount,
     className: "".concat(itemPrefixCls, "-suffix"),
     registerSize: registerSuffixSize,
@@ -50999,7 +47075,7 @@ function Overflow(props, ref) {
 
 var ForwardOverflow = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__["forwardRef"](Overflow);
 ForwardOverflow.displayName = 'Overflow';
-ForwardOverflow.Item = _RawItem__WEBPACK_IMPORTED_MODULE_9__["default"];
+ForwardOverflow.Item = _RawItem__WEBPACK_IMPORTED_MODULE_10__["default"];
 ForwardOverflow.RESPONSIVE = RESPONSIVE;
 ForwardOverflow.INVALIDATE = INVALIDATE; // Convert to generic type
 
@@ -51026,6 +47102,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Overflow__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Overflow */ "./node_modules/rc-overflow/es/Overflow.js");
 
 
+var _excluded = ["component"],
+    _excluded2 = ["className"],
+    _excluded3 = ["className"];
 
 
 
@@ -51037,7 +47116,7 @@ var InternalRawItem = function InternalRawItem(props, ref) {
   if (!context) {
     var _props$component = props.component,
         Component = _props$component === void 0 ? 'div' : _props$component,
-        _restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["component"]);
+        _restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, _excluded);
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _restProps, {
       ref: ref
@@ -51045,10 +47124,10 @@ var InternalRawItem = function InternalRawItem(props, ref) {
   }
 
   var contextClassName = context.className,
-      restContext = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(context, ["className"]);
+      restContext = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(context, _excluded2);
 
   var className = props.className,
-      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["className"]); // Do not pass context to sub item to avoid multiple measure
+      restProps = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, _excluded3); // Do not pass context to sub item to avoid multiple measure
 
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_Overflow__WEBPACK_IMPORTED_MODULE_5__["OverflowContext"].Provider, {
@@ -59291,6 +55370,29 @@ var Portal = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"
   return containerRef.current ? /*#__PURE__*/react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.createPortal(children, containerRef.current) : null;
 });
 /* harmony default export */ __webpack_exports__["default"] = (Portal);
+
+/***/ }),
+
+/***/ "./node_modules/rc-util/es/hooks/useLayoutEffect.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/rc-util/es/hooks/useLayoutEffect.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dom_canUseDom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Dom/canUseDom */ "./node_modules/rc-util/es/Dom/canUseDom.js");
+
+
+/**
+ * Wrap `React.useLayoutEffect` which will not throw warning message in test env
+ */
+
+var useLayoutEffect =  true && Object(_Dom_canUseDom__WEBPACK_IMPORTED_MODULE_1__["default"])() ? react__WEBPACK_IMPORTED_MODULE_0__["useEffect"] : react__WEBPACK_IMPORTED_MODULE_0__["useEffect"];
+/* harmony default export */ __webpack_exports__["default"] = (useLayoutEffect);
 
 /***/ }),
 
@@ -97069,7 +93171,7 @@ function valueEqual(a, b) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\projects-gatsby\documents\doc-study-docker\.umi\core\server.ts */"./.umi/core/server.ts");
+module.exports = __webpack_require__(/*! D:\projects-gatsby\documents\doc-web-harm\.umi\core\server.ts */"./.umi/core/server.ts");
 
 
 /***/ }),

@@ -210,7 +210,7 @@
                   <p class="text-sm mb-0">收集、整理相关曲谱（主要是流行曲的简谱，不熟悉五线谱哈），分享自己的一些口琴吹奏（渣吹^_^）<br>平台：全民K歌，bilibili。</p>
                 </div>
               </div>
-              <div class="feature text-center is-revealing">
+              <!-- <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
                     <img src="dist/images/feature-icon-05.svg" alt="Feature 05">
@@ -224,7 +224,7 @@
                   </div>
                   <p class="text-sm mb-0">学习、整理关于vue的相关的知识点，包括vue的基础使用、编写技巧、原理剖析。</p>
                 </div>
-              </div>
+              </div> -->
               <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
@@ -242,7 +242,7 @@
                   <p class="text-sm mb-0">学习、整理node框架midway相关的知识点，包括依赖注入、日志、部署等等。</p>
                 </div>
               </div>
-              <div class="feature text-center is-revealing">
+              <!-- <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
                     <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
@@ -256,8 +256,8 @@
                   </div>
                   <p class="text-sm mb-0">学习、整理webpack的相关配置，包括分包、load等等。</p>
                 </div>
-              </div>
-              <div class="feature text-center is-revealing">
+              </div> -->
+              <!-- <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
                     <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
@@ -271,7 +271,7 @@
                   </div>
                   <p class="text-sm mb-0">目前主要是在pc端使用element-ui开发后台管理系统时，发现其提供的组件需要再次封装一下，以满足业务需要。这里提供了一些示例。</p>
                 </div>
-              </div>
+              </div> -->
               <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
@@ -286,7 +286,7 @@
                   <p class="text-sm mb-0">使用puppeteer开发的一个工具api服务：pdf打印、截屏等等，web框架：midway。</p>
                 </div>
               </div>
-              <div class="feature text-center is-revealing">
+              <!-- <div class="feature text-center is-revealing">
                 <div class="feature-inner">
                   <div class="feature-icon">
                     <img src="dist/images/feature-icon-06.svg" alt="Feature 06">
@@ -294,7 +294,7 @@
                   <h4 class="feature-title mt-24">kubernetes（k8s）</h4>
                   <p class="text-sm mb-0">正在学习中...</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -382,6 +382,13 @@
       text: '联系方式：18550499316',
       duration: 0
     });
+  </script>
+
+  <script>
+    [...document.querySelectorAll('.feature-icon')].forEach((dom, index) => {
+      const no = index % 6 + 1;
+      dom.innerHTML = `<img src="dist/images/feature-icon-0${no}.svg" alt="Feature 0${no}">`
+    })
   </script>
 </body>
 
