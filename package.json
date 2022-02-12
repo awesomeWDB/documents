@@ -9,6 +9,7 @@
     "build:3": "cd doc-study-nginx && yarn && yarn build",
     "build:4": "cd doc-web-emoji && yarn && yarn build",
     "build:5": "cd project-vscode-plugin-emoji && yarn && yarn build",
-    "build:6": "cd doc-study-libs && yarn && yarn build"
+    "build:6": "cd doc-study-libs && yarn && yarn build",
+    "build:7": "cd doc-web-harm && yarn && yarn build"
   }
 }
