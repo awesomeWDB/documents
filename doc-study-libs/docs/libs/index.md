@@ -10,4 +10,4 @@ order: 1
 
 这里主要记录下项目中，经常用到的 libs 的使用。如下：
 
-- [clipboard](./clipboard)
+- [clipboard](/libs/clipboard)
