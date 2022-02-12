@@ -3,7 +3,7 @@
     "deploy": "yarn build:image && yarn start:image",
     "build:image": "docker build -t wangdongbing/documents:latest .",
     "start:image": "docker run -p 80:80 -p 443:443 --name nginx-main -d nginx",
-    "build:doc": "yarn build:1 && yarn build:2 && yarn build:3 && yarn build:4 && yarn build:5 && yarn build:6 && yarn build:7 && yarn build:8",
+    "build:doc": "yarn build:1 && yarn build:2 && yarn build:3 && yarn build:4 && yarn build:5 && yarn build:6 && yarn build:7 && yarn build:8 && yarn build:9",
     "build:1": "cd doc-study-docker && yarn && yarn build",
     "build:2": "cd doc-study-CI-CD && yarn && yarn build",
     "build:3": "cd doc-study-nginx && yarn && yarn build",
@@ -11,6 +11,7 @@
     "build:5": "cd project-vscode-plugin-emoji && yarn && yarn build",
     "build:6": "cd doc-study-libs && yarn && yarn build",
     "build:7": "cd doc-web-harm && yarn && yarn build",
-    "build:8": "cd doc-study-midway && yarn && yarn build"
+    "build:8": "cd doc-study-midway && yarn && yarn build",
+    "build:9": "cd project-puppeteer-utils && yarn && yarn build"
   }
 }
