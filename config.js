@@ -38,7 +38,7 @@ export const dumi_extend_nav = [
 // 额外的headScripts
 export const headScripts = [
   {
-    src: 'http://www.readers.fun:3000/umami.js',
+    src: 'https://www.readers.fun:3000/umami.js',
     async: true,
     defer: true,
     'data-website-id': '44159445-787b-47ba-bbe0-b23065389b8d',
