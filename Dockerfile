@@ -4,6 +4,7 @@ FROM node:14 AS build
 WORKDIR /app
 
 COPY . .
+COPY ./doc-resume ./nginx/html/doc-resume
 
 RUN npm run build:doc
 
