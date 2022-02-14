@@ -28,8 +28,19 @@ const dumi_home_nav = {
   path: 'https://www.readers.fun/'
 }
 
+// 额外的nav
 export const dumi_extend_nav = [
   dumi_home_nav,
   dumi_git_nav,
   dumi_social_nav
+]
+
+// 额外的headScripts
+export const headScripts = [
+  {
+    src: 'http://www.readers.fun:3000/umami.js',
+    async: true,
+    defer: true,
+    'data-website-id': '44159445-787b-47ba-bbe0-b23065389b8d',
+  },
 ]

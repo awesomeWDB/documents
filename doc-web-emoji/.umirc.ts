@@ -1,5 +1,5 @@
 import { defineConfig } from 'dumi';
-import { dumi_extend_nav } from '../config';
+import { dumi_extend_nav, headScripts } from '../config';
 
 const dirNames = __dirname.replace(/\\/g, '/').split('/');
 const dirName = dirNames[dirNames.length - 1];
@@ -43,5 +43,7 @@ export default defineConfig({
   favicon: 'https://awesomewdb.gitee.io/public/icon/db-blue.svg',
   // styles
   styles: [`https://awesomewdb.gitee.io/public/dumi/theme.css`],
+  // headScripts
+  headScripts,
   // more config: https://d.umijs.org/config
 });
