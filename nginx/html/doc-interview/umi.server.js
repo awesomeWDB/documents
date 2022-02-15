@@ -398,7 +398,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/internet/Cookie&Session.md",
-          "updatedTime": 1644926290022,
+          "updatedTime": 1644941494331,
           "toc": "menu",
           "order": 2,
           "slugs": [{
@@ -1220,19 +1220,12 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
       lineNumber: 42,
       columnNumber: 1
     }
-  }, "\u6709\u6548\u671F\u4E3A expires/Max-Age \u8BBE\u7F6E\uFF0C\u5220\u9664\u7684\u8BDD\uFF0C\u5C31\u8BBE\u7F6E\u4E3A 0\uFF0C-1 \u6709\u5176\u4ED6\u542B\u4E49"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 1
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "\u6709\u6548\u671F\u4E3A expires/Max-Age \u8BBE\u7F6E\uFF0C\u5220\u9664\u7684\u8BDD\uFF0C\u5C31\u8BBE\u7F6E\u4E3A 0\uFF0C-1 \u6709\u5176\u4ED6\u542B\u4E49")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "session-\u673A\u5236",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 44,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
@@ -1242,7 +1235,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 44,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1250,28 +1243,28 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 44,
       columnNumber: 83
     }
   })), "Session \u673A\u5236"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 45,
       columnNumber: 1
     }
   }, "\u9664\u4E86\u4F7F\u7528 Cookie\uFF0CWeb \u5E94\u7528\u7A0B\u5E8F\u4E2D\u8FD8\u7ECF\u5E38\u4F7F\u7528 Session \u6765\u8BB0\u5F55\u5BA2\u6237\u7AEF\u72B6\u6001\u3002Session \u662F\u670D\u52A1\u5668\u7AEF\u4F7F\u7528\u7684\u4E00\u79CD\u8BB0\u5F55\u5BA2\u6237\u7AEF\u72B6\u6001\u7684\u673A\u5236\uFF0C\u4F7F\u7528\u4E0A\u6BD4 Cookie \u7B80\u5355\u4E00\u4E9B\uFF0C\u76F8\u5E94\u7684\u4E5F\u589E\u52A0\u4E86\u670D\u52A1\u5668\u7684\u5B58\u50A8\u538B\u529B\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 1
     }
   }, "Session \u662F\u53E6\u4E00\u79CD\u8BB0\u5F55\u5BA2\u6237\u72B6\u6001\u7684\u673A\u5236\uFF0C\u4E0D\u540C\u7684\u662F Cookie \u4FDD\u5B58\u5728\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u4E2D\uFF0C\u800C Session \u4FDD\u5B58\u5728\u670D\u52A1\u5668\u4E0A\u3002\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u8BBF\u95EE\u670D\u52A1\u5668\u7684\u65F6\u5019\uFF0C\u670D\u52A1\u5668\u628A\u5BA2\u6237\u7AEF\u4FE1\u606F\u4EE5\u67D0\u79CD\u5F62\u5F0F\u8BB0\u5F55\u5728\u670D\u52A1\u5668\u4E0A\u3002\u8FD9\u5C31\u662F Session\u3002\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u518D\u6B21\u8BBF\u95EE\u65F6\u53EA\u9700\u8981\u4ECE\u8BE5 Session \u4E2D\u67E5\u627E\u8BE5\u5BA2\u6237\u7684\u72B6\u6001\u5C31\u53EF\u4EE5\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 47,
       columnNumber: 1
     }
   }, "\u5982\u679C\u8BF4 Cookie \u673A\u5236\u662F\u901A\u8FC7\u68C0\u67E5\u5BA2\u6237\u8EAB\u4E0A\u7684\u201C\u901A\u884C\u8BC1\u201D\u6765\u786E\u5B9A\u5BA2\u6237\u8EAB\u4EFD\u7684\u8BDD\uFF0C\u90A3\u4E48 Session \u673A\u5236\u5C31\u662F\u901A\u8FC7\u68C0\u67E5\u670D\u52A1\u5668\u4E0A\u7684\u201C\u5BA2\u6237\u660E\u7EC6\u8868\u201D\u6765\u786E\u8BA4\u5BA2\u6237\u8EAB\u4EFD\u3002Session \u76F8\u5F53\u4E8E\u7A0B\u5E8F\u5728\u670D\u52A1\u5668\u4E0A\u5EFA\u7ACB\u7684\u4E00\u4EFD\u5BA2\u6237\u6863\u6848\uFF0C\u5BA2\u6237\u6765\u8BBF\u7684\u65F6\u5019\u53EA\u9700\u8981\u67E5\u8BE2\u5BA2\u6237\u6863\u6848\u8868\u5C31\u53EF\u4EE5\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -1279,7 +1272,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
@@ -1289,7 +1282,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 15
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1297,28 +1290,28 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 71
     }
   })), "\u751F\u547D\u5468\u671F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 49,
       columnNumber: 1
     }
   }, "Session \u4FDD\u5B58\u5728\u670D\u52A1\u5668\u7AEF\u3002\u4E3A\u4E86\u83B7\u5F97\u66F4\u9AD8\u7684\u5B58\u53D6\u901F\u5EA6\uFF0C\u670D\u52A1\u5668\u4E00\u822C\u628A Session \u653E\u5728\u5185\u5B58\u91CC\u3002\u6BCF\u4E2A\u7528\u6237\u90FD\u4F1A\u6709\u4E00\u4E2A\u72EC\u7ACB\u7684 Session\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 1
     }
   }, "Session \u5728\u7528\u6237\u7B2C\u4E00\u6B21\u8BBF\u95EE\u670D\u52A1\u5668\u7684\u65F6\u5019\u81EA\u52A8\u521B\u5EFA\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 51,
       columnNumber: 1
     }
   }, "Session \u751F\u6210\u540E\uFF0C\u53EA\u8981\u7528\u6237\u7EE7\u7EED\u8BBF\u95EE\uFF0C\u670D\u52A1\u5668\u5C31\u4F1A\u66F4\u65B0 Session \u7684\u6700\u540E\u8BBF\u95EE\u65F6\u95F4\uFF0C\u5E76\u7EF4\u62A4\u8BE5 Session\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -1326,7 +1319,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 52,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
@@ -1336,7 +1329,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 52,
       columnNumber: 14
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1344,14 +1337,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 52,
       columnNumber: 69
     }
   })), "\u6709\u6548\u671F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 1
     }
   }, "\u7531\u4E8E\u4F1A\u6709\u8D8A\u6765\u8D8A\u591A\u7684\u7528\u6237\u8BBF\u95EE\u670D\u52A1\u5668\uFF0C\u56E0\u6B64 Session \u4E5F\u4F1A\u8D8A\u6765\u8D8A\u591A\u3002\u4E3A\u9632\u6B62\u5185\u5B58\u6EA2\u51FA\uFF0C\u670D\u52A1\u5668\u4F1A\u628A\u957F\u65F6\u95F4\u5185\u6CA1\u6709\u6D3B\u8DC3\u7684 Session \u4ECE\u5185\u5B58\u5220\u9664\u3002\u8FD9\u4E2A\u65F6\u95F4\u5C31\u662F Session \u7684\u8D85\u65F6\u65F6\u95F4\u3002\u5982\u679C\u8D85\u8FC7\u4E86\u8D85\u65F6\u65F6\u95F4\u6CA1\u8BBF\u95EE\u8FC7\u670D\u52A1\u5668\uFF0CSession \u5C31\u81EA\u52A8\u5931\u6548\u4E86\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -1359,7 +1352,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
@@ -1369,7 +1362,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 26
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1377,42 +1370,42 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 93
     }
   })), "Session \u5BF9\u6D4F\u89C8\u5668\u7684\u8981\u6C42"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 1
     }
   }, "\u867D\u7136 Session \u4FDD\u5B58\u5728\u670D\u52A1\u5668\uFF0C\u5BF9\u5BA2\u6237\u7AEF\u662F\u900F\u660E\u7684\uFF0C\u5B83\u7684\u6B63\u5E38\u8FD0\u884C\u4ECD\u7136\u9700\u8981\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u7684\u652F\u6301\u3002\u8FD9\u662F\u56E0\u4E3A Session \u9700\u8981\u4F7F\u7528 Cookie \u4F5C\u4E3A\u8BC6\u522B\u6807\u5FD7\u3002HTTP \u534F\u8BAE\u662F\u65E0\u72B6\u6001\u7684\uFF0CSession \u4E0D\u80FD\u4F9D\u636E HTTP \u8FDE\u63A5\u6765\u5224\u65AD\u662F\u5426\u4E3A\u540C\u4E00\u5BA2\u6237\uFF0C\u56E0\u6B64\u670D\u52A1\u5668\u5411\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u53D1\u9001\u4E00\u4E2A\u540D\u4E3A JSESSIONID \u7684 Cookie\uFF0C\u5B83\u7684\u503C\u4E3A\u8BE5 Session \u7684 id\uFF08\u4E5F\u5C31\u662F HttpSession.getId()\u7684\u8FD4\u56DE\u503C\uFF09\u3002Session \u4F9D\u636E\u8BE5 Cookie \u6765\u8BC6\u522B\u662F\u5426\u4E3A\u540C\u4E00\u7528\u6237\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 56,
       columnNumber: 1
     }
   }, "\u8BE5 Cookie \u4E3A\u670D\u52A1\u5668\u81EA\u52A8\u751F\u6210\u7684\uFF0C\u5B83\u7684 maxAge \u5C5E\u6027\u4E00\u822C\u4E3A\u20131\uFF0C\u8868\u793A\u4EC5\u5F53\u524D\u6D4F\u89C8\u5668\u5185\u6709\u6548\uFF0C\u5E76\u4E14\u5404\u6D4F\u89C8\u5668\u7A97\u53E3\u95F4\u4E0D\u5171\u4EAB\uFF0C\u5173\u95ED\u6D4F\u89C8\u5668\u5C31\u4F1A\u5931\u6548\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 57,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 57,
       columnNumber: 4
     }
   }, "\u56E0\u6B64\u540C\u4E00\u673A\u5668\u7684\u4E24\u4E2A\u6D4F\u89C8\u5668\u7A97\u53E3\u8BBF\u95EE\u670D\u52A1\u5668\u65F6\uFF0C\u4F1A\u751F\u6210\u4E24\u4E2A\u4E0D\u540C\u7684 Session\u3002\u4F46\u662F\u7531\u6D4F\u89C8\u5668\u7A97\u53E3\u5185\u7684\u94FE\u63A5\u3001\u811A\u672C\u7B49\u6253\u5F00\u7684\u65B0\u7A97\u53E3\uFF08\u4E5F\u5C31\u662F\u8BF4\u4E0D\u662F\u53CC\u51FB\u684C\u9762\u6D4F\u89C8\u5668\u56FE\u6807\u7B49\u6253\u5F00\u7684\u7A97\u53E3\uFF09\u9664\u5916\u3002\u8FD9\u7C7B\u5B50\u7A97\u53E3\u4F1A\u5171\u4EAB\u7236\u7A97\u53E3\u7684 Cookie\uFF0C\u56E0\u6B64\u4F1A\u5171\u4EAB\u4E00\u4E2A Session\u3002")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 1
     }
   }, "\u5982\u679C\u5BA2\u6237\u7AEF\u6D4F\u89C8\u5668\u5C06 Cookie \u529F\u80FD\u7981\u7528\uFF0C\u6216\u8005\u4E0D\u652F\u6301 Cookie \u600E\u4E48\u529E\uFF1F\u4F8B\u5982\uFF0C\u7EDD\u5927\u591A\u6570\u7684\u624B\u673A\u6D4F\u89C8\u5668\u90FD\u4E0D\u652F\u6301 Cookie\u3002Java Web \u63D0\u4F9B\u4E86\u53E6\u4E00\u79CD\u89E3\u51B3\u65B9\u6848\uFF1AURL \u5730\u5740\u91CD\u5199\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -1420,7 +1413,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 1
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
@@ -1430,7 +1423,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 19
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1438,14 +1431,14 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 79
     }
   })), "URL \u5730\u5740\u91CD\u5199"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 60,
       columnNumber: 1
     }
   }, "RL \u5730\u5740\u91CD\u5199\u662F\u5BF9\u5BA2\u6237\u7AEF\u4E0D\u652F\u6301 Cookie \u7684\u89E3\u51B3\u65B9\u6848\u3002URL \u5730\u5740\u91CD\u5199\u7684\u539F\u7406\u662F\u5C06\u8BE5\u7528\u6237 Session \u7684 id \u4FE1\u606F\u91CD\u5199\u5230 URL \u5730\u5740\u4E2D\u3002\u670D\u52A1\u5668\u80FD\u591F\u89E3\u6790\u91CD\u5199\u540E\u7684 URL \u83B7\u53D6 Session \u7684 id\u3002\u8FD9\u6837\u5373\u4F7F\u5BA2\u6237\u7AEF\u4E0D\u652F\u6301 Cookie\uFF0C\u4E5F\u53EF\u4EE5\u4F7F\u7528 Session \u6765\u8BB0\u5F55\u7528\u6237\u72B6\u6001\u3002")));
@@ -1467,7 +1460,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 75,
       columnNumber: 14
     }
   });
