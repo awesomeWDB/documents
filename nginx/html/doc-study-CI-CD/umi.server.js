@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/summary.md",
-          "updatedTime": 1643962457000,
+          "updatedTime": 1644898863000,
           "nav": {
             "title": "总结",
             "path": "/summary"
@@ -641,9 +641,9 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/git基础/branch.md",
-          "updatedTime": 1644898574450,
+          "updatedTime": 1644898863000,
           "toc": "menu",
-          "order": 1,
+          "order": 3,
           "slugs": [{
             "depth": 1,
             "value": "分支操作",
@@ -690,7 +690,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/git基础/index.md",
-          "updatedTime": 1644897368586,
+          "updatedTime": 1644898863000,
           "nav": {
             "title": "git基础",
             "order": 4,
@@ -732,9 +732,9 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/git基础/operations.md",
-          "updatedTime": 1644897911402,
+          "updatedTime": 1644898863000,
           "toc": "menu",
-          "order": 1,
+          "order": 2,
           "slugs": [{
             "depth": 1,
             "value": "基本操作",
@@ -769,7 +769,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/webhook/index.md",
-          "updatedTime": 1643962457000,
+          "updatedTime": 1644898863000,
           "nav": {
             "title": "webhook",
             "order": 3,
@@ -942,7 +942,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/summary\":[{\"path\":\"/summary\",\"title\":\"CI/CD 总结\",\"meta\":{\"order\":1}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/github actions\":[{\"path\":\"/github actions\",\"title\":\"github actions\",\"meta\":{\"order\":1}}],\"/git基础\":[{\"path\":\"/git基础\",\"title\":\"git 基础\",\"meta\":{\"order\":1}},{\"path\":\"/git基础/branch\",\"title\":\"分支操作\",\"meta\":{\"order\":1}},{\"path\":\"/git基础/operations\",\"title\":\"基本操作\",\"meta\":{\"order\":1}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"github actions\",\"order\":2,\"path\":\"/github actions\"},{\"title\":\"webhook\",\"order\":3,\"path\":\"/webhook\"},{\"path\":\"/git基础\",\"title\":\"git基础\",\"order\":4},{\"title\":\"总结\",\"path\":\"/summary\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/summary\":[{\"path\":\"/summary\",\"title\":\"CI/CD 总结\",\"meta\":{\"order\":1}}],\"/githooks\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"meta\":{\"order\":1}},{\"path\":\"/githooks/husky\",\"title\":\"husky\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/yorkie\",\"title\":\"yorkie\",\"meta\":{\"order\":2}},{\"path\":\"/githooks/lint-staged\",\"title\":\"lint-staged\",\"meta\":{\"order\":3}},{\"path\":\"/githooks/commitlint\",\"title\":\"commitlint\",\"meta\":{\"order\":4}},{\"path\":\"/githooks/qa\",\"title\":\"QA\",\"meta\":{}}],\"/github actions\":[{\"path\":\"/github actions\",\"title\":\"github actions\",\"meta\":{\"order\":1}}],\"/git基础\":[{\"path\":\"/git基础\",\"title\":\"git 基础\",\"meta\":{\"order\":1}},{\"path\":\"/git基础/operations\",\"title\":\"基本操作\",\"meta\":{\"order\":2}},{\"path\":\"/git基础/branch\",\"title\":\"分支操作\",\"meta\":{\"order\":3}}],\"/webhook\":[{\"path\":\"/webhook\",\"title\":\"webhook\",\"meta\":{\"order\":1}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"path\":\"/githooks\",\"title\":\"githooks\",\"order\":1},{\"title\":\"github actions\",\"order\":2,\"path\":\"/github actions\"},{\"title\":\"webhook\",\"order\":3,\"path\":\"/webhook\"},{\"path\":\"/git基础\",\"title\":\"git基础\",\"order\":4},{\"title\":\"总结\",\"path\":\"/summary\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"CI/CD learning\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 

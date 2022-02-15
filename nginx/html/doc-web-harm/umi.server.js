@@ -259,7 +259,7 @@ const render = async params => {
         getInitialPropsCtx = params.getInitialPropsCtx;
   let manifest = params.manifest;
   const env = 'development';
-  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | 乐谱（简谱）以及口琴演奏\" \u002F\u003E\n    \u003Cmeta\n      name=\"description\"\n      content=\"记录、整理各种调的简谱，方便查询；另外贴上全民K歌\u002Fbilibili上的口琴演奏\"\n    \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-blue.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-web-harm\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-web-harm\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003E简谱整理 | 吹口琴的喵~\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
+  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Cmeta name=\"keywords\" content=\"吹口琴的喵~ | 乐谱（简谱）以及口琴演奏\" \u002F\u003E\n    \u003Cmeta\n      name=\"description\"\n      content=\"记录、整理各种调的简谱，方便查询；另外贴上全民K歌\u002Fbilibili上的口琴演奏\"\n    \u002F\u003E\n    \u003Clink\n      rel=\"shortcut icon\"\n      type=\"image\u002Fx-icon\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Ficon\u002Fdb-blue.svg\"\n    \u002F\u003E\n    \u003Clink\n      charset=\"utf-8\"\n      rel=\"stylesheet\"\n      type=\"text\u002Fcss\"\n      href=\"https:\u002F\u002Fawesomewdb.gitee.io\u002Fpublic\u002Fdumi\u002Ftheme.css\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"\u002Fdoc-web-harm\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002Fdoc-web-harm\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.5.20\n    \u003C\u002Fscript\u003E\n    \u003Cscript\n      src=\"https:\u002F\u002Fwww.readers.fun:3000\u002Fumami.js\"\n      async=\"true\"\n      defer=\"true\"\n      data-website-id=\"44159445-787b-47ba-bbe0-b23065389b8d\"\n    \u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      !(function () {\n        var e = localStorage.getItem(\"dumi:prefers-color\"),\n          t = window.matchMedia(\"(prefers-color-scheme: dark)\").matches,\n          r = [\"light\", \"dark\", \"auto\"];\n        document.documentElement.setAttribute(\n          \"data-prefers-color\",\n          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) \u003E -1 ? e : r[0]\n        );\n      })();\n    \u003C\u002Fscript\u003E\n    \u003Ctitle\u003E简谱整理 | 吹口琴的喵~\u003C\u002Ftitle\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"\u002Fdoc-web-harm\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
   let rootContainer = '';
 
   try {
@@ -372,7 +372,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/music/index.md",
-          "updatedTime": 1644649825000,
+          "updatedTime": 1644661368000,
           "nav": {
             "title": "简谱、演奏",
             "order": 1,
@@ -389,12 +389,288 @@ const render = async params => {
         },
         "title": "网站 - 简谱整理 | 吹口琴的喵~"
       }, {
+        "path": "/music/一次就好",
+        "component": __webpack_require__(/*! ./docs/music/一次就好.md */ "./docs/music/一次就好.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/一次就好.md",
+          "updatedTime": 1644902866923,
+          "slugs": [{
+            "depth": 1,
+            "value": "一次就好",
+            "heading": "一次就好"
+          }, {
+            "depth": 2,
+            "value": "简谱（d 调）",
+            "heading": "简谱d-调"
+          }],
+          "title": "一次就好",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "一次就好 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/五十年以后",
+        "component": __webpack_require__(/*! ./docs/music/五十年以后.md */ "./docs/music/五十年以后.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/五十年以后.md",
+          "updatedTime": 1644902866925,
+          "slugs": [{
+            "depth": 1,
+            "value": "五十年以后",
+            "heading": "五十年以后"
+          }, {
+            "depth": 2,
+            "value": "简谱（c 调）",
+            "heading": "简谱c-调"
+          }],
+          "title": "五十年以后",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "五十年以后 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/后会无期",
+        "component": __webpack_require__(/*! ./docs/music/后会无期.md */ "./docs/music/后会无期.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/后会无期.md",
+          "updatedTime": 1644902866928,
+          "slugs": [{
+            "depth": 1,
+            "value": "后会无期",
+            "heading": "后会无期"
+          }, {
+            "depth": 2,
+            "value": "简谱（降 b 调）",
+            "heading": "简谱降-b-调"
+          }],
+          "title": "后会无期",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "后会无期 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/喜欢你",
+        "component": __webpack_require__(/*! ./docs/music/喜欢你.md */ "./docs/music/喜欢你.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/喜欢你.md",
+          "updatedTime": 1644902866929,
+          "slugs": [{
+            "depth": 1,
+            "value": "喜欢你",
+            "heading": "喜欢你"
+          }, {
+            "depth": 2,
+            "value": "简谱（b 调）",
+            "heading": "简谱b-调"
+          }],
+          "title": "喜欢你",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "喜欢你 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/夜空中最亮的星",
+        "component": __webpack_require__(/*! ./docs/music/夜空中最亮的星.md */ "./docs/music/夜空中最亮的星.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/夜空中最亮的星.md",
+          "updatedTime": 1644902866930,
+          "slugs": [{
+            "depth": 1,
+            "value": "夜空中最亮的星",
+            "heading": "夜空中最亮的星"
+          }, {
+            "depth": 2,
+            "value": "简谱（b 调）",
+            "heading": "简谱b-调"
+          }],
+          "title": "夜空中最亮的星",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "夜空中最亮的星 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/当我唱起这首歌",
+        "component": __webpack_require__(/*! ./docs/music/当我唱起这首歌.md */ "./docs/music/当我唱起这首歌.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/当我唱起这首歌.md",
+          "updatedTime": 1644902866932,
+          "slugs": [{
+            "depth": 1,
+            "value": "当我唱起这首歌",
+            "heading": "当我唱起这首歌"
+          }, {
+            "depth": 2,
+            "value": "简谱（f 调）",
+            "heading": "简谱f-调"
+          }],
+          "title": "当我唱起这首歌",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "当我唱起这首歌 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/往后余生",
+        "component": __webpack_require__(/*! ./docs/music/往后余生.md */ "./docs/music/往后余生.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/往后余生.md",
+          "updatedTime": 1644902866940,
+          "slugs": [{
+            "depth": 1,
+            "value": "往后余生",
+            "heading": "往后余生"
+          }, {
+            "depth": 2,
+            "value": "简谱（升 c 调）",
+            "heading": "简谱升-c-调"
+          }],
+          "title": "往后余生",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "往后余生 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/明天会更好",
+        "component": __webpack_require__(/*! ./docs/music/明天会更好.md */ "./docs/music/明天会更好.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/明天会更好.md",
+          "updatedTime": 1644902866943,
+          "slugs": [{
+            "depth": 1,
+            "value": "明天会更好",
+            "heading": "明天会更好"
+          }, {
+            "depth": 2,
+            "value": "简谱（d 调）",
+            "heading": "简谱d-调"
+          }],
+          "title": "明天会更好",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "明天会更好 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/桥边姑娘",
+        "component": __webpack_require__(/*! ./docs/music/桥边姑娘.md */ "./docs/music/桥边姑娘.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/桥边姑娘.md",
+          "updatedTime": 1644902866945,
+          "slugs": [{
+            "depth": 1,
+            "value": "桥边姑娘",
+            "heading": "桥边姑娘"
+          }, {
+            "depth": 2,
+            "value": "简谱（降 e 调）",
+            "heading": "简谱降-e-调"
+          }],
+          "title": "桥边姑娘",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "桥边姑娘 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/珊瑚海",
+        "component": __webpack_require__(/*! ./docs/music/珊瑚海.md */ "./docs/music/珊瑚海.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/珊瑚海.md",
+          "updatedTime": 1644902866945,
+          "slugs": [{
+            "depth": 1,
+            "value": "珊瑚海",
+            "heading": "珊瑚海"
+          }, {
+            "depth": 2,
+            "value": "简谱（降 a 调）",
+            "heading": "简谱降-a-调"
+          }],
+          "title": "珊瑚海",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "珊瑚海 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/看海的街道",
+        "component": __webpack_require__(/*! ./docs/music/看海的街道.md */ "./docs/music/看海的街道.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/看海的街道.md",
+          "updatedTime": 1644902866950,
+          "slugs": [{
+            "depth": 1,
+            "value": "看海的街道",
+            "heading": "看海的街道"
+          }, {
+            "depth": 2,
+            "value": "简谱（c 调）",
+            "heading": "简谱c-调"
+          }],
+          "title": "看海的街道",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "看海的街道 - 简谱整理 | 吹口琴的喵~"
+      }, {
+        "path": "/music/贝加尔湖畔",
+        "component": __webpack_require__(/*! ./docs/music/贝加尔湖畔.md */ "./docs/music/贝加尔湖畔.md").default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/music/贝加尔湖畔.md",
+          "updatedTime": 1644902866952,
+          "slugs": [{
+            "depth": 1,
+            "value": "贝加尔湖畔",
+            "heading": "贝加尔湖畔"
+          }, {
+            "depth": 2,
+            "value": "简谱（f 调）",
+            "heading": "简谱f-调"
+          }],
+          "title": "贝加尔湖畔",
+          "nav": {
+            "path": "/music",
+            "title": "简谱、演奏"
+          }
+        },
+        "title": "贝加尔湖畔 - 简谱整理 | 吹口琴的喵~"
+      }, {
         "path": "/music/这一生关于你的风景",
         "component": __webpack_require__(/*! ./docs/music/这一生关于你的风景.md */ "./docs/music/这一生关于你的风景.md").default,
         "exact": true,
         "meta": {
           "filePath": "docs/music/这一生关于你的风景.md",
-          "updatedTime": 1644653469550,
+          "updatedTime": 1644661368000,
           "slugs": [{
             "depth": 1,
             "value": "这一生关于你的风景",
@@ -417,7 +693,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/music/这世界那么多人.md",
-          "updatedTime": 1644654098128,
+          "updatedTime": 1644661368000,
           "order": 2,
           "slugs": [{
             "depth": 1,
@@ -592,7 +868,7 @@ module.exports = JSON.parse("{}");
 /*! exports provided: menus, locales, navs, title, mode, repository, theme, exportStatic, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/music\":[{\"path\":\"/music\",\"title\":\"网站\",\"meta\":{\"order\":1}},{\"path\":\"/music/这世界那么多人\",\"title\":\"这世界那么多人\",\"meta\":{\"order\":2}},{\"path\":\"/music/这一生关于你的风景\",\"title\":\"这一生关于你的风景\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"简谱、演奏\",\"order\":1,\"path\":\"/music\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"简谱整理 | 吹口琴的喵~\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
+module.exports = JSON.parse("{\"menus\":{\"zh-CN\":{\"*\":[{\"path\":\"/\",\"title\":\"Index\",\"meta\":{}}],\"/music\":[{\"path\":\"/music\",\"title\":\"网站\",\"meta\":{\"order\":1}},{\"path\":\"/music/这世界那么多人\",\"title\":\"这世界那么多人\",\"meta\":{\"order\":2}},{\"path\":\"/music/一次就好\",\"title\":\"一次就好\",\"meta\":{}},{\"path\":\"/music/五十年以后\",\"title\":\"五十年以后\",\"meta\":{}},{\"path\":\"/music/后会无期\",\"title\":\"后会无期\",\"meta\":{}},{\"path\":\"/music/喜欢你\",\"title\":\"喜欢你\",\"meta\":{}},{\"path\":\"/music/夜空中最亮的星\",\"title\":\"夜空中最亮的星\",\"meta\":{}},{\"path\":\"/music/当我唱起这首歌\",\"title\":\"当我唱起这首歌\",\"meta\":{}},{\"path\":\"/music/往后余生\",\"title\":\"往后余生\",\"meta\":{}},{\"path\":\"/music/明天会更好\",\"title\":\"明天会更好\",\"meta\":{}},{\"path\":\"/music/桥边姑娘\",\"title\":\"桥边姑娘\",\"meta\":{}},{\"path\":\"/music/珊瑚海\",\"title\":\"珊瑚海\",\"meta\":{}},{\"path\":\"/music/看海的街道\",\"title\":\"看海的街道\",\"meta\":{}},{\"path\":\"/music/贝加尔湖畔\",\"title\":\"贝加尔湖畔\",\"meta\":{}},{\"path\":\"/music/这一生关于你的风景\",\"title\":\"这一生关于你的风景\",\"meta\":{}}]}},\"locales\":[{\"name\":\"zh-CN\",\"label\":\"中文\"}],\"navs\":{\"zh-CN\":[{\"title\":\"简谱、演奏\",\"order\":1,\"path\":\"/music\"},{\"title\":\"😺主页😺\",\"path\":\"https://www.readers.fun/\"},{\"title\":\"git\",\"children\":[{\"title\":\"github\",\"path\":\"https://github.com/awesomeWDB\"},{\"title\":\"gitee\",\"path\":\"https://gitee.com/awesomeWDB\"}]},{\"title\":\"社交\",\"children\":[{\"title\":\"CSDN\",\"path\":\"https://blog.csdn.net/qq_36404808\"},{\"title\":\"Bilibili\",\"path\":\"https://space.bilibili.com/52225296\"},{\"title\":\"🎤全民K歌\",\"path\":\"https://kg.qq.com/node/personal?uid=6a95958c2c28328a32\"}]}]},\"title\":\"简谱整理 | 吹口琴的喵~\",\"mode\":\"site\",\"repository\":{\"url\":\"\",\"branch\":\"master\"},\"theme\":{},\"exportStatic\":{\"htmlSuffix\":false}}");
 
 /***/ }),
 
@@ -842,6 +1118,138 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     }
   });
 });
+
+/***/ }),
+
+/***/ "./docs/music/一次就好.md":
+/*!****************************!*\
+  !*** ./docs/music/一次就好.md ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\一次就好.md'");
+
+/***/ }),
+
+/***/ "./docs/music/五十年以后.md":
+/*!*****************************!*\
+  !*** ./docs/music/五十年以后.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\五十年以后.md'");
+
+/***/ }),
+
+/***/ "./docs/music/后会无期.md":
+/*!****************************!*\
+  !*** ./docs/music/后会无期.md ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\后会无期.md'");
+
+/***/ }),
+
+/***/ "./docs/music/喜欢你.md":
+/*!***************************!*\
+  !*** ./docs/music/喜欢你.md ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\喜欢你.md'");
+
+/***/ }),
+
+/***/ "./docs/music/夜空中最亮的星.md":
+/*!*******************************!*\
+  !*** ./docs/music/夜空中最亮的星.md ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\夜空中最亮的星.md'");
+
+/***/ }),
+
+/***/ "./docs/music/当我唱起这首歌.md":
+/*!*******************************!*\
+  !*** ./docs/music/当我唱起这首歌.md ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\当我唱起这首歌.md'");
+
+/***/ }),
+
+/***/ "./docs/music/往后余生.md":
+/*!****************************!*\
+  !*** ./docs/music/往后余生.md ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\往后余生.md'");
+
+/***/ }),
+
+/***/ "./docs/music/明天会更好.md":
+/*!*****************************!*\
+  !*** ./docs/music/明天会更好.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\明天会更好.md'");
+
+/***/ }),
+
+/***/ "./docs/music/桥边姑娘.md":
+/*!****************************!*\
+  !*** ./docs/music/桥边姑娘.md ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\桥边姑娘.md'");
+
+/***/ }),
+
+/***/ "./docs/music/珊瑚海.md":
+/*!***************************!*\
+  !*** ./docs/music/珊瑚海.md ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\珊瑚海.md'");
+
+/***/ }),
+
+/***/ "./docs/music/看海的街道.md":
+/*!*****************************!*\
+  !*** ./docs/music/看海的街道.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\看海的街道.md'");
+
+/***/ }),
+
+/***/ "./docs/music/贝加尔湖畔.md":
+/*!*****************************!*\
+  !*** ./docs/music/贝加尔湖畔.md ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@umijs/preset-dumi/lib/loader/index.js):\nError: ENOENT: no such file or directory, open 'D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\music\\贝加尔湖畔.md'");
 
 /***/ }),
 
