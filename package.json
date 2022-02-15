@@ -12,6 +12,7 @@
     "build:6": "cd doc-study-libs && yarn && yarn build",
     "build:7": "cd doc-web-harm && yarn && yarn build",
     "build:8": "cd doc-study-midway && yarn && yarn build",
-    "build:9": "cd project-puppeteer-utils && yarn && yarn build"
+    "build:9": "cd project-puppeteer-utils && yarn && yarn build",
+    "build:10": "cd doc-interview && yarn && yarn build"
   }
 }
