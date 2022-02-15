@@ -24,7 +24,6 @@ Cookie 和 Session 机制，参考：https://blog.csdn.net/fangaoxin/article/det
   - httponly 属性，若为 true，则只会在 http 请求头中携带 cookie 信息，而`document.cookie`不能访问。
   - secure，是否只能通过 https 来传递 cookie
 - 有效期为 expires/Max-Age 设置，删除的话，就设置为 0，-1 有其他含义
--
 
 ## Session 机制
 
