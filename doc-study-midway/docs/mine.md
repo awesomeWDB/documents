@@ -103,3 +103,41 @@ export class ResponseFactory {
 ResponseFactory.buildSuccess('Hello!');
 ResponseFactory.buildFail('服务器异常！');
 ```
+
+## pm2 启动（基于 docker）
+
+### 基本命令
+
+- 安装 pm2，`npm install -g pm2`
+- 启动应用（通过 docker 容器启动），添加`npm run start`脚本，对应命令为`NODE_ENV=production pm2-runtime start ./bootstrap.js --name midway_app -i 4`
+- 容器启动运行的脚本，`CMD ["npm", "run", "start"]`
+
+## alinode 监控（基于 docker）
+
+### 获取 appid 和 secret
+
+官网地址：
+
+- [midway 文档：http://www.midwayjs.org/docs/2.0.0/alinode](http://www.midwayjs.org/docs/2.0.0/alinode)
+- [开通地址：https://www.aliyun.com/product/nodejs](https://www.aliyun.com/product/nodejs)
+- [性能平台地址：https://node.console.aliyun.com/#!/owned](https://node.console.aliyun.com/#!/owned)
+
+### docker 镜像
+
+[地址：https://help.aliyun.com/document_detail/66027.html](https://help.aliyun.com/document_detail/66027.html)
+
+### Dockerfile
+
+```bash
+...
+# 选择基础镜像
+FROM registry.cn-hangzhou.aliyuncs.com/aliyun-node/alinode:6.7.1-alpine
+# alinode应用的appid和secret
+ENV APP_ID="xxxx"
+ENV APP_SECRET="xxxxxxxx"
+...
+```
+
+## Prometheus+grafana
+
+[参考官网:http://www.midwayjs.org/docs/extensions/prometheus](http://www.midwayjs.org/docs/extensions/prometheus)
