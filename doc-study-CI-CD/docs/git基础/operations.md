@@ -1,6 +1,6 @@
 ---
 toc: menu
-order: 1
+order: 2
 ---
 
 # 基本操作

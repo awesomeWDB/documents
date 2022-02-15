@@ -44,3 +44,5 @@ export default defineConfig({
   headScripts,
   // more config: https://d.umijs.org/config
 });
+
+// http://www.xuekouqin.com/yuepu/index.html
