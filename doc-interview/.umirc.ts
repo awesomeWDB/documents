@@ -14,7 +14,7 @@ const navs = [
 const metas = [
   {
     name: 'keywords',
-    content: '吹口琴的喵~ | 面试整理',
+    content: '吹口琴的喵~ | 哈哈整理',
   },
   {
     name: 'description',
@@ -23,7 +23,7 @@ const metas = [
 ]
 
 export default defineConfig({
-  title: '面试整理',
+  title: '哈哈整理',
   mode: 'site',
   base: base.slice(0, -1),
   publicPath: base,

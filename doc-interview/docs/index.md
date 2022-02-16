@@ -1,7 +1,7 @@
 ---
 hero:
   title: 千里之行，始于足下!
-  desc: 面试整理
+  desc: 哈哈整理
   actions:
     - text: get start
       link: /javascript
