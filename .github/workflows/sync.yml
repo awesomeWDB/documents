@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: build gh-page
+    name: build gh-page # 构建gh-pages分支
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -26,7 +26,7 @@ jobs:
           FOLDER: nginx/html # The folder the action should deploy.
   sync:
     needs: [build]
-    name: sync to gitee
+    name: sync to gitee # 同步github => gitee仓库
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
@@ -50,4 +50,4 @@ jobs:
           # 注意替换为你的 Gitee 仓库，仓库名严格区分大小写，请准确填写，否则会出错
           gitee-repo: awesomeWDB/documents
           # 要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
-          branch: master
+          branch: gh-pages
