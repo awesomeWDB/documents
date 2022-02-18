@@ -725,7 +725,7 @@ const render = async params => {
         "exact": true,
         "meta": {
           "filePath": "docs/transform/index.md",
-          "updatedTime": 1645087709131,
+          "updatedTime": 1645092037000,
           "nav": {
             "title": "转调",
             "order": 2,
@@ -737,6 +737,10 @@ const render = async params => {
             "depth": 1,
             "value": "转调",
             "heading": "转调"
+          }, {
+            "depth": 2,
+            "value": "制作简谱",
+            "heading": "制作简谱"
           }],
           "title": "转调"
         },
@@ -946,160 +950,6 @@ var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\.umi\\dumi\\la
     columnNumber: 27
   }
 })));
-
-/***/ }),
-
-/***/ "./demos/Transform.tsx":
-/*!*****************************!*\
-  !*** ./demos/Transform.tsx ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! . */ "./demos/index.ts");
-var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\demos\\Transform.tsx";
-
-
-
-/**
- * 把x调转换为y调
- */
-
-const input = {
-  string: `
-  (35656)1(76523)
-  (35656)1(765)3
-  `,
-  type1: 'ba',
-  type2: 'c'
-};
-Object(___WEBPACK_IMPORTED_MODULE_2__["transform"])(input);
-/* harmony default export */ __webpack_exports__["default"] = (() => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "page",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 10
-    }
-  }, "aaaaaa");
-});
-
-/***/ }),
-
-/***/ "./demos/index.ts":
-/*!************************!*\
-  !*** ./demos/index.ts ***!
-  \************************/
-/*! exports provided: TypeMap, TypeLevel, transform */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TypeMap", function() { return TypeMap; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TypeLevel", function() { return TypeLevel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transform", function() { return transform; });
-const TypeMap = {
-  g: 'g',
-  '#g': '#g',
-  ba: '#g',
-  a: 'a',
-  '#a': '#a',
-  bb: '#a',
-  b: 'b',
-  '#b': 'c',
-  bc: 'c',
-  c: 'c',
-  '#c': '#c',
-  bd: '#c',
-  d: 'd',
-  '#d': '#d',
-  be: '#d',
-  e: 'e',
-  '#e': 'f',
-  bf: 'e',
-  f: 'f',
-  '#f': '#f',
-  bg: '#f'
-};
-const TypeLevel = ['g', '#g', 'a', '#a', 'b', 'c', '#c', 'd', '#d', 'e', 'f', '#f'];
-
-const setOffset = input => {
-  input._type1 = TypeMap[input.type1];
-  input._type2 = TypeMap[input.type2];
-  const count1 = TypeLevel.findIndex(item => item === input._type1);
-  const count2 = TypeLevel.findIndex(item => item === input._type2);
-
-  if (count1 === -1 || count2 === -1) {
-    throw new Error('找不到匹配的调性！');
-  }
-
-  return input._offset = count2 - count1;
-};
-
-const transformString = input => {
-  input.string.split('\n').map(line => {});
-  let result = [];
-  let currentLevel = 0;
-  let source = input.string;
-  const lowReg = /^\(/;
-  const highReg = /^\[/;
-  const numberReg = /^\d+/;
-  const whiteReg = /^\s+/;
-
-  while (source) {
-    if (source.match(lowReg)) {
-      // 匹配低音(
-      currentLevel--;
-      source = source.slice(1);
-    } else if (source.match(highReg)) {
-      // 匹配高音(
-      currentLevel++;
-      source = source.slice(1);
-    } else if (source.match(whiteReg)) {
-      // 匹配空白：空格或换行，添加到结果集中
-      const matched = source.match(whiteReg)[0];
-      source = source.slice(matched.length);
-      result.push(matched);
-    } else if (source.match(numberReg)) {
-      // 匹配空白：空格或换行，添加到结果集中
-      const matched = source.match(whiteReg)[0];
-      source = source.slice(matched.length);
-      const numberList = matched.split('').map(item => {
-        if (currentLevel === 0) {
-          return `${item}`;
-        } else if (currentLevel === 1) {
-          return `[${item}]`;
-        } else if (currentLevel === 2) {
-          return `[[${item}]]`;
-        } else if (currentLevel === -1) {
-          return `(${item})`;
-        } else if (currentLevel === -2) {
-          return `((${item}))`;
-        }
-      });
-      numberList.forEach(item => {
-        result.push(item);
-      });
-    } else {
-      console.log(source);
-      throw new Error('解析错误！');
-    }
-  }
-};
-
-const transform = input => {
-  setOffset(input);
-  console.log(input);
-  transformString(input);
-};
 
 /***/ }),
 
@@ -3557,22 +3407,13 @@ var _jsxFileName = "D:\\projects-gatsby\\documents\\doc-web-harm\\docs\\transfor
 const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
   demos: DUMI_ALL_DEMOS
 }) => {
-  const DumiDemo1 = __webpack_require__(/*! ./demos/Transform.tsx */ "./demos/Transform.tsx").default;
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "markdown",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 27
+      columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     id: "\u8F6C\u8C03",
@@ -3580,7 +3421,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 53
+      columnNumber: 37
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
     to: "#\u8F6C\u8C03",
@@ -3590,7 +3431,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 65
+      columnNumber: 49
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon icon-link",
@@ -3598,16 +3439,50 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 119
+      columnNumber: 103
     }
-  })), "\u8F6C\u8C03")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DumiDemo1, {
+  })), "\u8F6C\u8C03"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "\u5236\u4F5C\u7B80\u8C31",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 7
+      columnNumber: 1
     }
-  })));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["AnchorLink"], {
+    to: "#\u5236\u4F5C\u7B80\u8C31",
+    "aria-hidden": "true",
+    tabIndex: -1,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon icon-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 71
+    }
+  })), "\u5236\u4F5C\u7B80\u8C31"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 1
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 4
+    }
+  }, "https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html"))));
 });
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   const _React$useContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(dumi_theme__WEBPACK_IMPORTED_MODULE_2__["context"]),
@@ -3626,7 +3501,7 @@ const PageContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 14
     }
   });
@@ -28694,19 +28569,6 @@ var isSSR = function isSSR() {
 };
 
 exports.isSSR = isSSR;
-
-/***/ }),
-
-/***/ "./node_modules/antd/dist/antd.css":
-/*!*****************************************!*\
-  !*** ./node_modules/antd/dist/antd.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {};
-
 
 /***/ }),
 

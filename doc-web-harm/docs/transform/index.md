@@ -8,4 +8,6 @@ order: 1
 
 # 转调
 
-<code src="../../demos/Transform.tsx" inline="true"></code>
+## 制作简谱
+
+[https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html](https://www.everyonepiano.cn/Software-7-EOP-%E7%AE%80%E8%B0%B1%E5%A4%A7%E5%B8%88.html)
