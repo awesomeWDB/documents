@@ -1,6 +1,6 @@
 ---
 nav:
-  title: 机试
+  title: 面试总结
   order: 100000
 toc: menu
 order: 1
