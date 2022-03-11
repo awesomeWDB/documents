@@ -24,7 +24,7 @@
       window.routerBase = "/doc-study-docker";
     </script>
     <script>
-      //! umi version: 3.5.20
+      //! umi version: 3.5.21
     </script>
     <script
       src="https://www.readers.fun:3000/umami.js"
@@ -55,12 +55,12 @@
 </span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># 添加自己的一些LABEL，我这里仅仅为示例，方便通过github actions使用命令来清理服务器的镜像，如：</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># 清理容器</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># docker rm -f $(sudo docker ps -a --filter &quot;label=target=documents&quot; -q)</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># 清理镜像</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># docker rmi -f $(sudo docker images --filter &quot;label=target=documents&quot; -q)</span><span class="token plain"></span></div><div class="token-line"><span class="token plain">LABEL </span><span class="token assign-left variable">target</span><span class="token operator">=</span><span class="token string">&quot;documents&quot;</span><span class="token plain"></span></div><div class="token-line"><span class="token plain">
 </span></div><div class="token-line"><span class="token plain"></span><span class="token comment"># 从上一阶段构建的结果中，复制静态资源文件html、css、js、png等等</span><span class="token plain"></span></div><div class="token-line"><span class="token plain">COPY --from</span><span class="token operator">=</span><span class="token plain">build /app/nginx/html /usr/share/nginx/html</span></div><div class="token-line"><span class="token plain">
 </span></div><div class="token-line"><span class="token plain">ENV </span><span class="token assign-left variable">TZ</span><span class="token operator">=</span><span class="token string">&quot;Asia/Shanghai&quot;</span><span class="token plain"></span></div><div class="token-line"><span class="token plain">
-</span></div><div class="token-line"><span class="token plain">EXPOSE </span><span class="token number">80</span></div></pre></div><h2 id="node-项目的-dockfile"><a aria-hidden="true" tabindex="-1" href="/doc-study-docker/examples#node-项目的-dockfile"><span class="icon icon-link"></span></a>Node 项目的 Dockfile</h2><p>TODO</p></div><div class="__dumi-default-layout-footer-meta"><span data-updated-text="最后更新时间：">2/23/2022 09:30:11</span></div></div></div></div>
+</span></div><div class="token-line"><span class="token plain">EXPOSE </span><span class="token number">80</span></div></pre></div><h2 id="node-项目的-dockfile"><a aria-hidden="true" tabindex="-1" href="/doc-study-docker/examples#node-项目的-dockfile"><span class="icon icon-link"></span></a>Node 项目的 Dockfile</h2><p>TODO</p></div><div class="__dumi-default-layout-footer-meta"><span data-updated-text="最后更新时间：">3/11/2022 04:11:23</span></div></div></div></div>
 	<script>
   window.g_useSSR = true;
   window.g_initialProps = {};
 	</script>
 
-    <script src="/doc-study-docker/umi.5c5b397f.js"></script>
+    <script src="/doc-study-docker/umi.c36fe09a.js"></script>
   </body>
 </html>
