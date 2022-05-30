@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "dumi-app",
+  "scripts": {
+    "build": "yarn build:1 && yarn build:2 && yarn build:3 && yarn build:4 && yarn build:5 && yarn build:6 && yarn build:7 && yarn build:8",
+    "start:1": "cross-env PORT=8001 UMI_ENV=lessons dumi dev",
+    "build:1": "cross-env UMI_ENV=lessons dumi build",
+    "start:2": "cross-env PORT=8002 UMI_ENV=CI-CD dumi dev",
+    "build:2": "cross-env UMI_ENV=CI-CD dumi build",
+    "start:3": "cross-env PORT=8003 UMI_ENV=docker dumi dev",
+    "build:3": "cross-env UMI_ENV=docker dumi build",
+    "start:4": "cross-env PORT=8004 UMI_ENV=interview dumi dev",
+    "build:4": "cross-env UMI_ENV=interview dumi build",
+    "start:5": "cross-env PORT=8005 UMI_ENV=libs dumi dev",
+    "build:5": "cross-env UMI_ENV=libs dumi build",
+    "start:6": "cross-env PORT=8006 UMI_ENV=midway dumi dev",
+    "build:6": "cross-env UMI_ENV=midway dumi build",
+    "start:7": "cross-env PORT=8007 UMI_ENV=nginx dumi dev",
+    "build:7": "cross-env UMI_ENV=nginx dumi build",
+    "start:8": "cross-env PORT=8008 UMI_ENV=taro dumi dev",
+    "build:8": "cross-env UMI_ENV=taro dumi build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dumi": "^1.0.13",
+    "lint-staged": "^10.0.7",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "yorkie": "^2.0.0"
+  }
+}
